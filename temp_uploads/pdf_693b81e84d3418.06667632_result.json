@@ -1,0 +1,272 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "503a28fa-7a65-44d4-a1c1-b6939b19bee7",
+            "Name": "ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos",
+            "Description": "Se determinó la huella de carbono durante los procesos de manufactura del tabique artesanal e industrial, a partir de un Inventario de Ciclo de Vida (ICV) con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El estudio se enfoca en las etapas de extracción de materia prima, transporte y fabricación (cradle-to-gate). La unidad funcional es producir un kilogramo de tabique terminado en planta. Se obtuvieron los siguientes resultados: 0.32395 kg CO2eq para 1 kg de tabique artesanal en planta y 0.21166 kg CO2eq para 1 kg de tabique industrial en planta.",
+            "Tags": "Análisis de Ciclo de Vida, ACV, tabique, ladrillo, huella de carbono, construcción, México, industrial",
+            "Technology Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método de caracterización CML 2001 v. 4.2.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:47"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "ISO 14044:2006 (NMX-SAA-14044-IMNC-2008). Método de caracterización de impacto: CML 2001 v. 4.2.",
+            "Process type": "Proceso de manufactura cradle-to-gate de tabique industrial.",
+            "Modeling constants": "Criterio de corte de masa al 1%. Suposiciones: La producción de electricidad se basó en el mix energético nacional. Las emisiones al aire se calcularon con factores de emisión AP-42 adaptados a México.",
+            "Data source information": "Datos de una empresa en la región de Puebla (México), tesis de Olivas Gastélum (2004), factores de emisión AP-42, y datos georeferenciados de DENUE (INEGI) para distancias de transporte.",
+            "Data completeness": "El estudio cubre las etapas desde la extracción de materia prima hasta la fabricación del tabique en planta. No incluye las etapas de uso y fin de vida. La etapa de extracción de materia prima solo incluye el impacto del transporte debido a la falta de datos de las empresas extractoras.",
+            "Data selection": "Criterio de corte de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta.",
+            "Data treatment": "El consumo de energía fue dividido entre la producción correspondiente al rango de tiempo de cada facturación para obtener un consumo por pieza. Los datos por pieza se dividieron por la masa de la pieza (1.55 kg para tabique industrial) para normalizar a la unidad funcional de 1 kg.",
+            "Sampling procedure": "Recopilación de datos de una empresa industrial, consulta de datos de tesis para el proceso artesanal, y verificación en campo en tabiqueras artesanales. Uso de bases de datos gubernamentales (Denue) para estimar distancias.",
+            "Data collection period": "2009",
+            "Use advice": "Los datos de extracción de materia prima son incompletos; solo consideran el impacto del transporte y no el proceso de extracción en sí.",
+            "Completeness": "El inventario cubre los principales flujos de materia y energía para la manufactura en planta. Sin embargo, existe una brecha de datos significativa en la etapa de extracción de materias primas.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] INEGI. La industria siderúrgica en México 2012, Serie de Estadísticas Sectoriales. Technical report, Aguascalientes, México, 2013. [3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [4] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [5] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [6] R. R. Olivas Gastélum. Desarrollo de un horno para producción industrial y artesanal de ladrillos. PhD thesis, Universidad de las Américas, 2004. [7] R. B. Leighou. Chemistry of Engineering Materials. McGraw-Hill Book Company, Inc, Japón, 1953. [8] D. Jastrzebski Zbigniew. The nature and properties of engineering materials. John Wiley & Sons, 2a edition, 1987. [9] Iron and steel - Sector Profile.",
+            "Project": "Estudio realizado por el Centro Mario Molina.",
+            "Intended application": "Estimar la huella de carbono del proceso de manufactura de tabique artesanal e industrial en México para conocer el impacto ambiental de la industria.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández",
+            "Data set documentor": "Andrea Hernández",
+            "Publication": "ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR",
+            "Creation date": "2014-12-17",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:47",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 0.2903,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de materia para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Barro",
+                "category": "B:Mining and quarrying\/21:Mining and quarrying\/212:Mining of non-metallic minerals\/2123:Quarrying of stone, sand and clay",
+                "amount": 0.5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de materia para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Pizarra",
+                "category": "B:Mining and quarrying\/21:Mining and quarrying\/212:Mining of non-metallic minerals\/2123:Quarrying of stone, sand and clay",
+                "amount": 0.5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de materia para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/3510:Electric power generation, transmission and distribution",
+                "amount": 232.26,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de energía para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products",
+                "amount": 15.24,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de energía para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasolina",
+                "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products",
+                "amount": 8.52,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de energía para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/3520:Manufacture of gas; distribution of gaseous fuels through mains",
+                "amount": 2590.27,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de energía para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas LP",
+                "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products",
+                "amount": 5.73,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Balance de energía para tabique industrial"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte",
+                "category": "H:Transportation and storage\/49:Land transport and transport via pipelines\/4941:Freight transport by road",
+                "amount": 0.2684,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": "Denue",
+                "description": "Transporte de materia prima"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Tabique industrial",
+                "category": "C:Manufacturing\/32:Other non-metallic mineral products\/327:Manufacture of other non-metallic mineral products\/3271:Manufacture of ceramic products",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Unidad funcional: 1 kg de tabique industrial terminado en planta"
+            },
+            {
+                "is_reference": false,
+                "flow": "Partículas sedimentables",
+                "category": "Elementary flows\/air",
+                "amount": 0.0613,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "PM 10",
+                "category": "Elementary flows\/air",
+                "amount": 0.0251,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "PM 2.5",
+                "category": "Elementary flows\/air",
+                "amount": 0,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "SOx",
+                "category": "Elementary flows\/air",
+                "amount": 0.0003,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "NOx",
+                "category": "Elementary flows\/air",
+                "amount": 0.0002,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "COV's",
+                "category": "Elementary flows\/air",
+                "amount": 1.1e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "Elementary flows\/air",
+                "amount": 0.212327,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO",
+                "category": "Elementary flows\/air",
+                "amount": 0.0005,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "Plomo",
+                "category": "Elementary flows\/air",
+                "amount": 6.8e-8,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisiones al aire"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"503a28fa-7a65-44d4-a1c1-b6939b19bee7\",\"Name\":\"ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\",\"Description\":\"Se determinó la huella de carbono durante los procesos de manufactura del tabique artesanal e industrial, a partir de un Inventario de Ciclo de Vida (ICV) con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El estudio se enfoca en las etapas de extracción de materia prima, transporte y fabricación (cradle-to-gate). La unidad funcional es producir un kilogramo de tabique terminado en planta. Se obtuvieron los siguientes resultados: 0.32395 kg CO2eq para 1 kg de tabique artesanal en planta y 0.21166 kg CO2eq para 1 kg de tabique industrial en planta.\",\"Tags\":\"Análisis de Ciclo de Vida, ACV, tabique, ladrillo, huella de carbono, construcción, México, industrial\",\"Technology Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método de caracterización CML 2001 v. 4.2.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:47\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"ISO 14044:2006 (NMX-SAA-14044-IMNC-2008). Método de caracterización de impacto: CML 2001 v. 4.2.\",\"Process type\":\"Proceso de manufactura cradle-to-gate de tabique industrial.\",\"Modeling constants\":\"Criterio de corte de masa al 1%. Suposiciones: La producción de electricidad se basó en el mix energético nacional. Las emisiones al aire se calcularon con factores de emisión AP-42 adaptados a México.\",\"Data source information\":\"Datos de una empresa en la región de Puebla (México), tesis de Olivas Gastélum (2004), factores de emisión AP-42, y datos georeferenciados de DENUE (INEGI) para distancias de transporte.\",\"Data completeness\":\"El estudio cubre las etapas desde la extracción de materia prima hasta la fabricación del tabique en planta. No incluye las etapas de uso y fin de vida. La etapa de extracción de materia prima solo incluye el impacto del transporte debido a la falta de datos de las empresas extractoras.\",\"Data selection\":\"Criterio de corte de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta.\",\"Data treatment\":\"El consumo de energía fue dividido entre la producción correspondiente al rango de tiempo de cada facturación para obtener un consumo por pieza. Los datos por pieza se dividieron por la masa de la pieza (1.55 kg para tabique industrial) para normalizar a la unidad funcional de 1 kg.\",\"Sampling procedure\":\"Recopilación de datos de una empresa industrial, consulta de datos de tesis para el proceso artesanal, y verificación en campo en tabiqueras artesanales. Uso de bases de datos gubernamentales (Denue) para estimar distancias.\",\"Data collection period\":\"2009\",\"Use advice\":\"Los datos de extracción de materia prima son incompletos; solo consideran el impacto del transporte y no el proceso de extracción en sí.\",\"Completeness\":\"El inventario cubre los principales flujos de materia y energía para la manufactura en planta. Sin embargo, existe una brecha de datos significativa en la etapa de extracción de materias primas.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] INEGI. La industria siderúrgica en México 2012, Serie de Estadísticas Sectoriales. Technical report, Aguascalientes, México, 2013. [3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [4] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [5] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [6] R. R. Olivas Gastélum. Desarrollo de un horno para producción industrial y artesanal de ladrillos. PhD thesis, Universidad de las Américas, 2004. [7] R. B. Leighou. Chemistry of Engineering Materials. McGraw-Hill Book Company, Inc, Japón, 1953. [8] D. Jastrzebski Zbigniew. The nature and properties of engineering materials. John Wiley & Sons, 2a edition, 1987. [9] Iron and steel - Sector Profile.\",\"Project\":\"Estudio realizado por el Centro Mario Molina.\",\"Intended application\":\"Estimar la huella de carbono del proceso de manufactura de tabique artesanal e industrial en México para conocer el impacto ambiental de la industria.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández\",\"Data set documentor\":\"Andrea Hernández\",\"Publication\":\"ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR\",\"Creation date\":\"2014-12-17\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:47\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":0.2903,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de materia para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Barro\",\"category\":\"B:Mining and quarrying\/21:Mining and quarrying\/212:Mining of non-metallic minerals\/2123:Quarrying of stone, sand and clay\",\"amount\":0.5,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de materia para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Pizarra\",\"category\":\"B:Mining and quarrying\/21:Mining and quarrying\/212:Mining of non-metallic minerals\/2123:Quarrying of stone, sand and clay\",\"amount\":0.5,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de materia para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/3510:Electric power generation, transmission and distribution\",\"amount\":232.26,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de energía para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products\",\"amount\":15.24,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de energía para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Gasolina\",\"category\":\"C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products\",\"amount\":8.52,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de energía para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/3520:Manufacture of gas; distribution of gaseous fuels through mains\",\"amount\":2590.27,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de energía para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Gas LP\",\"category\":\"C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products\",\"amount\":5.73,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Balance de energía para tabique industrial\"},{\"is_reference\":false,\"flow\":\"Transporte\",\"category\":\"H:Transportation and storage\/49:Land transport and transport via pipelines\/4941:Freight transport by road\",\"amount\":0.2684,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":\"Denue\",\"description\":\"Transporte de materia prima\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Tabique industrial\",\"category\":\"C:Manufacturing\/32:Other non-metallic mineral products\/327:Manufacture of other non-metallic mineral products\/3271:Manufacture of ceramic products\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Unidad funcional: 1 kg de tabique industrial terminado en planta\"},{\"is_reference\":false,\"flow\":\"Partículas sedimentables\",\"category\":\"Elementary flows\/air\",\"amount\":0.0613,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"PM 10\",\"category\":\"Elementary flows\/air\",\"amount\":0.0251,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"PM 2.5\",\"category\":\"Elementary flows\/air\",\"amount\":0,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"SOx\",\"category\":\"Elementary flows\/air\",\"amount\":0.0003,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"NOx\",\"category\":\"Elementary flows\/air\",\"amount\":0.0002,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"COV's\",\"category\":\"Elementary flows\/air\",\"amount\":0.000011,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"Elementary flows\/air\",\"amount\":0.212327,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"CO\",\"category\":\"Elementary flows\/air\",\"amount\":0.0005,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"Plomo\",\"category\":\"Elementary flows\/air\",\"amount\":6.8e-8,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisiones al aire\"}]}",
+    "http_code": 200,
+    "timestamp": 1765507625
+}

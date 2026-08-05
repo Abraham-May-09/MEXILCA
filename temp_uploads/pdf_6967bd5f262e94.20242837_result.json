@@ -1,0 +1,280 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "42954e56-b1e4-45a4-b306-0b5c70f63755",
+            "Name": "APLICACIÓN DE LA METODOLOGÍA DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL DESEMPEÑO AMBIENTAL DE SISTEMAS DE GESTIÓN DE RESIDUOS EN IBEROAMÉRICA",
+            "Category": "Waste Management and Remediation Services\/562 Waste Management and Remediation Services",
+            "Description": "Este artículo presenta cinco experiencias de aplicación de la metodología de Análisis de Ciclo de Vida para evaluar el comportamiento ambiental de sistemas de gestión de residuos en Iberoamérica. Se enfoca en un caso de estudio de España que analiza el desempeño ambiental de un sistema de gestión de residuos domiciliarios con recogida selectiva de cuatro fracciones: papel-cartón, vidrio y envases ligeros en área de aportación, y fracción resto a nivel de acera. La unidad funcional es la gestión de 1 tonelada de residuo domiciliario. El estudio identifica como principal hándicap la falta de datos de inventario adaptados, para lo cual se realizó una combinación de datos primarios y secundarios. Los resultados obtenidos sirven como punto de partida para la selección e implantación de medidas que favorezcan la mejora ambiental de los sistemas de gestión de residuos.",
+            "Tags": "ACV, residuos, caso de aplicación, LCA, waste, case study, gestión de residuos, recogida selectiva, España",
+            "Technology Description": "La evaluación se realizó siguiendo las recomendaciones de la norma ISO 14040-44 (2006) mediante la aplicación del software SimaPro (2013). El método de evaluación de impacto aplicado en todos los casos fue CML (Guinée 2002) para las categorías de impacto: acidificación, eutrofización, calentamiento global, reducción de la capa de ozono, disminución del recurso abiótico y oxidación fotoquímica. El sistema de gestión analizado incluye etapas de pre-recogida, recogida y transporte, pre-tratamiento (plantas de clasificación, estación de transferencia, planta de recuperación de materiales), tratamiento (compostaje, reciclaje) y disposición final (vertedero).",
+            "Code": "ES",
+            "Last change": "14\/01\/2026 16:00"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "a1bc9dc3-7a80-4c91-b2ac-872c11bf3e8e",
+            "name": "Spain",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "ES",
+            "latitude": 40.4637,
+            "longitude": -3.7492
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) según ISO 14040-44 (2006). Método de evaluación de impacto CML (Guinée 2002).",
+            "Process type": "Gestión de residuos sólidos urbanos 'cradle-to-grave'",
+            "Modeling constants": "Las infraestructuras necesarias para el desarrollo de cada etapa quedan fuera del alcance del estudio. Se consideran las cargas evitadas por la producción del compost y los materiales reciclados obtenidos. El mix eléctrico considerado es el correspondiente a España en el año 2012.",
+            "Data source information": "Combinación de datos primarios y secundarios. Los datos primarios se obtuvieron directamente de empresas españolas encargadas de la gestión de residuos para las etapas de pre-recogida, recogida, pre-tratamiento y tratamiento de compostaje. Los datos secundarios fueron adaptados de la base de datos Ecoinvent (2008) para las etapas de tratamiento mediante reciclado y vertido.",
+            "Data completeness": "El estudio identifica la falta de datos de inventario en bases de datos comerciales adaptados a diferentes países, fracciones y tratamientos como el principal hándicap. Los flujos de materia y energía para todas las etapas del ciclo de vida han sido considerados.",
+            "Data selection": "Se incluyen las etapas de pre-recogida, recogida y transporte, pre-tratamiento, tratamiento y disposición final del sistema de gestión de residuos. Se excluyen las infraestructuras.",
+            "Data treatment": "Para modelar los inventarios se ha realizado una combinación de datos primarios de empresas gestoras españolas y datos secundarios de la base de datos Ecoinvent.",
+            "Sampling procedure": "Los datos primarios fueron recogidos de campo de empresas gestoras de residuos.",
+            "Data collection period": "El mix eléctrico corresponde al año 2012. La composición de residuos se basa en el PNIR 2008-2015. El documento fue recibido en 2014 y aceptado en 2015.",
+            "Use advice": "Los resultados obtenidos sirven como punto de partida para la selección e implantación de medidas que favorezcan la mejora ambiental de los sistemas de gestión de residuos.",
+            "Completeness": "Alta. El modelo cubre todas las etapas relevantes del ciclo de vida de la gestión de residuos, desde la recogida hasta la disposición final, incluyendo tratamientos intermedios y valorización.",
+            "Sources": "Alcaldía mayor de Cartagena de Indias y Universidad de Cartagena (2007). Plan de Gestión Integral de Residuos Sólidos de Cartagena de Indias (PGIRS). Informe Técnico Universidad de Cartagena. Cartagena de Indias. 220 páginas. Aranda A., Ferreira G., Zambrana D., Zabalza I. y Llera E. (2013) Environmental-benefit analysis of two urban waste collection systems. Sci. Total Environ. 463-464, 72-77. Arena U., Mastellone M.L. y Perugini F. (2003). Life cycle assessment of a plastic packaging recycling system. Int. J. Life Cycle Assess. 8 (2), 92-98. Arzuzar L. y Atencia O. (2008). Aplicación del análisis del ciclo de vida (ACV) en la evaluación de alternativas para el manejo de residuos sólidos ordinarios en la ciudad de Cartagena de Indias. Tesis de Pregrado. Facultad de Ingeniería. Universidad de Cartagena. Bezama A., Douglas C., Méndez J., Szarka N., Muñoz E., Navia R., Schock S., Konrad O. y Ulloa C. (2013) Life cycle comparison of waste-to-energy alternatives for municipal waste treatment in Chilean Patagonia. Waste Manage. Res. 31 (10 SUPPL.), 67-74. Bojacá C.R., Wyckhuys K.A.G.y Schrevens E. (2014) Life cycle assessment of Colombian greenhouse tomato production based on farmer-level survey data. J Clean Prod. 69, 26-33. Bovea M.D., Ibanez-Fores V., Gallardo A. y Colomer-Mendoza F. (2010). Environmental assessment of alternative municipal solid waste management strategies. A Spanish case study. Waste Manage. 30, 2383–2395. Bovea, M. D., y Powell, J. C. (2006). Alternative scenarios to meet the demands of sustainable waste management. Journal of environmental management, 79(2), 115-132. Cadena E., Colon J., Artola A., Sanchez A. y Font X. (2009). Environmental impact of two aerobic composting technologies using life cycle assessment. Int. J. Life Cycle Assess. 14, 401–410. CAMMESA (2013). Informe anual 2012. Compañía Administradora del Mercado Mayorista Eléctrico Sociedad Anónima. Argentina. Ciroth A., Hageluken M., Sonnemann G.W., Castells F., Fleischer G. (2002)a. Geographical and technological differences in Life Cycle Inventories – shown by the use of process models for waste incinerators Part I. Technological and geographical differences. Int. J. Life Cycle Assess. 7, 295-300. Ciroth A., Hageluken M., Sonnemann G.W., Castells F. y Fleischer G. (2002)b. Geographical and technological differences in life cycle inventories – shown by the use of process models for waste incinerators part II: Technological and geographical differences. Int. J. Life Cycle Assess. 7, 363-368. Ecoinvent (2008). The life cycle inventory data version 2. Swiss Centre for Life Cycle Inventories. Guinée J. (2002) Handbook on Life Cycle Assessment. An Operational Guide to the ISO Standards, Kluwer Academic Publishers. ISO 14040 (2006) Environmental Management. Life Cycle Assessment. Principles and Framework. ISO, Geneva. ISO 14044 (2006) Environmental Management. Life Cycle Assessment. Requirements and Guidelines. ISO, Geneva. REE (2013). Informe anual 2012. Red Eléctrica Española, España. SimaPro v8.0.1 (2013) PRé Consultants, B.V. Amersfoort, The Netherlands.",
+            "Project": "CYTED (Proyecto 715RT0494)",
+            "Intended application": "Evaluar el desempeño medioambiental de sistemas de gestión de residuos sólidos para identificar etapas críticas y proponer medidas de mejora.",
+            "Data set owner": "Universitat Jaume I, Castellón, España",
+            "Data set generator": "María D. BOVEA, Valeria IBÁÑEZ-FORÉS",
+            "Data set documentor": "María D. BOVEA, Samantha E. CRUZ-SOTELO, Irma MERCANTE, Claudia COUTINHO-NÓBREGA, Mónica ELJAIEK-URZOLA y Valeria IBÁÑEZ-FORÉS",
+            "Publication": "Rev. Int. Contam. Ambie. 32 (Especial Residuos Sólidos) 23-46, 2016",
+            "Creation date": "2016-01-01",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "14\/01\/2026 16:00",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": null,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo de combustible para recogida y transporte. Camión de media carga: 0.0256 l\/t·km. Camión de gran carga: 0.0146 l\/t·km. Las distancias no se especifican en el documento."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 8.05,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en clasificadora de vidrio, por tonelada de vidrio procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 0.53,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en clasificadora de vidrio, por tonelada de vidrio procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 3.99,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en clasificadora de papel-cartón, por tonelada de papel-cartón procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 2.58,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en clasificadora de papel-cartón, por tonelada de papel-cartón procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 6.1,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en clasificadora de envases, por tonelada de envases procesados."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 1.36,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en estación de transferencia, por tonelada de residuo procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 1.76,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en estación de transferencia, por tonelada de residuo procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 8.11,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en planta de recuperación de material (PRM), por tonelada de residuo procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 0.56,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en planta de recuperación de material (PRM), por tonelada de residuo procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 19.67,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en planta de compostaje, por tonelada de residuo orgánico procesado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 0.3,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Empresas españolas (datos primarios)",
+                "description": "Consumo en planta de compostaje, por tonelada de residuo orgánico procesado."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Gestión de residuo domiciliario",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/38:Waste collection, treatment and disposal activities; materials recovery\/382:Waste treatment and disposal\/3821:Treatment and disposal of non-hazardous waste",
+                "amount": 1,
+                "unit": "tonelada",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Unidad funcional: gestión de 1 tonelada de residuo domiciliario con la composición del Cuadro II."
+            },
+            {
+                "is_reference": false,
+                "flow": "Compost",
+                "category": "C:Manufacturing\/325:Chemical Manufacturing\/3253:Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing\/325314:Fertilizer (Mixing Only) Manufacturing",
+                "amount": 36.7,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Producto obtenido de la planta de compostaje (3.67% del residuo total)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Papel y cartón reciclado",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities",
+                "amount": 181.8,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Material enviado a recicladoras (18.18% del residuo total)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Vidrio reciclado (Calcín)",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities",
+                "amount": 38.9,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Material enviado a recicladoras (3.89% del residuo total)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Plástico reciclado",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities",
+                "amount": 102.4,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Material enviado a recicladoras (10.24% del residuo total)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Metal férrico reciclado",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities",
+                "amount": 18.7,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Material enviado a recicladoras (1.87% del residuo total)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Metal no férrico reciclado",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities",
+                "amount": 4,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Material enviado a recicladoras (0.4% del residuo total)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Residuo a vertedero",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/382:Waste treatment and disposal\/3821:Treatment and disposal of non-hazardous waste\/38211:Nonhazardous Waste Treatment and Disposal",
+                "amount": 137.1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Suma de rechazos e impropios de las diferentes etapas de tratamiento (13.71% del residuo total)."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"42954e56-b1e4-45a4-b306-0b5c70f63755\",\"Name\":\"APLICACIÓN DE LA METODOLOGÍA DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL DESEMPEÑO AMBIENTAL DE SISTEMAS DE GESTIÓN DE RESIDUOS EN IBEROAMÉRICA\",\"Category\":\"Waste Management and Remediation Services\/562 Waste Management and Remediation Services\",\"Description\":\"Este artículo presenta cinco experiencias de aplicación de la metodología de Análisis de Ciclo de Vida para evaluar el comportamiento ambiental de sistemas de gestión de residuos en Iberoamérica. Se enfoca en un caso de estudio de España que analiza el desempeño ambiental de un sistema de gestión de residuos domiciliarios con recogida selectiva de cuatro fracciones: papel-cartón, vidrio y envases ligeros en área de aportación, y fracción resto a nivel de acera. La unidad funcional es la gestión de 1 tonelada de residuo domiciliario. El estudio identifica como principal hándicap la falta de datos de inventario adaptados, para lo cual se realizó una combinación de datos primarios y secundarios. Los resultados obtenidos sirven como punto de partida para la selección e implantación de medidas que favorezcan la mejora ambiental de los sistemas de gestión de residuos.\",\"Tags\":\"ACV, residuos, caso de aplicación, LCA, waste, case study, gestión de residuos, recogida selectiva, España\",\"Technology Description\":\"La evaluación se realizó siguiendo las recomendaciones de la norma ISO 14040-44 (2006) mediante la aplicación del software SimaPro (2013). El método de evaluación de impacto aplicado en todos los casos fue CML (Guinée 2002) para las categorías de impacto: acidificación, eutrofización, calentamiento global, reducción de la capa de ozono, disminución del recurso abiótico y oxidación fotoquímica. El sistema de gestión analizado incluye etapas de pre-recogida, recogida y transporte, pre-tratamiento (plantas de clasificación, estación de transferencia, planta de recuperación de materiales), tratamiento (compostaje, reciclaje) y disposición final (vertedero).\",\"Code\":\"ES\",\"Last change\":\"14\/01\/2026 16:00\"},\"location\":{\"@type\":\"Location\",\"@id\":\"a1bc9dc3-7a80-4c91-b2ac-872c11bf3e8e\",\"name\":\"Spain\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"ES\",\"latitude\":40.4637,\"longitude\":-3.7492},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) según ISO 14040-44 (2006). Método de evaluación de impacto CML (Guinée 2002).\",\"Process type\":\"Gestión de residuos sólidos urbanos 'cradle-to-grave'\",\"Modeling constants\":\"Las infraestructuras necesarias para el desarrollo de cada etapa quedan fuera del alcance del estudio. Se consideran las cargas evitadas por la producción del compost y los materiales reciclados obtenidos. El mix eléctrico considerado es el correspondiente a España en el año 2012.\",\"Data source information\":\"Combinación de datos primarios y secundarios. Los datos primarios se obtuvieron directamente de empresas españolas encargadas de la gestión de residuos para las etapas de pre-recogida, recogida, pre-tratamiento y tratamiento de compostaje. Los datos secundarios fueron adaptados de la base de datos Ecoinvent (2008) para las etapas de tratamiento mediante reciclado y vertido.\",\"Data completeness\":\"El estudio identifica la falta de datos de inventario en bases de datos comerciales adaptados a diferentes países, fracciones y tratamientos como el principal hándicap. Los flujos de materia y energía para todas las etapas del ciclo de vida han sido considerados.\",\"Data selection\":\"Se incluyen las etapas de pre-recogida, recogida y transporte, pre-tratamiento, tratamiento y disposición final del sistema de gestión de residuos. Se excluyen las infraestructuras.\",\"Data treatment\":\"Para modelar los inventarios se ha realizado una combinación de datos primarios de empresas gestoras españolas y datos secundarios de la base de datos Ecoinvent.\",\"Sampling procedure\":\"Los datos primarios fueron recogidos de campo de empresas gestoras de residuos.\",\"Data collection period\":\"El mix eléctrico corresponde al año 2012. La composición de residuos se basa en el PNIR 2008-2015. El documento fue recibido en 2014 y aceptado en 2015.\",\"Use advice\":\"Los resultados obtenidos sirven como punto de partida para la selección e implantación de medidas que favorezcan la mejora ambiental de los sistemas de gestión de residuos.\",\"Completeness\":\"Alta. El modelo cubre todas las etapas relevantes del ciclo de vida de la gestión de residuos, desde la recogida hasta la disposición final, incluyendo tratamientos intermedios y valorización.\",\"Sources\":\"Alcaldía mayor de Cartagena de Indias y Universidad de Cartagena (2007). Plan de Gestión Integral de Residuos Sólidos de Cartagena de Indias (PGIRS). Informe Técnico Universidad de Cartagena. Cartagena de Indias. 220 páginas. Aranda A., Ferreira G., Zambrana D., Zabalza I. y Llera E. (2013) Environmental-benefit analysis of two urban waste collection systems. Sci. Total Environ. 463-464, 72-77. Arena U., Mastellone M.L. y Perugini F. (2003). Life cycle assessment of a plastic packaging recycling system. Int. J. Life Cycle Assess. 8 (2), 92-98. Arzuzar L. y Atencia O. (2008). Aplicación del análisis del ciclo de vida (ACV) en la evaluación de alternativas para el manejo de residuos sólidos ordinarios en la ciudad de Cartagena de Indias. Tesis de Pregrado. Facultad de Ingeniería. Universidad de Cartagena. Bezama A., Douglas C., Méndez J., Szarka N., Muñoz E., Navia R., Schock S., Konrad O. y Ulloa C. (2013) Life cycle comparison of waste-to-energy alternatives for municipal waste treatment in Chilean Patagonia. Waste Manage. Res. 31 (10 SUPPL.), 67-74. Bojacá C.R., Wyckhuys K.A.G.y Schrevens E. (2014) Life cycle assessment of Colombian greenhouse tomato production based on farmer-level survey data. J Clean Prod. 69, 26-33. Bovea M.D., Ibanez-Fores V., Gallardo A. y Colomer-Mendoza F. (2010). Environmental assessment of alternative municipal solid waste management strategies. A Spanish case study. Waste Manage. 30, 2383–2395. Bovea, M. D., y Powell, J. C. (2006). Alternative scenarios to meet the demands of sustainable waste management. Journal of environmental management, 79(2), 115-132. Cadena E., Colon J., Artola A., Sanchez A. y Font X. (2009). Environmental impact of two aerobic composting technologies using life cycle assessment. Int. J. Life Cycle Assess. 14, 401–410. CAMMESA (2013). Informe anual 2012. Compañía Administradora del Mercado Mayorista Eléctrico Sociedad Anónima. Argentina. Ciroth A., Hageluken M., Sonnemann G.W., Castells F., Fleischer G. (2002)a. Geographical and technological differences in Life Cycle Inventories – shown by the use of process models for waste incinerators Part I. Technological and geographical differences. Int. J. Life Cycle Assess. 7, 295-300. Ciroth A., Hageluken M., Sonnemann G.W., Castells F. y Fleischer G. (2002)b. Geographical and technological differences in life cycle inventories – shown by the use of process models for waste incinerators part II: Technological and geographical differences. Int. J. Life Cycle Assess. 7, 363-368. Ecoinvent (2008). The life cycle inventory data version 2. Swiss Centre for Life Cycle Inventories. Guinée J. (2002) Handbook on Life Cycle Assessment. An Operational Guide to the ISO Standards, Kluwer Academic Publishers. ISO 14040 (2006) Environmental Management. Life Cycle Assessment. Principles and Framework. ISO, Geneva. ISO 14044 (2006) Environmental Management. Life Cycle Assessment. Requirements and Guidelines. ISO, Geneva. REE (2013). Informe anual 2012. Red Eléctrica Española, España. SimaPro v8.0.1 (2013) PRé Consultants, B.V. Amersfoort, The Netherlands.\",\"Project\":\"CYTED (Proyecto 715RT0494)\",\"Intended application\":\"Evaluar el desempeño medioambiental de sistemas de gestión de residuos sólidos para identificar etapas críticas y proponer medidas de mejora.\",\"Data set owner\":\"Universitat Jaume I, Castellón, España\",\"Data set generator\":\"María D. BOVEA, Valeria IBÁÑEZ-FORÉS\",\"Data set documentor\":\"María D. BOVEA, Samantha E. CRUZ-SOTELO, Irma MERCANTE, Claudia COUTINHO-NÓBREGA, Mónica ELJAIEK-URZOLA y Valeria IBÁÑEZ-FORÉS\",\"Publication\":\"Rev. Int. Contam. Ambie. 32 (Especial Residuos Sólidos) 23-46, 2016\",\"Creation date\":\"2016-01-01\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"14\/01\/2026 16:00\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":null,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo de combustible para recogida y transporte. Camión de media carga: 0.0256 l\/t·km. Camión de gran carga: 0.0146 l\/t·km. Las distancias no se especifican en el documento.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":8.05,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en clasificadora de vidrio, por tonelada de vidrio procesado.\"},{\"is_reference\":false,\"flow\":\"Gasóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":0.53,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en clasificadora de vidrio, por tonelada de vidrio procesado.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":3.99,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en clasificadora de papel-cartón, por tonelada de papel-cartón procesado.\"},{\"is_reference\":false,\"flow\":\"Gasóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":2.58,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en clasificadora de papel-cartón, por tonelada de papel-cartón procesado.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":6.1,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en clasificadora de envases, por tonelada de envases procesados.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":1.36,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en estación de transferencia, por tonelada de residuo procesado.\"},{\"is_reference\":false,\"flow\":\"Gasóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":1.76,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en estación de transferencia, por tonelada de residuo procesado.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":8.11,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en planta de recuperación de material (PRM), por tonelada de residuo procesado.\"},{\"is_reference\":false,\"flow\":\"Gasóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":0.56,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en planta de recuperación de material (PRM), por tonelada de residuo procesado.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":19.67,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en planta de compostaje, por tonelada de residuo orgánico procesado.\"},{\"is_reference\":false,\"flow\":\"Gasóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":0.3,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Empresas españolas (datos primarios)\",\"description\":\"Consumo en planta de compostaje, por tonelada de residuo orgánico procesado.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Gestión de residuo domiciliario\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/38:Waste collection, treatment and disposal activities; materials recovery\/382:Waste treatment and disposal\/3821:Treatment and disposal of non-hazardous waste\",\"amount\":1,\"unit\":\"tonelada\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Unidad funcional: gestión de 1 tonelada de residuo domiciliario con la composición del Cuadro II.\"},{\"is_reference\":false,\"flow\":\"Compost\",\"category\":\"C:Manufacturing\/325:Chemical Manufacturing\/3253:Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing\/325314:Fertilizer (Mixing Only) Manufacturing\",\"amount\":36.7,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Producto obtenido de la planta de compostaje (3.67% del residuo total).\"},{\"is_reference\":false,\"flow\":\"Papel y cartón reciclado\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities\",\"amount\":181.8,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Material enviado a recicladoras (18.18% del residuo total).\"},{\"is_reference\":false,\"flow\":\"Vidrio reciclado (Calcín)\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities\",\"amount\":38.9,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Material enviado a recicladoras (3.89% del residuo total).\"},{\"is_reference\":false,\"flow\":\"Plástico reciclado\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities\",\"amount\":102.4,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Material enviado a recicladoras (10.24% del residuo total).\"},{\"is_reference\":false,\"flow\":\"Metal férrico reciclado\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities\",\"amount\":18.7,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Material enviado a recicladoras (1.87% del residuo total).\"},{\"is_reference\":false,\"flow\":\"Metal no férrico reciclado\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/383:Materials recovery\/3832:Materials recovery facilities\",\"amount\":4,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Material enviado a recicladoras (0.4% del residuo total).\"},{\"is_reference\":false,\"flow\":\"Residuo a vertedero\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/382:Waste treatment and disposal\/3821:Treatment and disposal of non-hazardous waste\/38211:Nonhazardous Waste Treatment and Disposal\",\"amount\":137.1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Suma de rechazos e impropios de las diferentes etapas de tratamiento (13.71% del residuo total).\"}]}",
+    "http_code": 200,
+    "timestamp": 1768406456
+}

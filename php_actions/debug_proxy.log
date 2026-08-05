@@ -1,0 +1,94 @@
+[2025-10-24 20:58:02] === INICIO DE REQUEST ===
+[2025-10-24 20:58:02] Headers configurados
+[2025-10-24 20:58:02] Método: POST
+[2025-10-24 20:58:02] Verificando archivo PDF...
+[2025-10-24 20:58:02] FILES: Array
+(
+    [pdf] => Array
+        (
+            [name] => lemon_production___lemon___Cutoff__U.pdf
+            [full_path] => lemon_production___lemon___Cutoff__U.pdf
+            [type] => application/pdf
+            [tmp_name] => /tmp/phpvcixCO
+            [error] => 0
+            [size] => 31551
+        )
+
+)
+
+[2025-10-24 20:58:02] POST: Array
+(
+    [respuesta] => No
+)
+
+[2025-10-24 20:58:02] Archivo recibido correctamente
+[2025-10-24 20:58:02] Tipo MIME: application/pdf
+[2025-10-24 20:58:02] Respuesta del usuario: No
+[2025-10-24 20:58:02] Iniciando cURL...
+[2025-10-24 20:58:02] CURLFile creado
+[2025-10-24 20:58:02] Opciones de cURL configuradas
+[2025-10-24 20:58:02] Ejecutando cURL...
+[2025-10-24 21:20:40] === INICIO DE REQUEST ===
+[2025-10-24 21:20:40] Headers configurados
+[2025-10-24 21:20:40] Método: POST
+[2025-10-24 21:20:40] Verificando archivo PDF...
+[2025-10-24 21:20:40] FILES: Array
+(
+    [pdf] => Array
+        (
+            [name] => lemon_production___lemon___Cutoff__U.pdf
+            [full_path] => lemon_production___lemon___Cutoff__U.pdf
+            [type] => application/pdf
+            [tmp_name] => /tmp/phpijd4u4egm60mcnPlnOE
+            [error] => 0
+            [size] => 31551
+        )
+
+)
+
+[2025-10-24 21:20:40] POST: Array
+(
+    [respuesta] => No
+)
+
+[2025-10-24 21:20:40] Archivo recibido correctamente
+[2025-10-24 21:20:40] Tipo MIME: application/pdf
+[2025-10-24 21:20:40] Respuesta del usuario: No
+[2025-10-24 21:20:40] Iniciando cURL...
+[2025-10-24 21:20:40] CURLFile creado
+[2025-10-24 21:20:40] Opciones de cURL configuradas
+[2025-10-24 21:20:40] Ejecutando cURL...
+[2025-10-24 21:24:46] === INICIO DE REQUEST ===
+[2025-10-24 21:24:46] Headers configurados
+[2025-10-24 21:24:46] Método: GET
+[2025-10-24 21:24:46] Método no permitido
+[2025-10-24 21:27:19] === INICIO DE REQUEST ===
+[2025-10-24 21:27:19] Headers configurados
+[2025-10-24 21:27:19] Método: POST
+[2025-10-24 21:27:19] Verificando archivo PDF...
+[2025-10-24 21:27:19] FILES: Array
+(
+    [pdf] => Array
+        (
+            [name] => lemon_production___lemon___Cutoff__U.pdf
+            [full_path] => lemon_production___lemon___Cutoff__U.pdf
+            [type] => application/pdf
+            [tmp_name] => /tmp/phpnm86qb8faftk2tIeSYW
+            [error] => 0
+            [size] => 31551
+        )
+
+)
+
+[2025-10-24 21:27:19] POST: Array
+(
+    [respuesta] => No
+)
+
+[2025-10-24 21:27:19] Archivo recibido correctamente
+[2025-10-24 21:27:19] Tipo MIME: application/pdf
+[2025-10-24 21:27:19] Respuesta del usuario: No
+[2025-10-24 21:27:19] Iniciando cURL...
+[2025-10-24 21:27:19] CURLFile creado
+[2025-10-24 21:27:19] Opciones de cURL configuradas
+[2025-10-24 21:27:19] Ejecutando cURL...

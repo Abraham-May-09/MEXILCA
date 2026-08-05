@@ -1,0 +1,83 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "c9e3baf1-67ce-43c5-a375-3ce3cc00fd2c",
+                "Name": "ANÁLISIS DE CICLO DE VIDA COMPARATIVO PARA LA GENERACIÓN DE ENERGÍA ELÉCTRICA A PARTIR DE FUENTES DE ENERGÍAS RENOVABLE Y CONVENCIONAL",
+                "Category": "22:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "Description": "El objetivo de esta tesis fue realizar una Evaluación de Análisis de Ciclo de Vida para generación de energía eléctrica para sistemas renovables (energía undimotriz y a partir de biomasa) y un sistema convencional (central de ciclo combinado a gas natural) en el contexto mexicano. Se definió como unidad funcional 1 kWh de energía eléctrica generada, considerando un periodo de 10 años. Los límites del sistema cubren la extracción de materias primas, construcción, operación y desmantelamiento, excluyendo la distribución a la red eléctrica. El estudio busca identificar el medio de generación con menores impactos ambientales, identificar las etapas críticas de los sistemas evaluados, así como proporcionar datos de inventario para futuros estudios enfocados a ACV y energías renovables en México.",
+                "Tags": "Análisis de Ciclo de Vida, LCA, generación de energía, energía convencional, central termoeléctrica, ciclo combinado, México",
+                "Technology Description": "La tecnología convencional analizada es una central termoeléctrica de ciclo combinado que utiliza gas natural. Para la evaluación de impacto de ciclo de vida (EICV), se utilizó el software SimaPro versión 8.1 de PRé Consultants. El método de evaluación de impacto fue ReCiPe v1.08 con un modelo de caracterización de punto medio (Midpoint [H]). Los datos de inventario para el escenario convencional se obtuvieron de la base de datos de ACV Ecoinvent v3.1, específicamente del módulo de Energía que representa el periodo de 2008-2014 para México.",
+                "Code": "MX",
+                "Last change": "25\/05\/2026 14:15"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "Análisis de Ciclo de Vida (ACV) conforme a la norma ISO 14044. El método de evaluación de impacto utilizado es ReCiPe v1.08.",
+                "Process type": "Generación de energía eléctrica (Cradle-to-grave para la infraestructura de la planta, y cradle-to-gate para la electricidad).",
+                "Modeling constants": "Unidad funcional: 1 kWh de energía eléctrica generada. Límite temporal: 10 años de operación. Límites del sistema: Incluye construcción de la planta, extracción de materias primas, generación de energía y desmantelamiento. Excluye la distribución a la red eléctrica. Se utilizó un modelo de caracterización de punto medio (Midpoint [H]).",
+                "Data source information": "Los datos para el escenario convencional se basan en la base de datos Ecoinvent v3.1, con el apoyo de una revisión de artículos científicos. Otras bases de datos mencionadas en el estudio son BUWAL, IDEMAT, ETH, IVAM.",
+                "Data completeness": "El estudio cubre las etapas de construcción, operación y desmantelamiento de la central. El inventario de ciclo de vida (LCI) detallado para el escenario convencional no se presenta en el documento, ya que se utilizó un proceso existente de la base de datos Ecoinvent.",
+                "Data selection": "Se seleccionó una central termoeléctrica de ciclo combinado a gas natural como representativa de la generación de energía convencional en México.",
+                "Data treatment": "Los datos fueron procesados utilizando el software SimaPro v8.1 para realizar la evaluación de impacto del ciclo de vida.",
+                "Sampling procedure": null,
+                "Data collection period": "2008-2014 (periodo representado por los datos de Ecoinvent para México).",
+                "Use advice": "Los resultados son específicos para el contexto mexicano y para las tecnologías y límites del sistema definidos en el estudio. La comparación se realiza sobre un horizonte temporal de 10 años.",
+                "Completeness": "Alta para los resultados de evaluación de impacto. El inventario detallado de flujos elementales para el escenario convencional no está incluido en el documento.",
+                "Sources": "Agenbur, Agencia Provincial de la Energía de Burgos. (2016). Energía de la Biomasa.; Bermejo R. (2014). Del desarrollo sostenible según Brundtland a la sostenibilidad como biomimesis.; Bilgili M., Ozbek A., Sahin B., and Kahranman A. (2015). An overview of renewable electric power capacity and progress in new technologies in the wordl.; Bonher SA de CV. (2014).Equipo Undimotriz.; Cámara de diputados. (2014). Energías Renovables. Estudio del Marco Jurídico Actual...; Centro Mario Molina. (2013). Análisis de ciclo de vida de casos de estudios de futuras centrales eléctricas en México.; Santoyo-Castelazo E., H. Gujba and A. Azapagic. (2011). Life cycle assessment of electricity generation in Mexico. Energy. 36, 1488-1449.; SENER. (2015). Prospectiva del Sector Eléctrico 2015-2019.",
+                "Project": "El estudio se enmarca en los proyectos CEMIE-OCEANO y CEMIE-BIO.",
+                "Intended application": "Comparar los impactos ambientales de diferentes tecnologías de generación eléctrica, identificar etapas críticas, y proporcionar datos de inventario para futuros estudios en México.",
+                "Data set owner": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO",
+                "Data set generator": "I.Q. SANDRA PINTO PÉREZ",
+                "Data set documentor": "I.Q. SANDRA PINTO PÉREZ",
+                "Publication": "Tesis para optar por el grado de Maestro en Ingeniería, Universidad Nacional Autónoma de México.",
+                "Creation date": "2017-12-01",
+                "Copyright": "DERECHOS RESERVADOS ©",
+                "Access and use restrictions": "Todo el material contenido en esta tesis esta protegido por la Ley Federal del Derecho de Autor (LFDA) de los Estados Unidos Mexicanos (México). El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "25\/05\/2026 14:15",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Electricidad, generada por ciclo combinado a gas natural",
+                    "category": "22:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                    "amount": 1,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Unidad funcional del estudio. Electricidad generada en una central termoeléctrica convencional de ciclo combinado."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779718557
+}

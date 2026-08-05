@@ -1,0 +1,280 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "80237337-1c3e-4ce4-ab12-637eea3050d8",
+            "Name": "ACV BLOCK ANÁLISIS DE CICLO DE VIDA DEL BLOCK MEMORIA DE CÁLCULO",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\/3273 Fabricación de Productos de Concreto\/32733 Fabricación de Tubos, Ladrillos y Bloques de Concreto",
+            "Description": "Se determinó la huella de carbono durante la fabricación del block a partir de un Inventario de Ciclo de Vida (ICV), con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El objetivo es estimar la huella de carbono del proceso de fabricación de block en plantas localizadas en la zona centro de México. La unidad funcional es producir un kilogramo de block fabricado con cemento, tepecil, arena y agua, terminado en planta. El alcance del estudio se limita a las etapas de extracción de materia prima, transporte y proceso de fabricación (cradle-to-gate). Los resultados obtenidos muestran una huella de carbono de 0.22133 kg CO2eq y una demanda acumulada de energía de 1.686333 MJeq respecto a la producción de 1 kg de block en planta.",
+            "Tags": "Análisis de ciclo de vida, block de concreto, huella de carbono, demanda de energía, materiales de construcción, México",
+            "Technology Description": "El block se produce mezclando cemento, tepecil, arena y agua en una revolvedora eléctrica. La mezcla es introducida en una extrusora que le proporciona la forma característica. La etapa de fraguado requiere agua. El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4 y se siguió el método CML 2001 v. 4.2.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 01:31"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "ISO 14044:2006, CML 2001 v. 4.2",
+            "Process type": "Proceso de fabricación cradle-to-gate",
+            "Modeling constants": "Criterio de corte de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta. La producción de electricidad se basó en el mix energético nacional. El consumo de electricidad y de gas LP se dividió entre la producción correspondiente al rango de tiempo de cada facturación. Se asume que el agua requerida se toma directamente de la red.",
+            "Data source information": "Datos primarios obtenidos de tres empresas productoras en la región de Puebla y Cholula, México. Factores de emisión AP-42 adaptados para México. Distancias de transporte estimadas con datos georeferenciados del Directorio Estadístico Nacional de Unidades Económicas (DENUE) del INEGI.",
+            "Data completeness": "El estudio se enfoca solamente en las etapas de extracción de materia prima, transporte y fabricación. No fue posible realizar la medición de las emisiones de sólidos totales al agua. El impacto de la extracción de materia prima solo incluye el transporte. La matriz de emisiones de CO2 por transporte solo considera la cantidad de combustible consumido.",
+            "Data selection": "Criterio de corte de masa al 1%. Se emplearon los datos del block macizo de 40x20x12 cm y el block hueco de 40x20x15 cm por ser los de mayor producción.",
+            "Data treatment": "Las composiciones de materia prima se ponderaron con respecto a la producción mensual. Los promedios por kilogramo de block se calcularon a partir de los datos por pieza de block macizo (40x20x12 cm) divididos entre su masa de 13.4 kg.",
+            "Sampling procedure": "Se solicitó información a tres empresas productoras y se complementó con mediciones de pesado en los distintos tipos de block.",
+            "Data collection period": "2009",
+            "Use advice": "Los resultados son representativos para el proceso de fabricación de block (cradle-to-gate) en la zona centro de México con datos de 2009. Las etapas de uso y fin de vida no están incluidas.",
+            "Completeness": "El estudio es completo para el alcance definido (cradle-to-gate), pero incompleto para un análisis de ciclo de vida completo (cradle-to-grave).",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [5] Iron and steel - Sector Profile.",
+            "Project": "ACV BLOCK",
+            "Intended application": "Conocer el impacto ambiental de la industria de fabricación de block en México.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández",
+            "Data set documentor": "Andrea Hernández",
+            "Publication": "Memoria de Cálculo, Borrador",
+            "Creation date": "2014-12-18",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 01:31",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/2213:Water, Sewage and Other Systems\/22131:Water Supply and Irrigation Systems\/221310:Water Supply and Irrigation Systems",
+                "amount": 0.0427,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Agua de la red"
+            },
+            {
+                "is_reference": false,
+                "flow": "Arena",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/212:Mining (except Oil and Gas)\/2123:Nonmetallic Mineral Mining and Quarrying\/21232:Sand, Gravel, Clay, and Ceramic and Refractory Minerals Mining and Quarrying",
+                "amount": 0.1151,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Tepecil",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/212:Mining (except Oil and Gas)\/2123:Nonmetallic Mineral Mining and Quarrying\/21232:Sand, Gravel, Clay, and Ceramic and Refractory Minerals Mining and Quarrying",
+                "amount": 0.4895,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Pumicita \/ ceniza volcánica"
+            },
+            {
+                "is_reference": false,
+                "flow": "Cemento",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32731:Cement Manufacturing",
+                "amount": 0.0641,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "HCl",
+                "category": "C:Manufacturing\/325:Chemical Manufacturing\/3251:Basic Chemical Manufacturing\/32518:Other Basic Inorganic Chemical Manufacturing",
+                "amount": 0.0004,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte de aditivo acelerante"
+            },
+            {
+                "is_reference": false,
+                "flow": "Cal",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3274:Lime and Gypsum Product Manufacturing\/32741:Lime Manufacturing",
+                "amount": 0.0001,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte de aditivo acelerante (hidróxido de calcio)"
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\/221100:Electric Power Generation, Transmission and Distribution",
+                "amount": 58.3454,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Mix energético nacional de México",
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Combustóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32411:Petroleum Refineries",
+                "amount": 206.9549,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32411:Petroleum Refineries",
+                "amount": 7.4558,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "D:Utilities\/221:Utilities\/2212:Natural Gas Distribution\/221200:Natural Gas Distribution",
+                "amount": 206.7164,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas LP",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32411:Petroleum Refineries",
+                "amount": 36.2606,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Autotransporte",
+                "category": "F:Transportation and Warehousing\/484:Truck Transportation\/484000:Truck Transportation",
+                "amount": 0.4772,
+                "unit": "Tkm",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Transporte de materia prima"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Block",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto de construcción terminado en planta"
+            },
+            {
+                "is_reference": false,
+                "flow": "Partículas sedimentables",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 9.328e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "SO2",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 3.291e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 0.0001,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "NOx",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 0.0001,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "PM 10",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 5.343e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing",
+                "amount": 0.0534,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "Bolsas de papel",
+                "category": "E:Administrative and Support and Waste Management and Remediation Services\/562:Waste Management and Remediation Services\/5622:Waste Treatment and Disposal\/56221:Solid Waste Treatment and Disposal",
+                "amount": 0.0007,
+                "unit": "Bolsas",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Residuos sólidos"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"80237337-1c3e-4ce4-ab12-637eea3050d8\",\"Name\":\"ACV BLOCK ANÁLISIS DE CICLO DE VIDA DEL BLOCK MEMORIA DE CÁLCULO\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\/3273 Fabricación de Productos de Concreto\/32733 Fabricación de Tubos, Ladrillos y Bloques de Concreto\",\"Description\":\"Se determinó la huella de carbono durante la fabricación del block a partir de un Inventario de Ciclo de Vida (ICV), con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El objetivo es estimar la huella de carbono del proceso de fabricación de block en plantas localizadas en la zona centro de México. La unidad funcional es producir un kilogramo de block fabricado con cemento, tepecil, arena y agua, terminado en planta. El alcance del estudio se limita a las etapas de extracción de materia prima, transporte y proceso de fabricación (cradle-to-gate). Los resultados obtenidos muestran una huella de carbono de 0.22133 kg CO2eq y una demanda acumulada de energía de 1.686333 MJeq respecto a la producción de 1 kg de block en planta.\",\"Tags\":\"Análisis de ciclo de vida, block de concreto, huella de carbono, demanda de energía, materiales de construcción, México\",\"Technology Description\":\"El block se produce mezclando cemento, tepecil, arena y agua en una revolvedora eléctrica. La mezcla es introducida en una extrusora que le proporciona la forma característica. La etapa de fraguado requiere agua. El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4 y se siguió el método CML 2001 v. 4.2.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 01:31\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"ISO 14044:2006, CML 2001 v. 4.2\",\"Process type\":\"Proceso de fabricación cradle-to-gate\",\"Modeling constants\":\"Criterio de corte de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta. La producción de electricidad se basó en el mix energético nacional. El consumo de electricidad y de gas LP se dividió entre la producción correspondiente al rango de tiempo de cada facturación. Se asume que el agua requerida se toma directamente de la red.\",\"Data source information\":\"Datos primarios obtenidos de tres empresas productoras en la región de Puebla y Cholula, México. Factores de emisión AP-42 adaptados para México. Distancias de transporte estimadas con datos georeferenciados del Directorio Estadístico Nacional de Unidades Económicas (DENUE) del INEGI.\",\"Data completeness\":\"El estudio se enfoca solamente en las etapas de extracción de materia prima, transporte y fabricación. No fue posible realizar la medición de las emisiones de sólidos totales al agua. El impacto de la extracción de materia prima solo incluye el transporte. La matriz de emisiones de CO2 por transporte solo considera la cantidad de combustible consumido.\",\"Data selection\":\"Criterio de corte de masa al 1%. Se emplearon los datos del block macizo de 40x20x12 cm y el block hueco de 40x20x15 cm por ser los de mayor producción.\",\"Data treatment\":\"Las composiciones de materia prima se ponderaron con respecto a la producción mensual. Los promedios por kilogramo de block se calcularon a partir de los datos por pieza de block macizo (40x20x12 cm) divididos entre su masa de 13.4 kg.\",\"Sampling procedure\":\"Se solicitó información a tres empresas productoras y se complementó con mediciones de pesado en los distintos tipos de block.\",\"Data collection period\":\"2009\",\"Use advice\":\"Los resultados son representativos para el proceso de fabricación de block (cradle-to-gate) en la zona centro de México con datos de 2009. Las etapas de uso y fin de vida no están incluidas.\",\"Completeness\":\"El estudio es completo para el alcance definido (cradle-to-gate), pero incompleto para un análisis de ciclo de vida completo (cradle-to-grave).\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [5] Iron and steel - Sector Profile.\",\"Project\":\"ACV BLOCK\",\"Intended application\":\"Conocer el impacto ambiental de la industria de fabricación de block en México.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández\",\"Data set documentor\":\"Andrea Hernández\",\"Publication\":\"Memoria de Cálculo, Borrador\",\"Creation date\":\"2014-12-18\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 01:31\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/2213:Water, Sewage and Other Systems\/22131:Water Supply and Irrigation Systems\/221310:Water Supply and Irrigation Systems\",\"amount\":0.0427,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Agua de la red\"},{\"is_reference\":false,\"flow\":\"Arena\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/212:Mining (except Oil and Gas)\/2123:Nonmetallic Mineral Mining and Quarrying\/21232:Sand, Gravel, Clay, and Ceramic and Refractory Minerals Mining and Quarrying\",\"amount\":0.1151,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Tepecil\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/212:Mining (except Oil and Gas)\/2123:Nonmetallic Mineral Mining and Quarrying\/21232:Sand, Gravel, Clay, and Ceramic and Refractory Minerals Mining and Quarrying\",\"amount\":0.4895,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Pumicita \/ ceniza volcánica\"},{\"is_reference\":false,\"flow\":\"Cemento\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32731:Cement Manufacturing\",\"amount\":0.0641,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"HCl\",\"category\":\"C:Manufacturing\/325:Chemical Manufacturing\/3251:Basic Chemical Manufacturing\/32518:Other Basic Inorganic Chemical Manufacturing\",\"amount\":0.0004,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte de aditivo acelerante\"},{\"is_reference\":false,\"flow\":\"Cal\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3274:Lime and Gypsum Product Manufacturing\/32741:Lime Manufacturing\",\"amount\":0.0001,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte de aditivo acelerante (hidróxido de calcio)\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\/221100:Electric Power Generation, Transmission and Distribution\",\"amount\":58.3454,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Mix energético nacional de México\",\"description\":null},{\"is_reference\":false,\"flow\":\"Combustóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32411:Petroleum Refineries\",\"amount\":206.9549,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32411:Petroleum Refineries\",\"amount\":7.4558,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"D:Utilities\/221:Utilities\/2212:Natural Gas Distribution\/221200:Natural Gas Distribution\",\"amount\":206.7164,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Gas LP\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32411:Petroleum Refineries\",\"amount\":36.2606,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Autotransporte\",\"category\":\"F:Transportation and Warehousing\/484:Truck Transportation\/484000:Truck Transportation\",\"amount\":0.4772,\"unit\":\"Tkm\",\"uncertainty\":null,\"provider\":null,\"description\":\"Transporte de materia prima\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Block\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto de construcción terminado en planta\"},{\"is_reference\":false,\"flow\":\"Partículas sedimentables\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":0.00009328,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"SO2\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":0.00003291,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"CO\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":0.0001,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"NOx\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":0.0001,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"PM 10\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":0.00005343,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/32733:Concrete Pipe, Brick, and Block Manufacturing\",\"amount\":0.0534,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire\"},{\"is_reference\":false,\"flow\":\"Bolsas de papel\",\"category\":\"E:Administrative and Support and Waste Management and Remediation Services\/562:Waste Management and Remediation Services\/5622:Waste Treatment and Disposal\/56221:Solid Waste Treatment and Disposal\",\"amount\":0.0007,\"unit\":\"Bolsas\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Residuos sólidos\"}]}",
+    "http_code": 200,
+    "timestamp": 1765503120
+}

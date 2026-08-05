@@ -1,0 +1,1644 @@
+[12-Dec-2025 02:08:31 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:08:31 UTC] Request method: POST
+[12-Dec-2025 02:08:31 UTC] Archivo recibido: 0766234.pdf
+[12-Dec-2025 02:08:31 UTC] Tamaño: 3919612 bytes
+[12-Dec-2025 02:08:31 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:08:31 UTC] Respuesta de tesis: Sí
+[12-Dec-2025 02:08:31 UTC] Job ID generado: pdf_693b791fc6b3a8.01685129
+[12-Dec-2025 02:08:31 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b791fc6b3a8.01685129.pdf
+[12-Dec-2025 02:08:31 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:08:31 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b791fc6b3a8.01685129_meta.json
+[12-Dec-2025 02:08:31 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:08:31 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b791fc6b3a8.01685129
+[12-Dec-2025 02:08:32 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:08:32 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:08:32 UTC] Job ID: pdf_693b791fc6b3a8.01685129
+[12-Dec-2025 02:08:32 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:10:09 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:10:09 UTC] Request method: POST
+[12-Dec-2025 02:10:09 UTC] Archivo recibido: Vigueta.pdf
+[12-Dec-2025 02:10:09 UTC] Tamaño: 192445 bytes
+[12-Dec-2025 02:10:09 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:10:09 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:10:09 UTC] Job ID generado: pdf_693b7981e0bde0.02450154
+[12-Dec-2025 02:10:09 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7981e0bde0.02450154.pdf
+[12-Dec-2025 02:10:09 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:10:09 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7981e0bde0.02450154_meta.json
+[12-Dec-2025 02:10:09 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:10:09 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b7981e0bde0.02450154
+[12-Dec-2025 02:10:10 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:10:10 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:10:10 UTC] Job ID: pdf_693b7981e0bde0.02450154
+[12-Dec-2025 02:10:10 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:14:17 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:14:17 UTC] Request method: POST
+[12-Dec-2025 02:14:17 UTC] Archivo recibido: acvacero.pdf
+[12-Dec-2025 02:14:17 UTC] Tamaño: 377241 bytes
+[12-Dec-2025 02:14:17 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:14:17 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:14:17 UTC] Job ID generado: pdf_693b7a797bf596.71882072
+[12-Dec-2025 02:14:17 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7a797bf596.71882072.pdf
+[12-Dec-2025 02:14:17 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:14:17 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7a797bf596.71882072_meta.json
+[12-Dec-2025 02:14:17 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:14:17 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b7a797bf596.71882072
+[12-Dec-2025 02:14:17 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:14:17 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:14:17 UTC] Job ID: pdf_693b7a797bf596.71882072
+[12-Dec-2025 02:14:17 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:27:28 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:27:28 UTC] Request method: POST
+[12-Dec-2025 02:27:28 UTC] Archivo recibido: acvacero.pdf
+[12-Dec-2025 02:27:28 UTC] Tamaño: 377241 bytes
+[12-Dec-2025 02:27:28 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:27:28 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:27:28 UTC] Job ID generado: pdf_693b7d90021f32.23054830
+[12-Dec-2025 02:27:28 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7d90021f32.23054830.pdf
+[12-Dec-2025 02:27:28 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:27:28 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7d90021f32.23054830_meta.json
+[12-Dec-2025 02:27:28 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:27:28 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b7d90021f32.23054830
+[12-Dec-2025 02:27:28 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:27:28 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:27:28 UTC] Job ID: pdf_693b7d90021f32.23054830
+[12-Dec-2025 02:27:28 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:29:33 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:29:33 UTC] Request method: POST
+[12-Dec-2025 02:29:33 UTC] Archivo recibido: 0766234.pdf
+[12-Dec-2025 02:29:33 UTC] Tamaño: 3919612 bytes
+[12-Dec-2025 02:29:33 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:29:33 UTC] Respuesta de tesis: Sí
+[12-Dec-2025 02:29:33 UTC] Job ID generado: pdf_693b7e0deeef34.31666343
+[12-Dec-2025 02:29:33 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7e0deeef34.31666343.pdf
+[12-Dec-2025 02:29:33 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:29:33 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7e0deeef34.31666343_meta.json
+[12-Dec-2025 02:29:33 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:29:33 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b7e0deeef34.31666343
+[12-Dec-2025 02:29:34 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:29:34 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:29:34 UTC] Job ID: pdf_693b7e0deeef34.31666343
+[12-Dec-2025 02:29:34 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:33:33 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:33:33 UTC] Request method: POST
+[12-Dec-2025 02:33:33 UTC] Archivo recibido: __7_Ton_diesel_por_km (4).pdf
+[12-Dec-2025 02:33:33 UTC] Tamaño: 23476 bytes
+[12-Dec-2025 02:33:33 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:33:33 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:33:33 UTC] Job ID generado: pdf_693b7efd48a329.18296893
+[12-Dec-2025 02:33:33 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7efd48a329.18296893.pdf
+[12-Dec-2025 02:33:33 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:33:33 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7efd48a329.18296893_meta.json
+[12-Dec-2025 02:33:33 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:33:33 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b7efd48a329.18296893
+[12-Dec-2025 02:33:33 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:33:33 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:33:33 UTC] Job ID: pdf_693b7efd48a329.18296893
+[12-Dec-2025 02:33:33 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:36:35 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:36:35 UTC] Request method: POST
+[12-Dec-2025 02:36:35 UTC] Archivo recibido: 0766234.pdf
+[12-Dec-2025 02:36:35 UTC] Tamaño: 3919612 bytes
+[12-Dec-2025 02:36:35 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:36:35 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:36:35 UTC] Job ID generado: pdf_693b7fb3aaada4.78831665
+[12-Dec-2025 02:36:35 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7fb3aaada4.78831665.pdf
+[12-Dec-2025 02:36:35 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:36:35 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b7fb3aaada4.78831665_meta.json
+[12-Dec-2025 02:36:35 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:36:35 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b7fb3aaada4.78831665
+[12-Dec-2025 02:36:36 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:36:36 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:36:36 UTC] Job ID: pdf_693b7fb3aaada4.78831665
+[12-Dec-2025 02:36:36 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:46:00 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:46:00 UTC] Request method: POST
+[12-Dec-2025 02:46:00 UTC] Archivo recibido: tabique.pdf
+[12-Dec-2025 02:46:00 UTC] Tamaño: 199245 bytes
+[12-Dec-2025 02:46:00 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:46:00 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:46:00 UTC] Job ID generado: pdf_693b81e84d3418.06667632
+[12-Dec-2025 02:46:00 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b81e84d3418.06667632.pdf
+[12-Dec-2025 02:46:00 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:46:00 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b81e84d3418.06667632_meta.json
+[12-Dec-2025 02:46:00 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:46:00 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b81e84d3418.06667632
+[12-Dec-2025 02:46:00 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:46:00 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:46:00 UTC] Job ID: pdf_693b81e84d3418.06667632
+[12-Dec-2025 02:46:00 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 02:54:30 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 02:54:30 UTC] Request method: POST
+[12-Dec-2025 02:54:30 UTC] Archivo recibido: ACV cemento.pdf
+[12-Dec-2025 02:54:30 UTC] Tamaño: 212421 bytes
+[12-Dec-2025 02:54:30 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 02:54:30 UTC] Respuesta de tesis: No
+[12-Dec-2025 02:54:30 UTC] Job ID generado: pdf_693b83e6cb0e02.62144241
+[12-Dec-2025 02:54:30 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b83e6cb0e02.62144241.pdf
+[12-Dec-2025 02:54:30 UTC] PDF guardado exitosamente
+[12-Dec-2025 02:54:30 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b83e6cb0e02.62144241_meta.json
+[12-Dec-2025 02:54:30 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 02:54:30 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b83e6cb0e02.62144241
+[12-Dec-2025 02:54:31 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 02:54:31 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 02:54:31 UTC] Job ID: pdf_693b83e6cb0e02.62144241
+[12-Dec-2025 02:54:31 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 03:11:03 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 03:11:03 UTC] Request method: POST
+[12-Dec-2025 03:11:03 UTC] Archivo recibido: acvacero.pdf
+[12-Dec-2025 03:11:03 UTC] Tamaño: 377241 bytes
+[12-Dec-2025 03:11:03 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 03:11:03 UTC] Respuesta de tesis: No
+[12-Dec-2025 03:11:03 UTC] Job ID generado: pdf_693b87c78b1560.40440807
+[12-Dec-2025 03:11:03 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b87c78b1560.40440807.pdf
+[12-Dec-2025 03:11:03 UTC] PDF guardado exitosamente
+[12-Dec-2025 03:11:03 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b87c78b1560.40440807_meta.json
+[12-Dec-2025 03:11:03 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 03:11:03 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b87c78b1560.40440807
+[12-Dec-2025 03:11:03 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 03:11:03 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 03:11:03 UTC] Job ID: pdf_693b87c78b1560.40440807
+[12-Dec-2025 03:11:03 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Dec-2025 03:15:06 UTC] === PROXY-ASYNC INICIADO ===
+[12-Dec-2025 03:15:06 UTC] Request method: POST
+[12-Dec-2025 03:15:06 UTC] Archivo recibido: Vigueta.pdf
+[12-Dec-2025 03:15:06 UTC] Tamaño: 192445 bytes
+[12-Dec-2025 03:15:06 UTC] MIME type detectado: application/pdf
+[12-Dec-2025 03:15:06 UTC] Respuesta de tesis: No
+[12-Dec-2025 03:15:06 UTC] Job ID generado: pdf_693b88ba29c910.71369104
+[12-Dec-2025 03:15:06 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b88ba29c910.71369104.pdf
+[12-Dec-2025 03:15:06 UTC] PDF guardado exitosamente
+[12-Dec-2025 03:15:06 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_693b88ba29c910.71369104_meta.json
+[12-Dec-2025 03:15:06 UTC] Iniciando proceso en segundo plano...
+[12-Dec-2025 03:15:06 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_693b88ba29c910.71369104
+[12-Dec-2025 03:15:06 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Dec-2025 03:15:06 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Dec-2025 03:15:06 UTC] Job ID: pdf_693b88ba29c910.71369104
+[12-Dec-2025 03:15:06 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-Dec-2025 17:29:09 UTC] === PROXY-ASYNC INICIADO ===
+[20-Dec-2025 17:29:09 UTC] Request method: POST
+[20-Dec-2025 17:29:09 UTC] Archivo recibido: acv_adobe ok.pdf
+[20-Dec-2025 17:29:09 UTC] Tamaño: 243374 bytes
+[20-Dec-2025 17:29:09 UTC] MIME type detectado: application/pdf
+[20-Dec-2025 17:29:09 UTC] Respuesta de tesis: No
+[20-Dec-2025 17:29:09 UTC] Job ID generado: pdf_6946dce5b46b65.12734596
+[20-Dec-2025 17:29:09 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6946dce5b46b65.12734596.pdf
+[20-Dec-2025 17:29:09 UTC] PDF guardado exitosamente
+[20-Dec-2025 17:29:09 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6946dce5b46b65.12734596_meta.json
+[20-Dec-2025 17:29:09 UTC] Iniciando proceso en segundo plano...
+[20-Dec-2025 17:29:09 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6946dce5b46b65.12734596
+[20-Dec-2025 17:29:10 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-Dec-2025 17:29:10 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-Dec-2025 17:29:10 UTC] Job ID: pdf_6946dce5b46b65.12734596
+[20-Dec-2025 17:29:10 UTC] === PROXY-ASYNC FINALIZADO ===
+[04-Jan-2026 19:14:09 UTC] === PROXY-ASYNC INICIADO ===
+[04-Jan-2026 19:14:09 UTC] Request method: POST
+[04-Jan-2026 19:14:09 UTC] Archivo recibido: AN__LISIS_DEL_CICLO_DE_VIDA_EN_LA_PRODUCCI__N_DE_PI__A.pdf
+[04-Jan-2026 19:14:09 UTC] Tamaño: 25813 bytes
+[04-Jan-2026 19:14:09 UTC] MIME type detectado: application/pdf
+[04-Jan-2026 19:14:09 UTC] Respuesta de tesis: No
+[04-Jan-2026 19:14:09 UTC] Job ID generado: pdf_695abc01373f67.65765619
+[04-Jan-2026 19:14:09 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_695abc01373f67.65765619.pdf
+[04-Jan-2026 19:14:09 UTC] PDF guardado exitosamente
+[04-Jan-2026 19:14:09 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_695abc01373f67.65765619_meta.json
+[04-Jan-2026 19:14:09 UTC] Iniciando proceso en segundo plano...
+[04-Jan-2026 19:14:09 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_695abc01373f67.65765619
+[04-Jan-2026 19:14:09 UTC] ✅ CURL exitoso - HTTP Code: 200
+[04-Jan-2026 19:14:09 UTC] === RESPONDIENDO AL CLIENTE ===
+[04-Jan-2026 19:14:09 UTC] Job ID: pdf_695abc01373f67.65765619
+[04-Jan-2026 19:14:09 UTC] === PROXY-ASYNC FINALIZADO ===
+[04-Jan-2026 19:15:41 UTC] === PROXY-ASYNC INICIADO ===
+[04-Jan-2026 19:15:41 UTC] Request method: POST
+[04-Jan-2026 19:15:41 UTC] Archivo recibido: AN__LISIS_DEL_CICLO_DE_VIDA_EN_LA_PRODUCCI__N_DE_PI__A.pdf
+[04-Jan-2026 19:15:41 UTC] Tamaño: 25813 bytes
+[04-Jan-2026 19:15:41 UTC] MIME type detectado: application/pdf
+[04-Jan-2026 19:15:41 UTC] Respuesta de tesis: Sí
+[04-Jan-2026 19:15:41 UTC] Job ID generado: pdf_695abc5d7038a5.65672623
+[04-Jan-2026 19:15:41 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_695abc5d7038a5.65672623.pdf
+[04-Jan-2026 19:15:41 UTC] PDF guardado exitosamente
+[04-Jan-2026 19:15:41 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_695abc5d7038a5.65672623_meta.json
+[04-Jan-2026 19:15:41 UTC] Iniciando proceso en segundo plano...
+[04-Jan-2026 19:15:41 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_695abc5d7038a5.65672623
+[04-Jan-2026 19:15:41 UTC] ✅ CURL exitoso - HTTP Code: 200
+[04-Jan-2026 19:15:41 UTC] === RESPONDIENDO AL CLIENTE ===
+[04-Jan-2026 19:15:41 UTC] Job ID: pdf_695abc5d7038a5.65672623
+[04-Jan-2026 19:15:41 UTC] === PROXY-ASYNC FINALIZADO ===
+[11-Jan-2026 18:55:16 UTC] === PROXY-ASYNC INICIADO ===
+[11-Jan-2026 18:55:16 UTC] Request method: POST
+[11-Jan-2026 18:55:16 UTC] Archivo recibido: Block.pdf
+[11-Jan-2026 18:55:16 UTC] Tamaño: 191865 bytes
+[11-Jan-2026 18:55:16 UTC] MIME type detectado: application/pdf
+[11-Jan-2026 18:55:16 UTC] Respuesta de tesis: No
+[11-Jan-2026 18:55:16 UTC] Job ID generado: pdf_6963f214954356.61736673
+[11-Jan-2026 18:55:16 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6963f214954356.61736673.pdf
+[11-Jan-2026 18:55:16 UTC] PDF guardado exitosamente
+[11-Jan-2026 18:55:16 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6963f214954356.61736673_meta.json
+[11-Jan-2026 18:55:16 UTC] Iniciando proceso en segundo plano...
+[11-Jan-2026 18:55:16 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6963f214954356.61736673
+[11-Jan-2026 18:55:16 UTC] ✅ CURL exitoso - HTTP Code: 200
+[11-Jan-2026 18:55:16 UTC] === RESPONDIENDO AL CLIENTE ===
+[11-Jan-2026 18:55:16 UTC] Job ID: pdf_6963f214954356.61736673
+[11-Jan-2026 18:55:16 UTC] === PROXY-ASYNC FINALIZADO ===
+[12-Jan-2026 00:28:44 UTC] === PROXY-ASYNC INICIADO ===
+[12-Jan-2026 00:28:44 UTC] Request method: POST
+[12-Jan-2026 00:28:44 UTC] Archivo recibido: Block.pdf
+[12-Jan-2026 00:28:44 UTC] Tamaño: 191865 bytes
+[12-Jan-2026 00:28:44 UTC] MIME type detectado: application/pdf
+[12-Jan-2026 00:28:44 UTC] Respuesta de tesis: No
+[12-Jan-2026 00:28:44 UTC] Job ID generado: pdf_6964403c5ad3d5.15634932
+[12-Jan-2026 00:28:44 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6964403c5ad3d5.15634932.pdf
+[12-Jan-2026 00:28:44 UTC] PDF guardado exitosamente
+[12-Jan-2026 00:28:44 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6964403c5ad3d5.15634932_meta.json
+[12-Jan-2026 00:28:44 UTC] Iniciando proceso en segundo plano...
+[12-Jan-2026 00:28:44 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6964403c5ad3d5.15634932
+[12-Jan-2026 00:28:44 UTC] ✅ CURL exitoso - HTTP Code: 200
+[12-Jan-2026 00:28:44 UTC] === RESPONDIENDO AL CLIENTE ===
+[12-Jan-2026 00:28:44 UTC] Job ID: pdf_6964403c5ad3d5.15634932
+[12-Jan-2026 00:28:44 UTC] === PROXY-ASYNC FINALIZADO ===
+[14-Jan-2026 08:42:24 UTC] === PROXY-ASYNC INICIADO ===
+[14-Jan-2026 08:42:24 UTC] Request method: POST
+[14-Jan-2026 08:42:24 UTC] Archivo recibido: Tap_water_at_user__production_and_supply_adapted_to_MX___S (1).pdf
+[14-Jan-2026 08:42:24 UTC] Tamaño: 202388 bytes
+[14-Jan-2026 08:42:24 UTC] MIME type detectado: application/pdf
+[14-Jan-2026 08:42:24 UTC] Respuesta de tesis: No
+[14-Jan-2026 08:42:24 UTC] Job ID generado: pdf_696756f0a40376.99840493
+[14-Jan-2026 08:42:24 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_696756f0a40376.99840493.pdf
+[14-Jan-2026 08:42:24 UTC] PDF guardado exitosamente
+[14-Jan-2026 08:42:24 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_696756f0a40376.99840493_meta.json
+[14-Jan-2026 08:42:24 UTC] Iniciando proceso en segundo plano...
+[14-Jan-2026 08:42:24 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_696756f0a40376.99840493
+[14-Jan-2026 08:42:25 UTC] ✅ CURL exitoso - HTTP Code: 200
+[14-Jan-2026 08:42:25 UTC] === RESPONDIENDO AL CLIENTE ===
+[14-Jan-2026 08:42:25 UTC] Job ID: pdf_696756f0a40376.99840493
+[14-Jan-2026 08:42:25 UTC] === PROXY-ASYNC FINALIZADO ===
+[14-Jan-2026 15:59:27 UTC] === PROXY-ASYNC INICIADO ===
+[14-Jan-2026 15:59:27 UTC] Request method: POST
+[14-Jan-2026 15:59:27 UTC] Archivo recibido: Articulo_GestionResiduos_Iberoamerica.pdf
+[14-Jan-2026 15:59:27 UTC] Tamaño: 3008810 bytes
+[14-Jan-2026 15:59:27 UTC] MIME type detectado: application/pdf
+[14-Jan-2026 15:59:27 UTC] Respuesta de tesis: No
+[14-Jan-2026 15:59:27 UTC] Job ID generado: pdf_6967bd5f262e94.20242837
+[14-Jan-2026 15:59:27 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6967bd5f262e94.20242837.pdf
+[14-Jan-2026 15:59:27 UTC] PDF guardado exitosamente
+[14-Jan-2026 15:59:27 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6967bd5f262e94.20242837_meta.json
+[14-Jan-2026 15:59:27 UTC] Iniciando proceso en segundo plano...
+[14-Jan-2026 15:59:27 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6967bd5f262e94.20242837
+[14-Jan-2026 15:59:27 UTC] ✅ CURL exitoso - HTTP Code: 200
+[14-Jan-2026 15:59:27 UTC] === RESPONDIENDO AL CLIENTE ===
+[14-Jan-2026 15:59:27 UTC] Job ID: pdf_6967bd5f262e94.20242837
+[14-Jan-2026 15:59:27 UTC] === PROXY-ASYNC FINALIZADO ===
+[14-Jan-2026 21:10:44 UTC] === PROXY-ASYNC INICIADO ===
+[14-Jan-2026 21:10:44 UTC] Request method: POST
+[14-Jan-2026 21:10:44 UTC] Archivo recibido: 3.11-cutoff-15406.pdf
+[14-Jan-2026 21:10:44 UTC] Tamaño: 286282 bytes
+[14-Jan-2026 21:10:44 UTC] MIME type detectado: application/pdf
+[14-Jan-2026 21:10:44 UTC] Respuesta de tesis: No
+[14-Jan-2026 21:10:44 UTC] Job ID generado: pdf_696806543dc024.52033712
+[14-Jan-2026 21:10:44 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_696806543dc024.52033712.pdf
+[14-Jan-2026 21:10:44 UTC] PDF guardado exitosamente
+[14-Jan-2026 21:10:44 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_696806543dc024.52033712_meta.json
+[14-Jan-2026 21:10:44 UTC] Iniciando proceso en segundo plano...
+[14-Jan-2026 21:10:44 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_696806543dc024.52033712
+[14-Jan-2026 21:10:44 UTC] ✅ CURL exitoso - HTTP Code: 200
+[14-Jan-2026 21:10:44 UTC] === RESPONDIENDO AL CLIENTE ===
+[14-Jan-2026 21:10:44 UTC] Job ID: pdf_696806543dc024.52033712
+[14-Jan-2026 21:10:44 UTC] === PROXY-ASYNC FINALIZADO ===
+[15-Jan-2026 19:25:18 UTC] === PROXY-ASYNC INICIADO ===
+[15-Jan-2026 19:25:18 UTC] Request method: POST
+[15-Jan-2026 19:25:18 UTC] Archivo recibido: 3.11-cutoff-15406.pdf
+[15-Jan-2026 19:25:18 UTC] Tamaño: 286282 bytes
+[15-Jan-2026 19:25:18 UTC] MIME type detectado: application/pdf
+[15-Jan-2026 19:25:18 UTC] Respuesta de tesis: No
+[15-Jan-2026 19:25:18 UTC] Job ID generado: pdf_69693f1e557287.59201602
+[15-Jan-2026 19:25:18 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_69693f1e557287.59201602.pdf
+[15-Jan-2026 19:25:18 UTC] PDF guardado exitosamente
+[15-Jan-2026 19:25:18 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_69693f1e557287.59201602_meta.json
+[15-Jan-2026 19:25:18 UTC] Iniciando proceso en segundo plano...
+[15-Jan-2026 19:25:18 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_69693f1e557287.59201602
+[15-Jan-2026 19:25:18 UTC] ✅ CURL exitoso - HTTP Code: 200
+[15-Jan-2026 19:25:18 UTC] === RESPONDIENDO AL CLIENTE ===
+[15-Jan-2026 19:25:18 UTC] Job ID: pdf_69693f1e557287.59201602
+[15-Jan-2026 19:25:18 UTC] === PROXY-ASYNC FINALIZADO ===
+[15-Jan-2026 19:34:35 UTC] === PROXY-ASYNC INICIADO ===
+[15-Jan-2026 19:34:35 UTC] Request method: POST
+[15-Jan-2026 19:34:35 UTC] Archivo recibido: acv carne de res.pdf
+[15-Jan-2026 19:34:35 UTC] Tamaño: 1542190 bytes
+[15-Jan-2026 19:34:35 UTC] MIME type detectado: application/pdf
+[15-Jan-2026 19:34:35 UTC] Respuesta de tesis: Sí
+[15-Jan-2026 19:34:35 UTC] Job ID generado: pdf_6969414b8db663.37569360
+[15-Jan-2026 19:34:35 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6969414b8db663.37569360.pdf
+[15-Jan-2026 19:34:35 UTC] PDF guardado exitosamente
+[15-Jan-2026 19:34:35 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6969414b8db663.37569360_meta.json
+[15-Jan-2026 19:34:35 UTC] Iniciando proceso en segundo plano...
+[15-Jan-2026 19:34:35 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6969414b8db663.37569360
+[15-Jan-2026 19:34:36 UTC] ✅ CURL exitoso - HTTP Code: 200
+[15-Jan-2026 19:34:36 UTC] === RESPONDIENDO AL CLIENTE ===
+[15-Jan-2026 19:34:36 UTC] Job ID: pdf_6969414b8db663.37569360
+[15-Jan-2026 19:34:36 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:31:24 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:31:24 UTC] Request method: POST
+[25-Jan-2026 23:31:24 UTC] Archivo recibido: Block.pdf
+[25-Jan-2026 23:31:24 UTC] Tamaño: 191865 bytes
+[25-Jan-2026 23:31:24 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:31:24 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:31:24 UTC] Job ID generado: pdf_6976a7cc221fb5.20684958
+[25-Jan-2026 23:31:24 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976a7cc221fb5.20684958.pdf
+[25-Jan-2026 23:31:24 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:31:24 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976a7cc221fb5.20684958_meta.json
+[25-Jan-2026 23:31:24 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:31:24 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976a7cc221fb5.20684958
+[25-Jan-2026 23:31:24 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:31:24 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:31:24 UTC] Job ID: pdf_6976a7cc221fb5.20684958
+[25-Jan-2026 23:31:24 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:37:20 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:37:20 UTC] Request method: POST
+[25-Jan-2026 23:37:20 UTC] Archivo recibido: tabique.pdf
+[25-Jan-2026 23:37:20 UTC] Tamaño: 199245 bytes
+[25-Jan-2026 23:37:20 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:37:20 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:37:20 UTC] Job ID generado: pdf_6976a9300b6d20.04296364
+[25-Jan-2026 23:37:20 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976a9300b6d20.04296364.pdf
+[25-Jan-2026 23:37:20 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:37:20 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976a9300b6d20.04296364_meta.json
+[25-Jan-2026 23:37:20 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:37:20 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976a9300b6d20.04296364
+[25-Jan-2026 23:37:20 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:37:20 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:37:20 UTC] Job ID: pdf_6976a9300b6d20.04296364
+[25-Jan-2026 23:37:20 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:38:49 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:38:49 UTC] Request method: POST
+[25-Jan-2026 23:38:49 UTC] Archivo recibido: Block.pdf
+[25-Jan-2026 23:38:49 UTC] Tamaño: 191865 bytes
+[25-Jan-2026 23:38:49 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:38:49 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:38:49 UTC] Job ID generado: pdf_6976a9890f82a8.85365265
+[25-Jan-2026 23:38:49 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976a9890f82a8.85365265.pdf
+[25-Jan-2026 23:38:49 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:38:49 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976a9890f82a8.85365265_meta.json
+[25-Jan-2026 23:38:49 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:38:49 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976a9890f82a8.85365265
+[25-Jan-2026 23:38:49 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:38:49 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:38:49 UTC] Job ID: pdf_6976a9890f82a8.85365265
+[25-Jan-2026 23:38:49 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:42:08 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:42:08 UTC] Request method: POST
+[25-Jan-2026 23:42:08 UTC] Archivo recibido: Vigueta.pdf
+[25-Jan-2026 23:42:08 UTC] Tamaño: 192445 bytes
+[25-Jan-2026 23:42:08 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:42:08 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:42:08 UTC] Job ID generado: pdf_6976aa5028d004.20278081
+[25-Jan-2026 23:42:08 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976aa5028d004.20278081.pdf
+[25-Jan-2026 23:42:08 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:42:08 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976aa5028d004.20278081_meta.json
+[25-Jan-2026 23:42:08 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:42:08 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976aa5028d004.20278081
+[25-Jan-2026 23:42:08 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:42:08 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:42:08 UTC] Job ID: pdf_6976aa5028d004.20278081
+[25-Jan-2026 23:42:08 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:43:11 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:43:11 UTC] Request method: POST
+[25-Jan-2026 23:43:11 UTC] Archivo recibido: Block.pdf
+[25-Jan-2026 23:43:11 UTC] Tamaño: 191865 bytes
+[25-Jan-2026 23:43:11 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:43:11 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:43:11 UTC] Job ID generado: pdf_6976aa8f9a3459.26942887
+[25-Jan-2026 23:43:11 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976aa8f9a3459.26942887.pdf
+[25-Jan-2026 23:43:11 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:43:11 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976aa8f9a3459.26942887_meta.json
+[25-Jan-2026 23:43:11 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:43:11 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976aa8f9a3459.26942887
+[25-Jan-2026 23:43:11 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:43:11 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:43:11 UTC] Job ID: pdf_6976aa8f9a3459.26942887
+[25-Jan-2026 23:43:11 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:45:22 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:45:22 UTC] Request method: POST
+[25-Jan-2026 23:45:22 UTC] Archivo recibido: Vigueta.pdf
+[25-Jan-2026 23:45:22 UTC] Tamaño: 192445 bytes
+[25-Jan-2026 23:45:22 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:45:22 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:45:22 UTC] Job ID generado: pdf_6976ab121bc024.06443965
+[25-Jan-2026 23:45:22 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ab121bc024.06443965.pdf
+[25-Jan-2026 23:45:22 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:45:22 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ab121bc024.06443965_meta.json
+[25-Jan-2026 23:45:22 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:45:22 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ab121bc024.06443965
+[25-Jan-2026 23:45:22 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:45:22 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:45:22 UTC] Job ID: pdf_6976ab121bc024.06443965
+[25-Jan-2026 23:45:22 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:46:35 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:46:35 UTC] Request method: POST
+[25-Jan-2026 23:46:35 UTC] Archivo recibido: Block.pdf
+[25-Jan-2026 23:46:35 UTC] Tamaño: 191865 bytes
+[25-Jan-2026 23:46:35 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:46:35 UTC] Respuesta de tesis: No
+[25-Jan-2026 23:46:35 UTC] Job ID generado: pdf_6976ab5b058947.49273396
+[25-Jan-2026 23:46:35 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ab5b058947.49273396.pdf
+[25-Jan-2026 23:46:35 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:46:35 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ab5b058947.49273396_meta.json
+[25-Jan-2026 23:46:35 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:46:35 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ab5b058947.49273396
+[25-Jan-2026 23:46:37 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[25-Jan-2026 23:46:37 UTC] Pero el proceso continuará en segundo plano...
+[25-Jan-2026 23:46:37 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:46:37 UTC] Job ID: pdf_6976ab5b058947.49273396
+[25-Jan-2026 23:46:37 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:47:14 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:47:14 UTC] Request method: POST
+[25-Jan-2026 23:47:14 UTC] Archivo recibido: ACV cemento.pdf
+[25-Jan-2026 23:47:14 UTC] Tamaño: 212421 bytes
+[25-Jan-2026 23:47:14 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:47:14 UTC] Respuesta de tesis: Sí
+[25-Jan-2026 23:47:14 UTC] Job ID generado: pdf_6976ab827f6cd0.31502204
+[25-Jan-2026 23:47:14 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ab827f6cd0.31502204.pdf
+[25-Jan-2026 23:47:14 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:47:14 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ab827f6cd0.31502204_meta.json
+[25-Jan-2026 23:47:14 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:47:14 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ab827f6cd0.31502204
+[25-Jan-2026 23:47:14 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:47:14 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:47:14 UTC] Job ID: pdf_6976ab827f6cd0.31502204
+[25-Jan-2026 23:47:14 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:48:26 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:48:26 UTC] Request method: POST
+[25-Jan-2026 23:48:26 UTC] Archivo recibido: Block.pdf
+[25-Jan-2026 23:48:26 UTC] Tamaño: 191865 bytes
+[25-Jan-2026 23:48:26 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:48:26 UTC] Respuesta de tesis: Sí
+[25-Jan-2026 23:48:26 UTC] Job ID generado: pdf_6976abca79fd00.08359788
+[25-Jan-2026 23:48:26 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976abca79fd00.08359788.pdf
+[25-Jan-2026 23:48:26 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:48:26 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976abca79fd00.08359788_meta.json
+[25-Jan-2026 23:48:26 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:48:26 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976abca79fd00.08359788
+[25-Jan-2026 23:48:26 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:48:26 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:48:26 UTC] Job ID: pdf_6976abca79fd00.08359788
+[25-Jan-2026 23:48:26 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:50:15 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:50:15 UTC] Request method: POST
+[25-Jan-2026 23:50:15 UTC] Archivo recibido: tabique.pdf
+[25-Jan-2026 23:50:15 UTC] Tamaño: 199245 bytes
+[25-Jan-2026 23:50:15 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:50:15 UTC] Respuesta de tesis: Sí
+[25-Jan-2026 23:50:15 UTC] Job ID generado: pdf_6976ac3748fb43.68224159
+[25-Jan-2026 23:50:15 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ac3748fb43.68224159.pdf
+[25-Jan-2026 23:50:15 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:50:15 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ac3748fb43.68224159_meta.json
+[25-Jan-2026 23:50:15 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:50:15 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ac3748fb43.68224159
+[25-Jan-2026 23:50:15 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:50:15 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:50:15 UTC] Job ID: pdf_6976ac3748fb43.68224159
+[25-Jan-2026 23:50:15 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-Jan-2026 23:54:02 UTC] === PROXY-ASYNC INICIADO ===
+[25-Jan-2026 23:54:02 UTC] Request method: POST
+[25-Jan-2026 23:54:02 UTC] Archivo recibido: Vigueta.pdf
+[25-Jan-2026 23:54:02 UTC] Tamaño: 192445 bytes
+[25-Jan-2026 23:54:02 UTC] MIME type detectado: application/pdf
+[25-Jan-2026 23:54:02 UTC] Respuesta de tesis: Sí
+[25-Jan-2026 23:54:02 UTC] Job ID generado: pdf_6976ad1a60a689.00456710
+[25-Jan-2026 23:54:02 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ad1a60a689.00456710.pdf
+[25-Jan-2026 23:54:02 UTC] PDF guardado exitosamente
+[25-Jan-2026 23:54:02 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ad1a60a689.00456710_meta.json
+[25-Jan-2026 23:54:02 UTC] Iniciando proceso en segundo plano...
+[25-Jan-2026 23:54:02 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ad1a60a689.00456710
+[25-Jan-2026 23:54:02 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-Jan-2026 23:54:02 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-Jan-2026 23:54:02 UTC] Job ID: pdf_6976ad1a60a689.00456710
+[25-Jan-2026 23:54:02 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:00:25 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:00:25 UTC] Request method: POST
+[26-Jan-2026 00:00:25 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:00:25 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:00:25 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:00:25 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:00:25 UTC] Job ID generado: pdf_6976ae99b3b905.16692002
+[26-Jan-2026 00:00:25 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ae99b3b905.16692002.pdf
+[26-Jan-2026 00:00:25 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:00:25 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ae99b3b905.16692002_meta.json
+[26-Jan-2026 00:00:25 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:00:25 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ae99b3b905.16692002
+[26-Jan-2026 00:00:26 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:00:26 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:00:26 UTC] Job ID: pdf_6976ae99b3b905.16692002
+[26-Jan-2026 00:00:26 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:06:34 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:06:34 UTC] Request method: POST
+[26-Jan-2026 00:06:34 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 00:06:34 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 00:06:34 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:06:34 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:06:34 UTC] Job ID generado: pdf_6976b00a9a1e43.71130912
+[26-Jan-2026 00:06:34 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b00a9a1e43.71130912.pdf
+[26-Jan-2026 00:06:34 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:06:34 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b00a9a1e43.71130912_meta.json
+[26-Jan-2026 00:06:34 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:06:34 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b00a9a1e43.71130912
+[26-Jan-2026 00:06:34 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:06:34 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:06:34 UTC] Job ID: pdf_6976b00a9a1e43.71130912
+[26-Jan-2026 00:06:34 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:09:27 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:09:27 UTC] Request method: POST
+[26-Jan-2026 00:09:27 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:09:27 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:09:27 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:09:27 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:09:27 UTC] Job ID generado: pdf_6976b0b7f03e32.35770155
+[26-Jan-2026 00:09:27 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b0b7f03e32.35770155.pdf
+[26-Jan-2026 00:09:27 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:09:27 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b0b7f03e32.35770155_meta.json
+[26-Jan-2026 00:09:27 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:09:27 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b0b7f03e32.35770155
+[26-Jan-2026 00:09:28 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:09:28 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:09:28 UTC] Job ID: pdf_6976b0b7f03e32.35770155
+[26-Jan-2026 00:09:28 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:15:37 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:15:37 UTC] Request method: POST
+[26-Jan-2026 00:15:37 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 00:15:37 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 00:15:37 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:15:37 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 00:15:37 UTC] Job ID generado: pdf_6976b229d08009.74023600
+[26-Jan-2026 00:15:37 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b229d08009.74023600.pdf
+[26-Jan-2026 00:15:37 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:15:37 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b229d08009.74023600_meta.json
+[26-Jan-2026 00:15:37 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:15:37 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b229d08009.74023600
+[26-Jan-2026 00:15:38 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:15:38 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:15:38 UTC] Job ID: pdf_6976b229d08009.74023600
+[26-Jan-2026 00:15:38 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:19:22 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:19:22 UTC] Request method: POST
+[26-Jan-2026 00:19:22 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:19:22 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:19:22 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:19:22 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:19:22 UTC] Job ID generado: pdf_6976b30a059640.80576768
+[26-Jan-2026 00:19:22 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b30a059640.80576768.pdf
+[26-Jan-2026 00:19:22 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:19:22 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b30a059640.80576768_meta.json
+[26-Jan-2026 00:19:22 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:19:22 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b30a059640.80576768
+[26-Jan-2026 00:19:22 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:19:22 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:19:22 UTC] Job ID: pdf_6976b30a059640.80576768
+[26-Jan-2026 00:19:22 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:23:10 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:23:10 UTC] Request method: POST
+[26-Jan-2026 00:23:10 UTC] Archivo recibido: ACV cemento.pdf
+[26-Jan-2026 00:23:10 UTC] Tamaño: 212421 bytes
+[26-Jan-2026 00:23:10 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:23:10 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 00:23:10 UTC] Job ID generado: pdf_6976b3eec18954.21348832
+[26-Jan-2026 00:23:10 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b3eec18954.21348832.pdf
+[26-Jan-2026 00:23:10 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:23:10 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b3eec18954.21348832_meta.json
+[26-Jan-2026 00:23:10 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:23:10 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b3eec18954.21348832
+[26-Jan-2026 00:23:11 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:23:11 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:23:11 UTC] Job ID: pdf_6976b3eec18954.21348832
+[26-Jan-2026 00:23:11 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:24:29 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:24:29 UTC] Request method: POST
+[26-Jan-2026 00:24:29 UTC] Archivo recibido: tabique.pdf
+[26-Jan-2026 00:24:29 UTC] Tamaño: 199245 bytes
+[26-Jan-2026 00:24:29 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:24:29 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:24:29 UTC] Job ID generado: pdf_6976b43d7813b5.65388922
+[26-Jan-2026 00:24:29 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b43d7813b5.65388922.pdf
+[26-Jan-2026 00:24:29 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:24:29 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b43d7813b5.65388922_meta.json
+[26-Jan-2026 00:24:29 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:24:29 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b43d7813b5.65388922
+[26-Jan-2026 00:24:29 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:24:29 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:24:29 UTC] Job ID: pdf_6976b43d7813b5.65388922
+[26-Jan-2026 00:24:29 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:27:22 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:27:22 UTC] Request method: POST
+[26-Jan-2026 00:27:22 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:27:22 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:27:22 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:27:22 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:27:22 UTC] Job ID generado: pdf_6976b4ea2b1358.32508567
+[26-Jan-2026 00:27:22 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b4ea2b1358.32508567.pdf
+[26-Jan-2026 00:27:22 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:27:22 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b4ea2b1358.32508567_meta.json
+[26-Jan-2026 00:27:22 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:27:22 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b4ea2b1358.32508567
+[26-Jan-2026 00:27:22 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:27:22 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:27:22 UTC] Job ID: pdf_6976b4ea2b1358.32508567
+[26-Jan-2026 00:27:22 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:32:48 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:32:48 UTC] Request method: POST
+[26-Jan-2026 00:32:48 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:32:48 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:32:48 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:32:48 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:32:48 UTC] Job ID generado: pdf_6976b630e05c21.54408685
+[26-Jan-2026 00:32:48 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b630e05c21.54408685.pdf
+[26-Jan-2026 00:32:48 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:32:48 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b630e05c21.54408685_meta.json
+[26-Jan-2026 00:32:48 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:32:48 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b630e05c21.54408685
+[26-Jan-2026 00:32:49 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:32:49 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:32:49 UTC] Job ID: pdf_6976b630e05c21.54408685
+[26-Jan-2026 00:32:49 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:36:35 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:36:35 UTC] Request method: POST
+[26-Jan-2026 00:36:35 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:36:35 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:36:35 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:36:35 UTC] Respuesta de tesis: No
+[26-Jan-2026 00:36:35 UTC] Job ID generado: pdf_6976b71350a0f8.12289165
+[26-Jan-2026 00:36:35 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b71350a0f8.12289165.pdf
+[26-Jan-2026 00:36:35 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:36:35 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b71350a0f8.12289165_meta.json
+[26-Jan-2026 00:36:35 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:36:35 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b71350a0f8.12289165
+[26-Jan-2026 00:36:35 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:36:35 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:36:35 UTC] Job ID: pdf_6976b71350a0f8.12289165
+[26-Jan-2026 00:36:35 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:38:43 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:38:43 UTC] Request method: POST
+[26-Jan-2026 00:38:43 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 00:38:43 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 00:38:43 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:38:43 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 00:38:43 UTC] Job ID generado: pdf_6976b793434225.24168253
+[26-Jan-2026 00:38:43 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b793434225.24168253.pdf
+[26-Jan-2026 00:38:43 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:38:43 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976b793434225.24168253_meta.json
+[26-Jan-2026 00:38:43 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:38:43 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976b793434225.24168253
+[26-Jan-2026 00:38:43 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:38:43 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:38:43 UTC] Job ID: pdf_6976b793434225.24168253
+[26-Jan-2026 00:38:43 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:52:04 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:52:04 UTC] Request method: POST
+[26-Jan-2026 00:52:04 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 00:52:04 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 00:52:04 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:52:04 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 00:52:04 UTC] Job ID generado: pdf_6976bab409a069.49655144
+[26-Jan-2026 00:52:04 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976bab409a069.49655144.pdf
+[26-Jan-2026 00:52:04 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:52:04 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976bab409a069.49655144_meta.json
+[26-Jan-2026 00:52:04 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:52:04 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976bab409a069.49655144
+[26-Jan-2026 00:52:04 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:52:04 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:52:04 UTC] Job ID: pdf_6976bab409a069.49655144
+[26-Jan-2026 00:52:04 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 00:58:13 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 00:58:13 UTC] Request method: POST
+[26-Jan-2026 00:58:13 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 00:58:13 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 00:58:13 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 00:58:13 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 00:58:13 UTC] Job ID generado: pdf_6976bc252d1a63.22954972
+[26-Jan-2026 00:58:13 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976bc252d1a63.22954972.pdf
+[26-Jan-2026 00:58:13 UTC] PDF guardado exitosamente
+[26-Jan-2026 00:58:13 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976bc252d1a63.22954972_meta.json
+[26-Jan-2026 00:58:13 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 00:58:13 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976bc252d1a63.22954972
+[26-Jan-2026 00:58:13 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 00:58:13 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 00:58:13 UTC] Job ID: pdf_6976bc252d1a63.22954972
+[26-Jan-2026 00:58:13 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:04:37 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:04:37 UTC] Request method: POST
+[26-Jan-2026 01:04:37 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 01:04:37 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 01:04:37 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:04:37 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 01:04:37 UTC] Job ID generado: pdf_6976bda535a9d3.33426583
+[26-Jan-2026 01:04:37 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976bda535a9d3.33426583.pdf
+[26-Jan-2026 01:04:37 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:04:37 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976bda535a9d3.33426583_meta.json
+[26-Jan-2026 01:04:37 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:04:37 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976bda535a9d3.33426583
+[26-Jan-2026 01:04:37 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:04:37 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:04:37 UTC] Job ID: pdf_6976bda535a9d3.33426583
+[26-Jan-2026 01:04:37 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:22:11 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:22:11 UTC] Request method: POST
+[26-Jan-2026 01:22:11 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 01:22:11 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 01:22:11 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:22:11 UTC] Respuesta de tesis: No
+[26-Jan-2026 01:22:11 UTC] Job ID generado: pdf_6976c1c38c04a0.81891101
+[26-Jan-2026 01:22:11 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c1c38c04a0.81891101.pdf
+[26-Jan-2026 01:22:11 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:22:11 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c1c38c04a0.81891101_meta.json
+[26-Jan-2026 01:22:11 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:22:11 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c1c38c04a0.81891101
+[26-Jan-2026 01:22:12 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:22:12 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:22:12 UTC] Job ID: pdf_6976c1c38c04a0.81891101
+[26-Jan-2026 01:22:12 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:25:27 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:25:27 UTC] Request method: POST
+[26-Jan-2026 01:25:27 UTC] Archivo recibido: ACV cemento.pdf
+[26-Jan-2026 01:25:27 UTC] Tamaño: 212421 bytes
+[26-Jan-2026 01:25:27 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:25:27 UTC] Respuesta de tesis: No
+[26-Jan-2026 01:25:27 UTC] Job ID generado: pdf_6976c2878c7155.75096381
+[26-Jan-2026 01:25:27 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c2878c7155.75096381.pdf
+[26-Jan-2026 01:25:27 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:25:27 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c2878c7155.75096381_meta.json
+[26-Jan-2026 01:25:27 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:25:27 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c2878c7155.75096381
+[26-Jan-2026 01:25:28 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:25:28 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:25:28 UTC] Job ID: pdf_6976c2878c7155.75096381
+[26-Jan-2026 01:25:28 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:33:03 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:33:03 UTC] Request method: POST
+[26-Jan-2026 01:33:03 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 01:33:03 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 01:33:03 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:33:03 UTC] Respuesta de tesis: No
+[26-Jan-2026 01:33:03 UTC] Job ID generado: pdf_6976c44f9230c4.73254951
+[26-Jan-2026 01:33:03 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c44f9230c4.73254951.pdf
+[26-Jan-2026 01:33:03 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:33:03 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c44f9230c4.73254951_meta.json
+[26-Jan-2026 01:33:03 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:33:03 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c44f9230c4.73254951
+[26-Jan-2026 01:33:03 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:33:03 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:33:03 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:33:03 UTC] Job ID: pdf_6976c44f9230c4.73254951
+[26-Jan-2026 01:33:03 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:33:49 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:33:49 UTC] Request method: POST
+[26-Jan-2026 01:33:49 UTC] Archivo recibido: tabique.pdf
+[26-Jan-2026 01:33:49 UTC] Tamaño: 199245 bytes
+[26-Jan-2026 01:33:49 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:33:49 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 01:33:49 UTC] Job ID generado: pdf_6976c47d562b72.82731613
+[26-Jan-2026 01:33:49 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c47d562b72.82731613.pdf
+[26-Jan-2026 01:33:49 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:33:49 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c47d562b72.82731613_meta.json
+[26-Jan-2026 01:33:49 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:33:49 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c47d562b72.82731613
+[26-Jan-2026 01:33:49 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:33:49 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:33:49 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:33:49 UTC] Job ID: pdf_6976c47d562b72.82731613
+[26-Jan-2026 01:33:49 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:43:48 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:43:48 UTC] Request method: POST
+[26-Jan-2026 01:43:48 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 01:43:48 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 01:43:48 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:43:48 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 01:43:48 UTC] Job ID generado: pdf_6976c6d40ab8b7.54936340
+[26-Jan-2026 01:43:48 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c6d40ab8b7.54936340.pdf
+[26-Jan-2026 01:43:48 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:43:48 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c6d40ab8b7.54936340_meta.json
+[26-Jan-2026 01:43:48 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:43:48 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c6d40ab8b7.54936340
+[26-Jan-2026 01:43:48 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:43:48 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:43:48 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:43:48 UTC] Job ID: pdf_6976c6d40ab8b7.54936340
+[26-Jan-2026 01:43:48 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:44:56 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:44:56 UTC] Request method: POST
+[26-Jan-2026 01:44:56 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 01:44:56 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 01:44:56 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:44:56 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 01:44:56 UTC] Job ID generado: pdf_6976c71809d5f4.84480148
+[26-Jan-2026 01:44:56 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c71809d5f4.84480148.pdf
+[26-Jan-2026 01:44:56 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:44:56 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c71809d5f4.84480148_meta.json
+[26-Jan-2026 01:44:56 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:44:56 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c71809d5f4.84480148
+[26-Jan-2026 01:44:56 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:44:56 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:44:56 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:44:56 UTC] Job ID: pdf_6976c71809d5f4.84480148
+[26-Jan-2026 01:44:56 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:47:33 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:47:33 UTC] Request method: POST
+[26-Jan-2026 01:47:33 UTC] Archivo recibido: ACV cemento.pdf
+[26-Jan-2026 01:47:33 UTC] Tamaño: 212421 bytes
+[26-Jan-2026 01:47:33 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:47:33 UTC] Respuesta de tesis: Sí
+[26-Jan-2026 01:47:33 UTC] Job ID generado: pdf_6976c7b5699228.76451738
+[26-Jan-2026 01:47:33 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c7b5699228.76451738.pdf
+[26-Jan-2026 01:47:33 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:47:33 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c7b5699228.76451738_meta.json
+[26-Jan-2026 01:47:33 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:47:33 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c7b5699228.76451738
+[26-Jan-2026 01:47:33 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:47:33 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:47:33 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:47:33 UTC] Job ID: pdf_6976c7b5699228.76451738
+[26-Jan-2026 01:47:33 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:51:02 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:51:02 UTC] Request method: POST
+[26-Jan-2026 01:51:02 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 01:51:02 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 01:51:02 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:51:02 UTC] Respuesta de tesis: No
+[26-Jan-2026 01:51:02 UTC] Job ID generado: pdf_6976c886d58b74.02855500
+[26-Jan-2026 01:51:02 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c886d58b74.02855500.pdf
+[26-Jan-2026 01:51:02 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:51:02 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c886d58b74.02855500_meta.json
+[26-Jan-2026 01:51:02 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:51:02 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c886d58b74.02855500
+[26-Jan-2026 01:51:03 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:51:03 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:51:03 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:51:03 UTC] Job ID: pdf_6976c886d58b74.02855500
+[26-Jan-2026 01:51:03 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 01:52:19 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 01:52:19 UTC] Request method: POST
+[26-Jan-2026 01:52:19 UTC] Archivo recibido: Block.pdf
+[26-Jan-2026 01:52:19 UTC] Tamaño: 191865 bytes
+[26-Jan-2026 01:52:19 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 01:52:19 UTC] Respuesta de tesis: No
+[26-Jan-2026 01:52:19 UTC] Job ID generado: pdf_6976c8d3977365.14536980
+[26-Jan-2026 01:52:19 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c8d3977365.14536980.pdf
+[26-Jan-2026 01:52:19 UTC] PDF guardado exitosamente
+[26-Jan-2026 01:52:19 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976c8d3977365.14536980_meta.json
+[26-Jan-2026 01:52:19 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 01:52:19 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976c8d3977365.14536980
+[26-Jan-2026 01:52:19 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 01:52:19 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 01:52:19 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 01:52:19 UTC] Job ID: pdf_6976c8d3977365.14536980
+[26-Jan-2026 01:52:19 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 02:00:41 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 02:00:41 UTC] Request method: POST
+[26-Jan-2026 02:00:41 UTC] Archivo recibido: tabique.pdf
+[26-Jan-2026 02:00:41 UTC] Tamaño: 199245 bytes
+[26-Jan-2026 02:00:41 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 02:00:41 UTC] Respuesta de tesis: No
+[26-Jan-2026 02:00:41 UTC] Job ID generado: pdf_6976cac9b0f059.56564147
+[26-Jan-2026 02:00:41 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976cac9b0f059.56564147.pdf
+[26-Jan-2026 02:00:41 UTC] PDF guardado exitosamente
+[26-Jan-2026 02:00:41 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976cac9b0f059.56564147_meta.json
+[26-Jan-2026 02:00:41 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 02:00:41 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976cac9b0f059.56564147
+[26-Jan-2026 02:00:42 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 02:00:42 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 02:00:42 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 02:00:42 UTC] Job ID: pdf_6976cac9b0f059.56564147
+[26-Jan-2026 02:00:42 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 02:06:54 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 02:06:54 UTC] Request method: POST
+[26-Jan-2026 02:06:54 UTC] Archivo recibido: acv_adobe ok.pdf
+[26-Jan-2026 02:06:54 UTC] Tamaño: 243374 bytes
+[26-Jan-2026 02:06:54 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 02:06:54 UTC] Respuesta de tesis: No
+[26-Jan-2026 02:06:54 UTC] Job ID generado: pdf_6976cc3e908575.63257548
+[26-Jan-2026 02:06:54 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976cc3e908575.63257548.pdf
+[26-Jan-2026 02:06:54 UTC] PDF guardado exitosamente
+[26-Jan-2026 02:06:54 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976cc3e908575.63257548_meta.json
+[26-Jan-2026 02:06:54 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 02:06:54 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976cc3e908575.63257548
+[26-Jan-2026 02:06:54 UTC] ✅ CURL exitoso - HTTP Code: 500
+[26-Jan-2026 02:06:54 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 02:06:54 UTC] Job ID: pdf_6976cc3e908575.63257548
+[26-Jan-2026 02:06:54 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 02:11:43 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 02:11:43 UTC] Request method: POST
+[26-Jan-2026 02:11:43 UTC] Archivo recibido: tabique.pdf
+[26-Jan-2026 02:11:43 UTC] Tamaño: 199245 bytes
+[26-Jan-2026 02:11:43 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 02:11:43 UTC] Respuesta de tesis: No
+[26-Jan-2026 02:11:43 UTC] Job ID generado: pdf_6976cd5fccac59.75618715
+[26-Jan-2026 02:11:43 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976cd5fccac59.75618715.pdf
+[26-Jan-2026 02:11:43 UTC] PDF guardado exitosamente
+[26-Jan-2026 02:11:43 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976cd5fccac59.75618715_meta.json
+[26-Jan-2026 02:11:43 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 02:11:43 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976cd5fccac59.75618715
+[26-Jan-2026 02:11:44 UTC] ✅ CURL exitoso - HTTP Code: 500
+[26-Jan-2026 02:11:44 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 02:11:44 UTC] Job ID: pdf_6976cd5fccac59.75618715
+[26-Jan-2026 02:11:44 UTC] === PROXY-ASYNC FINALIZADO ===
+[26-Jan-2026 02:16:48 UTC] === PROXY-ASYNC INICIADO ===
+[26-Jan-2026 02:16:48 UTC] Request method: POST
+[26-Jan-2026 02:16:48 UTC] Archivo recibido: Vigueta.pdf
+[26-Jan-2026 02:16:48 UTC] Tamaño: 192445 bytes
+[26-Jan-2026 02:16:48 UTC] MIME type detectado: application/pdf
+[26-Jan-2026 02:16:48 UTC] Respuesta de tesis: No
+[26-Jan-2026 02:16:48 UTC] Job ID generado: pdf_6976ce900cfb10.26183559
+[26-Jan-2026 02:16:48 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ce900cfb10.26183559.pdf
+[26-Jan-2026 02:16:48 UTC] PDF guardado exitosamente
+[26-Jan-2026 02:16:48 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6976ce900cfb10.26183559_meta.json
+[26-Jan-2026 02:16:48 UTC] Iniciando proceso en segundo plano...
+[26-Jan-2026 02:16:48 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6976ce900cfb10.26183559
+[26-Jan-2026 02:16:48 UTC] ✅ CURL exitoso - HTTP Code: 200
+[26-Jan-2026 02:16:48 UTC] Respuesta del background: 
+
+
+[26-Jan-2026 02:16:48 UTC] === RESPONDIENDO AL CLIENTE ===
+[26-Jan-2026 02:16:48 UTC] Job ID: pdf_6976ce900cfb10.26183559
+[26-Jan-2026 02:16:48 UTC] === PROXY-ASYNC FINALIZADO ===
+[19-May-2026 00:54:43 UTC] === PROXY-ASYNC INICIADO ===
+[19-May-2026 00:54:43 UTC] Request method: POST
+[19-May-2026 00:54:43 UTC] Archivo recibido: acv energia oceano 2.pdf
+[19-May-2026 00:54:43 UTC] Tamaño: 3789561 bytes
+[19-May-2026 00:54:43 UTC] MIME type detectado: application/pdf
+[19-May-2026 00:54:43 UTC] Respuesta de tesis: Sí
+[19-May-2026 00:54:43 UTC] Job ID generado: pdf_6a0bb4d31ed5f2.76701103
+[19-May-2026 00:54:43 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb4d31ed5f2.76701103.pdf
+[19-May-2026 00:54:43 UTC] PDF guardado exitosamente
+[19-May-2026 00:54:43 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb4d31ed5f2.76701103_meta.json
+[19-May-2026 00:54:43 UTC] Iniciando proceso en segundo plano...
+[19-May-2026 00:54:43 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0bb4d31ed5f2.76701103
+[19-May-2026 00:54:45 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2001 milliseconds with 0 bytes received
+[19-May-2026 00:54:45 UTC] Pero el proceso continuará en segundo plano...
+[19-May-2026 00:54:45 UTC] === RESPONDIENDO AL CLIENTE ===
+[19-May-2026 00:54:45 UTC] Job ID: pdf_6a0bb4d31ed5f2.76701103
+[19-May-2026 00:54:45 UTC] === PROXY-ASYNC FINALIZADO ===
+[19-May-2026 00:55:02 UTC] === PROXY-ASYNC INICIADO ===
+[19-May-2026 00:55:02 UTC] Request method: POST
+[19-May-2026 00:55:02 UTC] Archivo recibido: acv energia oceano 2.pdf
+[19-May-2026 00:55:02 UTC] Tamaño: 3789561 bytes
+[19-May-2026 00:55:02 UTC] MIME type detectado: application/pdf
+[19-May-2026 00:55:02 UTC] Respuesta de tesis: Sí
+[19-May-2026 00:55:02 UTC] Job ID generado: pdf_6a0bb4e66c7119.06890787
+[19-May-2026 00:55:02 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb4e66c7119.06890787.pdf
+[19-May-2026 00:55:02 UTC] PDF guardado exitosamente
+[19-May-2026 00:55:02 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb4e66c7119.06890787_meta.json
+[19-May-2026 00:55:02 UTC] Iniciando proceso en segundo plano...
+[19-May-2026 00:55:02 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0bb4e66c7119.06890787
+[19-May-2026 00:55:04 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[19-May-2026 00:55:04 UTC] Pero el proceso continuará en segundo plano...
+[19-May-2026 00:55:04 UTC] === RESPONDIENDO AL CLIENTE ===
+[19-May-2026 00:55:04 UTC] Job ID: pdf_6a0bb4e66c7119.06890787
+[19-May-2026 00:55:04 UTC] === PROXY-ASYNC FINALIZADO ===
+[19-May-2026 00:55:26 UTC] === PROXY-ASYNC INICIADO ===
+[19-May-2026 00:55:26 UTC] Request method: POST
+[19-May-2026 00:55:26 UTC] Archivo recibido: acv energia electrica de biomasa de origen urbano.pdf
+[19-May-2026 00:55:26 UTC] Tamaño: 3011965 bytes
+[19-May-2026 00:55:26 UTC] MIME type detectado: application/pdf
+[19-May-2026 00:55:26 UTC] Respuesta de tesis: Sí
+[19-May-2026 00:55:26 UTC] Job ID generado: pdf_6a0bb4fee473e8.77019071
+[19-May-2026 00:55:26 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb4fee473e8.77019071.pdf
+[19-May-2026 00:55:26 UTC] PDF guardado exitosamente
+[19-May-2026 00:55:26 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb4fee473e8.77019071_meta.json
+[19-May-2026 00:55:26 UTC] Iniciando proceso en segundo plano...
+[19-May-2026 00:55:26 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0bb4fee473e8.77019071
+[19-May-2026 00:55:28 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[19-May-2026 00:55:28 UTC] Pero el proceso continuará en segundo plano...
+[19-May-2026 00:55:28 UTC] === RESPONDIENDO AL CLIENTE ===
+[19-May-2026 00:55:28 UTC] Job ID: pdf_6a0bb4fee473e8.77019071
+[19-May-2026 00:55:28 UTC] === PROXY-ASYNC FINALIZADO ===
+[19-May-2026 00:55:56 UTC] === PROXY-ASYNC INICIADO ===
+[19-May-2026 00:55:56 UTC] Request method: POST
+[19-May-2026 00:55:56 UTC] Archivo recibido: queso oaxaca.pdf
+[19-May-2026 00:55:56 UTC] Tamaño: 3466238 bytes
+[19-May-2026 00:55:56 UTC] MIME type detectado: application/pdf
+[19-May-2026 00:55:56 UTC] Respuesta de tesis: No
+[19-May-2026 00:55:56 UTC] Job ID generado: pdf_6a0bb51ce245d5.34224203
+[19-May-2026 00:55:56 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb51ce245d5.34224203.pdf
+[19-May-2026 00:55:56 UTC] PDF guardado exitosamente
+[19-May-2026 00:55:56 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb51ce245d5.34224203_meta.json
+[19-May-2026 00:55:56 UTC] Iniciando proceso en segundo plano...
+[19-May-2026 00:55:56 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0bb51ce245d5.34224203
+[19-May-2026 00:55:58 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[19-May-2026 00:55:58 UTC] Pero el proceso continuará en segundo plano...
+[19-May-2026 00:55:58 UTC] === RESPONDIENDO AL CLIENTE ===
+[19-May-2026 00:55:58 UTC] Job ID: pdf_6a0bb51ce245d5.34224203
+[19-May-2026 00:55:58 UTC] === PROXY-ASYNC FINALIZADO ===
+[19-May-2026 00:56:47 UTC] === PROXY-ASYNC INICIADO ===
+[19-May-2026 00:56:47 UTC] Request method: POST
+[19-May-2026 00:56:47 UTC] Archivo recibido: ACV pavimentos.pdf
+[19-May-2026 00:56:47 UTC] Tamaño: 6111411 bytes
+[19-May-2026 00:56:47 UTC] MIME type detectado: application/pdf
+[19-May-2026 00:56:47 UTC] Respuesta de tesis: Sí
+[19-May-2026 00:56:47 UTC] Job ID generado: pdf_6a0bb54fc51960.86590599
+[19-May-2026 00:56:47 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb54fc51960.86590599.pdf
+[19-May-2026 00:56:47 UTC] PDF guardado exitosamente
+[19-May-2026 00:56:47 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0bb54fc51960.86590599_meta.json
+[19-May-2026 00:56:47 UTC] Iniciando proceso en segundo plano...
+[19-May-2026 00:56:47 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0bb54fc51960.86590599
+[19-May-2026 00:56:49 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2001 milliseconds with 0 bytes received
+[19-May-2026 00:56:49 UTC] Pero el proceso continuará en segundo plano...
+[19-May-2026 00:56:49 UTC] === RESPONDIENDO AL CLIENTE ===
+[19-May-2026 00:56:49 UTC] Job ID: pdf_6a0bb54fc51960.86590599
+[19-May-2026 00:56:49 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 00:40:32 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 00:40:32 UTC] Request method: POST
+[20-May-2026 00:40:32 UTC] Archivo recibido: Ceramicos.pdf
+[20-May-2026 00:40:32 UTC] Tamaño: 238221 bytes
+[20-May-2026 00:40:32 UTC] MIME type detectado: application/pdf
+[20-May-2026 00:40:32 UTC] Respuesta de tesis: No
+[20-May-2026 00:40:32 UTC] Job ID generado: pdf_6a0d0300746022.06619991
+[20-May-2026 00:40:32 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0300746022.06619991.pdf
+[20-May-2026 00:40:32 UTC] PDF guardado exitosamente
+[20-May-2026 00:40:32 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0300746022.06619991_meta.json
+[20-May-2026 00:40:32 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 00:40:32 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0300746022.06619991
+[20-May-2026 00:40:34 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2001 milliseconds with 0 bytes received
+[20-May-2026 00:40:34 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 00:40:34 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 00:40:34 UTC] Job ID: pdf_6a0d0300746022.06619991
+[20-May-2026 00:40:34 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:03:10 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:03:10 UTC] Request method: POST
+[20-May-2026 01:03:10 UTC] Archivo recibido: acvacero.pdf
+[20-May-2026 01:03:10 UTC] Tamaño: 377241 bytes
+[20-May-2026 01:03:10 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:03:10 UTC] Respuesta de tesis: No
+[20-May-2026 01:03:10 UTC] Job ID generado: pdf_6a0d084ea2dcc7.90421510
+[20-May-2026 01:03:10 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d084ea2dcc7.90421510.pdf
+[20-May-2026 01:03:10 UTC] PDF guardado exitosamente
+[20-May-2026 01:03:10 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d084ea2dcc7.90421510_meta.json
+[20-May-2026 01:03:10 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:03:10 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d084ea2dcc7.90421510
+[20-May-2026 01:03:11 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 01:03:11 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:03:11 UTC] Job ID: pdf_6a0d084ea2dcc7.90421510
+[20-May-2026 01:03:11 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:07:01 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:07:01 UTC] Request method: POST
+[20-May-2026 01:07:01 UTC] Archivo recibido: Block.pdf
+[20-May-2026 01:07:01 UTC] Tamaño: 191865 bytes
+[20-May-2026 01:07:01 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:07:01 UTC] Respuesta de tesis: No
+[20-May-2026 01:07:01 UTC] Job ID generado: pdf_6a0d0935822181.35568048
+[20-May-2026 01:07:01 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0935822181.35568048.pdf
+[20-May-2026 01:07:01 UTC] PDF guardado exitosamente
+[20-May-2026 01:07:01 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0935822181.35568048_meta.json
+[20-May-2026 01:07:01 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:07:01 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0935822181.35568048
+[20-May-2026 01:07:03 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[20-May-2026 01:07:03 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:07:03 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:07:03 UTC] Job ID: pdf_6a0d0935822181.35568048
+[20-May-2026 01:07:03 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:12:34 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:12:34 UTC] Request method: POST
+[20-May-2026 01:12:34 UTC] Archivo recibido: Ceramicos.pdf
+[20-May-2026 01:12:34 UTC] Tamaño: 238221 bytes
+[20-May-2026 01:12:34 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:12:34 UTC] Respuesta de tesis: No
+[20-May-2026 01:12:34 UTC] Job ID generado: pdf_6a0d0a82a95171.90616583
+[20-May-2026 01:12:34 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0a82a95171.90616583.pdf
+[20-May-2026 01:12:34 UTC] PDF guardado exitosamente
+[20-May-2026 01:12:34 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0a82a95171.90616583_meta.json
+[20-May-2026 01:12:34 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:12:34 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0a82a95171.90616583
+[20-May-2026 01:12:35 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 01:12:35 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:12:35 UTC] Job ID: pdf_6a0d0a82a95171.90616583
+[20-May-2026 01:12:35 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:16:07 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:16:07 UTC] Request method: POST
+[20-May-2026 01:16:07 UTC] Archivo recibido: Vigueta.pdf
+[20-May-2026 01:16:07 UTC] Tamaño: 192445 bytes
+[20-May-2026 01:16:07 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:16:07 UTC] Respuesta de tesis: No
+[20-May-2026 01:16:07 UTC] Job ID generado: pdf_6a0d0b578d5e58.79065676
+[20-May-2026 01:16:07 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0b578d5e58.79065676.pdf
+[20-May-2026 01:16:07 UTC] PDF guardado exitosamente
+[20-May-2026 01:16:07 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0b578d5e58.79065676_meta.json
+[20-May-2026 01:16:07 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:16:07 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0b578d5e58.79065676
+[20-May-2026 01:16:09 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2001 milliseconds with 0 bytes received
+[20-May-2026 01:16:09 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:16:09 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:16:09 UTC] Job ID: pdf_6a0d0b578d5e58.79065676
+[20-May-2026 01:16:09 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:26:02 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:26:02 UTC] Request method: POST
+[20-May-2026 01:26:02 UTC] Archivo recibido: Vigueta.pdf
+[20-May-2026 01:26:02 UTC] Tamaño: 192445 bytes
+[20-May-2026 01:26:02 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:26:02 UTC] Respuesta de tesis: No
+[20-May-2026 01:26:02 UTC] Job ID generado: pdf_6a0d0daae80932.02454606
+[20-May-2026 01:26:02 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0daae80932.02454606.pdf
+[20-May-2026 01:26:02 UTC] PDF guardado exitosamente
+[20-May-2026 01:26:02 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0daae80932.02454606_meta.json
+[20-May-2026 01:26:02 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:26:02 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0daae80932.02454606
+[20-May-2026 01:26:04 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[20-May-2026 01:26:04 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:26:04 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:26:04 UTC] Job ID: pdf_6a0d0daae80932.02454606
+[20-May-2026 01:26:04 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:30:03 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:30:03 UTC] Request method: POST
+[20-May-2026 01:30:03 UTC] Archivo recibido: tabique.pdf
+[20-May-2026 01:30:03 UTC] Tamaño: 199245 bytes
+[20-May-2026 01:30:03 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:30:03 UTC] Respuesta de tesis: No
+[20-May-2026 01:30:03 UTC] Job ID generado: pdf_6a0d0e9b6d1541.63569083
+[20-May-2026 01:30:03 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0e9b6d1541.63569083.pdf
+[20-May-2026 01:30:03 UTC] PDF guardado exitosamente
+[20-May-2026 01:30:03 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0e9b6d1541.63569083_meta.json
+[20-May-2026 01:30:03 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:30:03 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0e9b6d1541.63569083
+[20-May-2026 01:30:05 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[20-May-2026 01:30:05 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:30:05 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:30:05 UTC] Job ID: pdf_6a0d0e9b6d1541.63569083
+[20-May-2026 01:30:05 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:32:52 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:32:52 UTC] Request method: POST
+[20-May-2026 01:32:52 UTC] Archivo recibido: Agua.pdf
+[20-May-2026 01:32:52 UTC] Tamaño: 157022 bytes
+[20-May-2026 01:32:52 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:32:52 UTC] Respuesta de tesis: No
+[20-May-2026 01:32:52 UTC] Job ID generado: pdf_6a0d0f444b8845.71599336
+[20-May-2026 01:32:52 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0f444b8845.71599336.pdf
+[20-May-2026 01:32:52 UTC] PDF guardado exitosamente
+[20-May-2026 01:32:52 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0f444b8845.71599336_meta.json
+[20-May-2026 01:32:52 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:32:52 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0f444b8845.71599336
+[20-May-2026 01:32:54 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[20-May-2026 01:32:54 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:32:54 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:32:54 UTC] Job ID: pdf_6a0d0f444b8845.71599336
+[20-May-2026 01:32:54 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:35:42 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:35:42 UTC] Request method: POST
+[20-May-2026 01:35:42 UTC] Archivo recibido: Ceramicos.pdf
+[20-May-2026 01:35:42 UTC] Tamaño: 238221 bytes
+[20-May-2026 01:35:42 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:35:42 UTC] Respuesta de tesis: No
+[20-May-2026 01:35:42 UTC] Job ID generado: pdf_6a0d0fee58b724.30341539
+[20-May-2026 01:35:42 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0fee58b724.30341539.pdf
+[20-May-2026 01:35:42 UTC] PDF guardado exitosamente
+[20-May-2026 01:35:42 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d0fee58b724.30341539_meta.json
+[20-May-2026 01:35:42 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:35:42 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d0fee58b724.30341539
+[20-May-2026 01:35:44 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[20-May-2026 01:35:44 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:35:44 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:35:44 UTC] Job ID: pdf_6a0d0fee58b724.30341539
+[20-May-2026 01:35:44 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:39:52 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:39:52 UTC] Request method: POST
+[20-May-2026 01:39:52 UTC] Archivo recibido: Agua.pdf
+[20-May-2026 01:39:52 UTC] Tamaño: 157022 bytes
+[20-May-2026 01:39:52 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:39:52 UTC] Respuesta de tesis: No
+[20-May-2026 01:39:52 UTC] Job ID generado: pdf_6a0d10e85a87f2.02430377
+[20-May-2026 01:39:52 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d10e85a87f2.02430377.pdf
+[20-May-2026 01:39:52 UTC] PDF guardado exitosamente
+[20-May-2026 01:39:52 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d10e85a87f2.02430377_meta.json
+[20-May-2026 01:39:52 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:39:52 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d10e85a87f2.02430377
+[20-May-2026 01:39:54 UTC] ⚠️ CURL ERROR (28): Operation timed out after 2002 milliseconds with 0 bytes received
+[20-May-2026 01:39:54 UTC] Pero el proceso continuará en segundo plano...
+[20-May-2026 01:39:54 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:39:54 UTC] Job ID: pdf_6a0d10e85a87f2.02430377
+[20-May-2026 01:39:54 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:42:13 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:42:13 UTC] Request method: POST
+[20-May-2026 01:42:13 UTC] Archivo recibido: Agua.pdf
+[20-May-2026 01:42:13 UTC] Tamaño: 157022 bytes
+[20-May-2026 01:42:13 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:42:13 UTC] Respuesta de tesis: No
+[20-May-2026 01:42:13 UTC] Job ID generado: pdf_6a0d11758672b9.06252640
+[20-May-2026 01:42:13 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d11758672b9.06252640.pdf
+[20-May-2026 01:42:13 UTC] PDF guardado exitosamente
+[20-May-2026 01:42:13 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d11758672b9.06252640_meta.json
+[20-May-2026 01:42:13 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:42:13 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d11758672b9.06252640
+[20-May-2026 01:42:14 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 01:42:14 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[20-May-2026 01:42:14 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:42:14 UTC] Job ID: pdf_6a0d11758672b9.06252640
+[20-May-2026 01:42:14 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 01:49:12 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 01:49:12 UTC] Request method: POST
+[20-May-2026 01:49:12 UTC] Archivo recibido: tabique.pdf
+[20-May-2026 01:49:12 UTC] Tamaño: 199245 bytes
+[20-May-2026 01:49:12 UTC] MIME type detectado: application/pdf
+[20-May-2026 01:49:12 UTC] Respuesta de tesis: No
+[20-May-2026 01:49:12 UTC] Job ID generado: pdf_6a0d1318447582.95989687
+[20-May-2026 01:49:12 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d1318447582.95989687.pdf
+[20-May-2026 01:49:12 UTC] PDF guardado exitosamente
+[20-May-2026 01:49:12 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d1318447582.95989687_meta.json
+[20-May-2026 01:49:12 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 01:49:12 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d1318447582.95989687
+[20-May-2026 01:49:12 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 01:49:12 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[20-May-2026 01:49:12 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 01:49:12 UTC] Job ID: pdf_6a0d1318447582.95989687
+[20-May-2026 01:49:12 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 02:08:11 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 02:08:11 UTC] Request method: POST
+[20-May-2026 02:08:11 UTC] Archivo recibido: acv energia .pdf
+[20-May-2026 02:08:11 UTC] Tamaño: 3048644 bytes
+[20-May-2026 02:08:12 UTC] MIME type detectado: application/pdf
+[20-May-2026 02:08:12 UTC] Respuesta de tesis: Sí
+[20-May-2026 02:08:12 UTC] Job ID generado: pdf_6a0d178c02eb67.01260773
+[20-May-2026 02:08:12 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d178c02eb67.01260773.pdf
+[20-May-2026 02:08:12 UTC] PDF guardado exitosamente
+[20-May-2026 02:08:12 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d178c02eb67.01260773_meta.json
+[20-May-2026 02:08:12 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 02:08:12 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d178c02eb67.01260773
+[20-May-2026 02:08:12 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 02:08:12 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[20-May-2026 02:08:12 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 02:08:12 UTC] Job ID: pdf_6a0d178c02eb67.01260773
+[20-May-2026 02:08:12 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 02:36:34 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 02:36:34 UTC] Request method: POST
+[20-May-2026 02:36:34 UTC] Archivo recibido: ACV electricidad apartir de biomasa .pdf
+[20-May-2026 02:36:34 UTC] Tamaño: 3011965 bytes
+[20-May-2026 02:36:34 UTC] MIME type detectado: application/pdf
+[20-May-2026 02:36:34 UTC] Respuesta de tesis: Sí
+[20-May-2026 02:36:34 UTC] Job ID generado: pdf_6a0d1e32800102.35094524
+[20-May-2026 02:36:34 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d1e32800102.35094524.pdf
+[20-May-2026 02:36:34 UTC] PDF guardado exitosamente
+[20-May-2026 02:36:34 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0d1e32800102.35094524_meta.json
+[20-May-2026 02:36:34 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 02:36:34 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0d1e32800102.35094524
+[20-May-2026 02:36:35 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 02:36:35 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[20-May-2026 02:36:35 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 02:36:35 UTC] Job ID: pdf_6a0d1e32800102.35094524
+[20-May-2026 02:36:35 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 16:44:38 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 16:44:38 UTC] Request method: POST
+[20-May-2026 16:44:38 UTC] Archivo recibido: acv billetes.pdf
+[20-May-2026 16:44:38 UTC] Tamaño: 4001357 bytes
+[20-May-2026 16:44:38 UTC] MIME type detectado: application/pdf
+[20-May-2026 16:44:38 UTC] Respuesta de tesis: Sí
+[20-May-2026 16:44:38 UTC] Job ID generado: pdf_6a0de4f6b048e6.48531897
+[20-May-2026 16:44:38 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de4f6b048e6.48531897.pdf
+[20-May-2026 16:44:38 UTC] PDF guardado exitosamente
+[20-May-2026 16:44:38 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de4f6b048e6.48531897_meta.json
+[20-May-2026 16:44:38 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 16:44:38 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0de4f6b048e6.48531897
+[20-May-2026 16:44:38 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 16:44:38 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 16:44:38 UTC] Job ID: pdf_6a0de4f6b048e6.48531897
+[20-May-2026 16:44:38 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 16:51:11 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 16:51:11 UTC] Request method: POST
+[20-May-2026 16:51:11 UTC] Archivo recibido: acv billetes.pdf
+[20-May-2026 16:51:11 UTC] Tamaño: 4001357 bytes
+[20-May-2026 16:51:11 UTC] MIME type detectado: application/pdf
+[20-May-2026 16:51:11 UTC] Respuesta de tesis: Sí
+[20-May-2026 16:51:11 UTC] Job ID generado: pdf_6a0de67fa63893.77266217
+[20-May-2026 16:51:11 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de67fa63893.77266217.pdf
+[20-May-2026 16:51:11 UTC] PDF guardado exitosamente
+[20-May-2026 16:51:11 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de67fa63893.77266217_meta.json
+[20-May-2026 16:51:11 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 16:51:11 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0de67fa63893.77266217
+[20-May-2026 16:51:12 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 16:51:12 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 16:51:12 UTC] Job ID: pdf_6a0de67fa63893.77266217
+[20-May-2026 16:51:12 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 16:51:25 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 16:51:25 UTC] Request method: POST
+[20-May-2026 16:51:25 UTC] Archivo recibido: acv billetes.pdf
+[20-May-2026 16:51:25 UTC] Tamaño: 4001357 bytes
+[20-May-2026 16:51:25 UTC] MIME type detectado: application/pdf
+[20-May-2026 16:51:25 UTC] Respuesta de tesis: No
+[20-May-2026 16:51:25 UTC] Job ID generado: pdf_6a0de68d4a9b20.11792501
+[20-May-2026 16:51:25 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de68d4a9b20.11792501.pdf
+[20-May-2026 16:51:25 UTC] PDF guardado exitosamente
+[20-May-2026 16:51:25 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de68d4a9b20.11792501_meta.json
+[20-May-2026 16:51:25 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 16:51:25 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0de68d4a9b20.11792501
+[20-May-2026 16:51:25 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 16:51:25 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 16:51:25 UTC] Job ID: pdf_6a0de68d4a9b20.11792501
+[20-May-2026 16:51:25 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 16:51:50 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 16:51:50 UTC] Request method: POST
+[20-May-2026 16:51:50 UTC] Archivo recibido: queso oaxaca.pdf
+[20-May-2026 16:51:50 UTC] Tamaño: 3466238 bytes
+[20-May-2026 16:51:50 UTC] MIME type detectado: application/pdf
+[20-May-2026 16:51:50 UTC] Respuesta de tesis: No
+[20-May-2026 16:51:50 UTC] Job ID generado: pdf_6a0de6a6e0a1c0.78800545
+[20-May-2026 16:51:50 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de6a6e0a1c0.78800545.pdf
+[20-May-2026 16:51:50 UTC] PDF guardado exitosamente
+[20-May-2026 16:51:50 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0de6a6e0a1c0.78800545_meta.json
+[20-May-2026 16:51:50 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 16:51:50 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0de6a6e0a1c0.78800545
+[20-May-2026 16:51:51 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 16:51:51 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 16:51:51 UTC] Job ID: pdf_6a0de6a6e0a1c0.78800545
+[20-May-2026 16:51:51 UTC] === PROXY-ASYNC FINALIZADO ===
+[20-May-2026 18:12:12 UTC] === PROXY-ASYNC INICIADO ===
+[20-May-2026 18:12:12 UTC] Request method: POST
+[20-May-2026 18:12:12 UTC] Archivo recibido: queso oaxaca.pdf
+[20-May-2026 18:12:12 UTC] Tamaño: 3466238 bytes
+[20-May-2026 18:12:12 UTC] MIME type detectado: application/pdf
+[20-May-2026 18:12:12 UTC] Respuesta de tesis: No
+[20-May-2026 18:12:12 UTC] Job ID generado: pdf_6a0df97c5c7795.23914428
+[20-May-2026 18:12:12 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0df97c5c7795.23914428.pdf
+[20-May-2026 18:12:12 UTC] PDF guardado exitosamente
+[20-May-2026 18:12:12 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a0df97c5c7795.23914428_meta.json
+[20-May-2026 18:12:12 UTC] Iniciando proceso en segundo plano...
+[20-May-2026 18:12:12 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a0df97c5c7795.23914428
+[20-May-2026 18:12:12 UTC] ✅ CURL exitoso - HTTP Code: 200
+[20-May-2026 18:12:12 UTC] === RESPONDIENDO AL CLIENTE ===
+[20-May-2026 18:12:12 UTC] Job ID: pdf_6a0df97c5c7795.23914428
+[20-May-2026 18:12:12 UTC] === PROXY-ASYNC FINALIZADO ===
+[22-May-2026 22:07:52 UTC] === PROXY-ASYNC INICIADO ===
+[22-May-2026 22:07:52 UTC] Request method: POST
+[22-May-2026 22:07:52 UTC] Archivo recibido: queso oaxaca.pdf
+[22-May-2026 22:07:52 UTC] Tamaño: 3466238 bytes
+[22-May-2026 22:07:52 UTC] MIME type detectado: application/pdf
+[22-May-2026 22:07:52 UTC] Respuesta de tesis: No
+[22-May-2026 22:07:52 UTC] Job ID generado: pdf_6a10d3b8ae9461.40442088
+[22-May-2026 22:07:52 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a10d3b8ae9461.40442088.pdf
+[22-May-2026 22:07:52 UTC] PDF guardado exitosamente
+[22-May-2026 22:07:52 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a10d3b8ae9461.40442088_meta.json
+[22-May-2026 22:07:52 UTC] Iniciando proceso en segundo plano...
+[22-May-2026 22:07:52 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a10d3b8ae9461.40442088
+[22-May-2026 22:07:53 UTC] ✅ CURL exitoso - HTTP Code: 200
+[22-May-2026 22:07:53 UTC] === RESPONDIENDO AL CLIENTE ===
+[22-May-2026 22:07:53 UTC] Job ID: pdf_6a10d3b8ae9461.40442088
+[22-May-2026 22:07:53 UTC] === PROXY-ASYNC FINALIZADO ===
+[24-May-2026 17:16:37 UTC] === PROXY-ASYNC INICIADO ===
+[24-May-2026 17:16:37 UTC] Request method: POST
+[24-May-2026 17:16:37 UTC] Archivo recibido: Ceramicos.pdf
+[24-May-2026 17:16:37 UTC] Tamaño: 238221 bytes
+[24-May-2026 17:16:37 UTC] MIME type detectado: application/pdf
+[24-May-2026 17:16:37 UTC] Respuesta de tesis: No
+[24-May-2026 17:16:37 UTC] Job ID generado: pdf_6a1332755cb9d5.21277901
+[24-May-2026 17:16:37 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1332755cb9d5.21277901.pdf
+[24-May-2026 17:16:37 UTC] PDF guardado exitosamente
+[24-May-2026 17:16:37 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1332755cb9d5.21277901_meta.json
+[24-May-2026 17:16:37 UTC] Iniciando proceso en segundo plano...
+[24-May-2026 17:16:37 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a1332755cb9d5.21277901
+[24-May-2026 17:16:38 UTC] ✅ CURL exitoso - HTTP Code: 200
+[24-May-2026 17:16:38 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[24-May-2026 17:16:38 UTC] === RESPONDIENDO AL CLIENTE ===
+[24-May-2026 17:16:38 UTC] Job ID: pdf_6a1332755cb9d5.21277901
+[24-May-2026 17:16:38 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-May-2026 05:09:09 UTC] === PROXY-ASYNC INICIADO ===
+[25-May-2026 05:09:09 UTC] Request method: POST
+[25-May-2026 05:09:09 UTC] Archivo recibido: ACV pavimentos.pdf
+[25-May-2026 05:09:09 UTC] Tamaño: 6111411 bytes
+[25-May-2026 05:09:09 UTC] MIME type detectado: application/pdf
+[25-May-2026 05:09:09 UTC] Respuesta de tesis: No
+[25-May-2026 05:09:09 UTC] Job ID generado: pdf_6a13d9757ca619.78634404
+[25-May-2026 05:09:09 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a13d9757ca619.78634404.pdf
+[25-May-2026 05:09:09 UTC] PDF guardado exitosamente
+[25-May-2026 05:09:09 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a13d9757ca619.78634404_meta.json
+[25-May-2026 05:09:09 UTC] Iniciando proceso en segundo plano...
+[25-May-2026 05:09:09 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a13d9757ca619.78634404
+[25-May-2026 05:09:10 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-May-2026 05:09:10 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[25-May-2026 05:09:10 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-May-2026 05:09:10 UTC] Job ID: pdf_6a13d9757ca619.78634404
+[25-May-2026 05:09:10 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-May-2026 05:14:53 UTC] === PROXY-ASYNC INICIADO ===
+[25-May-2026 05:14:53 UTC] Request method: POST
+[25-May-2026 05:14:53 UTC] Archivo recibido: queso oaxaca.pdf
+[25-May-2026 05:14:53 UTC] Tamaño: 3466238 bytes
+[25-May-2026 05:14:53 UTC] MIME type detectado: application/pdf
+[25-May-2026 05:14:53 UTC] Respuesta de tesis: No
+[25-May-2026 05:14:53 UTC] Job ID generado: pdf_6a13dacd781583.42654895
+[25-May-2026 05:14:53 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a13dacd781583.42654895.pdf
+[25-May-2026 05:14:53 UTC] PDF guardado exitosamente
+[25-May-2026 05:14:53 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a13dacd781583.42654895_meta.json
+[25-May-2026 05:14:53 UTC] Iniciando proceso en segundo plano...
+[25-May-2026 05:14:53 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a13dacd781583.42654895
+[25-May-2026 05:14:54 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-May-2026 05:14:54 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[25-May-2026 05:14:54 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-May-2026 05:14:54 UTC] Job ID: pdf_6a13dacd781583.42654895
+[25-May-2026 05:14:54 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-May-2026 05:44:18 UTC] === PROXY-ASYNC INICIADO ===
+[25-May-2026 05:44:18 UTC] Request method: POST
+[25-May-2026 05:44:18 UTC] Archivo recibido: EPD_GLOBAL-23_PU_Isodeck-PVSTEEL_EN.pdf
+[25-May-2026 05:44:18 UTC] Tamaño: 623902 bytes
+[25-May-2026 05:44:18 UTC] MIME type detectado: application/pdf
+[25-May-2026 05:44:18 UTC] Respuesta de tesis: No
+[25-May-2026 05:44:18 UTC] Job ID generado: pdf_6a13e1b2efc8f9.27492067
+[25-May-2026 05:44:18 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a13e1b2efc8f9.27492067.pdf
+[25-May-2026 05:44:18 UTC] PDF guardado exitosamente
+[25-May-2026 05:44:18 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a13e1b2efc8f9.27492067_meta.json
+[25-May-2026 05:44:18 UTC] Iniciando proceso en segundo plano...
+[25-May-2026 05:44:18 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a13e1b2efc8f9.27492067
+[25-May-2026 05:44:19 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-May-2026 05:44:19 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[25-May-2026 05:44:19 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-May-2026 05:44:19 UTC] Job ID: pdf_6a13e1b2efc8f9.27492067
+[25-May-2026 05:44:19 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-May-2026 14:14:57 UTC] === PROXY-ASYNC INICIADO ===
+[25-May-2026 14:14:57 UTC] Request method: POST
+[25-May-2026 14:14:57 UTC] Archivo recibido: acv energia .pdf
+[25-May-2026 14:14:57 UTC] Tamaño: 3048644 bytes
+[25-May-2026 14:14:57 UTC] MIME type detectado: application/pdf
+[25-May-2026 14:14:57 UTC] Respuesta de tesis: Sí
+[25-May-2026 14:14:57 UTC] Job ID generado: pdf_6a145961dfb4a6.13888194
+[25-May-2026 14:14:57 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a145961dfb4a6.13888194.pdf
+[25-May-2026 14:14:57 UTC] PDF guardado exitosamente
+[25-May-2026 14:14:57 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a145961dfb4a6.13888194_meta.json
+[25-May-2026 14:14:57 UTC] Iniciando proceso en segundo plano...
+[25-May-2026 14:14:57 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a145961dfb4a6.13888194
+[25-May-2026 14:14:59 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-May-2026 14:14:59 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[25-May-2026 14:14:59 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-May-2026 14:14:59 UTC] Job ID: pdf_6a145961dfb4a6.13888194
+[25-May-2026 14:14:59 UTC] === PROXY-ASYNC FINALIZADO ===
+[25-May-2026 17:54:23 UTC] === PROXY-ASYNC INICIADO ===
+[25-May-2026 17:54:23 UTC] Request method: POST
+[25-May-2026 17:54:23 UTC] Archivo recibido: EPD_GLOBAL-23_PU_Isodeck-PVSTEEL_EN.pdf
+[25-May-2026 17:54:23 UTC] Tamaño: 623902 bytes
+[25-May-2026 17:54:23 UTC] MIME type detectado: application/pdf
+[25-May-2026 17:54:23 UTC] Respuesta de tesis: No
+[25-May-2026 17:54:23 UTC] Job ID generado: pdf_6a148ccf8f5a81.75613433
+[25-May-2026 17:54:23 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a148ccf8f5a81.75613433.pdf
+[25-May-2026 17:54:23 UTC] PDF guardado exitosamente
+[25-May-2026 17:54:23 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a148ccf8f5a81.75613433_meta.json
+[25-May-2026 17:54:23 UTC] Iniciando proceso en segundo plano...
+[25-May-2026 17:54:23 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a148ccf8f5a81.75613433
+[25-May-2026 17:54:24 UTC] ✅ CURL exitoso - HTTP Code: 200
+[25-May-2026 17:54:24 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[25-May-2026 17:54:24 UTC] === RESPONDIENDO AL CLIENTE ===
+[25-May-2026 17:54:24 UTC] Job ID: pdf_6a148ccf8f5a81.75613433
+[25-May-2026 17:54:24 UTC] === PROXY-ASYNC FINALIZADO ===
+[27-May-2026 19:12:56 UTC] === PROXY-ASYNC INICIADO ===
+[27-May-2026 19:12:56 UTC] Request method: POST
+[27-May-2026 19:12:56 UTC] Archivo recibido: acv carne de res.pdf
+[27-May-2026 19:12:56 UTC] Tamaño: 1542190 bytes
+[27-May-2026 19:12:56 UTC] MIME type detectado: application/pdf
+[27-May-2026 19:12:56 UTC] Respuesta de tesis: Sí
+[27-May-2026 19:12:56 UTC] Job ID generado: pdf_6a174238a65782.58091030
+[27-May-2026 19:12:56 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a174238a65782.58091030.pdf
+[27-May-2026 19:12:56 UTC] PDF guardado exitosamente
+[27-May-2026 19:12:56 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a174238a65782.58091030_meta.json
+[27-May-2026 19:12:56 UTC] Iniciando proceso en segundo plano...
+[27-May-2026 19:12:56 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a174238a65782.58091030
+[27-May-2026 19:12:57 UTC] ✅ CURL exitoso - HTTP Code: 200
+[27-May-2026 19:12:57 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[27-May-2026 19:12:57 UTC] === RESPONDIENDO AL CLIENTE ===
+[27-May-2026 19:12:57 UTC] Job ID: pdf_6a174238a65782.58091030
+[27-May-2026 19:12:57 UTC] === PROXY-ASYNC FINALIZADO ===
+[27-May-2026 21:38:32 UTC] === PROXY-ASYNC INICIADO ===
+[27-May-2026 21:38:32 UTC] Request method: POST
+[27-May-2026 21:38:32 UTC] Archivo recibido: ACV Azúcar Mex.pdf
+[27-May-2026 21:38:32 UTC] Tamaño: 3566065 bytes
+[27-May-2026 21:38:32 UTC] MIME type detectado: application/pdf
+[27-May-2026 21:38:32 UTC] Respuesta de tesis: No
+[27-May-2026 21:38:32 UTC] Job ID generado: pdf_6a1764581db1f3.12886825
+[27-May-2026 21:38:32 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1764581db1f3.12886825.pdf
+[27-May-2026 21:38:32 UTC] PDF guardado exitosamente
+[27-May-2026 21:38:32 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1764581db1f3.12886825_meta.json
+[27-May-2026 21:38:32 UTC] Iniciando proceso en segundo plano...
+[27-May-2026 21:38:32 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a1764581db1f3.12886825
+[27-May-2026 21:38:32 UTC] ✅ CURL exitoso - HTTP Code: 200
+[27-May-2026 21:38:32 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[27-May-2026 21:38:32 UTC] === RESPONDIENDO AL CLIENTE ===
+[27-May-2026 21:38:32 UTC] Job ID: pdf_6a1764581db1f3.12886825
+[27-May-2026 21:38:32 UTC] === PROXY-ASYNC FINALIZADO ===
+[27-May-2026 21:43:28 UTC] === PROXY-ASYNC INICIADO ===
+[27-May-2026 21:43:28 UTC] Request method: POST
+[27-May-2026 21:43:28 UTC] Archivo recibido: acv carne de cerdo en veracruz mexico.pdf
+[27-May-2026 21:43:28 UTC] Tamaño: 4288161 bytes
+[27-May-2026 21:43:28 UTC] MIME type detectado: application/pdf
+[27-May-2026 21:43:28 UTC] Respuesta de tesis: No
+[27-May-2026 21:43:28 UTC] Job ID generado: pdf_6a1765803ef690.05843532
+[27-May-2026 21:43:28 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1765803ef690.05843532.pdf
+[27-May-2026 21:43:28 UTC] PDF guardado exitosamente
+[27-May-2026 21:43:28 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1765803ef690.05843532_meta.json
+[27-May-2026 21:43:28 UTC] Iniciando proceso en segundo plano...
+[27-May-2026 21:43:28 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a1765803ef690.05843532
+[27-May-2026 21:43:28 UTC] ✅ CURL exitoso - HTTP Code: 200
+[27-May-2026 21:43:28 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[27-May-2026 21:43:28 UTC] === RESPONDIENDO AL CLIENTE ===
+[27-May-2026 21:43:28 UTC] Job ID: pdf_6a1765803ef690.05843532
+[27-May-2026 21:43:28 UTC] === PROXY-ASYNC FINALIZADO ===
+[27-May-2026 21:51:52 UTC] === PROXY-ASYNC INICIADO ===
+[27-May-2026 21:51:52 UTC] Request method: POST
+[27-May-2026 21:51:52 UTC] Archivo recibido: acv carne de res mexico.pdf
+[27-May-2026 21:51:52 UTC] Tamaño: 1644407 bytes
+[27-May-2026 21:51:52 UTC] MIME type detectado: application/pdf
+[27-May-2026 21:51:52 UTC] Respuesta de tesis: No
+[27-May-2026 21:51:52 UTC] Job ID generado: pdf_6a1767784082f9.75986915
+[27-May-2026 21:51:52 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1767784082f9.75986915.pdf
+[27-May-2026 21:51:52 UTC] PDF guardado exitosamente
+[27-May-2026 21:51:52 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a1767784082f9.75986915_meta.json
+[27-May-2026 21:51:52 UTC] Iniciando proceso en segundo plano...
+[27-May-2026 21:51:52 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a1767784082f9.75986915
+[27-May-2026 21:51:52 UTC] ✅ CURL exitoso - HTTP Code: 200
+[27-May-2026 21:51:52 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[27-May-2026 21:51:52 UTC] === RESPONDIENDO AL CLIENTE ===
+[27-May-2026 21:51:52 UTC] Job ID: pdf_6a1767784082f9.75986915
+[27-May-2026 21:51:52 UTC] === PROXY-ASYNC FINALIZADO ===
+[27-May-2026 21:58:54 UTC] === PROXY-ASYNC INICIADO ===
+[27-May-2026 21:58:54 UTC] Request method: POST
+[27-May-2026 21:58:54 UTC] Archivo recibido: ACV limones veracruz mexico.pdf
+[27-May-2026 21:58:54 UTC] Tamaño: 4096127 bytes
+[27-May-2026 21:58:54 UTC] MIME type detectado: application/pdf
+[27-May-2026 21:58:54 UTC] Respuesta de tesis: No
+[27-May-2026 21:58:54 UTC] Job ID generado: pdf_6a17691ebca4e3.83019644
+[27-May-2026 21:58:54 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a17691ebca4e3.83019644.pdf
+[27-May-2026 21:58:54 UTC] PDF guardado exitosamente
+[27-May-2026 21:58:54 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a17691ebca4e3.83019644_meta.json
+[27-May-2026 21:58:54 UTC] Iniciando proceso en segundo plano...
+[27-May-2026 21:58:54 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a17691ebca4e3.83019644
+[27-May-2026 21:58:55 UTC] ✅ CURL exitoso - HTTP Code: 200
+[27-May-2026 21:58:55 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[27-May-2026 21:58:55 UTC] === RESPONDIENDO AL CLIENTE ===
+[27-May-2026 21:58:55 UTC] Job ID: pdf_6a17691ebca4e3.83019644
+[27-May-2026 21:58:55 UTC] === PROXY-ASYNC FINALIZADO ===
+[27-May-2026 22:22:29 UTC] === PROXY-ASYNC INICIADO ===
+[27-May-2026 22:22:29 UTC] Request method: POST
+[27-May-2026 22:22:29 UTC] Archivo recibido: Huella tilapía.pdf
+[27-May-2026 22:22:29 UTC] Tamaño: 2382186 bytes
+[27-May-2026 22:22:29 UTC] MIME type detectado: application/pdf
+[27-May-2026 22:22:29 UTC] Respuesta de tesis: No
+[27-May-2026 22:22:29 UTC] Job ID generado: pdf_6a176ea52dd362.58901771
+[27-May-2026 22:22:29 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a176ea52dd362.58901771.pdf
+[27-May-2026 22:22:29 UTC] PDF guardado exitosamente
+[27-May-2026 22:22:29 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a176ea52dd362.58901771_meta.json
+[27-May-2026 22:22:29 UTC] Iniciando proceso en segundo plano...
+[27-May-2026 22:22:29 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a176ea52dd362.58901771
+[27-May-2026 22:22:29 UTC] ✅ CURL exitoso - HTTP Code: 200
+[27-May-2026 22:22:29 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[27-May-2026 22:22:29 UTC] === RESPONDIENDO AL CLIENTE ===
+[27-May-2026 22:22:29 UTC] Job ID: pdf_6a176ea52dd362.58901771
+[27-May-2026 22:22:29 UTC] === PROXY-ASYNC FINALIZADO ===
+[03-Jun-2026 17:47:25 UTC] === PROXY-ASYNC INICIADO ===
+[03-Jun-2026 17:47:25 UTC] Request method: POST
+[03-Jun-2026 17:47:25 UTC] Archivo recibido: 3.11-cutoff-15406.pdf
+[03-Jun-2026 17:47:25 UTC] Tamaño: 286282 bytes
+[03-Jun-2026 17:47:25 UTC] MIME type detectado: application/pdf
+[03-Jun-2026 17:47:25 UTC] Respuesta de tesis: No
+[03-Jun-2026 17:47:25 UTC] Job ID generado: pdf_6a2068ad42fa60.95783461
+[03-Jun-2026 17:47:25 UTC] Guardando PDF en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a2068ad42fa60.95783461.pdf
+[03-Jun-2026 17:47:25 UTC] PDF guardado exitosamente
+[03-Jun-2026 17:47:25 UTC] Metadata guardada en: /home/u303404040/domains/ciclodevida.mx/public_html/temp_uploads/pdf_6a2068ad42fa60.95783461_meta.json
+[03-Jun-2026 17:47:25 UTC] Iniciando proceso en segundo plano...
+[03-Jun-2026 17:47:25 UTC] URL: https://ciclodevida.mx/php_actions/process-background-direct.php?job_id=pdf_6a2068ad42fa60.95783461
+[03-Jun-2026 17:47:26 UTC] ✅ CURL exitoso - HTTP Code: 200
+[03-Jun-2026 17:47:26 UTC] Respuesta del background: {"message":"Workflow was started"}{"message":"Workflow was started"}
+
+
+[03-Jun-2026 17:47:26 UTC] === RESPONDIENDO AL CLIENTE ===
+[03-Jun-2026 17:47:26 UTC] Job ID: pdf_6a2068ad42fa60.95783461
+[03-Jun-2026 17:47:26 UTC] === PROXY-ASYNC FINALIZADO ===

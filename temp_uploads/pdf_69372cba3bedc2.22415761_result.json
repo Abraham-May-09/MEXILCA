@@ -1,0 +1,324 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "9dde7b82-7b3f-45fa-b782-0fd50cf73f2c",
+            "Name": "METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN",
+            "Category": "Manufactura\/325611 Fabricación de jabones y otros detergentes",
+            "Description": "Esta tesis plantea una alternativa a los problemas del ACV tradicional, proponiendo una metodología (MARCO: Metodología de ACV Rápido para la Comparación de Impacto Ambiental) aplicable a cualquier organización para evaluar impactos ambientales de productos con enfoque de ciclo de vida y la generación de un software de apoyo para la selección de insumos. La metodología se conforma de cuatro etapas: 1) Decisiones metodológicas basadas en ACV (objetivo y alcance, límites, unidad funcional, categorías de impacto); 2) Recopilación de información de insumos; 3) Desarrollo de un software de evaluación; 4) Validación y reporte. Como caso de estudio, se aplicó en la fábrica de billetes del Banco de México para evaluar el impacto ambiental de insumos. La unidad funcional es 1 kg de insumo adquirido. El alcance es de la cuna a la puerta, incluyendo la manufactura de materias primas y el transporte. Se evaluaron cuatro categorías de impacto: cambio climático, acidificación terrestre, eutrofización de agua dulce y formación de oxidantes fotoquímicos.",
+            "Tags": "LCA, ACV, Análisis de Ciclo de Vida, MARCO, toma de decisiones, compras sostenibles, impacto ambiental, detergentes, insumos, Banco de México",
+            "Technology Description": "La metodología desarrollada, llamada MARCO, se basa en los principios de ISO 14040 e ISO 14044 para un ACV simplificado. Para la evaluación de impactos ambientales se utilizó el método ReCiPe v1.08 con una perspectiva jerárquica a 100 años. La fuente principal de datos de inventario de ciclo de vida fue la base de datos ecoinvent v3.3. Para componentes no disponibles, se realizó modelado a partir de información de artículos científicos, patentes y reportes técnicos. El software de evaluación se desarrolló en MS Excel con programación en Visual Basic.",
+            "Code": "MX",
+            "Last change": "08\/12\/2025 19:54"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida Simplificado (Streamlined LCA) basado en ISO 14040\/14044. Método de evaluación de impacto: ReCiPe v1.08 (Perspectiva jerárquica H, 100 años).",
+            "Process type": "Proceso de fabricación de la cuna a la puerta (cradle-to-gate).",
+            "Modeling constants": "El alcance del sistema es 'de la cuna a la puerta', incluyendo la extracción de materias primas, manufactura de componentes y el transporte hasta la organización. La unidad funcional es '1 kg de insumo adquirido'. Se emplearon módulos globales de la base de datos ecoinvent v3.3. Se consideraron cuatro categorías de impacto: Cambio Climático (CC), Eutrofización de agua dulce (EAD), Acidificación terrestre (AT) y Formación de oxidantes fotoquímicos (FOF).",
+            "Data source information": "La fuente principal de datos secundarios es la base de datos ecoinvent v3.3. Para componentes no disponibles en la base de datos (ej. aceite de alga, enzimas, aditivos pro-degradantes), se realizó modelado utilizando datos de inventario de publicaciones científicas (Passell et al., 2013; Golsteijn et al., 2015), patentes y reportes técnicos de la industria.",
+            "Data completeness": "Se empleó información de bases de datos para cubrir aproximadamente el 99% de la información requerida. Se realizó modelado específico para 10 componentes clave que no se encontraron en las bases de datos para completar el inventario.",
+            "Data selection": "Los insumos y componentes fueron seleccionados en base a los requerimientos del caso de estudio (Banco de México). Para los datos de inventario, se seleccionaron procesos de ecoinvent v3.3 que representaran de la mejor manera posible la tecnología de producción actual, utilizando preferentemente módulos globales dada la diversa procedencia de los insumos.",
+            "Data treatment": "La información de inventarios de la literatura fue escalada para cumplir con la unidad funcional de 1 kg del componente modelado. Los datos fueron procesados para obtener factores de caracterización para las cuatro categorías de impacto seleccionadas usando el método ReCiPe.",
+            "Sampling procedure": null,
+            "Data collection period": "El estudio se realizó en 2017, utilizando la versión 3.3 de la base de datos ecoinvent, que contiene datos representativos de los años cercanos a ese período.",
+            "Use advice": "La metodología y la herramienta están diseñadas para la toma de decisiones internas en una organización, permitiendo una comparación rápida y simplificada de insumos. No está diseñada para realizar declaraciones ambientales públicas ni estudios de ACV completos y detallados.",
+            "Completeness": "El estudio es completo para su propósito de evaluación comparativa rápida. Sin embargo, al ser un ACV simplificado, se excluyen las etapas de uso y fin de vida y se limita el análisis a cuatro categorías de impacto, por lo que no cubre todos los impactos ambientales potenciales.",
+            "Sources": [
+                "10YFP. (2017a). 10YFP Programmes. Consumer Information for SCP.",
+                "ADEME. (2017). Agribalyse program.",
+                "Arena, M., Azzone, G., & Conte, A. (2013). A streamlined LCA framework to support early decision making in vehicle development. Journal of Cleaner Production, 41, 105–113.",
+                "Bajpai, D., & Tyagi, V. K. (2007). Laundry detergents: an overview. Journal of oleo science, 56(7), 327–340.",
+                "Banco de México. (2014). Banco de México: Nuestro Banco Central. México.",
+                "Bare, J., Norris, G. A., & Pennington, D. W. (2003). TRACI - The Tool for the Reduction and Assessment of Chemical and Other Envrionmental Impacts. Journal of Industrial Ecology, 6(3), 49–78.",
+                "Cosme, N.; Larsen, H.; Hauschild, M. (2013). Final evaluation of the newly developed characterisation and normalisation factors in an LCA case study-Paper production and printing. Lyngby, Denmark.",
+                "Curran, M. A. (2014). Strengths and Limitations of Life Cycle Assessment. En W. Klöpffer (Ed.), Background and Future Prospects in Life Cycle Assessment.",
+                "Dooley, K. J., & Johnson, J. (2015). Product Category-level Sustainability Measurement: The Sustainability Consortium’s Approach to Materiality and Indicators. Journal of Industrial Ecology, 19(3), 337–339.",
+                "ecoinvent. (2017). About ecoinvent.",
+                "Fet, A. M., & Skaar, C. (2006). Eco-labeling, Product Category Rules and Certification Procedures Based on ISO 14025 Requirements. The International Journal of Life Cycle Assessment, 11(1), 49–54.",
+                "Goedkoop, M., Heijungs, R., De Schryver, A., Struijs, J., & van Zelm, R. (2013). ReCiPe 2008. A LCIA method which comprises harmonised category indicators at the midpoint and the endpoint level. Report I: Characterisation.",
+                "Golsteijn, L., Menkveld, R., King, H., Schneider, C., Schowanek, D., & Nissen, S. (2015). A compilation of life cycle studies for six household detergent product categories in Europe. Environmental Sciences Europe, 27(1), 23.",
+                "Hauschild, M., Goedkoop, M., Guinée, J., Heijungs, R., Huijbregts, M., Jolliet, O., … Pant, R. (2013). Identifying best existing practice for characterization modeling in life cycle impact assessment. International Journal of Life Cycle Assessment, 18(3), 683–697.",
+                "Huijbregts, M., Steinmann, Z., Elshout, P., Stam, G., Verones, F., Vieira, M., & van Zelm, R. (2016). ReCiPe2016 : a harmonized life cycle impact assessment method at midpoint and endpoint level.",
+                "ISO. (2006a). Environmental management -- Life cycle assessment -- Principles and framework.",
+                "ISO. (2006b). Environmental management -- Life cycle assessment -- Requirements and guidelines.",
+                "Passell, H., Dhaliwal, H., Reno, M., Wu, B., Ben Amotz, A., Ivry, E., … Ayer, N. (2013). Algae biodiesel life cycle assessment using current commercial data. Journal of Environmental Management, 129, 103–111.",
+                "Verghese, K. L., Horne, R., & Carre, A. (2010). PIQET: The design and development of an online streamlined LCA tool for sustainable packaging design decision support. International Journal of Life Cycle Assessment, 15(6), 608–620.",
+                "Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., & Weidema, B. (2016). The ecoinvent database version 3 (part I): overview and methodology. International Journal of Life Cycle Assessment, 21(9), 1218–1230."
+            ],
+            "Project": "Tesis para optar por el grado de Maestro en Ingeniería, Universidad Nacional Autónoma de México.",
+            "Intended application": "Apoyar la toma de decisiones en la adquisición de insumos por parte de una organización, permitiendo una evaluación rápida y comparativa del impacto ambiental de diferentes opciones de productos o proveedores.",
+            "Data set owner": "Universidad Nacional Autónoma de México (UNAM) \/ Banco de México",
+            "Data set generator": "Dora Yesenia Ruiz Méndez",
+            "Data set documentor": "Dora Yesenia Ruiz Méndez",
+            "Publication": "Tesis de Maestría: METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN. UNAM. 2017.",
+            "Creation date": "2017-09-01",
+            "Copyright": "DERECHOS RESERVADOS ©",
+            "Access and use restrictions": "PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente. Algunos datos son considerados información reservada perteneciente al Banco de México."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "08\/12\/2025 19:54",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Cloruro amónico",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Policarboxilato",
+                "category": "Manufactura\/325211 Fabricación de resinas y materiales plásticos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Zeolita",
+                "category": "Manufactura\/327999 Fabricación de todos los demás productos minerales no metálicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de sodio anhídrido",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Trifosfato de sodio",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Etilendiamina",
+                "category": "Manufactura\/325199 Fabricación de todos los demás productos químicos orgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Percarbonato de sodio",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Silicato de sodio",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Carboximetil celulosa",
+                "category": "Manufactura\/325199 Fabricación de todos los demás productos químicos orgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Hidróxido de sodio",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Cloruro de sodio",
+                "category": "Manufactura\/325998 Fabricación de todos los demás productos y preparados químicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ácido cítrico",
+                "category": "Manufactura\/325199 Fabricación de todos los demás productos químicos orgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ácido sulfúrico",
+                "category": "Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Alquilbenceno sulfonato",
+                "category": "Manufactura\/325612 Fabricación de abrillantadores y otros productos sanitarios",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de alcohol graso",
+                "category": "Manufactura\/325612 Fabricación de abrillantadores y otros productos sanitarios",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Modelado a partir de literatura",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Alcohol etoxilado",
+                "category": "Manufactura\/325612 Fabricación de abrillantadores y otros productos sanitarios",
+                "amount": 0.1,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Modelado a partir de literatura",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Aceite de alga",
+                "category": "Manufactura\/311225 Refinación y mezcla de grasas y aceites",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Modelado a partir de literatura (Passell et al., 2013)",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua suavizada",
+                "category": "Servicios públicos\/221310 Sistemas de abastecimiento de agua y riego",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Enzimas",
+                "category": "Manufactura\/325414 Fabricación de productos biológicos (excepto de diagnóstico)",
+                "amount": 0.25,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Modelado a partir de literatura",
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte aéreo",
+                "category": "Transporte y almacenamiento\/481 Transporte aéreo",
+                "amount": 1,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Transporte de insumos. El valor de 1.0 es una unidad de cálculo para ser multiplicada por la distancia y el peso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte marítimo",
+                "category": "Transporte y almacenamiento\/483 Transporte acuático",
+                "amount": 1,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Transporte de insumos. El valor de 1.0 es una unidad de cálculo para ser multiplicada por la distancia y el peso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte terrestre",
+                "category": "Transporte y almacenamiento\/484 Transporte por camión",
+                "amount": 1,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": "ecoinvent v3.3",
+                "description": "Transporte de insumos. El valor de 1.0 es una unidad de cálculo para ser multiplicada por la distancia y el peso."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Detergente en polvo",
+                "category": "Manufactura\/325611 Fabricación de jabones y otros detergentes",
+                "amount": 1.15,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto de referencia basado en el ejemplo de cálculo de la Figura 4.10."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"9dde7b82-7b3f-45fa-b782-0fd50cf73f2c\",\"Name\":\"METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN\",\"Category\":\"Manufactura\/325611 Fabricación de jabones y otros detergentes\",\"Description\":\"Esta tesis plantea una alternativa a los problemas del ACV tradicional, proponiendo una metodología (MARCO: Metodología de ACV Rápido para la Comparación de Impacto Ambiental) aplicable a cualquier organización para evaluar impactos ambientales de productos con enfoque de ciclo de vida y la generación de un software de apoyo para la selección de insumos. La metodología se conforma de cuatro etapas: 1) Decisiones metodológicas basadas en ACV (objetivo y alcance, límites, unidad funcional, categorías de impacto); 2) Recopilación de información de insumos; 3) Desarrollo de un software de evaluación; 4) Validación y reporte. Como caso de estudio, se aplicó en la fábrica de billetes del Banco de México para evaluar el impacto ambiental de insumos. La unidad funcional es 1 kg de insumo adquirido. El alcance es de la cuna a la puerta, incluyendo la manufactura de materias primas y el transporte. Se evaluaron cuatro categorías de impacto: cambio climático, acidificación terrestre, eutrofización de agua dulce y formación de oxidantes fotoquímicos.\",\"Tags\":\"LCA, ACV, Análisis de Ciclo de Vida, MARCO, toma de decisiones, compras sostenibles, impacto ambiental, detergentes, insumos, Banco de México\",\"Technology Description\":\"La metodología desarrollada, llamada MARCO, se basa en los principios de ISO 14040 e ISO 14044 para un ACV simplificado. Para la evaluación de impactos ambientales se utilizó el método ReCiPe v1.08 con una perspectiva jerárquica a 100 años. La fuente principal de datos de inventario de ciclo de vida fue la base de datos ecoinvent v3.3. Para componentes no disponibles, se realizó modelado a partir de información de artículos científicos, patentes y reportes técnicos. El software de evaluación se desarrolló en MS Excel con programación en Visual Basic.\",\"Code\":\"MX\",\"Last change\":\"08\/12\/2025 19:54\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida Simplificado (Streamlined LCA) basado en ISO 14040\/14044. Método de evaluación de impacto: ReCiPe v1.08 (Perspectiva jerárquica H, 100 años).\",\"Process type\":\"Proceso de fabricación de la cuna a la puerta (cradle-to-gate).\",\"Modeling constants\":\"El alcance del sistema es 'de la cuna a la puerta', incluyendo la extracción de materias primas, manufactura de componentes y el transporte hasta la organización. La unidad funcional es '1 kg de insumo adquirido'. Se emplearon módulos globales de la base de datos ecoinvent v3.3. Se consideraron cuatro categorías de impacto: Cambio Climático (CC), Eutrofización de agua dulce (EAD), Acidificación terrestre (AT) y Formación de oxidantes fotoquímicos (FOF).\",\"Data source information\":\"La fuente principal de datos secundarios es la base de datos ecoinvent v3.3. Para componentes no disponibles en la base de datos (ej. aceite de alga, enzimas, aditivos pro-degradantes), se realizó modelado utilizando datos de inventario de publicaciones científicas (Passell et al., 2013; Golsteijn et al., 2015), patentes y reportes técnicos de la industria.\",\"Data completeness\":\"Se empleó información de bases de datos para cubrir aproximadamente el 99% de la información requerida. Se realizó modelado específico para 10 componentes clave que no se encontraron en las bases de datos para completar el inventario.\",\"Data selection\":\"Los insumos y componentes fueron seleccionados en base a los requerimientos del caso de estudio (Banco de México). Para los datos de inventario, se seleccionaron procesos de ecoinvent v3.3 que representaran de la mejor manera posible la tecnología de producción actual, utilizando preferentemente módulos globales dada la diversa procedencia de los insumos.\",\"Data treatment\":\"La información de inventarios de la literatura fue escalada para cumplir con la unidad funcional de 1 kg del componente modelado. Los datos fueron procesados para obtener factores de caracterización para las cuatro categorías de impacto seleccionadas usando el método ReCiPe.\",\"Sampling procedure\":null,\"Data collection period\":\"El estudio se realizó en 2017, utilizando la versión 3.3 de la base de datos ecoinvent, que contiene datos representativos de los años cercanos a ese período.\",\"Use advice\":\"La metodología y la herramienta están diseñadas para la toma de decisiones internas en una organización, permitiendo una comparación rápida y simplificada de insumos. No está diseñada para realizar declaraciones ambientales públicas ni estudios de ACV completos y detallados.\",\"Completeness\":\"El estudio es completo para su propósito de evaluación comparativa rápida. Sin embargo, al ser un ACV simplificado, se excluyen las etapas de uso y fin de vida y se limita el análisis a cuatro categorías de impacto, por lo que no cubre todos los impactos ambientales potenciales.\",\"Sources\":[\"10YFP. (2017a). 10YFP Programmes. Consumer Information for SCP.\",\"ADEME. (2017). Agribalyse program.\",\"Arena, M., Azzone, G., & Conte, A. (2013). A streamlined LCA framework to support early decision making in vehicle development. Journal of Cleaner Production, 41, 105–113.\",\"Bajpai, D., & Tyagi, V. K. (2007). Laundry detergents: an overview. Journal of oleo science, 56(7), 327–340.\",\"Banco de México. (2014). Banco de México: Nuestro Banco Central. México.\",\"Bare, J., Norris, G. A., & Pennington, D. W. (2003). TRACI - The Tool for the Reduction and Assessment of Chemical and Other Envrionmental Impacts. Journal of Industrial Ecology, 6(3), 49–78.\",\"Cosme, N.; Larsen, H.; Hauschild, M. (2013). Final evaluation of the newly developed characterisation and normalisation factors in an LCA case study-Paper production and printing. Lyngby, Denmark.\",\"Curran, M. A. (2014). Strengths and Limitations of Life Cycle Assessment. En W. Klöpffer (Ed.), Background and Future Prospects in Life Cycle Assessment.\",\"Dooley, K. J., & Johnson, J. (2015). Product Category-level Sustainability Measurement: The Sustainability Consortium’s Approach to Materiality and Indicators. Journal of Industrial Ecology, 19(3), 337–339.\",\"ecoinvent. (2017). About ecoinvent.\",\"Fet, A. M., & Skaar, C. (2006). Eco-labeling, Product Category Rules and Certification Procedures Based on ISO 14025 Requirements. The International Journal of Life Cycle Assessment, 11(1), 49–54.\",\"Goedkoop, M., Heijungs, R., De Schryver, A., Struijs, J., & van Zelm, R. (2013). ReCiPe 2008. A LCIA method which comprises harmonised category indicators at the midpoint and the endpoint level. Report I: Characterisation.\",\"Golsteijn, L., Menkveld, R., King, H., Schneider, C., Schowanek, D., & Nissen, S. (2015). A compilation of life cycle studies for six household detergent product categories in Europe. Environmental Sciences Europe, 27(1), 23.\",\"Hauschild, M., Goedkoop, M., Guinée, J., Heijungs, R., Huijbregts, M., Jolliet, O., … Pant, R. (2013). Identifying best existing practice for characterization modeling in life cycle impact assessment. International Journal of Life Cycle Assessment, 18(3), 683–697.\",\"Huijbregts, M., Steinmann, Z., Elshout, P., Stam, G., Verones, F., Vieira, M., & van Zelm, R. (2016). ReCiPe2016 : a harmonized life cycle impact assessment method at midpoint and endpoint level.\",\"ISO. (2006a). Environmental management -- Life cycle assessment -- Principles and framework.\",\"ISO. (2006b). Environmental management -- Life cycle assessment -- Requirements and guidelines.\",\"Passell, H., Dhaliwal, H., Reno, M., Wu, B., Ben Amotz, A., Ivry, E., … Ayer, N. (2013). Algae biodiesel life cycle assessment using current commercial data. Journal of Environmental Management, 129, 103–111.\",\"Verghese, K. L., Horne, R., & Carre, A. (2010). PIQET: The design and development of an online streamlined LCA tool for sustainable packaging design decision support. International Journal of Life Cycle Assessment, 15(6), 608–620.\",\"Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., & Weidema, B. (2016). The ecoinvent database version 3 (part I): overview and methodology. International Journal of Life Cycle Assessment, 21(9), 1218–1230.\"],\"Project\":\"Tesis para optar por el grado de Maestro en Ingeniería, Universidad Nacional Autónoma de México.\",\"Intended application\":\"Apoyar la toma de decisiones en la adquisición de insumos por parte de una organización, permitiendo una evaluación rápida y comparativa del impacto ambiental de diferentes opciones de productos o proveedores.\",\"Data set owner\":\"Universidad Nacional Autónoma de México (UNAM) \/ Banco de México\",\"Data set generator\":\"Dora Yesenia Ruiz Méndez\",\"Data set documentor\":\"Dora Yesenia Ruiz Méndez\",\"Publication\":\"Tesis de Maestría: METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN. UNAM. 2017.\",\"Creation date\":\"2017-09-01\",\"Copyright\":\"DERECHOS RESERVADOS ©\",\"Access and use restrictions\":\"PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente. Algunos datos son considerados información reservada perteneciente al Banco de México.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"08\/12\/2025 19:54\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Cloruro amónico\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Policarboxilato\",\"category\":\"Manufactura\/325211 Fabricación de resinas y materiales plásticos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Zeolita\",\"category\":\"Manufactura\/327999 Fabricación de todos los demás productos minerales no metálicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Sulfato de sodio anhídrido\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Trifosfato de sodio\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Etilendiamina\",\"category\":\"Manufactura\/325199 Fabricación de todos los demás productos químicos orgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Percarbonato de sodio\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Silicato de sodio\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Carboximetil celulosa\",\"category\":\"Manufactura\/325199 Fabricación de todos los demás productos químicos orgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Hidróxido de sodio\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Cloruro de sodio\",\"category\":\"Manufactura\/325998 Fabricación de todos los demás productos y preparados químicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Ácido cítrico\",\"category\":\"Manufactura\/325199 Fabricación de todos los demás productos químicos orgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Ácido sulfúrico\",\"category\":\"Manufactura\/325180 Fabricación de otros productos químicos inorgánicos básicos\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Alquilbenceno sulfonato\",\"category\":\"Manufactura\/325612 Fabricación de abrillantadores y otros productos sanitarios\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Sulfato de alcohol graso\",\"category\":\"Manufactura\/325612 Fabricación de abrillantadores y otros productos sanitarios\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Modelado a partir de literatura\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Alcohol etoxilado\",\"category\":\"Manufactura\/325612 Fabricación de abrillantadores y otros productos sanitarios\",\"amount\":0.1,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Modelado a partir de literatura\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Aceite de alga\",\"category\":\"Manufactura\/311225 Refinación y mezcla de grasas y aceites\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Modelado a partir de literatura (Passell et al., 2013)\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Agua suavizada\",\"category\":\"Servicios públicos\/221310 Sistemas de abastecimiento de agua y riego\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Enzimas\",\"category\":\"Manufactura\/325414 Fabricación de productos biológicos (excepto de diagnóstico)\",\"amount\":0.25,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Modelado a partir de literatura\",\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Transporte aéreo\",\"category\":\"Transporte y almacenamiento\/481 Transporte aéreo\",\"amount\":1,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Transporte de insumos. El valor de 1.0 es una unidad de cálculo para ser multiplicada por la distancia y el peso.\"},{\"is_reference\":false,\"flow\":\"Transporte marítimo\",\"category\":\"Transporte y almacenamiento\/483 Transporte acuático\",\"amount\":1,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Transporte de insumos. El valor de 1.0 es una unidad de cálculo para ser multiplicada por la distancia y el peso.\"},{\"is_reference\":false,\"flow\":\"Transporte terrestre\",\"category\":\"Transporte y almacenamiento\/484 Transporte por camión\",\"amount\":1,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":\"ecoinvent v3.3\",\"description\":\"Transporte de insumos. El valor de 1.0 es una unidad de cálculo para ser multiplicada por la distancia y el peso.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Detergente en polvo\",\"category\":\"Manufactura\/325611 Fabricación de jabones y otros detergentes\",\"amount\":1.15,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto de referencia basado en el ejemplo de cálculo de la Figura 4.10.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765223699
+}

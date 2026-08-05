@@ -1,0 +1,197 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "cd11dbf9-9675-46ac-a430-29a0a5c647ac",
+                "Name": "Environmental Impacts Associated with Intensive Production in Pig Farms in Mexico through Life Cycle Assessment",
+                "Category": "A:Agriculture, forestry and fishing\/014:Animal production\/0146:Raising of swine\/pigs",
+                "Description": "In this research, environmental impacts associated with the intensive production of pigs on a farm in Mexico were determined through the application of life cycle assessment methodology. The research was focused on the following stages of the product system: (i) pig rearing and growth phases; (ii) production operations in the pig-house; (iii) the supply of feed. The life cycle inventory database was mainly made up of data collected in field visits to local farms. The functional unit was defined as one finished swine weighing 124 kg. The results for the selected impact categories of carbon, water, and energy footprints were 538.62 kg CO2eq, 21.34 m³, and 1773.79 MJ, respectively. The greatest impact was generated in the final stages of pig fattening, mainly due to the large quantity of feed supplied. The impacts caused by operation of the pig farm were less significant, their contribution in all cases was less than a third of the total quantified values. The energy conversion of pig slurry improves the environmental performance of the product system by reducing the carbon footprint.",
+                "Tags": "pig production, life cycle assessment, carbon, water and energy footprint, environmental impacts",
+                "Technology Description": "The methodology was based on ISO 14040: 2006 and ISO 14044: 2006. To quantify environmental impacts from GHG emissions, ReCiPe methodology (v. 1.01) was used, based on ISO 14067: 2018. The method of vulnerability assessment and water accounting (WAVE) was used to quantify the water footprint, in accordance with ISO 14046: 2014. The energy footprint was based on the accumulated energy demand (CED) methodology.",
+                "Code": "MX",
+                "Last change": "27\/05\/2026 21:45"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "The methodology used for this work was based on ISO 14040: 2006 and ISO 14044: 2006.",
+                "Process type": "Cradle-to-gate life cycle analysis of intensive pig production, from feed production and input transport to a finished pig ready for sale.",
+                "Modeling constants": "Capital goods, such as the construction of facilities, were excluded. For enteric gases, the Tier-1 method was used with methane emission factors from literature. A factor of 16.6% of losses from the distribution in the electrical grid was included.",
+                "Data source information": "Primary data was collected through field interviews and questionnaires with personnel at pig farms. Secondary data for food supplies were obtained from Ecoinvent database (v. 3.7.1). Other secondary data were compiled from local and international references and technical reports from the national energy sector.",
+                "Data completeness": null,
+                "Data selection": "Capital goods like facility construction were excluded as their contributions were not considered significant. The study focuses on pig rearing and growth, production operations in the pig-house, and feed supply.",
+                "Data treatment": "Material and energy balances were carried out to determine all flows. Mass allocation was applied for co-products. Energy flows were quantified using energy conversion, efficiency, and loss factors.",
+                "Sampling procedure": "Field work consisted of: (i) verification of the stages of the pig's productive cycle; (ii) knowledge of daily activities in the pig house; (iii) identification of supplies (feed, water, energy); (iv) feeding in different rearing stages; (v) management of waste generated. Questionnaires were prepared for application to operational agents.",
+                "Data collection period": null,
+                "Use advice": null,
+                "Completeness": null,
+                "Sources": "1. Jadwiga, S. The development of the pork market in the world in terms of globalization. J. Agribus. Rural Dev. 2017, 4, 843–850. 2. Alba, R.; Barrera, E.L.; Sarduy, V.A.; Pérez, G.M.; Hermida, G.O.; Dewulf, J. Life Cycle Assessment for the Cuban pig production: Case study in Sancti Spiritus. J. Clean. Prod. 2019, 219, 99–109. 3. FAO. Food Outlook—Biannual Report on Global Food Markets—November 2020; Food and Agriculture Organization of the United Nations: Rome, Italy, 2020; p. 107. 4. Gonzáles, N.; Marquès, M.; Nadal, M.; Domingo, J.L. Meat consumption: Which are the current global risks? A review of recent (2010–2020) evidences. Food Res. Int. 2020, 137, 109341. 5. FAO. The State of Food Security and Nutrition in the World 2020. Transforming Food Systems for Affordable Healthy Diets; Food and Agriculture Organization of the United Nations: Rome, Italy, 2020. 6. Food and Agriculture Organization of the United Nations. Livestock Primary. Available online: http:\/\/www.fao.org\/faostat\/en\/#data\/QL (accessed on 8 May 2021). 7. Dennehy, C.; Lawlor, P.G.; Jiang, Y.; Gardiner, G.E.; Xie, S.; Nghiem, L.D.; Zhan, X. Greenhouse gas emissions from different pig manure management techniques: A critical analysis. Front. Environ. Sci. Eng. 2017, 11, 11. 8. Pezas, G.; Mackenzie, S.G.; Wallace, M.; Kyriazakis, I. Environmental impacts of housing conditions and manure management in European pig production systems through a life cycle perspective: A case study in Denmark. J. Clean. Prod. 2020, 253, 120005. 9. Lesur, L. Manual de Porcicultura, 1st ed.; Trillas: Mexico City, Mexico, 2013; p. 80. 10. Owusu-Twum, M.Y.; Sharara, M.A. Sludge management in anaerobic swine lagoons: A review. J. Environ. Manag. 2020, 271, 110949. 11. Changing Markets Foundation. Growing the Good, the Case for Low-Carbon Transition in the Food Sector. 12. USDA. Livestock and Poultry: World Markets and Trade. Foreign Agricultural Service; United States Department of Agriculture: Washington, DC, USA, 2021. 13. Mujkić, Z.; Gashi, S.; Hamidović, Š. Consumer Impact on Supply Chain Sustainability. Procedia Manuf. 2019, 38, 1167–1173. 14. FAO. The State of Food and Agriculture 2020. Overcoming Water Challenges in Agriculture; FAO: Rome, Italy, 2020; Volume 210. 15. Ibidhi, R.; Ben Salem, H. Water footprint of livestock products and production systems: A review. Anim. Prod. Sci. 2020, 60, 1369–1380. 16. Silvetti, F.; Cáceres, D. La expansión de monocultivos de exportación en Argentina y Costa Rica: Conflictos Socioambientales y Lucha Campesina por la Justicia Ambiental. Mundo Agrar. Rev. De Estud. Rural. 2015, 16. 17. Crivelli, C. Análisis del Ciclo de Vida de Dos Sistemas de Manejo Para la Producción de Piña en México. Master’s Thesis, Universitat Politècnica de Catalunya, Barcelona, Spain, June 2017. 18. Dolman, M.A.; Vrolijk, H.C.J.; de Boer, I.J.M. Exploring variation in economic, environmental, and societal performance among Dutch fattening pig farms. Livest. Sci. 2012, 149, 143–154. 19. Cherubini, E.; Zanghelini, G.M.; Augusto, R.; Alvarenga, F.; Franco, D.; Soares, S.R. Life cycle assessment of swine production in Brazil: A comparison of four manure management systems. J. Clean. Prod. 2014, 30, 68–77. 20. Noya, I.; Villanueva-Rey, P.; González-García, S.; Fernández, M.D.; Rodríguez, M.R.; Moreira, M.T. Life Cycle Assessment of pig production: A case study in Galicia. J. Clean. Prod. 2017, 142, 4327–4338. 21. Mackenzie, S.; Leinonen, I.; Ferguson, N.; Kyriazakis, I. Accounting for uncertainty in the quantification of the environmental impacts of Canadian pig farming systems. Anim. Sci. J. 2015, 93, 3130–3143. 22. González-García, S.; Belo, S.; Cláudia Dias, A.; Várzea Rodrigues, J.; Roberto de la Costa, R.; Ferreira, A.; Pinto de Andrade, L.; Arroja, L. Life cycle assessment of pigmeat production: Portuguese case study and proposal of improvement options. J. Clean. Prod. 2015, 100, 126–139. 23. Djekic, I.; Radovic, C.; Lukic, M.; Stanisic, N.; Lilic, S. Assessment of the environmental life cycle in the production of pork products. Sci. Pro. Sect. 2015, 17, 469–476. 24. Lamnatou, C.; Ezcurra-Ciaurriz, X.; Chemisana, D.; Plá-Aragonés, L.M. Environmental assessment of a pork-production system in North-East of Spain focusing on life-cycle swine nutrition. J. Clean. Prod. 2016, 137, 105–115. 25. Monteiro, A.N.; Wilfart, A.; Utzeri, V.J.; Lukač, N.B.; Tomažin, U.; Nanni, L.; Cándek–Potokar, M.; Fontanesi, L.; Garcia-Launay, F. Environmental impacts of pig production systems using European local breeds: The contribution of carbon sequestration and emissions from grazing. J. Clean. Prod. 2019, 237, 117843. 26. Anestis, V.; Papanastasiou, D.K.; Bartzanas, T.; Giannenas, I.; Skoufos, I.; Kittas, C. Effect of a dietary modification for fattening pigs on the environmental performance of commercial pig production in Greece. Sustain. Prod. Consum. 2020, 22, 162–176. 27. Wiedemann, S.G.; McGahan, E.J.; Murphy, C.M. Environmental impacts and resource use from Australian pork production determined using life cycle assessment. Energy, water, and land occupation. Anim. Prod. Sci. 2018, 58, 1153–1163. 28. McAuliffe, G.A.; Chapman, D.V.; Sage, C.L. A thematic review of life cycle assessment (LCA) applied to pig production. Environ. Impact Eval. Rev. 2016, 56, 15–22. 29. International Organization for Standardization. ISO 14044. 30. International Organization for Standardization. ISO 14040. 31. Antón Vallejo, M.A. Utilización del Análisis del Ciclo de Vida en la Evaluación del Impacto Ambiental del Cultivo Bajo Invernadero Mediterráneo. Ph.D. Thesis, Universitat Politècnica de Catalunya, Barcelona, Spain, March 2004. 32. Sánchez, O.J.; Cardona, C.A.; Sánchez, D.L. Análisis de ciclo de vida y su aplicación a la producción de bioetanol: Una aproximación cualitativa. Rev. Univ. EAFIT 2007, 43, 59–79. 33. Curran, M.A. Life Cycle Assessment Handbook: A Guide for Environmentally Sustainable Products; John Wiley & Sons: Hoboken, NJ, USA, 2012. 34. Schrijvers, D.; Loubet, P.; Sonnemann, G. Archetypes of Goal and Scope Definitions for Consistent Allocation in LCA. Sustainability 2020, 12, 5587. 35. Huijbregts, M.A.J.; Steinmann, Z.J.N.; Elshout, P.M.F. ReCiPe2016: A harmonized life cycle impact assessment method at midpoint and endpoint level. Int. J. Life Cycle Assess. 2017, 22, 138–147. 36. International Organization for Standardization. ISO 14067. 37. Berger, M.; Van Der Ent, R.; Eisner, S.; Bach, V.; Finkbeiner, M. Water Accounting and Vulnerability Evaluation (WAVE): Considering Atmospheric Evaporation Recycling and the Risk of Freshwater Depletion in Water Footprinting. Environ. Sci. Technol. 2014, 48, 4521–4528. 38. International Organization for Standardization. ISO 14046. 39. Huijbregts, M.A.J.; Rombouts, L.J.A.; Hellweg, S.; Frischknecht, R.; Hendriks, A.J.; Van De Meent, D.; Ragas, A.M.J.; Reijnders, L.; Struijs, J. Is Cumulative Fossil Energy Demand a Useful Indicator for the Environmental Performance of Products? Environ. Sci. Technol. 2006, 40, 641–648. 40. Huijbregts, M.A.J.; Hellweg, S.; Frischknecht, R.; Hendriks, H.W.M.; Hungerbuhler, K.; Hendriks, A.J. Cumulative Energy Demand as Predictor for the Environmental Burden of Commodity Production. Environ. Sci. Technol. 2010, 44, 2189–2196. 41. Puig, R.; Fullana, I.P.P.; Baquero, G.; Riba, J.-R.; Gala, A.B. A Cumulative Energy Demand indicator (CED), life cycle based, for industrial waste management decision making. Waste Manag. 2013, 33, 2789–2797. 42. Frischknecht, R.; Wyss, F.; Knöpfel, S.B.; Lützkendorf, T.; Balouktsi, M. Cumulative energy demand in LCA: The energy harvested approach. Int. J. Life Cycle Assess. 2015, 20, 957–969. 43. Torres, R.C. Energy transition: An obstacle or stimulus to development. Economía UNAM 2020, 17, 46–65. 44. Buira, D.; Tovilla, J.; Farbes, J.; Jones, R.; Haley, B.; Gastelum, D. A whole-economy Deep Decarbonization Pathway for Mexico. Energy Strategy Rev. 2021, 33, 100578. 45. Martínez-Quintana, M.A.; Martín-del-Campo, C.; Cruz-Mendoza, G. A power optimization model for the long-term planning scenarios: Case study of Mexico’s power system decarbonization. Can. J. Chem. Eng. 2021, 99, 884–897. 46. McDonald-Buller, E.C.; McGaughey, G.R.; Shah, T.; Grant, J.; Kimura, Y.; Yarwood, G. Mexico’s electricity grid and fuel mix: Implications of a fifteen-year planning horizon on emissions and air quality. Environ. Res. Lett. 2021, 16, 74050. 47. Secretaría de Energía. Balance Nacional de Energía. 2019. 48. Secretaría de Energía. Programa de Desarrollo del Sistema Eléctrico Nacional 2021–2035. 49. International Energy Agency. Electricity Information 2019; OECD Publishing: Paris, France, 2019. 50. International Energy Agency. World Energy Balances 2019; OECD Publishing: Paris, France, 2019. 51. Frischknecht, R.; Althaus, H.J.; Bauer, C.; Doka, G.; Heck, T.; Jungbluth, N.; Kellenberger, D.; Nemecek, T. The environmental relevance of capital goods in life cycle assessments of products and services. Int. J. Life Cycle Assess. 2007, 12, 7–17. 52. Roma, R.; Corrado, S.; De Boni, A.; Forleo, M.B.; Fantin, V.; Moretti, M.; Palmieri, N.; De Camillis, C.; Vitali, A. Life Cycle Assessment in the Agri-Food Sector; Springer: Cham, Switzerland, 2015; Chapter 5; pp. 251–332. 53. Clune, S.; Crossin, E.; Verghese, K. Systematic review of greenhouse gas emissions for different fresh food categories. J. Clean. Prod. 2017, 140, 766–783. 54. FAO. Environmental Performance of Pig Supply Chains: Guidelines for Assessment (Version 1). Livestock Environmental Assessment and Performance Partnership; Food and Agriculture Organization: Rome, Italy, 2018; p. 175. 55. Asem-Hiablie, S.; Battagliese, T.; Stackhouse-Lawson, K.R.; Rotz, C.A. A life cycle assessment of the environmental impacts of a beef system in the USA. Int. J. Life Cycle. 2019, 24, 441–455. 56. Del Borghi, A.; Moreschi, L.; Gallo, M. Life cycle assessment in the food industry. In The Interaction of Food Industry and Environment; Academic Press: Cambridge, MA, USA, 2020. 57. Hospido, A.; Davis, J.; Berlin, J. A review of methodological issues affecting LCA of novel food products. Int. J. LCA 2010, 15, 44–52. 58. Pérez-Espejo, R.H.; Constantino-Toto, R.M.; Davila Ibanez, H.R. Water, food and welfare. In Water Footprint as a Complementary Approach to Water Management in Mexico; Springer Briefs in Environment, Security, Development and Peace: Cham, Switzerland, 2016; Volume 23. 59. SMN, Sistema Meteorológico Nacional. Normales Climatológicas por Estado. 60. Ortega, F.; Pérez, O.; Bello, I.P.; Fieldwork in the Pork Farm Sector, Veracruz, México. Personal communication, 2020. 61. Arcos, M.A.; De Jesús, E.; Torres, F.; Fieldwork in the Pork Farm Sector, Veracruz, México. Personal communication, 2020. 62. Hernández, M.A.; Ramírez, J.C.; Rodríguez, J.E.; Fieldwork in the Pork Farm Sector, Veracruz, México. Personal communication, 2020. 63. Vázquez, C.A.; González, J.S.; Martínez, S.L.; Serrano, V.R.; Fieldwork in the Pork Farm Sector, Veracruz, México. Personal communication, 2020. 64. U.S. Department of Agriculture.Swine Industry Manual. FAD PRep Foreign Animal Disease Preparedness & Response Plan. National Animal Health Emergency Management System. 65. Secretaría de Energía. Sistema de Información de Energía. 66. Hatfield, J.; Johnson, D.; Lassey, K.R.; Aparecida-de-Lima, M.; Romanovskaya, A. 2006 IPCC Guidelines for National Greenhouse Gas Inventories; IGES: Hayama, Japan, 2006; p. 10. 67. FAO. Environmental Performance of Large Ruminant Supply Chains: Guidelines for Assessment. Livestock Environmental Assessment and Performance Partnership; FAO: Rome, Italy, 2016; pp. 29–91. 68. Jørgensen, H.; Knudsen, K.E.B.; Theil, P.K. Enteric Methane Emission from Pigs. Planet Earth 2011—Global Warming Challenges and Opportunities for Policy and Practice; InTech Europe: Rijeka, Croatia, 2011. 69. Rivera, L.F. Análisis de Ciclo de Vida de la Valorización del Residuo Rastrojo de Maíz. Bachelor’s Thesis, Universidad Veracruzana, Veracruz, Mexico. 70. Ecoinvent. The Ecoinvent Database. 71. Villavicencio, G.M.R.; Lorga, D.S.A.; Paulino, F.M.; Martínez, C.F.E.; Martínez, C.A.R.; Matus, G.J.; Gómez, T.G. Life cycle assessment of pig production—A case study in Mexican farm. In Proceedings of the 35th International Scientific Conference on Economic and Social Development—“Sustainability from an Economic and Social Perspective”, Lisbon, Portugal, 15–16 November 2018. 72. Dalgaard, R.; Halberg, N.; Hermansen, J.E. Danish Pork Production an Environmental Assessment. DJF Anim. Sci. 2007, 82, 1–34. 73. García-Gudiño, J.; Monteiro, A.; Espagnol, S.; Blanco-Penedo, I.; Garcia-Launay, F. Life Cycle Assessment of Iberian Traditional Pig Production System in Spain. Sustainability 2020, 12, 627. 74. Bava, L.; Zucali, M.; Sandrucci, A.; Tamburini, A. Environmental impact of the typical heavy pig production in Italy. J. Clean. Prod. 2017, 140, 685–691. 75. Rudolph, G.; Hörtenhuber, S.; Bochicchio, D.; Butler, G.; Brandhofer, R.; Dippel, S.; Dourmad, J.Y.; Edwards, S.; Früh, B.; Meier, M.; et al. Effect of three husbandry systems on environmental impact of organic pigs. Sustainability 2018, 10, 3796. 76. Kebreab, E.; Liedke, A.; Caro, D.; Deimling, S.; Binder, M.; Finkbeiner, M. Environmental impact of using specialty feed ingredients in swine poultry production: A life cycle assessment. J. Anim. Sci. 2016, 94, 2664–2681. 77. Bai, X.; Ren, X.; Khanna, N.Z.; Zhang, G.; Zhou, N.; Bai, Y.; Hu, M. A comparative study of a full value-chain water footprint assessment using two international standards at a large-scale hog farm in China. J. Clean. Prod. 2018, 176, 557–565. 78. Ulrich, R.K.; Boles, E.; Leh, M.; Sandefur, H.; Thoma, G. A Cradle to Farm Gate Life Cycle Analysis of Water Use in US Pork Production. 79. De Miguel, Á.; Hoekstra, A.Y.; García-Calvo, E. Sustainability of the water footprint of the Spanish pork industry. Ecol. Indic. 2015, 57, 465–474. 80. Wang, X.; Dadouma, A.; Chen, Y.; Sui, P.; Gao, W.; Jia, L. Sustainability evaluation of the large-scale pig farming system in North China: An emergy analysis based on life cycle assessment. J. Clean. Prod. 2015, 102, 144–164. 81. Vanham, D.; Bidoglio, G. A review on the indicator water footprint for the EU28. Ecol. Indic. 2013, 26, 61–75. 82. Soleimani, T.; Gilbert, H. Evaluating environmental impacts of selection for residual feed intake in pigs. Animal 2020, 14, 2598–2608. 83. Haque, M.A.; Liu, Z. Environmental Footprint Assessment of Representative Swine Diets in the USA. In Proceedings of the 2019 ASABE Annual International Meeting. American Society of Agricultural and Biological Engineers, Boston, MA, USA, 7–10 July 2019. 84. Launay, F.G.; Rouillon, V.; Faure, J.; Fonseca, A. Life Cycle Assessment of pig production systems of the Noir de Bigorre chain. Arch. Zootec. 2018, 1, 21–25. 85. Dourmad, J.Y.; Ryschawy, J.; Trousson, T.; Bonneau, M.; Gonzàlez, J.; Houwers, H.W.J.; Morgensen, L. Evaluating environmental impacts of contrasting pig farming systems with life cycle assessment. Animal 2014, 8, 2027–2037. 86. Liang, J.B.; Suzuki, S.; Kawamura, A.; Habasaki, A.; Kato, T. Opportunities and challenges of converting biogas from pig farms into renewable energy in developing countries in Asia—A Malaysian experience. Aust. J. Exp. Agric. 2008, 48, 54–59. 87. Prapaspongsa, T.; Christensen, P.; Schmidt, J.H.; Thrane, M. LCA of comprehensive pig manure management incorporating integrated technology systems. J. Clean. Prod. 2010, 18, 1413–1422. 88. Lijó, L.; González-García, S.; Bacenetti, J.; Fiala, M.; Feijoo, G.; Lema, J.M.; Moreira, M.T. Life Cycle Assessment of electricity production in Italy from anaerobic co-digestion of pig slurry and energy crops. Renew. Energy 2014, 68, 625–635. 89. Theofanous, E.; Kythreotou, N.; Panayiotou, G.; Florides, G.; Vyrides, I. Energy production from piggery waste using anaerobic digestion: Current status and potential in Cyprus. Renew. Energy 2014, 71, 263–270. 90. Esteves, E.M.M.; Herrera, A.M.N.; Esteves, V.P.P.; Morgado, C.D.R.V. Life cycle assessment of manure biogas production: A review. J. Clean. Prod. 2019, 219, 411–423. 91. Wang, Y.; Zhang, Y.; Li, J.; Lin, J.G.; Zhang, N.; Cao, W. Biogas energy generated from livestock manure in China: Current situation and future trends. J. Environ. Manag. 2021, 297, 1–9.",
+                "Project": null,
+                "Intended application": "To quantify the environmental impacts associated with carbon, water, and energy footprints from an intensive production system for live-weight pigs.",
+                "Data set owner": "Universidad Veracruzana",
+                "Data set generator": "Mario Rafael Giraldi-Díaz, Eduardo Castillo-González, Lorena De Medina-Salas, Raúl Velásquez-De la Cruz, Héctor Daniel Huerta-Silva",
+                "Data set documentor": "Mario Rafael Giraldi-Díaz, Eduardo Castillo-González, Lorena De Medina-Salas, Raúl Velásquez-De la Cruz, Héctor Daniel Huerta-Silva",
+                "Publication": "Giraldi-Díaz, M.R.; Castillo-González, E.; De Medina-Salas, L.; Velásquez-De la Cruz, R.; Huerta-Silva, H.D. Environmental Impacts Associated with Intensive Production in Pig Farms in Mexico through Life Cycle Assessment. Sustainability 2021, 13, 11248. https:\/\/doi.org\/10.3390\/su132011248",
+                "Creation date": "2021-10-12",
+                "Copyright": "Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland.",
+                "Access and use restrictions": "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "27\/05\/2026 21:45",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Cleaning chemicals",
+                    "category": "C:Manufacturing\/20:Manufacture of chemicals and chemical products\/2023:Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",
+                    "amount": 0.9371,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of cleaning chemicals used across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Electricity",
+                    "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/3510:Electric power generation, transmission and distribution",
+                    "amount": 13.9954,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of electricity used across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "LP Gas",
+                    "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products",
+                    "amount": 53.601,
+                    "unit": "MJ",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of LP Gas used across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Metal utensils",
+                    "category": "C:Manufacturing\/25:Manufacture of fabricated metal products, except machinery and equipment",
+                    "amount": 0.0024871,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of metal utensils consumed across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pig feed",
+                    "category": "C:Manufacturing\/10:Manufacture of food products\/1080:Manufacture of prepared animal feeds",
+                    "amount": 327.204,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Local production and Ecoinvent v3.7.1",
+                    "description": "Sum of pig feed consumed across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Plastic materials",
+                    "category": "C:Manufacturing\/22:Manufacture of rubber and plastics products\/2220:Manufacture of plastics products",
+                    "amount": 0.020405,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of plastic materials consumed across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transporting supplies",
+                    "category": "H:Transportation and storage\/49:Land transport and transport via pipelines\/4923:Freight transport by road",
+                    "amount": 777.541,
+                    "unit": "kgkm",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of transport services required across all production phases, based on foreground data from Table 6."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water supply",
+                    "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply",
+                    "amount": 4.5513,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sum of direct water supply across all production phases, based on foreground data from Table 6."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "finished swine",
+                    "category": "A:Agriculture, forestry and fishing\/014:Animal production\/0146:Raising of swine\/pigs",
+                    "amount": 1,
+                    "unit": "functional unit",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Functional unit of the study, defined as one finished swine weighing 124 kg."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Lactating pig for sale (co-product)",
+                    "category": "A:Agriculture, forestry and fishing\/014:Animal production\/0146:Raising of swine\/pigs",
+                    "amount": 0.16,
+                    "unit": "item",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Co-product sold at the lactation stage, weighing 6.25 kg. Amount calculated based on Table 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "First fattening pig for sale (co-product)",
+                    "category": "A:Agriculture, forestry and fishing\/014:Animal production\/0146:Raising of swine\/pigs",
+                    "amount": 0.01,
+                    "unit": "item",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Co-product sold at the first fattening stage, weighing 55 kg. Amount calculated based on Table 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Second fattening pig for sale (co-product)",
+                    "category": "A:Agriculture, forestry and fishing\/014:Animal production\/0146:Raising of swine\/pigs",
+                    "amount": 0.06,
+                    "unit": "item",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Co-product sold at the second fattening stage, weighing 101 kg. Amount calculated based on Table 4."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779918307
+}

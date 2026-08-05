@@ -1,0 +1,513 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "f7a062e4-37e7-499b-aa69-365f0530ee34",
+            "Name": "tomato production, fresh grade, open field",
+            "Category": "Agriculture, forestry and fishing\/01 Crop and animal production, hunting and related service activities\/011 Growing of non-perennial crops\/0113 Growing of vegetables and melons, roots and tubers",
+            "Description": "Proceso de inventario del ciclo de vida para la producción de tomate fresco grado abierto en campo. Incluye todas las entradas de materiales (fertilizantes, pesticidas, enmiendas orgánicas), servicios agrícolas (labranza, siembra, riego, aplicación de productos fitosanitarios), y transporte asociado. Los límites del sistema comprenden desde la preparación del suelo hasta la cosecha del tomate fresco, excluyendo procesamiento posterior. Tecnología utilizada: agricultura convencional de campo abierto con aplicación de fertilizantes inorgánicos y orgánicos, pesticidas, y sistemas de riego.",
+            "Tags": "agricultura, producción vegetal, tomate, ciclo de vida, inventario, campo abierto",
+            "Technology | Description": "Agricultura convencional de campo abierto que incluye: labranza con cultivador, rastra de dientes de resorte, rodillo y cultivador rotativo; aplicación de fertilizantes mediante esparcidor; aplicación de productos fitosanitarios mediante pulverizador de campo; riego convencional; uso de plántulas de tomate para siembra; aplicación de estiércol líquido mediante camión cisterna de vacío; y aplicación de estiércol sólido mediante cargador hidráulico y esparcidor.",
+            "Code": "MX",
+            "Last_change": "07\/11\/2025 15:51"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Cutoff system model",
+            "Process type": "UNIT_PROCESS",
+            "Modeling constants": "No se especifican supuestos fijos en el documento",
+            "Data source information": "Datos de mercado para insumos agrícolas (fertilizantes, pesticidas, operaciones de campo)",
+            "Data completeness": "Cobertura completa de todos los flujos relevantes para la producción de tomate en campo abierto",
+            "Data selection": "Incluye todos los insumos agrícolas, operaciones de campo, fertilizantes, pesticidas, riego y transporte",
+            "Data treatment": "Datos procesados según metodología Cutoff",
+            "Sampling procedure": "No especificado en el documento",
+            "Data collection period": "Año de referencia 2016",
+            "Use advice": "Aplicable para producción de tomate fresco en campo abierto en México",
+            "Completeness": "Exhaustivo, incluye todas las entradas y salidas relevantes del proceso",
+            "Sources": "No se proporcionan referencias bibliográficas específicas",
+            "Project": "No especificado",
+            "Intended application": "Análisis de ciclo de vida de productos agrícolas",
+            "Data set owner": "INSTITUTO DE INGENIERÍA UNAM®",
+            "Data set generator": "Ciclo de Vida System - UNAM CREAA",
+            "Data set documentor": "Ciclo de Vida System - UNAM CREAA",
+            "Publication": "No especificada",
+            "Creation date": "2025-10-31 23:26:37",
+            "Copyright": "Proprietary",
+            "Access and use restrictions": "Public"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-07T15:51:49.041Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "ammonia, anhydrous, liquid",
+                "category": "",
+                "amount": 0.000133,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for ammonia, anhydrous, liquid | ammonia, anhydrous, liquid | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "ammonium nitrate",
+                "category": "",
+                "amount": 2.3e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for ammonium nitrate | ammonium nitrate | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "ammonium sulfate",
+                "category": "",
+                "amount": 0.000402,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for ammonium sulfate | ammonium sulfate | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "application of plant protection product, by field sprayer",
+                "category": "",
+                "amount": 0.00012,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for application of plant protection product, by field sprayer | application of plant protection product, by field sprayer | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "fertilising, by broadcaster",
+                "category": "",
+                "amount": 2.7e-5,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for fertilising, by broadcaster | fertilising, by broadcaster | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "inorganic nitrogen fertiliser, as N",
+                "category": "",
+                "amount": 7.7e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "nutrient supply from potassium nitrate | inorganic nitrogen fertiliser, as N | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "inorganic nitrogen fertiliser, as N",
+                "category": "",
+                "amount": 6.1e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "nutrient supply from monoammonium phosphate | inorganic nitrogen fertiliser, as N | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "inorganic nitrogen fertiliser, as N",
+                "category": "",
+                "amount": 6.1e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "nutrient supply from diammonium phosphate | inorganic nitrogen fertiliser, as N | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "inorganic nitrogen fertiliser, as N",
+                "category": "",
+                "amount": 1.6e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "nutrient supply from ammonium nitrate phosphate | inorganic nitrogen fertiliser, as N | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "inorganic potassium fertiliser, as K20",
+                "category": "",
+                "amount": 0.000554,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "nutrient supply from potassium nitrate | inorganic potassium fertiliser, as K20 | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "irrigation",
+                "category": "",
+                "amount": 0.149013,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "market for irrigation | irrigation | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "liquid manure spreading, by vacuum tanker",
+                "category": "",
+                "amount": 8.6e-5,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "market for liquid manure spreading, by vacuum tanker | liquid manure spreading, by vacuum tanker | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "manure, liquid, cattle",
+                "category": "",
+                "amount": 0.040372,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for manure, liquid, cattle | manure, liquid, cattle | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "manure, liquid, swine",
+                "category": "",
+                "amount": 0.040192,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for manure, liquid, swine | manure, liquid, swine | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "manure, solid, cattle",
+                "category": "",
+                "amount": 0.024552,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for manure, solid, cattle | manure, solid, cattle | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "mulching",
+                "category": "",
+                "amount": 4.0e-5,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for mulching | mulching | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "packaging, for fertilisers",
+                "category": "",
+                "amount": 0.007442,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for packaging, for fertilisers | packaging, for fertilisers | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "packaging, for pesticides",
+                "category": "",
+                "amount": 0.002611,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for packaging, for pesticides | packaging, for pesticides | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "pesticide, unspecified",
+                "category": "",
+                "amount": 0.001305,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for pesticide, unspecified | pesticide, unspecified | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "potassium chloride",
+                "category": "",
+                "amount": 0.001869,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for potassium chloride | potassium chloride | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "potassium sulfate",
+                "category": "",
+                "amount": 0.00049,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for potassium sulfate | potassium sulfate | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "poultry manure, dried",
+                "category": "",
+                "amount": 0.030523,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for poultry manure, dried | poultry manure, dried | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "poultry manure, fresh",
+                "category": "",
+                "amount": 0.002715,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for poultry manure, fresh | poultry manure, fresh | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "solid manure loading and spreading, by hydraulic loader and spreader",
+                "category": "",
+                "amount": 0.055074,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for solid manure loading and spreading, by hydraulic loader and spreader | solid manure loading and spreading, by hydraulic loader and spreader | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "sowing",
+                "category": "",
+                "amount": 3.3e-5,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for sowing | sowing | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "tillage, cultivating, chiselling",
+                "category": "",
+                "amount": 0.000175,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for tillage, cultivating, chiselling | tillage, cultivating, chiselling | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "tillage, currying, by weeder",
+                "category": "",
+                "amount": 7.5e-5,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for tillage, currying, by weeder | tillage, currying, by weeder | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "tillage, harrowing, by spring tine harrow",
+                "category": "",
+                "amount": 0.000325,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for tillage, harrowing, by spring tine harrow | tillage, harrowing, by spring tine harrow | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "tillage, rolling",
+                "category": "",
+                "amount": 0.000125,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for tillage, rolling | tillage, rolling | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "tillage, rotary cultivator",
+                "category": "",
+                "amount": 0.0002,
+                "unit": "ha",
+                "uncertainty": "",
+                "provider": "market for tillage, rotary cultivator | tillage, rotary cultivator | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "tomato seedling, for planting",
+                "category": "",
+                "amount": 0.755659,
+                "unit": "Item(s)",
+                "uncertainty": "",
+                "provider": "market for tomato seedling, for planting | tomato seedling, for planting | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "transport, freight, inland waterways, barge, diesel",
+                "category": "",
+                "amount": 5.8e-5,
+                "unit": "t*km",
+                "uncertainty": "",
+                "provider": "market for transport, freight, inland waterways, barge, diesel | transport, freight, inland waterways, barge, diesel | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "transport, freight, lorry, diesel, unspecified",
+                "category": "",
+                "amount": 0.000186,
+                "unit": "t*km",
+                "uncertainty": "",
+                "provider": "market for transport, freight, lorry, unspecified | transport, freight, lorry, diesel, unspecified | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "transport, freight, sea, container ship, heavy fuel oil",
+                "category": "",
+                "amount": 0.001051,
+                "unit": "t*km",
+                "uncertainty": "",
+                "provider": "market for transport, freight, sea, container ship, heavy fuel oil | transport, freight, sea, container ship, heavy fuel oil | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "transport, freight, tractor and trailer, diesel, agricultural",
+                "category": "",
+                "amount": 0.002782,
+                "unit": "t*km",
+                "uncertainty": "",
+                "provider": "market for transport, freight, tractor and trailer, diesel, agricultural | transport, freight, tractor and trailer, diesel, agricultural | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "transport, freight, train, fleet average",
+                "category": "",
+                "amount": 0.000344,
+                "unit": "t*km",
+                "uncertainty": "",
+                "provider": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "urea",
+                "category": "",
+                "amount": 0.001034,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for urea | urea | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "urea ammonium nitrate mix",
+                "category": "",
+                "amount": 0.001607,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "market for urea ammonium nitrate mix | urea ammonium nitrate mix | Cutoff, U",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide, in air",
+                "category": "",
+                "amount": 0.086327,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Energy, gross calorific value, in biomass",
+                "category": "",
+                "amount": 0.90367,
+                "unit": "MJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Occupation, arable",
+                "category": "",
+                "amount": 0.329435,
+                "unit": "m2*a",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Transformation, from arable land, unspecified",
+                "category": "",
+                "amount": 0.328547,
+                "unit": "m2",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Transformation, to arable land, unspecified use",
+                "category": "",
+                "amount": 0.328547,
+                "unit": "m2",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "tomato, fresh grade",
+                "category": "A:Agriculture, forestry and fishing\/01:Crop and animal production, hunting and related service activities\/011:Growing of non-perennial crops\/0113:Growing of vegetables and melons, roots and tubers\/Agricultura, silvicultura y pesca (A)",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"f7a062e4-37e7-499b-aa69-365f0530ee34\",\"Name\":\"tomato production, fresh grade, open field\",\"Category\":\"Agriculture, forestry and fishing\/01 Crop and animal production, hunting and related service activities\/011 Growing of non-perennial crops\/0113 Growing of vegetables and melons, roots and tubers\",\"Description\":\"Proceso de inventario del ciclo de vida para la producción de tomate fresco grado abierto en campo. Incluye todas las entradas de materiales (fertilizantes, pesticidas, enmiendas orgánicas), servicios agrícolas (labranza, siembra, riego, aplicación de productos fitosanitarios), y transporte asociado. Los límites del sistema comprenden desde la preparación del suelo hasta la cosecha del tomate fresco, excluyendo procesamiento posterior. Tecnología utilizada: agricultura convencional de campo abierto con aplicación de fertilizantes inorgánicos y orgánicos, pesticidas, y sistemas de riego.\",\"Tags\":\"agricultura, producción vegetal, tomate, ciclo de vida, inventario, campo abierto\",\"Technology | Description\":\"Agricultura convencional de campo abierto que incluye: labranza con cultivador, rastra de dientes de resorte, rodillo y cultivador rotativo; aplicación de fertilizantes mediante esparcidor; aplicación de productos fitosanitarios mediante pulverizador de campo; riego convencional; uso de plántulas de tomate para siembra; aplicación de estiércol líquido mediante camión cisterna de vacío; y aplicación de estiércol sólido mediante cargador hidráulico y esparcidor.\",\"Code\":\"MX\",\"Last_change\":\"07\/11\/2025 15:51\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Cutoff system model\",\"Process type\":\"UNIT_PROCESS\",\"Modeling constants\":\"No se especifican supuestos fijos en el documento\",\"Data source information\":\"Datos de mercado para insumos agrícolas (fertilizantes, pesticidas, operaciones de campo)\",\"Data completeness\":\"Cobertura completa de todos los flujos relevantes para la producción de tomate en campo abierto\",\"Data selection\":\"Incluye todos los insumos agrícolas, operaciones de campo, fertilizantes, pesticidas, riego y transporte\",\"Data treatment\":\"Datos procesados según metodología Cutoff\",\"Sampling procedure\":\"No especificado en el documento\",\"Data collection period\":\"Año de referencia 2016\",\"Use advice\":\"Aplicable para producción de tomate fresco en campo abierto en México\",\"Completeness\":\"Exhaustivo, incluye todas las entradas y salidas relevantes del proceso\",\"Sources\":\"No se proporcionan referencias bibliográficas específicas\",\"Project\":\"No especificado\",\"Intended application\":\"Análisis de ciclo de vida de productos agrícolas\",\"Data set owner\":\"INSTITUTO DE INGENIERÍA UNAM®\",\"Data set generator\":\"Ciclo de Vida System - UNAM CREAA\",\"Data set documentor\":\"Ciclo de Vida System - UNAM CREAA\",\"Publication\":\"No especificada\",\"Creation date\":\"2025-10-31 23:26:37\",\"Copyright\":\"Proprietary\",\"Access and use restrictions\":\"Public\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-07T15:51:49.041Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"ammonia, anhydrous, liquid\",\"category\":\"\",\"amount\":0.000133,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for ammonia, anhydrous, liquid | ammonia, anhydrous, liquid | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"ammonium nitrate\",\"category\":\"\",\"amount\":0.000023,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for ammonium nitrate | ammonium nitrate | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"ammonium sulfate\",\"category\":\"\",\"amount\":0.000402,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for ammonium sulfate | ammonium sulfate | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"application of plant protection product, by field sprayer\",\"category\":\"\",\"amount\":0.00012,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for application of plant protection product, by field sprayer | application of plant protection product, by field sprayer | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"fertilising, by broadcaster\",\"category\":\"\",\"amount\":0.000027,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for fertilising, by broadcaster | fertilising, by broadcaster | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"inorganic nitrogen fertiliser, as N\",\"category\":\"\",\"amount\":0.000077,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"nutrient supply from potassium nitrate | inorganic nitrogen fertiliser, as N | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"inorganic nitrogen fertiliser, as N\",\"category\":\"\",\"amount\":0.000061,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"nutrient supply from monoammonium phosphate | inorganic nitrogen fertiliser, as N | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"inorganic nitrogen fertiliser, as N\",\"category\":\"\",\"amount\":0.000061,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"nutrient supply from diammonium phosphate | inorganic nitrogen fertiliser, as N | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"inorganic nitrogen fertiliser, as N\",\"category\":\"\",\"amount\":0.000016,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"nutrient supply from ammonium nitrate phosphate | inorganic nitrogen fertiliser, as N | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"inorganic potassium fertiliser, as K20\",\"category\":\"\",\"amount\":0.000554,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"nutrient supply from potassium nitrate | inorganic potassium fertiliser, as K20 | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"irrigation\",\"category\":\"\",\"amount\":0.149013,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"market for irrigation | irrigation | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"liquid manure spreading, by vacuum tanker\",\"category\":\"\",\"amount\":0.000086,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"market for liquid manure spreading, by vacuum tanker | liquid manure spreading, by vacuum tanker | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"manure, liquid, cattle\",\"category\":\"\",\"amount\":0.040372,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for manure, liquid, cattle | manure, liquid, cattle | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"manure, liquid, swine\",\"category\":\"\",\"amount\":0.040192,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for manure, liquid, swine | manure, liquid, swine | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"manure, solid, cattle\",\"category\":\"\",\"amount\":0.024552,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for manure, solid, cattle | manure, solid, cattle | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"mulching\",\"category\":\"\",\"amount\":0.00004,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for mulching | mulching | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"packaging, for fertilisers\",\"category\":\"\",\"amount\":0.007442,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for packaging, for fertilisers | packaging, for fertilisers | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"packaging, for pesticides\",\"category\":\"\",\"amount\":0.002611,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for packaging, for pesticides | packaging, for pesticides | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"pesticide, unspecified\",\"category\":\"\",\"amount\":0.001305,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for pesticide, unspecified | pesticide, unspecified | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"potassium chloride\",\"category\":\"\",\"amount\":0.001869,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for potassium chloride | potassium chloride | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"potassium sulfate\",\"category\":\"\",\"amount\":0.00049,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for potassium sulfate | potassium sulfate | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"poultry manure, dried\",\"category\":\"\",\"amount\":0.030523,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for poultry manure, dried | poultry manure, dried | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"poultry manure, fresh\",\"category\":\"\",\"amount\":0.002715,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for poultry manure, fresh | poultry manure, fresh | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"solid manure loading and spreading, by hydraulic loader and spreader\",\"category\":\"\",\"amount\":0.055074,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for solid manure loading and spreading, by hydraulic loader and spreader | solid manure loading and spreading, by hydraulic loader and spreader | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"sowing\",\"category\":\"\",\"amount\":0.000033,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for sowing | sowing | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"tillage, cultivating, chiselling\",\"category\":\"\",\"amount\":0.000175,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for tillage, cultivating, chiselling | tillage, cultivating, chiselling | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"tillage, currying, by weeder\",\"category\":\"\",\"amount\":0.000075,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for tillage, currying, by weeder | tillage, currying, by weeder | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"tillage, harrowing, by spring tine harrow\",\"category\":\"\",\"amount\":0.000325,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for tillage, harrowing, by spring tine harrow | tillage, harrowing, by spring tine harrow | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"tillage, rolling\",\"category\":\"\",\"amount\":0.000125,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for tillage, rolling | tillage, rolling | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"tillage, rotary cultivator\",\"category\":\"\",\"amount\":0.0002,\"unit\":\"ha\",\"uncertainty\":\"\",\"provider\":\"market for tillage, rotary cultivator | tillage, rotary cultivator | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"tomato seedling, for planting\",\"category\":\"\",\"amount\":0.755659,\"unit\":\"Item(s)\",\"uncertainty\":\"\",\"provider\":\"market for tomato seedling, for planting | tomato seedling, for planting | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"transport, freight, inland waterways, barge, diesel\",\"category\":\"\",\"amount\":0.000058,\"unit\":\"t*km\",\"uncertainty\":\"\",\"provider\":\"market for transport, freight, inland waterways, barge, diesel | transport, freight, inland waterways, barge, diesel | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"transport, freight, lorry, diesel, unspecified\",\"category\":\"\",\"amount\":0.000186,\"unit\":\"t*km\",\"uncertainty\":\"\",\"provider\":\"market for transport, freight, lorry, unspecified | transport, freight, lorry, diesel, unspecified | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"transport, freight, sea, container ship, heavy fuel oil\",\"category\":\"\",\"amount\":0.001051,\"unit\":\"t*km\",\"uncertainty\":\"\",\"provider\":\"market for transport, freight, sea, container ship, heavy fuel oil | transport, freight, sea, container ship, heavy fuel oil | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"transport, freight, tractor and trailer, diesel, agricultural\",\"category\":\"\",\"amount\":0.002782,\"unit\":\"t*km\",\"uncertainty\":\"\",\"provider\":\"market for transport, freight, tractor and trailer, diesel, agricultural | transport, freight, tractor and trailer, diesel, agricultural | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"transport, freight, train, fleet average\",\"category\":\"\",\"amount\":0.000344,\"unit\":\"t*km\",\"uncertainty\":\"\",\"provider\":\"market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"urea\",\"category\":\"\",\"amount\":0.001034,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for urea | urea | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"urea ammonium nitrate mix\",\"category\":\"\",\"amount\":0.001607,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"market for urea ammonium nitrate mix | urea ammonium nitrate mix | Cutoff, U\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Carbon dioxide, in air\",\"category\":\"\",\"amount\":0.086327,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Energy, gross calorific value, in biomass\",\"category\":\"\",\"amount\":0.90367,\"unit\":\"MJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Occupation, arable\",\"category\":\"\",\"amount\":0.329435,\"unit\":\"m2*a\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Transformation, from arable land, unspecified\",\"category\":\"\",\"amount\":0.328547,\"unit\":\"m2\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Transformation, to arable land, unspecified use\",\"category\":\"\",\"amount\":0.328547,\"unit\":\"m2\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"tomato, fresh grade\",\"category\":\"A:Agriculture, forestry and fishing\/01:Crop and animal production, hunting and related service activities\/011:Growing of non-perennial crops\/0113:Growing of vegetables and melons, roots and tubers\/Agricultura, silvicultura y pesca (A)\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1762530845
+}

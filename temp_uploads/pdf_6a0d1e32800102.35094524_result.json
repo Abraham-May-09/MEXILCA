@@ -1,0 +1,341 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "89ecffdd-189a-45c4-bc8f-8d31db670478",
+                "Name": "ANÁLISIS DE CICLO DE VIDA DE LA ENERGÍA ELÉCTRICA GENERADA A PARTIR DE BIOMASA RESIDUAL DE ORIGEN URBANO",
+                "Category": "Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution\/221117 Biomass Electric Power Generation",
+                "Description": "El objetivo de este trabajo fue evaluar los potenciales impactos ambientales de la energía eléctrica generada a partir de biomasa residual de origen urbano a través de la metodología de Análisis de Ciclo de Vida. Se analizaron ocho sistemas tecnológicos: cuatro con digestión anaerobia de lodos de purga de plantas de tratamiento de aguas residuales (PTAR), dos con la fracción orgánica de los residuos sólidos urbanos (FORSU) y dos con co-digestión. La principal diferencia entre los sistemas fue la adición de un pretratamiento y\/o un postratamiento a un sistema base. El estudio se realizó con base en las Normas ISO 14040 y 14044. La unidad funcional se definió como 1 kWh de energía eléctrica generada. Los límites del estudio abarcan el ciclo de vida completo, desde la generación de la biomasa, su transporte, el acondicionamiento, la generación de biogás, la producción de energía eléctrica y la disposición de los residuos. De los ocho sistemas, el sistema de lodos de PTAR (A) generó el mayor impacto ambiental, mientras que el de co-digestión (B) presentó el mejor desempeño. Las etapas con mayor peso fueron la PTAR, el pretratamiento del lodo y la generación de biogás, debido al consumo de energía eléctrica del mix mexicano, dependiente de combustibles fósiles.",
+                "Tags": "Análisis de Ciclo de Vida, LCA, energía eléctrica, biomasa residual, lodos de PTAR, digestión anaerobia, biogás, México",
+                "Technology Description": "La evaluación de los impactos ambientales se realizó mediante la metodología de Análisis de Ciclo de Vida (ACV) sustentada en las Normas ISO 14040 y 14044. Se utilizó el software GaBi Professional (versión 8.7.0.18) con la base de datos Ecoinvent 3.4. Para la evaluación de impacto de ciclo de vida se seleccionó la metodología ReCiPe con perspectiva Jerárquica (H). El sistema tecnológico convencional (Lodos de PTAR A) consiste en una planta de tratamiento de aguas residuales (PTAR) con un proceso biológico aerobio de lodos activados. Los lodos primarios y secundarios (espesados) son mezclados y tratados mediante digestión anaerobia mesofílica. El biogás generado es utilizado como combustible en un motogenerador para producir energía eléctrica. El lodo digerido (digestato) es deshidratado y dispuesto.",
+                "Code": "MX",
+                "Last change": "20\/05\/2026 02:38"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "Análisis de Ciclo de Vida conforme a ISO 14040:2006 y ISO 14044:2006. La metodología de evaluación de impacto seleccionada fue ReCiPe.",
+                "Process type": "Análisis de ciclo de vida completo ('de la cuna a la tumba') de la generación de electricidad.",
+                "Modeling constants": "Se asume una vida útil de 20 años para las plantas, por lo que la construcción no se incluyó. La capacidad de producción de energía es de 100 kWh\/h. Se usó el mix eléctrico de México. Las distancias de transporte fueron estandarizadas: 25 km para disposición de residuos de PTAR y 528 km para transporte de químicos (desinfectante y floculante).",
+                "Data source information": "Los datos fueron recopilados de balances de materia y energía realizados por un consultor externo, datos del proyecto CEMIE-Bio, visitas de campo, comunicación personal con investigadores, artículos científicos y las bases de datos Ecoinvent 3.4 y GaBi.",
+                "Data completeness": "El inventario cubre todas las etapas del ciclo de vida, desde la generación de la biomasa (tratamiento de aguas residuales), su acondicionamiento, tratamiento, generación de energía y disposición final de residuos. Incluye entradas de materiales y energía, y salidas de productos, emisiones y residuos.",
+                "Data selection": "Se seleccionaron los flujos de materia y energía para el escenario base de tratamiento de lodos de PTAR (denominado 'Lodos de PTAR A'), considerado el sistema convencional.",
+                "Data treatment": "Los datos primarios y de literatura fueron procesados mediante balances de materia y energía, y normalizados a la unidad funcional de 1 kWh de energía eléctrica generada.",
+                "Sampling procedure": "La recolección de datos se basó en visitas a plantas de tratamiento (Xalapa I, Atotonilco), comunicación con expertos del Instituto de Ingeniería de la UNAM y el IPICYT, y revisión bibliográfica.",
+                "Data collection period": "Los datos de balances de materia y energía y del proyecto CEMIE Bio corresponden al año 2018.",
+                "Use advice": "Los resultados son específicos para el contexto tecnológico y geográfico modelado (Jalisco, México), utilizando el mix eléctrico nacional mexicano. La extrapolación a otras regiones debe hacerse con cautela.",
+                "Completeness": "El estudio es exhaustivo dentro del alcance definido, aunque se reconoce que la caracterización del digestato podría ser más detallada en futuras investigaciones.",
+                "Sources": "La lista completa de referencias se encuentra en el capítulo 'REFERENCIAS' del documento (páginas 63-70).",
+                "Project": "Centro Mexicano de Innovación en Energía, Clúster de Biocombustibles Gaseosos (CEMIE-Bio), financiado por el Fondo CONACYT-SENER\/Sustentabilidad Energética (proyecto 247006).",
+                "Intended application": "Evaluar los potenciales impactos ambientales de la generación de energía eléctrica a partir de biomasa residual urbana para identificar oportunidades de mejora y dar recomendaciones para la mitigación de impactos.",
+                "Data set owner": "Universidad Nacional Autónoma de México (UNAM)",
+                "Data set generator": "I. A. Itzel Rolón Rodríguez",
+                "Data set documentor": "I. A. Itzel Rolón Rodríguez",
+                "Publication": "Tesis para optar por el grado de: Maestro en Ingeniería",
+                "Creation date": "2019-11-01",
+                "Copyright": "DERECHOS RESERVADOS ©",
+                "Access and use restrictions": "Todo el material contenido en esta tesis está protegido por la Ley Federal del Derecho de Autor (LFDA) de los Estados Unidos Mexicanos (México). El uso de imágenes, fragmentos de videos, y demás material será exclusivamente para fines educativos e informativos y deberá citar la fuente. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "20\/05\/2026 02:38",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Agua residual",
+                    "category": "NAICS\/221320 - Sewage Treatment Facilities",
+                    "amount": 8.6,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": "Consultora externa, comunicación personal (2018)",
+                    "description": "Agua residual doméstica cruda que entra a la Planta de Tratamiento de Aguas Residuales (PTAR)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Electricidad, mix de red",
+                    "category": "NAICS\/2211 - Electric Power Generation, Transmission and Distribution",
+                    "amount": 2.7644,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "provider": "Balance de materia y energía",
+                    "description": "Consumo total de electricidad de la red para todas las etapas del proceso: PTAR (2.24), Acondicionamiento (0.0414), Generación de biogás (0.253), Producción de electricidad (0.124), Disposición de residuos (0.106)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transporte, camión",
+                    "category": "NAICS\/484 - General Freight Trucking",
+                    "amount": 0.02324,
+                    "unit": "tkm",
+                    "uncertainty": null,
+                    "provider": "Balance de materia y energía",
+                    "description": "Transporte total requerido para insumos (desinfectante) y residuos (lodo estabilizado)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Hipoclorito de sodio (NaClO)",
+                    "category": "NAICS\/325180 - Other Basic Inorganic Chemical Manufacturing",
+                    "amount": 0.00167,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Balance de materia y energía",
+                    "description": "Desinfectante utilizado en la etapa de PTAR."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Polímero",
+                    "category": "NAICS\/325211 - Plastics Material and Resin Manufacturing",
+                    "amount": 0.00217,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Balance de materia y energía",
+                    "description": "Polímero utilizado para la deshidratación del lodo en la disposición final."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Aceite lubricante",
+                    "category": "NAICS\/324191 - Petroleum Lubricating Oil and Grease Manufacturing",
+                    "amount": 0.000323,
+                    "unit": "L",
+                    "uncertainty": null,
+                    "provider": "Balance de materia y energía",
+                    "description": "Aceite consumido por el motogenerador."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Agua",
+                    "category": "NAICS\/221310 - Water Supply and Irrigation Systems",
+                    "amount": 0.916,
+                    "unit": "L",
+                    "uncertainty": null,
+                    "provider": "Balance de materia y energía",
+                    "description": "Agua consumida en el proceso de producción de electricidad (motogenerador)."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Electricidad",
+                    "category": "NAICS\/221117 - Biomass Electric Power Generation",
+                    "amount": 1,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": null,
+                    "description": "Unidad funcional del estudio: 1 kWh de energía eléctrica generada."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Residuos inertes",
+                    "category": "NAICS\/562212 - Solid Waste Landfill",
+                    "amount": 0.844,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Residuos inertes separados en la PTAR y enviados a relleno sanitario."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Digestato",
+                    "category": "NAICS\/562219 - Other Nonhazardous Waste Treatment and Disposal",
+                    "amount": 2.89,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Lodo digerido dispuesto en suelo."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Metano (CH4)",
+                    "category": null,
+                    "amount": 0.000296,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Noyola et al. (2018)",
+                    "description": "Emisión fugitiva a la atmósfera desde la PTAR."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Óxido nitroso (N2O)",
+                    "category": null,
+                    "amount": 0.0245,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Colón et al. (2015)",
+                    "description": "Emisión a la atmósfera desde la PTAR."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Demanda Bioquímica de Oxígeno (DBO5)",
+                    "category": null,
+                    "amount": 0.138,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Demanda Química de Oxígeno (DQO)",
+                    "category": null,
+                    "amount": 0.567,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Sólidos Suspendidos Totales (SST)",
+                    "category": null,
+                    "amount": 0.258,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nitrógeno Total (NTT)",
+                    "category": null,
+                    "amount": 0.189,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Fósforo (P)",
+                    "category": null,
+                    "amount": 0.0602,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Plomo (Pb)",
+                    "category": null,
+                    "amount": 0.000275,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cadmio (Cd)",
+                    "category": null,
+                    "amount": 0.000223,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Mercurio (Hg)",
+                    "category": null,
+                    "amount": 8.6e-6,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Arsénico (As)",
+                    "category": null,
+                    "amount": 1.72e-5,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cromo (Cr)",
+                    "category": null,
+                    "amount": 0.00014,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Zinc (Zn)",
+                    "category": null,
+                    "amount": 0.000628,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cobre (Cu)",
+                    "category": null,
+                    "amount": 0.000181,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Hernández-Padilla et al. (2017)",
+                    "description": "Emisión a agua en el efluente tratado."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Aceite usado",
+                    "category": "NAICS\/562219 - Other Nonhazardous Waste Treatment and Disposal",
+                    "amount": 4.04e-5,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Balance de materia y energía",
+                    "description": "Aceite residual de la producción de electricidad."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779244683
+}

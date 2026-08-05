@@ -1,0 +1,294 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "01bc517d-23a7-4975-aaa1-6ba3e7dd8a90",
+            "Name": "EVALUACIÓN DE LOS IMPACTOS AMBIENTALES DE SISTEMAS DE GENERACIÓN DE ENERGÍA DEL OCÉANO",
+            "Category": "Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation",
+            "Description": "Este estudio evalúa los impactos ambientales de cuatro dispositivos de generación de energía a partir del océano: un sistema OTEC de ciclo cerrado (conversión de energía térmica), un sistema de gradiente salino por electrodiálisis inversa (RED), un generador de corrientes de marea (SeaGen) y un generador de corrientes oceánicas (IMPULSA). Se utiliza la metodología de Análisis de Ciclo de Vida (ACV) con la metodología de evaluación de impactos ReCiPe. Se analizan 9 categorías de impacto: cambio climático, agotamiento de la capa de ozono, agotamiento de combustibles fósiles, formación de materia particulada, acidificación, toxicidad humana, ecotoxicidad marina, eutrofización marina y agotamiento de metales. Los límites del sistema incluyen la construcción, generación (para OTEC) y fin de vida de los dispositivos. La unidad funcional es 1 kWh de electricidad generada. Los resultados generales indican que los sistemas oceánicos tienen menores impactos que la generación convencional en México, pero presentan impactos comparables con otros sistemas renovables. Se identifican los procesos y materiales con mayor contribución a los impactos para cada tecnología.",
+            "Tags": "Análisis de Ciclo de Vida, energía del océano, OTEC, gradiente salino, corrientes marinas, impactos ambientales, ReCiPe, energía renovable",
+            "Technology Description": "La modelación de los impactos ambientales se realizó con el software GaBi y la base de datos Ecoinvent 3.4. La metodología de evaluación de impactos fue ReCiPe v1.08, utilizando la perspectiva jerárquica (100 años). Se analizaron cuatro tecnologías: 1) OTEC de Ciclo Cerrado (OTEC CC) de 50 MW, basado en un diseño off-shore con amoniaco como fluido de trabajo. 2) Gradiente Salino por Electrodiálisis Inversa (RED) de 50 kW netos, utilizando membranas de intercambio iónico. 3) Generador de corrientes de marea SeaGen, un modelo comercial de 1.2 MW. 4) Hidrogenerador de corrientes marinas IMPULSA, un prototipo de 500 W.",
+            "Code": "MX",
+            "Last change": "30\/11\/2025 05:16"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida conforme a ISO 14040. La evaluación de impactos se realizó con la metodología ReCiPe v1.08 (perspectiva jerárquica).",
+            "Process type": "Análisis de ciclo de vida de la cuna a la tumba para sistemas de generación de energía del océano.",
+            "Modeling constants": "El estudio considera a México como límite geográfico, pero utiliza datos internacionales por falta de información local. Las etapas consideradas son construcción, generación y fin de vida. Se utilizó un periodo de referencia de 30 años para la comparación. La perspectiva de evaluación de impacto es la jerárquica (100 años).",
+            "Data source information": "La base de datos principal utilizada es Ecoinvent 3.4. Los datos de inventario para las tecnologías específicas se obtuvieron de diversas fuentes bibliográficas, incluyendo George et al. (1979), Vega (2010), Dessne (2015) para OTEC; Veerman et al. (2009, 2010), Post et al. (2010) y Asahi Glass Co. LTD para RED; Douglas et al. (2008) para SeaGen; y López (2011) e información del CINVESTAV-Mérida para IMPULSA.",
+            "Data completeness": "La etapa de construcción y fin de vida se modeló para todos los dispositivos. La etapa de generación solo se consideró para el dispositivo OTEC CC debido a la disponibilidad de datos sobre insumos. Para los otros dispositivos, los insumos de mantenimiento durante la generación no fueron considerados por falta de información.",
+            "Data selection": "Se seleccionaron cuatro sistemas de generación de energía del océano representativos de diferentes tecnologías. Se eligieron nueve categorías de impacto de la metodología ReCiPe por ser consideradas las más representativas para los sistemas evaluados.",
+            "Data treatment": "Los datos de inventario de las fuentes bibliográficas se recopilaron y normalizaron a la unidad funcional de 1 kWh de electricidad generada durante la vida útil del dispositivo. La modelación se realizó con el software GaBi.",
+            "Sampling procedure": "No aplica. El estudio se basa en una revisión de literatura y datos de prototipos existentes.",
+            "Data collection period": "El documento fue publicado en 2019, utilizando fuentes que datan desde 1979 hasta 2019.",
+            "Use advice": "Los resultados, especialmente para los sistemas en etapa de prototipo como IMPULSA, deben interpretarse con cautela, ya que el escalamiento a nivel comercial podría alterar significativamente los perfiles de impacto. La exclusión de la fase de mantenimiento para la mayoría de los sistemas es una limitación del estudio.",
+            "Completeness": "El estudio es una primera aproximación completa para las tecnologías seleccionadas dentro de los límites definidos, aunque se reconocen brechas de datos, particularmente en la fase de operación y mantenimiento.",
+            "Sources": "Aalbers, R. R. D. (2015); Abas, N., et al. (2018); Abbasi, S.A., & Abbasi, N. (2000); Ahmadian, R., & Falconer, R. A. (2012); Al Hawari, A., et al. (2014); Allender, J. H., et al. (1978); Aluminum Association (2013); Amy, G., et al. (2017); Anaya-Durand, A., & Pedroza-Flores, H. (2008); Antón Vallejo, M. A. (2004); Asahi Glass Co. LTD; Aviña Jiménez, H. M. (2007); Banerjee, S., et al. (2013); Bárcenas Graniel, J. F. (2014); Bernal Francisco, M. (2016); Bernardoni, C. H. R. I. S. T. I. A. N., et al. (2019); Bicer, Y., et al. (2016); Bijmans, M. F. M., et al. (2012); Blunden, L. S., & Bahaj, A. S. (2007); Boehlert, G. W., & Gill, A. B. (2010); Bolaji, B. O., & Huan, Z. (2013); Bovea, M. D., et al. (2007); BP (2017); Bruciaga, W., & Escobar, C. (2016); Bullón, F. (2006); Cabello, J., et al. (2017); Cabello, R., et al. (2015); Campos Hernández, A. (2017); Cemie océano (2017); Central Intelligence Agency (2016); Clark, R. H. (2007); Cook, J., et al. (2016); Daniilidis, A., et al. (2014); De la Garza Cuevas, C. F. (2016); Dessne, P., et al. (2015); Devault, D. A., & Péné-Annette, A. (2017); Devecioğlu, A. G., & Oruç, V. (2015); Douglas, C. A., et al. (2008); Douziech, M., et al. (2016); Dufour, J. (2016); EC (2006, 2014); ECB (2014); Ecotricity (2017); EFMA (2000); EMEC (2017); Energy, B. (2014); Equimar (2010); Estévez, I., et al. (2014); F. George, J, et al. (1979); Falnes, J., & Løvseth, J. (1991); Fernández Díez, P. (2008); Ferrari, I. (2008); Frischknecht, R., & Jolliet, O. (2016); García Huante, A. (2015); Garduño Ruiz, E. P., et al. (2017); Garza Cuevas, C. F. de la (2016); Gastelum Zepeda, L. (2017); Gavankar, S., et al. (2015); George, J. F., et al. (1979); GOB (2015); Goedkoop, M., et al. (2009); Goldman, A. (2012); Grall, J., & Chauvaud, L. (2002); GreenHouse Gas Protocol (2016); Güereca L.P (2014, 2006); Güler, E., et al. (2014); Güney, M. S., & Kaygusuz, K. (2010); Hans Chr., S., et al. (2007); Hill, W. (2003); Hiriart Le Bert, G. (2009); Hong, J. G., & Chen, Y. (2014); Hubbert, M. K. (1949); IEA (2016); INEEL (2016); ISO (2006); Khan, N., et al. (2017); Knoeri, C., et al. (2013); LAERFTE (2013); LTE (2015); Li, D., et al. (2017); Li, Y., & Pan, D. Z. (2017); Llopis Doménech, R., et al.; López G. José (2011); Maina, P., & Huan, Z. (2015); Mariño, I., et al. (2017); Meegahapola, L., et al. (2007); Meghwar, A., et al. (2017); Miller, R. R., et al. (1994); Mistry, M., et al. (2016); Moriarty, P., & Honnery, D. (2012); Muetze, A., & Vining, J. G. (2006); Nasir Mehmood, Z. L., & Khan, J. (2012); News direct (2013); Norris, J. V., & Droniou, E. (2007); ORECCA (2011); Outcalt, S. L., & McLinden, M. O. (1996); Papadakis, G. (2006); Papapetrou, M., & Kumpavat, K. (2016); Parker, R. P. M., et al. (2007); Pattle, R. E. (1954); Pelc, R., & Fujita, R. M. (2002); Piccinno, F., et al. (2016); Pinder, R. W., et al. (2008); Post, J. W., et al. (2010); Power Technology (2019); PRé (2012); Quinby-Hunt, M. S., et al. (1986, 1987); Raventos, A., et al. (2010); Ramsey, D., et al. (2014); REA power (2014); Romero, B. (2003); Rourke, F. O., et al. (2010); Rule, B. M., et al. (2009); SALAET FERNÁNDEZ, S. T. É. P. H. A. N. E., & ROCA JUSMET, J. O. R. D. I. (2010); Sánchez, D., et al. (2017); Sangiuliano, S. J. (2017); Sangjo Han (2013); SEMARNAT (2002, 2014, 2015); SENER (2013, 2015, 2017, 2018); SETAC, U. (2016); Simon, B., et al. (2016); Solomon, S. (1999); Soerensen, H. C., & Weinstein, A. (2008); Student energy (2015); Tedesco, M., et al. (2017); Thomson, R. C., et al. (2019); Tidal power (2012); TM (2017); Uihlein, A. (2016); Uihlein, A., & Magagna, D. (2016); UNEP (2016); Valdés Aragonés, I. (2014); Vallejo, S. & Sánchez, C. (2015); Veerman, J., et al. (2009, 2010); Vega, L. A. (2012); Vega, L. A., & Michaelis, D. (2010); Vermaas, D. A., et al. (2011); Viola, A., et al. (2015); Walker, S., & Howell, R. (2011); Walker, S., et al. (2015); Weckert, M. (2008); Yang, X. (2013); Yañez, G. (2014); Yoon, J. I., et al. (2014, 2017); Zhai, Q., et al. (2018).",
+            "Project": "Fondo CONACYT-SENER \/ Sustentabilidad Energética a través del Centro Mexicano de Innovación en Energías del Océano (CEMIE-Océano), número de subvención 249795.",
+            "Intended application": "Evaluar los impactos ambientales de sistemas tecnológicos de generación de energía a partir del océano para identificar los procesos con mayores impactos ambientales y guiar su desarrollo.",
+            "Data set owner": "Universidad Nacional Autónoma de México (UNAM)",
+            "Data set generator": "Zamorano Guzmán Sergio Agustín",
+            "Data set documentor": "Zamorano Guzmán Sergio Agustín",
+            "Publication": "Tesis de Maestría en Ingeniería, Programa de Maestría y Doctorado en Ingeniería, UNAM",
+            "Creation date": "2019-09-01",
+            "Copyright": "© DERECHOS RESERVADOS",
+            "Access and use restrictions": "PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El material está protegido por la Ley Federal del Derecho de Autor de México. El uso de imágenes, fragmentos de videos y demás material protegido será exclusivamente para fines educativos e informativos, debiendo citar la fuente y el autor. Cualquier uso distinto como lucro, reproducción, edición o modificación será perseguido y sancionado."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "30\/11\/2025 05:16",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Concrete, high exacting requirements",
+                "category": "Manufacturing\/327 Nonmetallic Mineral Product Manufacturing\/3273 Concrete Product Manufacturing\/327320 Ready-Mix Concrete Manufacturing",
+                "amount": 0.00115438,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Material para la estructura flotante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Steel, chromium steel 18\/8",
+                "category": "Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing",
+                "amount": 0.00018619,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Suma de Acero temporal, galvanizado, para tubería, ancla y banco de carga."
+            },
+            {
+                "is_reference": false,
+                "flow": "Steel, reinforcing",
+                "category": "Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing",
+                "amount": 0.00016774,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Acero estructural para la estructura."
+            },
+            {
+                "is_reference": false,
+                "flow": "Aluminium, product manufacturing",
+                "category": "Manufacturing\/331 Primary Metal Manufacturing\/3313 Alumina and Aluminum Production and Processing\/331313 Alumina Refining and Primary Aluminum Production",
+                "amount": 0.00031325,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Suma de aluminio para revestimiento, quillas e intercambiadores de calor."
+            },
+            {
+                "is_reference": false,
+                "flow": "Glass fibre reinforced plastic, polyamide, injection moulded",
+                "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/3261 Plastics Product Manufacturing\/326199 All Other Plastics Product Manufacturing",
+                "amount": 2.04637e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Material para tuberías (FRP)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Polymer foaming (polyethylene)",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3252 Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing\/325211 Plastics Material and Resin Manufacturing",
+                "amount": 3.94419e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Espuma sintética de polietileno para tuberías."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nylon 6-6",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3252 Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing\/325220 Artificial and Synthetic Fibers and Filaments Manufacturing",
+                "amount": 5.9976e-10,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Línea de nilón para el sistema de anclaje."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ammonia, liquid",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                "amount": 0.0975123,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Fluido de trabajo principal y auxiliar para la etapa de generación."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen, liquid",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing",
+                "amount": 0.00396372,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.4",
+                "description": "Insumo para la etapa de generación."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "electricity, high voltage",
+                "category": "Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation",
+                "amount": 1,
+                "unit": "kWh",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Unidad funcional del estudio."
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide",
+                "category": "Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation",
+                "amount": 0.017256,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Dessne 2015",
+                "description": "Suma de emisiones de CO2 liberadas durante la etapa de generación por bombeo y extracción de agua."
+            },
+            {
+                "is_reference": false,
+                "flow": "Oxygen",
+                "category": "Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation",
+                "amount": 0.00128,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Dessne 2015",
+                "description": "Suma de emisiones de O2 liberadas durante la etapa de generación por extracción de agua."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen",
+                "category": "Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation",
+                "amount": 0.002285,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Dessne 2015",
+                "description": "Suma de emisiones de N2 liberadas durante la etapa de generación por extracción de agua."
+            },
+            {
+                "is_reference": false,
+                "flow": "waste concrete",
+                "category": "Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562212 Solid Waste Landfill",
+                "amount": 0.001154,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Disposición final de concreto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Steel scrap, for recovery",
+                "category": "Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers",
+                "amount": 0.000353942,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Acero para reciclaje al final de la vida útil."
+            },
+            {
+                "is_reference": false,
+                "flow": "scrap aluminium, for recovery",
+                "category": "Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers",
+                "amount": 0.000308551,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Aluminio para reciclaje al final de la vida útil."
+            },
+            {
+                "is_reference": false,
+                "flow": "Glass fibers, for disposal",
+                "category": "Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562212 Solid Waste Landfill",
+                "amount": 2.04636e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Residuos de FRP (fibra de vidrio) al final de la vida útil."
+            },
+            {
+                "is_reference": false,
+                "flow": "Foam Scrap, for recovery",
+                "category": "Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers",
+                "amount": 3.9442e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Residuos de espuma sintética para reciclaje."
+            },
+            {
+                "is_reference": false,
+                "flow": "ammonia, liquid, allocatable product",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                "amount": 0.097512,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Reúso de amoniaco al final de la vida útil."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nylon 6.6, for recovery",
+                "category": "Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers",
+                "amount": 0.0201,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Nylon para reciclaje al final de la vida útil."
+            },
+            {
+                "is_reference": false,
+                "flow": "Copper scrap, for recovery",
+                "category": "Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers",
+                "amount": 5.04243e-7,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Cobre para reciclaje al final de la vida útil."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"01bc517d-23a7-4975-aaa1-6ba3e7dd8a90\",\"Name\":\"EVALUACIÓN DE LOS IMPACTOS AMBIENTALES DE SISTEMAS DE GENERACIÓN DE ENERGÍA DEL OCÉANO\",\"Category\":\"Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\",\"Description\":\"Este estudio evalúa los impactos ambientales de cuatro dispositivos de generación de energía a partir del océano: un sistema OTEC de ciclo cerrado (conversión de energía térmica), un sistema de gradiente salino por electrodiálisis inversa (RED), un generador de corrientes de marea (SeaGen) y un generador de corrientes oceánicas (IMPULSA). Se utiliza la metodología de Análisis de Ciclo de Vida (ACV) con la metodología de evaluación de impactos ReCiPe. Se analizan 9 categorías de impacto: cambio climático, agotamiento de la capa de ozono, agotamiento de combustibles fósiles, formación de materia particulada, acidificación, toxicidad humana, ecotoxicidad marina, eutrofización marina y agotamiento de metales. Los límites del sistema incluyen la construcción, generación (para OTEC) y fin de vida de los dispositivos. La unidad funcional es 1 kWh de electricidad generada. Los resultados generales indican que los sistemas oceánicos tienen menores impactos que la generación convencional en México, pero presentan impactos comparables con otros sistemas renovables. Se identifican los procesos y materiales con mayor contribución a los impactos para cada tecnología.\",\"Tags\":\"Análisis de Ciclo de Vida, energía del océano, OTEC, gradiente salino, corrientes marinas, impactos ambientales, ReCiPe, energía renovable\",\"Technology Description\":\"La modelación de los impactos ambientales se realizó con el software GaBi y la base de datos Ecoinvent 3.4. La metodología de evaluación de impactos fue ReCiPe v1.08, utilizando la perspectiva jerárquica (100 años). Se analizaron cuatro tecnologías: 1) OTEC de Ciclo Cerrado (OTEC CC) de 50 MW, basado en un diseño off-shore con amoniaco como fluido de trabajo. 2) Gradiente Salino por Electrodiálisis Inversa (RED) de 50 kW netos, utilizando membranas de intercambio iónico. 3) Generador de corrientes de marea SeaGen, un modelo comercial de 1.2 MW. 4) Hidrogenerador de corrientes marinas IMPULSA, un prototipo de 500 W.\",\"Code\":\"MX\",\"Last change\":\"30\/11\/2025 05:16\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida conforme a ISO 14040. La evaluación de impactos se realizó con la metodología ReCiPe v1.08 (perspectiva jerárquica).\",\"Process type\":\"Análisis de ciclo de vida de la cuna a la tumba para sistemas de generación de energía del océano.\",\"Modeling constants\":\"El estudio considera a México como límite geográfico, pero utiliza datos internacionales por falta de información local. Las etapas consideradas son construcción, generación y fin de vida. Se utilizó un periodo de referencia de 30 años para la comparación. La perspectiva de evaluación de impacto es la jerárquica (100 años).\",\"Data source information\":\"La base de datos principal utilizada es Ecoinvent 3.4. Los datos de inventario para las tecnologías específicas se obtuvieron de diversas fuentes bibliográficas, incluyendo George et al. (1979), Vega (2010), Dessne (2015) para OTEC; Veerman et al. (2009, 2010), Post et al. (2010) y Asahi Glass Co. LTD para RED; Douglas et al. (2008) para SeaGen; y López (2011) e información del CINVESTAV-Mérida para IMPULSA.\",\"Data completeness\":\"La etapa de construcción y fin de vida se modeló para todos los dispositivos. La etapa de generación solo se consideró para el dispositivo OTEC CC debido a la disponibilidad de datos sobre insumos. Para los otros dispositivos, los insumos de mantenimiento durante la generación no fueron considerados por falta de información.\",\"Data selection\":\"Se seleccionaron cuatro sistemas de generación de energía del océano representativos de diferentes tecnologías. Se eligieron nueve categorías de impacto de la metodología ReCiPe por ser consideradas las más representativas para los sistemas evaluados.\",\"Data treatment\":\"Los datos de inventario de las fuentes bibliográficas se recopilaron y normalizaron a la unidad funcional de 1 kWh de electricidad generada durante la vida útil del dispositivo. La modelación se realizó con el software GaBi.\",\"Sampling procedure\":\"No aplica. El estudio se basa en una revisión de literatura y datos de prototipos existentes.\",\"Data collection period\":\"El documento fue publicado en 2019, utilizando fuentes que datan desde 1979 hasta 2019.\",\"Use advice\":\"Los resultados, especialmente para los sistemas en etapa de prototipo como IMPULSA, deben interpretarse con cautela, ya que el escalamiento a nivel comercial podría alterar significativamente los perfiles de impacto. La exclusión de la fase de mantenimiento para la mayoría de los sistemas es una limitación del estudio.\",\"Completeness\":\"El estudio es una primera aproximación completa para las tecnologías seleccionadas dentro de los límites definidos, aunque se reconocen brechas de datos, particularmente en la fase de operación y mantenimiento.\",\"Sources\":\"Aalbers, R. R. D. (2015); Abas, N., et al. (2018); Abbasi, S.A., & Abbasi, N. (2000); Ahmadian, R., & Falconer, R. A. (2012); Al Hawari, A., et al. (2014); Allender, J. H., et al. (1978); Aluminum Association (2013); Amy, G., et al. (2017); Anaya-Durand, A., & Pedroza-Flores, H. (2008); Antón Vallejo, M. A. (2004); Asahi Glass Co. LTD; Aviña Jiménez, H. M. (2007); Banerjee, S., et al. (2013); Bárcenas Graniel, J. F. (2014); Bernal Francisco, M. (2016); Bernardoni, C. H. R. I. S. T. I. A. N., et al. (2019); Bicer, Y., et al. (2016); Bijmans, M. F. M., et al. (2012); Blunden, L. S., & Bahaj, A. S. (2007); Boehlert, G. W., & Gill, A. B. (2010); Bolaji, B. O., & Huan, Z. (2013); Bovea, M. D., et al. (2007); BP (2017); Bruciaga, W., & Escobar, C. (2016); Bullón, F. (2006); Cabello, J., et al. (2017); Cabello, R., et al. (2015); Campos Hernández, A. (2017); Cemie océano (2017); Central Intelligence Agency (2016); Clark, R. H. (2007); Cook, J., et al. (2016); Daniilidis, A., et al. (2014); De la Garza Cuevas, C. F. (2016); Dessne, P., et al. (2015); Devault, D. A., & Péné-Annette, A. (2017); Devecioğlu, A. G., & Oruç, V. (2015); Douglas, C. A., et al. (2008); Douziech, M., et al. (2016); Dufour, J. (2016); EC (2006, 2014); ECB (2014); Ecotricity (2017); EFMA (2000); EMEC (2017); Energy, B. (2014); Equimar (2010); Estévez, I., et al. (2014); F. George, J, et al. (1979); Falnes, J., & Løvseth, J. (1991); Fernández Díez, P. (2008); Ferrari, I. (2008); Frischknecht, R., & Jolliet, O. (2016); García Huante, A. (2015); Garduño Ruiz, E. P., et al. (2017); Garza Cuevas, C. F. de la (2016); Gastelum Zepeda, L. (2017); Gavankar, S., et al. (2015); George, J. F., et al. (1979); GOB (2015); Goedkoop, M., et al. (2009); Goldman, A. (2012); Grall, J., & Chauvaud, L. (2002); GreenHouse Gas Protocol (2016); Güereca L.P (2014, 2006); Güler, E., et al. (2014); Güney, M. S., & Kaygusuz, K. (2010); Hans Chr., S., et al. (2007); Hill, W. (2003); Hiriart Le Bert, G. (2009); Hong, J. G., & Chen, Y. (2014); Hubbert, M. K. (1949); IEA (2016); INEEL (2016); ISO (2006); Khan, N., et al. (2017); Knoeri, C., et al. (2013); LAERFTE (2013); LTE (2015); Li, D., et al. (2017); Li, Y., & Pan, D. Z. (2017); Llopis Doménech, R., et al.; López G. José (2011); Maina, P., & Huan, Z. (2015); Mariño, I., et al. (2017); Meegahapola, L., et al. (2007); Meghwar, A., et al. (2017); Miller, R. R., et al. (1994); Mistry, M., et al. (2016); Moriarty, P., & Honnery, D. (2012); Muetze, A., & Vining, J. G. (2006); Nasir Mehmood, Z. L., & Khan, J. (2012); News direct (2013); Norris, J. V., & Droniou, E. (2007); ORECCA (2011); Outcalt, S. L., & McLinden, M. O. (1996); Papadakis, G. (2006); Papapetrou, M., & Kumpavat, K. (2016); Parker, R. P. M., et al. (2007); Pattle, R. E. (1954); Pelc, R., & Fujita, R. M. (2002); Piccinno, F., et al. (2016); Pinder, R. W., et al. (2008); Post, J. W., et al. (2010); Power Technology (2019); PRé (2012); Quinby-Hunt, M. S., et al. (1986, 1987); Raventos, A., et al. (2010); Ramsey, D., et al. (2014); REA power (2014); Romero, B. (2003); Rourke, F. O., et al. (2010); Rule, B. M., et al. (2009); SALAET FERNÁNDEZ, S. T. É. P. H. A. N. E., & ROCA JUSMET, J. O. R. D. I. (2010); Sánchez, D., et al. (2017); Sangiuliano, S. J. (2017); Sangjo Han (2013); SEMARNAT (2002, 2014, 2015); SENER (2013, 2015, 2017, 2018); SETAC, U. (2016); Simon, B., et al. (2016); Solomon, S. (1999); Soerensen, H. C., & Weinstein, A. (2008); Student energy (2015); Tedesco, M., et al. (2017); Thomson, R. C., et al. (2019); Tidal power (2012); TM (2017); Uihlein, A. (2016); Uihlein, A., & Magagna, D. (2016); UNEP (2016); Valdés Aragonés, I. (2014); Vallejo, S. & Sánchez, C. (2015); Veerman, J., et al. (2009, 2010); Vega, L. A. (2012); Vega, L. A., & Michaelis, D. (2010); Vermaas, D. A., et al. (2011); Viola, A., et al. (2015); Walker, S., & Howell, R. (2011); Walker, S., et al. (2015); Weckert, M. (2008); Yang, X. (2013); Yañez, G. (2014); Yoon, J. I., et al. (2014, 2017); Zhai, Q., et al. (2018).\",\"Project\":\"Fondo CONACYT-SENER \/ Sustentabilidad Energética a través del Centro Mexicano de Innovación en Energías del Océano (CEMIE-Océano), número de subvención 249795.\",\"Intended application\":\"Evaluar los impactos ambientales de sistemas tecnológicos de generación de energía a partir del océano para identificar los procesos con mayores impactos ambientales y guiar su desarrollo.\",\"Data set owner\":\"Universidad Nacional Autónoma de México (UNAM)\",\"Data set generator\":\"Zamorano Guzmán Sergio Agustín\",\"Data set documentor\":\"Zamorano Guzmán Sergio Agustín\",\"Publication\":\"Tesis de Maestría en Ingeniería, Programa de Maestría y Doctorado en Ingeniería, UNAM\",\"Creation date\":\"2019-09-01\",\"Copyright\":\"© DERECHOS RESERVADOS\",\"Access and use restrictions\":\"PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El material está protegido por la Ley Federal del Derecho de Autor de México. El uso de imágenes, fragmentos de videos y demás material protegido será exclusivamente para fines educativos e informativos, debiendo citar la fuente y el autor. Cualquier uso distinto como lucro, reproducción, edición o modificación será perseguido y sancionado.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"30\/11\/2025 05:16\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Concrete, high exacting requirements\",\"category\":\"Manufacturing\/327 Nonmetallic Mineral Product Manufacturing\/3273 Concrete Product Manufacturing\/327320 Ready-Mix Concrete Manufacturing\",\"amount\":0.00115438,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Material para la estructura flotante.\"},{\"is_reference\":false,\"flow\":\"Steel, chromium steel 18\/8\",\"category\":\"Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing\",\"amount\":0.00018619,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Suma de Acero temporal, galvanizado, para tubería, ancla y banco de carga.\"},{\"is_reference\":false,\"flow\":\"Steel, reinforcing\",\"category\":\"Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing\",\"amount\":0.00016774,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Acero estructural para la estructura.\"},{\"is_reference\":false,\"flow\":\"Aluminium, product manufacturing\",\"category\":\"Manufacturing\/331 Primary Metal Manufacturing\/3313 Alumina and Aluminum Production and Processing\/331313 Alumina Refining and Primary Aluminum Production\",\"amount\":0.00031325,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Suma de aluminio para revestimiento, quillas e intercambiadores de calor.\"},{\"is_reference\":false,\"flow\":\"Glass fibre reinforced plastic, polyamide, injection moulded\",\"category\":\"Manufacturing\/326 Plastics and Rubber Products Manufacturing\/3261 Plastics Product Manufacturing\/326199 All Other Plastics Product Manufacturing\",\"amount\":0.0000204637,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Material para tuberías (FRP).\"},{\"is_reference\":false,\"flow\":\"Polymer foaming (polyethylene)\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3252 Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing\/325211 Plastics Material and Resin Manufacturing\",\"amount\":0.0000394419,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Espuma sintética de polietileno para tuberías.\"},{\"is_reference\":false,\"flow\":\"Nylon 6-6\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3252 Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing\/325220 Artificial and Synthetic Fibers and Filaments Manufacturing\",\"amount\":5.9976e-10,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Línea de nilón para el sistema de anclaje.\"},{\"is_reference\":false,\"flow\":\"Ammonia, liquid\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing\",\"amount\":0.0975123,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Fluido de trabajo principal y auxiliar para la etapa de generación.\"},{\"is_reference\":false,\"flow\":\"Nitrogen, liquid\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing\",\"amount\":0.00396372,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.4\",\"description\":\"Insumo para la etapa de generación.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"electricity, high voltage\",\"category\":\"Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation\",\"amount\":1,\"unit\":\"kWh\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Unidad funcional del estudio.\"},{\"is_reference\":false,\"flow\":\"Carbon dioxide\",\"category\":\"Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation\",\"amount\":0.017256,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Dessne 2015\",\"description\":\"Suma de emisiones de CO2 liberadas durante la etapa de generación por bombeo y extracción de agua.\"},{\"is_reference\":false,\"flow\":\"Oxygen\",\"category\":\"Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation\",\"amount\":0.00128,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Dessne 2015\",\"description\":\"Suma de emisiones de O2 liberadas durante la etapa de generación por extracción de agua.\"},{\"is_reference\":false,\"flow\":\"Nitrogen\",\"category\":\"Utilities\/221 Electric Power Generation, Transmission and Distribution\/2211 Electric Power Generation\/221110 Electric Power Generation\",\"amount\":0.002285,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Dessne 2015\",\"description\":\"Suma de emisiones de N2 liberadas durante la etapa de generación por extracción de agua.\"},{\"is_reference\":false,\"flow\":\"waste concrete\",\"category\":\"Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562212 Solid Waste Landfill\",\"amount\":0.001154,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Disposición final de concreto.\"},{\"is_reference\":false,\"flow\":\"Steel scrap, for recovery\",\"category\":\"Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers\",\"amount\":0.000353942,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Acero para reciclaje al final de la vida útil.\"},{\"is_reference\":false,\"flow\":\"scrap aluminium, for recovery\",\"category\":\"Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers\",\"amount\":0.000308551,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Aluminio para reciclaje al final de la vida útil.\"},{\"is_reference\":false,\"flow\":\"Glass fibers, for disposal\",\"category\":\"Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562212 Solid Waste Landfill\",\"amount\":0.0000204636,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Residuos de FRP (fibra de vidrio) al final de la vida útil.\"},{\"is_reference\":false,\"flow\":\"Foam Scrap, for recovery\",\"category\":\"Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers\",\"amount\":0.000039442,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Residuos de espuma sintética para reciclaje.\"},{\"is_reference\":false,\"flow\":\"ammonia, liquid, allocatable product\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing\",\"amount\":0.097512,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Reúso de amoniaco al final de la vida útil.\"},{\"is_reference\":false,\"flow\":\"Nylon 6.6, for recovery\",\"category\":\"Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers\",\"amount\":0.0201,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Nylon para reciclaje al final de la vida útil.\"},{\"is_reference\":false,\"flow\":\"Copper scrap, for recovery\",\"category\":\"Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers\",\"amount\":5.04243e-7,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Cobre para reciclaje al final de la vida útil.\"}]}",
+    "http_code": 200,
+    "timestamp": 1764479764
+}

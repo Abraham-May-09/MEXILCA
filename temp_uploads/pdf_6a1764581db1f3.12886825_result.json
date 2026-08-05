@@ -1,0 +1,342 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "1383d09b-7c33-4979-a743-0bd6add8b054",
+                "Name": "Life cycle assessment of nine representative agroindustrial systems of sugar production in Mexico",
+                "Category": "Manufacturing\/311 Food Manufacturing\/3113 Sugar and Confectionery Product Manufacturing",
+                "Description": "Mexico is the sixth-largest producer of sucrose worldwide. Therefore, evaluating the environmental impacts of Mexican sugar and proposing impact mitigation strategies is of high importance since this would support better environmental performance and foster competition within the sector. However, the technological variability that occurs between farms and sugar mills, together with the different types of sugar that are produced, makes it difficult to identify a single agro-industrial production system for sugar production, that represents the entire sector. Environmental improvement strategies identified for one system are specific and have a low level of applicability to others. Therefore, the aim of this study is to develop a life cycle assessment study of nine representative sugar production systems in Mexico, considering 1 ton of sugar as a functional unit while also considering the types of sugar and technological level. The nine sugar life cycle systems analyzed were classified as follows: standard conventional (SC), standard semimechanized (SSM), standard mechanized (SM), refined conventional (RC), refined semimechanized (RSM), refined mechanized (RM), muscovado conventional (MC), muscovado semimechanized (MSM) and muscovado mechanized (MM). The results showed that conventional systems demonstrated a better environmental performance for all the impact categories analyzed, primarily because they have a lower energy requirement in cultivation and irrigation, require less fertilizers and applied pesticides, and in the industrial stage, require less chemicals for clarification. Regarding the types of sugar, Muscovado presented the lowest environmental impacts in all the categories analyzed, since it only requires one crystallization and centrifugation process, followed by drying, which is associated with lower requirements for electricity, heat, and steams. The results would suggest that the strategic avenues for further improving the environmental profile of sugarcane production and processing could include (a) continued pursuit of high yields, which is an important determinant of the environmental impacts of agricultural products, (b) precision application of fertilizers to reduce the potential for losses to the environment and (c) maximizing the utilization of coproducts to increase environmental credits.",
+                "Tags": "Life cycle assessment of sugar, Environmental impacts of sugar, Mexican sugar, Sugarcane, Standard sugar, Muscovado sugar, Refined sugar, LCA of sugar",
+                "Technology Description": "The life cycle assessment was conducted using SimaPro 8.1.1.16 software and the ReCiPe midpoint (H) V1.12 method for impact assessment. System classification was based on hierarchical cluster analysis performed with IBM SPSS Statistics 20. The life cycle inventory was constructed using primary data and supplemented with data from the Ecoinvent database V3 for missing background processes.",
+                "Code": "MX",
+                "Last change": "27\/05\/2026 21:40"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "Process-based attributional LCA. The study follows a life cycle perspective from agricultural production to distribution of sugar and co-products.",
+                "Process type": "Agro-industrial production, cradle-to-distribution",
+                "Modeling constants": "Capital goods such as tractors and harvesters were excluded from the system boundary. Cogeneration was not considered due to its limited use in the studied context. For the conventional system, 89.25% of the sugarcane harvested area is subjected to burning. Biomass generation is assumed to be 18.2 tons per hectare. Nitrogen loss from soil by burning is assumed to be 11 kg per hectare.",
+                "Data source information": "Primary data was gathered from consultations with technicians of national and local associations of sugar cane producers, interviews with officials of the National Committee for Sustainable Development of Sugar Cane (CONADESUCA), and surveys conducted with Sugar Cane Producers. Secondary data was sourced from sugarcane production statistics for the 2016\/2017 harvest (CONADESUCA-SAGARPA, 2017) and the Ecoinvent V3 database.",
+                "Data completeness": "The study covers the main stages of sugar production: agricultural production, sugar milling, commercialization, and the production of coproducts (ethanol and fodder). It is representative of the State of Veracruz, which accounts for 42% of the cultivated area and 37.10% of sucrose production in Mexico.",
+                "Data selection": "The study is based on data from 18 sugar mills in Veracruz, Mexico. Nine representative systems were defined based on technological level (conventional, semi-mechanized, mechanized) and sugar type (standard, refined, muscovado). This extraction focuses on the 'standard conventional' scenario. Capital goods were excluded from the analysis due to their long lifespan.",
+                "Data treatment": "Hierarchical cluster analysis was used to classify the technological levels of the 18 sugar mills. Average data for the resulting clusters were used to build the LCI for the representative scenarios.",
+                "Sampling procedure": "Data was collected through a combination of expert consultations, surveys with producers, interviews with government officials, and a review of official statistics and relevant literature.",
+                "Data collection period": "2016\/2017 harvest season",
+                "Use advice": "The environmental improvement strategies identified are specific to the systems analyzed and may have low applicability to other contexts. The results are specific to the conditions of the sugarcane industry in Veracruz, Mexico. The system boundary excludes the manufacturing and end-of-life of capital equipment and does not consider cogeneration.",
+                "Completeness": "The study is comprehensive within its defined scope (cradle-to-distribution), covering all major process stages and co-products. However, it explicitly excludes capital equipment, which represents a completeness gap.",
+                "Sources": "Aguilar-Rivera, N., Debernardi-Vázquez, T.J., Herrera-Paz, H.D., 2017. Byproducts, coproducts and derivatives of the sugar agroindustry. Agroproductividad 10 (11), 13-20.\nAguilar-Rivera, N., Michel-Cuello, C., Serna-Lagunes, R., de Jesús Debernardi-Vázquez, T., Trujillo-Mata, A., 2019. Ethanol production from the mexican sugar industry: perspectives and challenges. In: Sugarcane Biofuels. Springer, Cham, pp. 203-235.\nAguilar-Rivera, N., Rodríguez, L., Enríquez, R., Castillo, M., Herrera, S., 2012. The Mexican sugarcane industry: overview, constraints, current status and long-term trends. Sugar Tech. 14, 207-222.\nAmezcua-Allieri, M.A., Martínez-Hernández, E., Anaya-Reza, O., Magdaleno-Molina, M., Melgarejo-Flores, L.A., Palmerín-Ruiz, M.E., et al., 2019. Techno-economic analysis and life cycle assessment for energy generation from sugarcane bagasse: case study for a sugar mill in Mexico. Food Bioprod. Process. 118, 281-292.\nAmores, M., Mele, F., Jiménez, L., Castells, F., 2013. Life cycle assessment of fuel ethanol from sugarcane in Argentina. LCA Renew Resour 18 (7), 1344-1357.\nBello, S., Salim, I., Feijoo, G., Moreira, M.T., 2021. Inventory review and environmental evaluation of first- and second-generation sugars through life cycle assessment. Environ. Sci. Pollut. Res. 28, 27345-27361.\nChan, S., Weitz, N., Persson, Å., Trimmer, C., 2018. SDG 12: responsible consumption and production. In: A Review of Research Needs. Stockholm Environment Insitute, Stockholm.\nChandra, V.V., Hemstock, S.L., Mwabonje, O.N., De Ramon N'Yeurt, A., Woods, J., 2018. Life cycle assessment of sugarcane growing process in Fiji. Sugar Tech. 20, 692-699.\nCONADESUCA-SAGARPA, 2015. Exportaciones de Azúcar. Ciclo 2015-2016. SAGARPA, Ciudad de México.\nCONADESUCA-SAGARPA, 2017. Agenda Nacional de Investigación, Innovación y Transferencia de Tecnología de la Caña de Azúcar. CONADESUCA-SAGARPA, Ciudad de México.\nCONADESUCA-SAGARPA, 2021. Información estadística de los principales indicadores de producción de la zafra 2020-2021 de CONADESUCA.\nContreras, A.M., Rosa, E., Pérez, M., Van Langenhove, H., Dewulf, J., 2009. Comparative Life Cycle Assessment of four alternatives for using by-products of cane sugar production. J. Clean. Prod., 772-779.\nGarcía, C.A., García-Trevino, E.S., Aguilar-Rivera, N., Armendariz, C., 2016. Carbon footprint of sugar production in Mexico. J. Clean. Prod., 2632-2641.\nGezae Daful, A., Haigh, K., Vaskan, P., Görgens, J.F., 2016. Environmental impact assessment of lignocellulosic lactic acid production: Integrated with existing sugar mills. Food Bioprod. Process. 99, 58-70.\nIPCC, 2019. Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories. Chapter 5, Cropland.\nKaab, A., Sharifi, M., Mobli, H., Nabavi-Pelesaraei, A., Chau, K., 2019a. Combined life cycle assessment and artificial intelligence for prediction of output energy and environmental impacts of sugarcane production. Sci. Total Environ. 664, 1005-1019.\nKaab, A., Sharifi, M., Mobli, H., Nabavi-Pelesaraei, A., Chau, K., 2019b. Use of optimization techniques for energy use efficiency and environmental life cycle assessment modification in sugarcane production. Energy 181, 1298-1320.\nKhan, E.U., Pasha, T.N., Aleem, M., Rashid, M.A., 2018. Replacing corn grains with varying levels of cane molasses. J. Anim. Plant Sci. 28, 1002-1006.\nMaravić, N., Kiss, F., Ŝereŝ, L., Bogdanović, B., Bogdanović, B., Ŝereŝ, Z., 2015. Economic analysis and LCA of an advanced industrial-scale raw sugar juice purification procedure. Food Bioprod. Process. 95, 19-26.\nMashoko, L., Mbohwa, C., Thomas, V., 2010. LCA of the South African sugar industry. J. Environ. Plan. Manag. 53 (6), 793-807.\nMeza-Palacios, R., Aguilar-Lasserre, A.A., Morales-Mendoza, L.F., Pérez-Gallardo, J.R., Rico-Contreras, J.O., Avarado-Lassman, A., 2019. Life cycle assessment of cane sugar production. J. Environ. Sci. Health, Part A 54 (7), 668-678.\nNishihara Hun, A.L., Mele, F.D., Pérez, G.A., 2017. A comparative life cycle assessment of the sugarcane value chain in the province of Tucumén (Argentina). Int. J. Life Cycle Assess. 22, 502-515.\nOltramari, C.E., Nápoles, G.G.O., De Paula, M.R., Silva, J.T., Gallo, M.P.C., Soares, M.C., Bittar, C.M.M., 2018. Performance and metabolism of dairy calves fed starter feed containing citrus pulp as a replacement for corn. Anim. Prod. Sci. 58, 561-567.\nPrasara-A, J., Gheewala, S.H., Silalertruksa, T., Pongpat, P., Sawaengsak, W., 2019. Environmental and social life cycle assessment to enhance sustainability of sugarcane-based products in Thailand. Clean Technol. Environ. Policy 21, 1447-1458.\nParascanu, M.M., Kaltschmitt, M., Rödl, A., Soreanu, G., Sánchez-Silva, L., 2021. Life cycle assessment of electricity generation from combustion and gasification of biomass in Mexico. Sustain. Prod. Consum. 27, 72-85.\nPryor, S., Smithers, J., Lyne, P., van Antwerpen, R., 2017. Impact of agricultural practices on energy use and greenhouse gas emissions for South African sugarcane production. J. Clean. Prod. 141, 137-145.\nRamírez-Mora, E., Pérez-Vázquez, A., Landeros-Sánchez, C., Martínez-Dávila, J.P., Villanueva-Jiménez, J.A., Lagunes-Espinoza, L.C., 2018. Historical use of pesticides in sugarcane plantations in the DR035 La Antigua, Veracruz. Acta Universitaria, 28.\nRamjeawon, T., 2004. Life cycle assessment of cane-sugar on the Island of Mauritius. Int. J. LCA 9, 254-260.\nRein, P., 2010. The carbon footprint of sugar. Sugar Ind.\/Zuckerindustrie 135 (7).\nRenouf, M.A., Poggio, M., Collier, A., Price, N., Schroeder, B.L., Allsopp, P.G., 2018. Customised life cycle assessment tool for sugarcane (CaneLCA). Int. J. Life Cycle Assess. 23, 2150-2164.\nRenouf, M.A., Wegener, M.K., Pagan, R.J., 2010. Life cycle assessment of Australian sugarcane production. Int. J. Life Cycle Assess. 15, 927-937.\nSalgado, S., Lagunes, L., Nuñez, R., Ortíz, C., Bucio, L., Aranda, E., 2012. Caña de Azúcar: Producción Sustentable. BBA, Ciudad de México.\nSalgado, S., Aranda, E., Castelan, M., Ortiz, H., Palma, D., Cordova, S., 2014. Que hacer con la paja de la cosecha mecanizada de la caña de azúcar. AgroProductividad 7 (Marzo-Abril (2)), 3-8.\nSEMARNAT-INECC, 2016. Determinación de Factores de Emisión de Bióxido de Carbono (CO2), Partículas en Suspensión de 2.5 y 10 Micras (PM 2.5 y PM10) y Contaminantes de Vida Corta Metano (CH4) y Carbono Negro por Prácticas de Quema Agrícola.\nSentíes-Herrera, H.E., Gómez-Merino, F.C., Valdez-Balero, A., Silva-Rojas, H.V., Trejo-Téllez, L.I., 2014. The agro-industrial sugarcane system in Mexico. J. Agric. Sci. 6, 26-54.\nSilalertruksa, T., Pongpat, P., Gheewala, S., 2017. Life cycle assessment for enhancing environmental sustainability of sugarcane biorefinery in Thailand. J. Clean. Prod. 140 (2), 906-913.\nStavropoulos, P., Giannoulis, C., Papacharalampopoulos, A., Foteinopoulos, P., Chryssolouris, G., 2016. Life cycle analysis: comparison between different methods and optimization challenges. Procedia CIRP, pp. 626-631.\nUrbaniec, K., 2004. The evolution of evaporator stations in the beet-sugar industry. J. Food Eng. 61, 505-508.\nWernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., Weidama, B., 2016. The ecoinvent database version 3 (part1): overview and methodology. Int. J. Life Cycle Assess. 21, 1218-1230.\nYuttitham, M., Gheewala, S., Chidthaisong, A., 2011. Carbon footprint of sugar produced from sugarcane in eastern Thailand. J. Clean Prod. 19, 2119-2127.",
+                "Project": null,
+                "Intended application": "To evaluate the environmental impacts of the Mexican sugar agroindustry, with the aim of supporting better environmental performance, fostering competition within the sector, and aiding the establishment of environmentally responsible policies by government bodies.",
+                "Data set owner": "Instituto de Ingeniería-Universidad Nacional Autónoma de México; Faculty of Environmental Design, University of Calgary; Facultad de Ciencias Biológicas y Agropecuarias, Universidad Veracruzana",
+                "Data set generator": "Leonor Patricia Güereca, Alejandro Padilla-Rivera, Noé Aguilar-Rivera",
+                "Data set documentor": "Leonor Patricia Güereca, Alejandro Padilla-Rivera, Noé Aguilar-Rivera",
+                "Publication": "Food and Bioproducts Processing, 131 (2022) 164-175, Elsevier",
+                "Creation date": "2021-11-18",
+                "Copyright": "© 2021 Institution of Chemical Engineers. Published by Elsevier B.V. All rights reserved.",
+                "Access and use restrictions": null
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "27\/05\/2026 21:40",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Soil preparation",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/115:Support Activities for Agriculture and Forestry\/1151:Support Activities for Crop Production",
+                    "amount": 0.18,
+                    "unit": "ha",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Land use for conventional agricultural system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Seed cane",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 2160,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Seed cane for planting in conventional system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transportation, agricultural stage",
+                    "category": "F:Transportation and Warehousing\/484:Truck Transportation",
+                    "amount": 41.32,
+                    "unit": "tkm",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Transport associated with the conventional agricultural stage."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water, irrigation",
+                    "category": "D:Utilities\/2213:Water, Sewage and Other Systems\/221310:Water Supply and Irrigation Systems",
+                    "amount": 1674.52,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Water used in the conventional agricultural system (rainfed)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Fertilizers, total",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3253:Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing\/32531:Fertilizer Manufacturing",
+                    "amount": 13510,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Total fertilizers used in conventional system. The original unit in the source table is 't', which may be a typo but is reported as per source."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pesticides",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3253:Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing\/325320:Pesticide and Other Agricultural Chemical Manufacturing",
+                    "amount": 1.52,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Pesticides used in conventional system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Excavator usage",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/115:Support Activities for Agriculture and Forestry\/1151:Support Activities for Crop Production",
+                    "amount": 9450,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Input related to excavator usage. The unit 't' in the source is ambiguous and has been converted to kg."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Hydraulic digger usage",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/115:Support Activities for Agriculture and Forestry\/1151:Support Activities for Crop Production",
+                    "amount": 0.0068,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Input related to hydraulic digger usage. The nature of this flow is ambiguous."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transportation, commercialization",
+                    "category": "F:Transportation and Warehousing\/484:Truck Transportation",
+                    "amount": 505,
+                    "unit": "tkm",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Transport for distribution of final product."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Gas petroleum",
+                    "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                    "amount": 0.491,
+                    "unit": "l",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Fuel used in the standard sugar mill."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water, process",
+                    "category": "D:Utilities\/2213:Water, Sewage and Other Systems\/221310:Water Supply and Irrigation Systems",
+                    "amount": 104,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Water used in the standard sugar mill."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Hard coal",
+                    "category": "B:Mining, Quarrying, and Oil and Gas Extraction\/212:Mining (except Oil and Gas)\/2121:Coal Mining",
+                    "amount": 0.636,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Coal used in the standard sugar mill."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Flocculants and coagulants",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3251:Basic Chemical Manufacturing\/325180:Other Basic Inorganic Chemical Manufacturing",
+                    "amount": 15.5041,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Total chemicals for clarification in the standard sugar mill."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Lubricating oil",
+                    "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/3241:Petroleum and Coal Products Manufacturing\/32419:Other Petroleum and Coal Products Manufacturing",
+                    "amount": 130.9,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Lubricating oil used in the standard sugar mill. The original unit 't' may be a typo but is reported as per source."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Electricity",
+                    "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                    "amount": 189.388,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Electricity consumed in the standard sugar mill."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Steam",
+                    "category": "D:Utilities\/221:Utilities\/2213:Water, Sewage and Other Systems\/221330:Steam and Air-Conditioning Supply",
+                    "amount": 4635,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Steam consumed in the standard sugar mill."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Polypropylene, for packing",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3252:Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing\/325211:Plastics Material and Resin Manufacturing",
+                    "amount": 1.86,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Polypropylene for sugar packaging."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Standard sugar",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3113:Sugar and Confectionery Product Manufacturing\/311314:Cane Sugar Manufacturing",
+                    "amount": 1000,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": null,
+                    "description": "Functional unit of the study is 1 tonne of standard sugar."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Ethanol",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3251:Basic Chemical Manufacturing\/325193:Ethyl Alcohol Manufacturing",
+                    "amount": -31,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": true,
+                    "provider": null,
+                    "description": "Avoided product from distillery stage using molasses. Amount reported as negative to represent a credit."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Silage",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3111:Animal Food Manufacturing\/311119:Other Animal Food Manufacturing",
+                    "amount": -84,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": true,
+                    "provider": null,
+                    "description": "Avoided product from fodder production stage (cattle feed), displacing corn. Amount reported as negative to represent a credit."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Greenhouse gases, unspecified",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 194.96,
+                    "unit": "kg CO2-Eq",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Table 4",
+                    "description": "Direct GHG emissions during burning before the harvest of the sugarcane crop for the conventional system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nitrogen oxides",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 1.15,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Table 4",
+                    "description": "Direct NOx emissions during burning before the harvest of the sugarcane crop for the conventional system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Carbon monoxide",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 81.45,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Table 4",
+                    "description": "Direct CO emissions during burning before the harvest of the sugarcane crop for the conventional system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Particulates, > 2.5 um, and < 10um",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 5.93,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Calculated from data in Section 2.4",
+                    "description": "Calculated PM10 emissions from burning of 3.276 tonnes of biomass."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Particulates, < 2.5 um",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 3.9,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Calculated from data in Section 2.4",
+                    "description": "Calculated PM2.5 emissions from burning of 3.276 tonnes of biomass."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nitrogen, to soil",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming\/111930:Sugarcane Farming",
+                    "amount": 1.98,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": false,
+                    "provider": "Calculated from data in Section 2.4",
+                    "description": "Calculated losses of nitrogen from the soil due to burning."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779918010
+}

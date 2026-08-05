@@ -1,0 +1,308 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "ddda9af7-76e1-4c69-8e82-60999ba3a762",
+            "Name": "Tap water at user, production and supply adapted to MX",
+            "Category": "Utilities\/221310 Water Supply and Irrigation Systems",
+            "Description": "Análisis de inventario del ciclo de vida para la producción y suministro de agua potable en México. El proceso incluye la extracción, tratamiento, distribución y suministro de agua potable al usuario final. Los límites del sistema abarcan desde la captación del agua hasta su entrega en el punto de consumo, incluyendo todos los procesos intermedios de tratamiento y distribución.",
+            "Tags": "water supply, drinking water, life cycle assessment, water treatment, distribution systems",
+            "Technology | Description": "Metodología de Análisis de Ciclo de Vida (ACV) para evaluar los impactos ambientales del proceso de producción y suministro de agua potable. Incluye inventario de materiales y energía utilizados en todo el sistema de abastecimiento.",
+            "Code": "MX",
+            "Last_change": "19\/11\/2025 21:33"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "",
+            "Process type": "Transformation",
+            "Modeling constants": "",
+            "Data source information": "",
+            "Data completeness": "",
+            "Data selection": "",
+            "Data treatment": "",
+            "Sampling procedure": "",
+            "Data collection period": "",
+            "Use advice": "",
+            "Completeness": "",
+            "Sources": "",
+            "Project": "",
+            "Intended application": "",
+            "Data set owner": "N\/A",
+            "Data set generator": "Ciclo de Vida System - UNAM CREAA",
+            "Data set documentor": "",
+            "Publication": "",
+            "Creation date": "2025-10-13",
+            "Copyright": "INSTITUTO DE INGENIERÍA UNAM®",
+            "Access and use restrictions": "Proprietary license, Public access"
+        },
+        "actors": {
+            "@type": "Actor",
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "version": "01.00.000",
+            "lastChange": "2025-11-19T21:34:07.210Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria, Delegación Coyoacán, México, C.P. 04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Electricity, medium voltage, consumer mix, at",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 0.000391,
+                "unit": "kWh",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Aluminium",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Calcite",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 7.4e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide, in air",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 9.0e-6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Clay, unspecified",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 2.8e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Coal, brown",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 5.0e-6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Coal, hard",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 2.8e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Gangue, bauxite, in ground",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 7.0e-6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas, natural\/m3",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-5,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Gravel",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 0.000376,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Gypsum",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 2.0e-6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Iron",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Occupation, forest, intensive",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.8e-5,
+                "unit": "m2*a",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Occupation, industrial area",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.3e-5,
+                "unit": "m2*a",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Occupation, traffic area, road network",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-6,
+                "unit": "m2*a",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Oil, crude",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Volume occupied, reservoir",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-6,
+                "unit": "m3y",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, lake, RoW",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 0.000205,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, river, RoW",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 0.000513,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, turbine use, unspecified natural origin",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 0.000112,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, unspecified natural origin, RoW",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1.0e-6,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, well, in ground, RoW",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 0.000411,
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Tap water at construction site, production and supply",
+                "category": "mexicv\/Materials CMM\/Water\/Water\/Drinking water\\Transformation",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"ddda9af7-76e1-4c69-8e82-60999ba3a762\",\"Name\":\"Tap water at user, production and supply adapted to MX\",\"Category\":\"Utilities\/221310 Water Supply and Irrigation Systems\",\"Description\":\"Análisis de inventario del ciclo de vida para la producción y suministro de agua potable en México. El proceso incluye la extracción, tratamiento, distribución y suministro de agua potable al usuario final. Los límites del sistema abarcan desde la captación del agua hasta su entrega en el punto de consumo, incluyendo todos los procesos intermedios de tratamiento y distribución.\",\"Tags\":\"water supply, drinking water, life cycle assessment, water treatment, distribution systems\",\"Technology | Description\":\"Metodología de Análisis de Ciclo de Vida (ACV) para evaluar los impactos ambientales del proceso de producción y suministro de agua potable. Incluye inventario de materiales y energía utilizados en todo el sistema de abastecimiento.\",\"Code\":\"MX\",\"Last_change\":\"19\/11\/2025 21:33\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"\",\"Process type\":\"Transformation\",\"Modeling constants\":\"\",\"Data source information\":\"\",\"Data completeness\":\"\",\"Data selection\":\"\",\"Data treatment\":\"\",\"Sampling procedure\":\"\",\"Data collection period\":\"\",\"Use advice\":\"\",\"Completeness\":\"\",\"Sources\":\"\",\"Project\":\"\",\"Intended application\":\"\",\"Data set owner\":\"N\/A\",\"Data set generator\":\"Ciclo de Vida System - UNAM CREAA\",\"Data set documentor\":\"\",\"Publication\":\"\",\"Creation date\":\"2025-10-13\",\"Copyright\":\"INSTITUTO DE INGENIERÍA UNAM®\",\"Access and use restrictions\":\"Proprietary license, Public access\"},\"actors\":{\"@type\":\"Actor\",\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-19T21:34:07.210Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria, Delegación Coyoacán, México, C.P. 04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Electricity, medium voltage, consumer mix, at\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000391,\"unit\":\"kWh\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Aluminium\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000001,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Calcite\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000074,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Carbon dioxide, in air\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000009,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Clay, unspecified\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000028,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Coal, brown\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000005,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Coal, hard\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000028,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Gangue, bauxite, in ground\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000007,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Gas, natural\/m3\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.00001,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Gravel\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000376,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Gypsum\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000002,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Iron\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.00001,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Nitrogen\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000001,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Occupation, forest, intensive\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000018,\"unit\":\"m2*a\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Occupation, industrial area\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000013,\"unit\":\"m2*a\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Occupation, traffic area, road network\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000001,\"unit\":\"m2*a\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Oil, crude\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.00001,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Volume occupied, reservoir\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000001,\"unit\":\"m3y\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Water, lake, RoW\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000205,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Water, river, RoW\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000513,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Water, turbine use, unspecified natural origin\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000112,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Water, unspecified natural origin, RoW\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000001,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Water, well, in ground, RoW\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":0.000411,\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Tap water at construction site, production and supply\",\"category\":\"mexicv\/Materials CMM\/Water\/Water\/Drinking water\\\\Transformation\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1763588110
+}

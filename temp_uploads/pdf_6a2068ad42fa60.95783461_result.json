@@ -1,0 +1,894 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "e996507a-a45e-4f0b-a4ef-07e335f800ff",
+                "Name": "ecoinvent 3.11 Dataset Documentation: 'lemon production – MX – lemon'",
+                "Category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/1113 Fruit and Tree Nut Farming\/111320 Citrus (except Orange) Groves",
+                "Description": "This dataset represents the production of 1 kg of lemons in Mexico for the export market. The average yield from 2009 - 2012 is 13.8 t\/ha. Mineral NPK fertiliser input is 33-0-10 kg\/ha. Organic fertilisers applied amount to 1.67 m3\/ha of liquid manure and 1.07 t\/ha of solid manure. Total active ingredients (a.i.) applied as pesticides amount to 28.6 kg a.i.\/ha. The activity starts with the nursery producing fruit tree seedlings and ends with the waste treatment after the clearing of the orchard (30 years lifetime). The dataset includes all activities of a year in the productive phase, the establishment phase, and the clearing phase. This includes tree nursery, soil cultivation, planting, irrigation, machine operations, infrastructure, fuel use, direct field emissions, land use change, and heavy metal uptake by the crop. The inputs of seedlings, fertilisers (mineral and organic), pesticides, and their packaging are considered. The dataset does not include emissions from manure storage because these are within the system boundary of animal production.",
+                "Tags": "lemon, citrus, agriculture, crop production, LCA, ecoinvent, Mexico, WFLDB",
+                "Technology Description": "Conventional production. The dataset was modelled within the project 'World Food LCA database (WFLDB)'. WFLDB Methodological Guidelines for the Life Cycle Inventory of Agricultural Products were used.",
+                "Code": "MX",
+                "Last change": "03\/06\/2026 17:49"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "The LCI is based on the WFLDB Methodological Guidelines. Impact assessment methods shown are Ecological Scarcity 2021, EF v3.1, and IPCC 2021.",
+                "Process type": "Ordinary transforming activity, representing cradle-to-farm-gate production.",
+                "Modeling constants": "System model: Allocation, cut-off. The lifetime of the orchard is assumed to be 30 years.",
+                "Data source information": "ecoinvent v3.11, World Food LCA database (WFLDB), FAOSTAT, International Fertilizer Association (IFA), EMEP\/EEA, IPCC, and scientific literature (Ozkan B., Freiermuth R., Prasuhn V., etc.).",
+                "Data completeness": "The dataset includes all activities from nursery to waste treatment after orchard clearing. It covers seedlings, fertilisers (mineral and organic), pesticides, packaging, machine operations, fuel use, direct field emissions, land use change, and heavy metal uptake. Emissions from manure storage are excluded as they are within the system boundary of animal production.",
+                "Data selection": "Data were categorised from level 0 (LO) to level (L4) based on quality (estimate, proxy, statistical, literature, etc.).",
+                "Data treatment": null,
+                "Sampling procedure": "WFLDB Methodological Guidelines for the Life Cycle Inventory of Agricultural Products. Data sources were categorised from level 0 (LO) to level (L4) as follows: L0 = estimate, proxy; L1 = statistical data (e.g. FAOSTAT); L2 = L1 adapted to crop and country; L3 = literature data or L1 resp. L2 data approved by experts; L4 = L3 data of high detailing. Data for yield: L1; Fertilisers: L1; Pesticides: L0; Machinery: L0; Irrigation: L2.",
+                "Data collection period": "Data for yield is an average from 2009-2012. The dataset is valid for the period 2009-01-01 to 2024-12-31.",
+                "Use advice": "This dataset refers to an average situation; for specific situations exchanges might differ substantially due to site specific parameters. PEF-Quality: data quality rating (DQR) = 3.2 (i.e. fair quality).",
+                "Completeness": null,
+                "Sources": [
+                    {
+                        "citation": "Ozkan B., Akcoaz H., Karadeniz F. (2004). Energy requirement and economic analysis of citrus production in Turkey. Energy Conversion and Management, 45."
+                    },
+                    {
+                        "citation": "EEA (2013). EMEP\/EEA air pollutant emission inventory guidebook 2013 - Technical guidance to prepare national emission inventories."
+                    },
+                    {
+                        "citation": "Faist Emmenegger M., Reinhard J., Zah R. (2009). Sustainability Quick Check for Biofuels – intermediate background report. With contributions from T. Ziep, R. Weichbrodt, Prof. Dr. V. Wohlgemuth, FHTW Berlin and A. Roches, R. Freiermuth Knuchel, Dr. G. Gaillard, Agroscope Reckenholz-Tänikon."
+                    },
+                    {
+                        "citation": "IPCC (2006). 2006 IPCC Guidelines for National Greenhouse Gas Inventories, Prepared by the National Greenhouse Gas Inventories Programme. Volume 4: Agriculture, forestry and other land use."
+                    },
+                    {
+                        "citation": "Freiermuth R. (2006). Modell zur Berechnung der Schwermetallflüsse in der Landwirtschaftlichen Ökobilanz."
+                    },
+                    {
+                        "citation": "Nemecek T., Bengoa X., Lansche J., Mouron P., Rossi V., Humbert S., Riedener E. (2015). World Food LCA Database. Methodological Guidelines for the Life Cycle Inventory of Agricultural Products. Version 3.0."
+                    },
+                    {
+                        "citation": "Prasuhn V. (2006). Erfassung der PO4-Austräge für die Ökobilanzierung - SALCA-Phosphor."
+                    }
+                ],
+                "Project": "World Food LCA database (WFLDB)",
+                "Intended application": "To provide inventories of a broad variety of agricultural products and processes and to cover for each product at least 50% of the global export market.",
+                "Data set owner": "ecoinvent Association",
+                "Data set generator": "Tuija Waldvogel",
+                "Data set documentor": "Patrik Mouron",
+                "Publication": null,
+                "Creation date": null,
+                "Copyright": "Copyright ecoinvent Association, 2026",
+                "Access and use restrictions": "The restrictions of use stipulated in the EULA remain applicable for this pdf documentation."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "03\/06\/2026 17:49",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "ammonia, anhydrous, liquid",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                    "amount": 0.000187,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 2.58 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "ammonium nitrate",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                    "amount": 3.24e-5,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 0.156 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "ammonium sulfate",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                    "amount": 0.000567,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 7.82 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "application of plant protection product, by field sprayer",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.00029,
+                    "unit": "ha",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy from Lemon TR. Corresponds to 4 applications per year."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "cyclic N-compound",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                    "amount": 0.000636,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: extrapolated with MEXALCA from similar crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "establishing orchard",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.000621,
+                    "unit": "unit",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: Similar crop and country used. Number of trees per ha divided by the lifetime."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "fertilising, by broadcaster",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.00029,
+                    "unit": "ha",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy from Lemon TR. Corresponds to 4 applications per year."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "fruit tree seedling, for planting",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/1114 Greenhouse, Nursery, and Floriculture Production\/111421 Nursery and Tree Production",
+                    "amount": 0.000621,
+                    "unit": "unit",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: Similar crop and country used."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "glyphosate",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                    "amount": 0.000102,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: extrapolated with MEXALCA from similar crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "inorganic nitrogen fertiliser, as N",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                    "amount": 0.000982,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 0.308 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "inorganic potassium fertiliser, as K2O",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325314 Fertilizer (Mixing Only) Manufacturing",
+                    "amount": 0.000193,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 2.66 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "irrigation",
+                    "category": "Utilities\/221 Utilities\/2213 Water, Sewage and Other Systems\/221310 Water Supply and Irrigation Systems",
+                    "amount": 0.451,
+                    "unit": "m3",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated from evapotranspiration and country-share of irrigation technique."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "land use change, perennial crop",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/1113 Fruit and Tree Nut Farming\/111320 Citrus (except Orange) Groves",
+                    "amount": 3.45e-5,
+                    "unit": "ha",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Calculated value using 'Direct Land Use Change Assessment Tool'."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "liquid manure spreading, by vacuum tanker",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.000121,
+                    "unit": "m3",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "This amount corresponds to the input of liquid manure."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "packaging, for fertilisers",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/3261 Plastics Product Manufacturing\/326199 All Other Plastics Product Manufacturing",
+                    "amount": 0.00625,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated as double the amount of active substance of fertilisers."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "packaging, for pesticides",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/3261 Plastics Product Manufacturing\/326199 All Other Plastics Product Manufacturing",
+                    "amount": 0.00415,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated as double the amount of active substance of pesticides."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "phenoxy-compound",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                    "amount": 2.32e-5,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: extrapolated with MEXALCA from similar crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "phthalimide-compound",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                    "amount": 0.00131,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: extrapolated with MEXALCA from similar crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "planting tree",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.000621,
+                    "unit": "unit",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy: Similar crop and country used."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "potassium chloride",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325314 Fertilizer (Mixing Only) Manufacturing",
+                    "amount": 0.000651,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 5.67 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "potassium sulfate",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325314 Fertilizer (Mixing Only) Manufacturing",
+                    "amount": 0.000171,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 1.27 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "solid manure loading and spreading, by hydraulic loader and spreader",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.0777,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "This amount corresponds the input of solid manure."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "tillage, harrowing, by rotary harrow",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.000145,
+                    "unit": "ha",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy from Lemon TR."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "tillage, ploughing",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 7.26e-5,
+                    "unit": "ha",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy from Lemon TR."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "tillage, rolling",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/115 Support Activities for Agriculture and Forestry\/1151 Support Activities for Crop Production\/115112 Soil Preparation, Planting, and Cultivating",
+                    "amount": 0.000109,
+                    "unit": "ha",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Proxy from Lemon TR."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "transport, freight, tractor and trailer, diesel, agricultural",
+                    "category": "Transportation and Warehousing\/484 Truck Transportation\/4841 General Freight Trucking",
+                    "amount": 0.002,
+                    "unit": "metric ton*km",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "On-farm transport. Assumed distance of 2 km."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "urea",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/3253 Fertilizer and Pesticide Manufacturing\/325311 Nitrogenous Fertilizer Manufacturing",
+                    "amount": 0.00146,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values. Corresponds to 9.37 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "manure, liquid, cattle",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture",
+                    "amount": 0.0569,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Corresponds to 0.785 m3\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "manure, liquid, swine",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture",
+                    "amount": 0.0567,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Corresponds to 0.781 m3\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "manure, solid, cattle",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture",
+                    "amount": 0.0346,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Corresponds to 477.0 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "poultry manure, dried",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture",
+                    "amount": 0.043,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Calculated based on literature values."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "poultry manure, fresh",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture",
+                    "amount": 0.00383,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Corresponds to 0.106 m3\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Carbon dioxide, in air",
+                    "category": "Natural Resources\/Environment",
+                    "amount": 0.292,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "CO2 uptake by biomass."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Energy, gross calorific value, in biomass",
+                    "category": "Natural Resources\/Environment",
+                    "amount": 2.55,
+                    "unit": "MJ",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Gross energy content is related to MJ\/kg dry matter of product."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Occupation, permanent crop, irrigated",
+                    "category": "Natural Resources\/Environment",
+                    "amount": 0.727,
+                    "unit": "m2*year",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "Related to the duration from harvest date of previous crop to harvest date of main crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transformation, from permanent crop, irrigated",
+                    "category": "Natural Resources\/Environment",
+                    "amount": 0.0363,
+                    "unit": "m2",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "10000 m2 divided by the life time of the perennial crop (20 years)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transformation, to permanent crop, irrigated",
+                    "category": "Natural Resources\/Environment",
+                    "amount": 0.0363,
+                    "unit": "m2",
+                    "uncertainty": "log-normal",
+                    "provider": null,
+                    "description": "10000 m2 divided by the life time of the perennial crop (20 years)."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "lemon",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/1113 Fruit and Tree Nut Farming\/111320 Citrus (except Orange) Groves",
+                    "amount": 1,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Reference product. Yield = 13783 kg\/ha."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "waste wood, untreated",
+                    "category": "Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562219 Other Nonhazardous Waste Treatment and Disposal",
+                    "amount": 0.0967,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Treated as a co-product. Wood from trees after 1-2 years of storage at the field (20% water) per lifetime year of the orchard."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Ammonia",
+                    "category": "Environmental\/Emissions to air",
+                    "amount": 0.000766,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "EMEP\/EEA (2013)",
+                    "description": "Emission to non-urban air or from high stacks."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Carbon dioxide, fossil",
+                    "category": "Environmental\/Emissions to air",
+                    "amount": 0.0016,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "CO2 emissions from urea and lime. Emission to non-urban air or from high stacks."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Dinitrogen monoxide",
+                    "category": "Environmental\/Emissions to air",
+                    "amount": 0.000102,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "IPCC (2006)",
+                    "description": "Emission to non-urban air or from high stacks."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nitrogen oxides",
+                    "category": "Environmental\/Emissions to air",
+                    "amount": 0.000108,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "EEA\/EMEP (2013)",
+                    "description": "Emission to non-urban air or from high stacks."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water",
+                    "category": "Environmental\/Emissions to air",
+                    "amount": 0.218,
+                    "unit": "m3",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Emission calculated from water balance. Emission to non-urban air or from high stacks."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cadmium II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 8.79e-10,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cadmium II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 8.37e-10,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Chromium III",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 8.18e-7,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Chromium III",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.62e-7,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Copper ion",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 2.38e-7,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Copper ion",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 4.01e-7,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Lead II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 2.8e-9,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Lead II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.8e-8,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Mercury II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.26e-10,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Mercury II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 6.88e-10,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nickel II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.43e-11,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nickel II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.36e-7,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nitrate",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 0.0114,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Phosphate",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.34e-5,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Prasuhn (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Phosphate",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 5.68e-5,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Prasuhn (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Phosphorus",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 7.53e-6,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Prasuhn (2006) and SQCB-Erosion",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 0.0465,
+                    "unit": "m3",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Emission calculated from water balance. Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 0.186,
+                    "unit": "m3",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Emission calculated from water balance. Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Zinc II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 1.55e-6,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to groundwater."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Zinc II",
+                    "category": "Environmental\/Emissions to water",
+                    "amount": 5.1e-7,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": "Freiermuth (2006)",
+                    "description": "Emission to surface water."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "2,4-D",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 2.32e-5,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "100% emission in soil."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cadmium II",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": -1.56e-9,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil. The negative value represents uptake by the crop, which can be excluded by a parameter."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Captan",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 0.00131,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "100% emission in soil."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Chromium III",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": -7.67e-7,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil. The negative value represents uptake by the crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Copper ion",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 3.05e-8,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil, accounting for emissions and crop uptake."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Glyphosate",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 0.000102,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "100% emission in soil."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Indoxacarb",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 4.56e-5,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "100% emission in soil."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Iprodione",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 0.000591,
+                    "unit": "kg",
+                    "uncertainty": "log-normal",
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "100% emission in soil."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Lead II",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": -1.32e-8,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil. The negative value represents uptake by the crop."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Mercury II",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 6.69e-9,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil, accounting for emissions and crop uptake."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Nickel II",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 7.58e-8,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil, accounting for emissions and crop uptake."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Zinc II",
+                    "category": "Environmental\/Emissions to soil",
+                    "amount": 4.77e-6,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Net emission to agricultural soil, accounting for emissions and crop uptake."
+                }
+            ]
+        }
+    },
+    "timestamp": 1780508960
+}

@@ -1,0 +1,327 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "96ffbb98-fe11-4b33-89a4-3f2b49914550",
+                "Name": "EVALUACIÓN DEL IMPACTO AMBIENTAL DE LA CADENA DE PRODUCCIÓN DE CARNE DE RES EN EL ESTADO DE VERACRUZ, MEDIANTE EL ANÁLISIS DE CICLO DE VIDA",
+                "Category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture\/11211 Beef Cattle Ranching and Farming, including feedlots",
+                "Description": "En el presente estudio se evaluó el impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Para ello se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). La unidad funcional es 1 kg de carne de res sin hueso y sin grasa. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica. Respecto al potencial de toxicidad humana el E1 (0.6 kg 1,4-DBeq) es superior al E2 (0.3 kg 1,4-DBeq) principalmente por el empleo de agroquímicos en el cultivo de granos y por el uso de combustibles fósiles. Sin embargo, en las categorías uso de suelo y uso de agua el E2 presenta mayor impacto, debido al mayor tiempo de permanencia del ganado.",
+                "Tags": "ambiente, bovino, cambio climático, impacto, análisis de ciclo de vida, carne de res",
+                "Technology Description": "El análisis se realizó utilizando como base metodológica el ACV de acuerdo con la norma ISO 14040:2006. Se empleó el software SimaPro 7.3, la base de datos Ecoinvent y la metodología de evaluación de impacto CML 2000. Las emisiones de metano y óxido nitroso se estimaron con el método de Nivel 1 del IPCC (2006). El consumo de agua de los animales se calculó con la fórmula de Winchester (1956).",
+                "Code": "MX",
+                "Last change": "27\/05\/2026 19:14"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "Análisis de Ciclo de Vida (ACV) de acuerdo a la norma ISO 14040:2006. Método de evaluación de impacto CML 2000.",
+                "Process type": "Análisis de la cuna a la comercialización de un producto agroalimentario.",
+                "Modeling constants": "La asignación de impactos se atribuye al 100% a la carne, sin considerar productos secundarios como vísceras o piel. No se incluye la producción y mantenimiento de bienes de capital (edificios, maquinaria). No se incluye la producción, consumo y emisiones de medicamentos. Las sustancias para limpieza no fueron incluidas.",
+                "Data source information": "Los datos primarios fueron obtenidos a través de entrevistas directas a 17 casos de estudio (unidades pecuarias, rastros y puntos de venta). Los datos secundarios provienen de dependencias gubernamentales (SAGARPA, SIAP, SEMARNAT), publicaciones especializadas y la base de datos Ecoinvent.",
+                "Data completeness": "El estudio cubre las etapas de crianza, pre-engorda, engorda, transformación y comercialización. Sin embargo, en la categoría de uso de suelo, no se estimó la superficie requerida para el cultivo de cereales, y la cuantificación del agua no incluye el agua para el cultivo de granos y pastos.",
+                "Data selection": "Los casos de estudio se seleccionaron por ser representativos de los procesos unitarios, tener tecnología acorde a las cadenas de producción definidas y disponibilidad para colaborar en el estudio.",
+                "Data treatment": "Los datos de campo son promedios de los casos de estudio. Las emisiones de GEI se calcularon con directrices del IPCC (2006).",
+                "Sampling procedure": "Selección de casos de estudio representativos a través de asociaciones ganaderas y comisiones gubernamentales para cada etapa de la cadena productiva.",
+                "Data collection period": "Un año de operaciones comprendido entre los años 2011 y 2013.",
+                "Use advice": "Limitantes del estudio: No se estimó la superficie de suelo requerida para el cultivo de los cereales empleados en la alimentación. La cuantificación del agua no incluye el agua requerida para el cultivo de granos y pastos.",
+                "Completeness": "El estudio es exhaustivo para los límites del sistema definidos (procesos directos), pero incompleto en cuanto a los procesos indirectos de producción de insumos como los alimentos (uso de suelo y agua para cultivos).",
+                "Sources": "Álvarez C, Flores S, Pérez R (2011) Análisis de Ciclo de Vida de la Carne de Bovino en Sonora: Etapa de Sacrificio. Cederberg C, Meyer D, Flysjö A (2009) Lyfe cycle inventory of greenhouse gas emissions and use land and energy in Brazilian beef production. Pelletier N, Pirog R, Rasmussen R (2010) Comparative life cycle environmental impacts of three beef production strategies in the Upper Midwestern United States. ISO (2006) ISO 14040:2006 Environmental management-Life cycle assessment-Principles and framework. IPCC (2006) Guidelines for National Greenhouse Gas Inventories. La lista completa se encuentra en las páginas 84-89 del documento.",
+                "Project": "Proyecto SALSA “Knowledge- based Sustainable vAlue-added food chains: innovative tooLs for monitoring ethical, environmental and Socio-economic impActs and implementing Eu-Latin America shared strategie” del Séptimo Programa Marco de Investigación y Desarrollo Tecnológico de la Unión Europea con Número de Convenio 265927.",
+                "Intended application": "Evaluar los impactos ambientales asociados a la producción de carne de res de dos cadenas de producción e identificar los puntos de oportunidad de cada una de ellas.",
+                "Data set owner": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO",
+                "Data set generator": "ADRIANA RIVERA HUERTA",
+                "Data set documentor": "ADRIANA RIVERA HUERTA",
+                "Publication": "Tesis de Maestría en Ciencias de la Producción y de la Salud Animal, UNAM",
+                "Creation date": "2014-09-01",
+                "Copyright": "DERECHOS RESERVADOS ©",
+                "Access and use restrictions": "PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "27\/05\/2026 19:14",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Suero de leche",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3115:Dairy Product Manufacturing",
+                    "amount": 0.6,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Sustituto de leche para la etapa de crianza."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Sorgo",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3111:Animal Food Manufacturing",
+                    "amount": 1.4,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Grano para alimentación. Suma de 0.28 kg (crianza), 0.09 kg (preengorda), 1.03 kg (engorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Soya",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3111:Animal Food Manufacturing",
+                    "amount": 0.07,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Grano para alimentación. Suma de 0.05 kg (crianza) y 0.02 kg (preengorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pasta de soya",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3112:Grain and Oilseed Milling",
+                    "amount": 0.21,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Subproducto para alimentación en etapa de engorda."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Melaza",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3113:Sugar and Confectionery Product Manufacturing",
+                    "amount": 0.63,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Suplemento energético. Suma de 0.17 kg (crianza), 0.06 kg (preengorda), 0.40 kg (engorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Heno de maíz",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming",
+                    "amount": 0.14,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Forraje. Suma de 0.11 kg (crianza) y 0.03 kg (preengorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Heno",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming",
+                    "amount": 0.99,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Forraje para etapa de engorda."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Salvado",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3112:Grain and Oilseed Milling",
+                    "amount": 0.69,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Subproducto para alimentación. Suma de 0.1 kg (crianza), 0.03 kg (preengorda), 0.56 kg (engorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pasto fresco",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1119:Other Crop Farming",
+                    "amount": 23.03,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Forraje de pastoreo. Suma de 17.3 kg (crianza) y 5.73 kg (preengorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pollinaza",
+                    "category": "A:Agriculture, Forestry, Fishing and Hunting\/115:Support Activities for Agriculture and Forestry\/1152:Support Activities for Animal Production",
+                    "amount": 0.55,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Ingrediente de alimento. Suma de 0.06 kg (preengorda) y 0.49 kg (engorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Granos secos de destilería (DDG)",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3251:Basic Chemical Manufacturing",
+                    "amount": 0.3,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Subproducto para alimentación en etapa de engorda."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Maíz rolado",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3111:Animal Food Manufacturing",
+                    "amount": 0.96,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Grano para alimentación en etapa de engorda."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Sulfato de amonio",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/3253:Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing",
+                    "amount": 0.08,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Fertilizante para pastizales en etapa de crianza."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Electricidad",
+                    "category": "D:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution",
+                    "amount": 0.826,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Consumo total en todas las etapas. Suma de 0.17 (crianza), 0.15 (engorda), 0.436 (transformación), 0.07 (comercialización)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Gas butano",
+                    "category": "D:Electricity, gas, steam and air conditioning supply\/352:Natural gas distribution",
+                    "amount": 0.003,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Consumo en etapa de transformación."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Agua",
+                    "category": "E:Water supply; sewerage, waste management\/360:Water collection, treatment and supply",
+                    "amount": 67.813,
+                    "unit": "L",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Consumo total. Suma de 20.98 (crianza), 15.48 (preengorda), 26.73 (engorda), 4.053 (transformación), 0.57 (comercialización)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Caja de cartón corrugado reciclado",
+                    "category": "C:Manufacturing\/322:Paper Manufacturing\/3222:Converted Paper Product Manufacturing",
+                    "amount": 0.065,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Empaque para transporte en etapa de transformación."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Bolsa termoencogible de polipropileno",
+                    "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/3261:Plastics Product Manufacturing",
+                    "amount": 0.035,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Empaque primario en etapa de transformación."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Charola de poliestireno",
+                    "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/3261:Plastics Product Manufacturing",
+                    "amount": 0.007,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Empaque en punto de venta."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Película de PVC",
+                    "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/3261:Plastics Product Manufacturing",
+                    "amount": 0.0075,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Empaque en punto de venta (emplayado)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Etiqueta térmica",
+                    "category": "C:Manufacturing\/322:Paper Manufacturing\/3222:Converted Paper Product Manufacturing",
+                    "amount": 0.0003,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Etiqueta en punto de venta."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Carne de res sin hueso y sin grasa",
+                    "category": "C:Manufacturing\/311:Food Manufacturing\/3116:Animal Slaughtering and Processing",
+                    "amount": 1,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Unidad funcional del estudio."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Estiércol",
+                    "category": "E:Water supply; sewerage, waste management\/562:Waste Management and Remediation Services",
+                    "amount": 45.666,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Materia seca (MS). Suma de 28.92 (crianza), 8.278 (preengorda), 8.468 (engorda)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Residuos orgánicos",
+                    "category": "E:Water supply; sewerage, waste management\/562:Waste Management and Remediation Services",
+                    "amount": 0.579,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Residuos de proceso. Suma de 0.482 kg (transformación) y 0.097 kg (comercialización)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Agua residual",
+                    "category": "E:Water supply; sewerage, waste management\/562:Waste Management and Remediation Services\/5629:Remediation and Other Waste Management Services",
+                    "amount": 4.053,
+                    "unit": "L",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Generada en la etapa de transformación."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779909282
+}

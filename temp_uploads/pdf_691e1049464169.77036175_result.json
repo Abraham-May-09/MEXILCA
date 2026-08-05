@@ -1,0 +1,338 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "26574b8c-4822-4725-9fc1-489f72ee5a73",
+            "Name": "Evaluación del impacto ambiental de la cadena de producción de carne de res en el Estado de Veracruz, mediante el análisis de ciclo de vida",
+            "Category": "Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería",
+            "Description": "Evaluación del impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). Durante el año de operaciones evaluado el E1 comercializó un total de 253,532.6 kg de carne y el E2 12,682.45 kg. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica, participación determinada por la fermentación entérica del ganado y por el manejo del estiércol.",
+            "Tags": "análisis ciclo de vida, impacto ambiental, producción carne bovina, ganadería, sustentabilidad",
+            "Technology | Description": "Análisis de Ciclo de Vida (ACV) según Norma ISO 14040, método CML para evaluación de impactos ambientales. Se evaluaron nueve categorías de impacto: acidificación, eutrofización, cambio climático, disminución de la capa de ozono estratosférico, oxidación fotoquímica, toxicidad humana, disminución de recursos abióticos, uso de suelo y uso de agua.",
+            "Code": "MX",
+            "Last_change": "19\/11\/2025 18:46"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida según norma ISO 14040",
+            "Process type": "Evaluación de cadena productiva completa que incluye crianza, preengorda, engorda, transformación y comercialización",
+            "Modeling constants": "Asignación económica para producción de leche y becerros en sistemas de doble propósito, porcentaje de fertilidad de 59.5%, intervalo entre partos de 605 días, mortalidad del hato reproductor del 2% y de becerros del 4.5%",
+            "Data source information": "Entrevistas directas a 17 casos de estudio: 2 productores de crianza, 2 casos por proceso de preengorda, engorda y transformación por escenario (12 casos), 1 tienda de autoservicio para E1, 2 carnicerías para E2",
+            "Data completeness": "Cobertura completa de todos los procesos de la cadena productiva: alimentación, energía (gas, hidrocarburos, electricidad), fertilizantes y pesticidas, disposición de residuos",
+            "Data selection": "Se excluyen producción y mantenimiento de bienes de capital (edificios, maquinaria) y producción, consumo y emisiones de medicamentos",
+            "Data treatment": "Promedio de datos colectados de casos de estudio, asignación económica para sistemas de doble propósito",
+            "Sampling procedure": "Selección por criterio de tecnología acorde a cadenas de producción definidas y disponibilidad a colaborar en el estudio",
+            "Data collection period": "Un año de operaciones entre 2011 y 2013",
+            "Use advice": "Limitado a la región Norte-Centro del Estado de Veracruz, México, para cadenas productivas intensivas (E1) y extensivas (E2)",
+            "Completeness": "Exhaustivo para los procesos definidos en el alcance del estudio",
+            "Sources": "Álvarez et al. (2011), ANETIF (2011), ANTAD (2014), Antón (2004), Bare et al. (2003), Barragán et al. (2008), Beauchemin et al. (2010), Bonilla & Lemus (2012), Bourlakis & Weightman (2004), Carmona et al. (2005), Cederberg et al. (2009), CEPAL, FAO, IICA (2013), Chassot et al. (2005), Cortés et al. (2002)",
+            "Project": "Proyecto SALSA 'Knowledge-based Sustainable value-added food chains' del Séptimo Programa Marco de Investigación y Desarrollo Tecnológico de la Unión Europea (Convenio 265927)",
+            "Intended application": "Evaluación de impacto ambiental de cadenas productivas de carne de res, identificación de puntos críticos y oportunidades de mejora",
+            "Data set owner": "Universidad Nacional Autónoma de México",
+            "Data set generator": "Adriana Rivera Huerta",
+            "Data set documentor": "Adriana Rivera Huerta",
+            "Publication": "Tesis de Maestría en Ciencias de la Producción y de la Salud Animal, UNAM",
+            "Creation date": "Septiembre 2014",
+            "Copyright": "Derechos Reservados © Prohibida su reproducción total o parcial - Ley Federal del Derecho de Autor de México",
+            "Access and use restrictions": "Uso exclusivamente para fines educativos e informativos, debe citar la fuente. Prohibido uso comercial, reproducción, edición o modificación sin autorización"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-19T18:47:08.505Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "heno",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Principal insumo de la dieta de animales en pastoreo durante invierno"
+            },
+            {
+                "is_reference": false,
+                "flow": "granos",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Ingredientes sustitutos en dietas de ganado"
+            },
+            {
+                "is_reference": false,
+                "flow": "fertilizante",
+                "category": "C:Manufacturing\/32:Manufacture of chemicals and chemical products\/325:Manufacture of pesticides, fertilizers and other agricultural chemical products\/3253:Manufacture of pesticides and other agricultural chemicals",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Uso en producción de pastos con manejo tecnificado"
+            },
+            {
+                "is_reference": false,
+                "flow": "agua",
+                "category": "",
+                "amount": 24.7,
+                "unit": "L H2O\/kg PV",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Consumo mínimo reportado en sistemas de producción de carne de res"
+            },
+            {
+                "is_reference": false,
+                "flow": "agua",
+                "category": "",
+                "amount": 234,
+                "unit": "L H2O\/kg PV",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Consumo máximo reportado en sistemas de producción de carne de res"
+            },
+            {
+                "is_reference": false,
+                "flow": "cebada",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Insumo de dieta con requerimiento de agua distinto"
+            },
+            {
+                "is_reference": false,
+                "flow": "trigo",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Insumo de dieta con requerimiento de agua distinto"
+            },
+            {
+                "is_reference": false,
+                "flow": "avena",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Insumo de dieta con requerimiento de agua distinto"
+            },
+            {
+                "is_reference": false,
+                "flow": "subproductos de cerdo",
+                "category": "C:Manufacturing\/31:Manufacture of food products\/311:Food manufacturing\/3116:Animal slaughtering and processing",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Empleados como sustitutos de granos en alimentación de ganado bovino"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "carne de res",
+                "category": "",
+                "amount": 1,
+                "unit": "kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto principal del sistema analizado"
+            },
+            {
+                "is_reference": false,
+                "flow": "emisiones de GEI",
+                "category": "",
+                "amount": 14.8,
+                "unit": "kg CO2-eq\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones de gases de efecto invernadero del escenario crianza\/engorda en corral"
+            },
+            {
+                "is_reference": true,
+                "flow": "emisiones de GEI",
+                "category": "",
+                "amount": 19.2,
+                "unit": "kg CO2-eq\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones de gases de efecto invernadero del escenario crianza\/engorda en pastoreo+heno"
+            },
+            {
+                "is_reference": false,
+                "flow": "emisiones de GEI",
+                "category": "",
+                "amount": 41,
+                "unit": "kg CO2-eq\/kg carne sin hueso",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones de GEI en cadena de producción de Brasil exportada a Europa"
+            },
+            {
+                "is_reference": true,
+                "flow": "consumo de energía",
+                "category": "",
+                "amount": 38.2,
+                "unit": "MJ\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Uso de energía en escenario crianza\/engorda en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "consumo de energía",
+                "category": "",
+                "amount": 48.4,
+                "unit": "MJ\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Uso de energía en escenario crianza\/engorda en pastoreo+heno"
+            },
+            {
+                "is_reference": true,
+                "flow": "potencial de eutrofización",
+                "category": "",
+                "amount": 104,
+                "unit": "g PO4eq\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Potencial de eutrofización en escenario crianza\/engorda en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "potencial de eutrofización",
+                "category": "",
+                "amount": 142,
+                "unit": "g PO4eq\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Potencial de eutrofización en escenario crianza\/engorda en pastoreo+heno"
+            },
+            {
+                "is_reference": true,
+                "flow": "huella ecológica",
+                "category": "",
+                "amount": 84.3,
+                "unit": "m2\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Huella ecológica en escenario crianza\/engorda en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "huella ecológica",
+                "category": "",
+                "amount": 120,
+                "unit": "m2\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Huella ecológica en escenario crianza\/engorda en pastoreo+heno"
+            },
+            {
+                "is_reference": true,
+                "flow": "consumo de agua",
+                "category": "",
+                "amount": 24.7,
+                "unit": "L H2O\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Consumo mínimo de agua en sistemas de producción australianos"
+            },
+            {
+                "is_reference": false,
+                "flow": "consumo de agua",
+                "category": "",
+                "amount": 234,
+                "unit": "L H2O\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Consumo máximo de agua en sistemas de producción australianos"
+            },
+            {
+                "is_reference": true,
+                "flow": "huella hídrica",
+                "category": "",
+                "amount": 3.3,
+                "unit": "L H2O\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Huella hídrica mínima en sistemas de producción australianos"
+            },
+            {
+                "is_reference": false,
+                "flow": "huella hídrica",
+                "category": "",
+                "amount": 221,
+                "unit": "L H2O\/kg peso vivo",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Huella hídrica máxima en sistemas de producción australianos"
+            },
+            {
+                "is_reference": true,
+                "flow": "emisiones de metano entérico",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Principal fuente de GEI en producción de carne de ovino, res orgánica y res en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "impactos de ecotoxicidad",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "50% mayores en sistema en corral vs pastoreo en Suiza"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"26574b8c-4822-4725-9fc1-489f72ee5a73\",\"Name\":\"Evaluación del impacto ambiental de la cadena de producción de carne de res en el Estado de Veracruz, mediante el análisis de ciclo de vida\",\"Category\":\"Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería\",\"Description\":\"Evaluación del impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). Durante el año de operaciones evaluado el E1 comercializó un total de 253,532.6 kg de carne y el E2 12,682.45 kg. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica, participación determinada por la fermentación entérica del ganado y por el manejo del estiércol.\",\"Tags\":\"análisis ciclo de vida, impacto ambiental, producción carne bovina, ganadería, sustentabilidad\",\"Technology | Description\":\"Análisis de Ciclo de Vida (ACV) según Norma ISO 14040, método CML para evaluación de impactos ambientales. Se evaluaron nueve categorías de impacto: acidificación, eutrofización, cambio climático, disminución de la capa de ozono estratosférico, oxidación fotoquímica, toxicidad humana, disminución de recursos abióticos, uso de suelo y uso de agua.\",\"Code\":\"MX\",\"Last_change\":\"19\/11\/2025 18:46\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida según norma ISO 14040\",\"Process type\":\"Evaluación de cadena productiva completa que incluye crianza, preengorda, engorda, transformación y comercialización\",\"Modeling constants\":\"Asignación económica para producción de leche y becerros en sistemas de doble propósito, porcentaje de fertilidad de 59.5%, intervalo entre partos de 605 días, mortalidad del hato reproductor del 2% y de becerros del 4.5%\",\"Data source information\":\"Entrevistas directas a 17 casos de estudio: 2 productores de crianza, 2 casos por proceso de preengorda, engorda y transformación por escenario (12 casos), 1 tienda de autoservicio para E1, 2 carnicerías para E2\",\"Data completeness\":\"Cobertura completa de todos los procesos de la cadena productiva: alimentación, energía (gas, hidrocarburos, electricidad), fertilizantes y pesticidas, disposición de residuos\",\"Data selection\":\"Se excluyen producción y mantenimiento de bienes de capital (edificios, maquinaria) y producción, consumo y emisiones de medicamentos\",\"Data treatment\":\"Promedio de datos colectados de casos de estudio, asignación económica para sistemas de doble propósito\",\"Sampling procedure\":\"Selección por criterio de tecnología acorde a cadenas de producción definidas y disponibilidad a colaborar en el estudio\",\"Data collection period\":\"Un año de operaciones entre 2011 y 2013\",\"Use advice\":\"Limitado a la región Norte-Centro del Estado de Veracruz, México, para cadenas productivas intensivas (E1) y extensivas (E2)\",\"Completeness\":\"Exhaustivo para los procesos definidos en el alcance del estudio\",\"Sources\":\"Álvarez et al. (2011), ANETIF (2011), ANTAD (2014), Antón (2004), Bare et al. (2003), Barragán et al. (2008), Beauchemin et al. (2010), Bonilla & Lemus (2012), Bourlakis & Weightman (2004), Carmona et al. (2005), Cederberg et al. (2009), CEPAL, FAO, IICA (2013), Chassot et al. (2005), Cortés et al. (2002)\",\"Project\":\"Proyecto SALSA 'Knowledge-based Sustainable value-added food chains' del Séptimo Programa Marco de Investigación y Desarrollo Tecnológico de la Unión Europea (Convenio 265927)\",\"Intended application\":\"Evaluación de impacto ambiental de cadenas productivas de carne de res, identificación de puntos críticos y oportunidades de mejora\",\"Data set owner\":\"Universidad Nacional Autónoma de México\",\"Data set generator\":\"Adriana Rivera Huerta\",\"Data set documentor\":\"Adriana Rivera Huerta\",\"Publication\":\"Tesis de Maestría en Ciencias de la Producción y de la Salud Animal, UNAM\",\"Creation date\":\"Septiembre 2014\",\"Copyright\":\"Derechos Reservados © Prohibida su reproducción total o parcial - Ley Federal del Derecho de Autor de México\",\"Access and use restrictions\":\"Uso exclusivamente para fines educativos e informativos, debe citar la fuente. Prohibido uso comercial, reproducción, edición o modificación sin autorización\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-19T18:47:08.505Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"heno\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Principal insumo de la dieta de animales en pastoreo durante invierno\"},{\"is_reference\":false,\"flow\":\"granos\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Ingredientes sustitutos en dietas de ganado\"},{\"is_reference\":false,\"flow\":\"fertilizante\",\"category\":\"C:Manufacturing\/32:Manufacture of chemicals and chemical products\/325:Manufacture of pesticides, fertilizers and other agricultural chemical products\/3253:Manufacture of pesticides and other agricultural chemicals\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Uso en producción de pastos con manejo tecnificado\"},{\"is_reference\":false,\"flow\":\"agua\",\"category\":\"\",\"amount\":24.7,\"unit\":\"L H2O\/kg PV\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Consumo mínimo reportado en sistemas de producción de carne de res\"},{\"is_reference\":false,\"flow\":\"agua\",\"category\":\"\",\"amount\":234,\"unit\":\"L H2O\/kg PV\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Consumo máximo reportado en sistemas de producción de carne de res\"},{\"is_reference\":false,\"flow\":\"cebada\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Insumo de dieta con requerimiento de agua distinto\"},{\"is_reference\":false,\"flow\":\"trigo\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Insumo de dieta con requerimiento de agua distinto\"},{\"is_reference\":false,\"flow\":\"avena\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop Production\/111:Crop Production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Insumo de dieta con requerimiento de agua distinto\"},{\"is_reference\":false,\"flow\":\"subproductos de cerdo\",\"category\":\"C:Manufacturing\/31:Manufacture of food products\/311:Food manufacturing\/3116:Animal slaughtering and processing\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Empleados como sustitutos de granos en alimentación de ganado bovino\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"carne de res\",\"category\":\"\",\"amount\":1,\"unit\":\"kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto principal del sistema analizado\"},{\"is_reference\":false,\"flow\":\"emisiones de GEI\",\"category\":\"\",\"amount\":14.8,\"unit\":\"kg CO2-eq\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones de gases de efecto invernadero del escenario crianza\/engorda en corral\"},{\"is_reference\":true,\"flow\":\"emisiones de GEI\",\"category\":\"\",\"amount\":19.2,\"unit\":\"kg CO2-eq\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones de gases de efecto invernadero del escenario crianza\/engorda en pastoreo+heno\"},{\"is_reference\":false,\"flow\":\"emisiones de GEI\",\"category\":\"\",\"amount\":41,\"unit\":\"kg CO2-eq\/kg carne sin hueso\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones de GEI en cadena de producción de Brasil exportada a Europa\"},{\"is_reference\":true,\"flow\":\"consumo de energía\",\"category\":\"\",\"amount\":38.2,\"unit\":\"MJ\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Uso de energía en escenario crianza\/engorda en corral\"},{\"is_reference\":false,\"flow\":\"consumo de energía\",\"category\":\"\",\"amount\":48.4,\"unit\":\"MJ\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Uso de energía en escenario crianza\/engorda en pastoreo+heno\"},{\"is_reference\":true,\"flow\":\"potencial de eutrofización\",\"category\":\"\",\"amount\":104,\"unit\":\"g PO4eq\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Potencial de eutrofización en escenario crianza\/engorda en corral\"},{\"is_reference\":false,\"flow\":\"potencial de eutrofización\",\"category\":\"\",\"amount\":142,\"unit\":\"g PO4eq\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Potencial de eutrofización en escenario crianza\/engorda en pastoreo+heno\"},{\"is_reference\":true,\"flow\":\"huella ecológica\",\"category\":\"\",\"amount\":84.3,\"unit\":\"m2\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Huella ecológica en escenario crianza\/engorda en corral\"},{\"is_reference\":false,\"flow\":\"huella ecológica\",\"category\":\"\",\"amount\":120,\"unit\":\"m2\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Huella ecológica en escenario crianza\/engorda en pastoreo+heno\"},{\"is_reference\":true,\"flow\":\"consumo de agua\",\"category\":\"\",\"amount\":24.7,\"unit\":\"L H2O\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Consumo mínimo de agua en sistemas de producción australianos\"},{\"is_reference\":false,\"flow\":\"consumo de agua\",\"category\":\"\",\"amount\":234,\"unit\":\"L H2O\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Consumo máximo de agua en sistemas de producción australianos\"},{\"is_reference\":true,\"flow\":\"huella hídrica\",\"category\":\"\",\"amount\":3.3,\"unit\":\"L H2O\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Huella hídrica mínima en sistemas de producción australianos\"},{\"is_reference\":false,\"flow\":\"huella hídrica\",\"category\":\"\",\"amount\":221,\"unit\":\"L H2O\/kg peso vivo\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Huella hídrica máxima en sistemas de producción australianos\"},{\"is_reference\":true,\"flow\":\"emisiones de metano entérico\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Principal fuente de GEI en producción de carne de ovino, res orgánica y res en corral\"},{\"is_reference\":false,\"flow\":\"impactos de ecotoxicidad\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"50% mayores en sistema en corral vs pastoreo en Suiza\"}]}",
+    "http_code": 200,
+    "timestamp": 1763578136
+}

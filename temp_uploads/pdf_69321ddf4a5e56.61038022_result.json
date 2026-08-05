@@ -1,0 +1,300 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "2b038166-055d-4412-a264-c7ac40e61d45",
+            "Name": "ACV CEMENTO ANÁLISIS DE CICLO DE VIDA DEL CEMENTO PORTLAND MEMORIA DE CÁLCULO",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos",
+            "Description": "Se determinó la huella de carbono para la fabricación del cemento tipo Portland a partir de un Inventario de Ciclo de Vida (ICV), con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El objetivo es estimar la huella de carbono del proceso de fabricación del cemento Portland en plantas localizadas en la zona centro de México. La unidad funcional es producir un kilogramo de cemento gris estándar terminado en planta localizada en la zona centro de México, con datos de 2009. El estudio se enfoca en determinar la huella de carbono para el cemento durante las etapas de extracción de materia prima, transporte al punto de fabricación y el proceso de fabricación per se. Los resultados obtenidos muestran una huella de carbono de 1.3807 kg CO2eq y una demanda acumulada de energía de 7.2930 MJeq respecto a la producción de 1 kg de cemento Portland en planta.",
+            "Tags": "Análisis de ciclo de vida, ACV, huella de carbono, cemento Portland, México, cradle-to-gate",
+            "Technology Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. El proceso de fabricación descrito es el proceso seco, que consiste en la extracción de materia prima, molienda y mezclado para producir harina cruda, calcinación en hornos rotatorios para producir clínker, y una segunda molienda del clínker con yeso para obtener el cemento Portland.",
+            "Code": "MX",
+            "Last change": "04\/12\/2025 23:49"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "ISO 14044, CML 2001 v. 4.2",
+            "Process type": "Proceso de fabricación cradle-to-gate",
+            "Modeling constants": "Criterio de corte de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se tomará en cuenta. La producción de electricidad se basó en el mix energético nacional de México. Se asume que el agua requerida se toma directamente de la red.",
+            "Data source information": "Datos obtenidos en México de diversas fuentes: CANACEM (2004, 2007), Chargoy (2009), Espinoza (2005), Centro Mario Molina (2014), INEGI DENUE, entre otros.",
+            "Data completeness": "El alcance se limita a la fabricación del cemento (extracción, transporte y manufactura). El resto de las etapas del ciclo de vida no son tratadas. Para la extracción de materia prima únicamente se incluye el impacto por el transporte debido a la negativa de las empresas extractoras para aportar mayor información.",
+            "Data selection": "El criterio de corte utilizado es el de masa al 1%. Adicionalmente, se busca determinar si existen otras variables representativas tomando como base el criterio de corte ambiental.",
+            "Data treatment": "Las cantidades de materia prima se calcularon a partir de la producción anual y la composición típica de clinker en México. El consumo energético se calculó como el promedio de dos empresas. Las distancias de transporte se calcularon como el promedio entre las 34 plantas de cemento del país y las minas de cada materia prima.",
+            "Sampling procedure": "Recopilación de datos de fuentes secundarias como reportes de emisiones, promedios de datos de empresas, y estimaciones basadas en ubicaciones geográficas de industrias y minas.",
+            "Data collection period": "2009",
+            "Use advice": "La variación de la composición química de las materias primas extraídas es una limitante trascendental para este inventario. Los datos fueron limitados y no se tuvo acceso a las condiciones de operación, eficiencia energética y métodos de control de la contaminación específica de las plantas.",
+            "Completeness": "Parcial. El estudio es explícito en sus limitaciones, como la exclusión de etapas del ciclo de vida y la falta de datos primarios detallados para la etapa de extracción.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental – Análisis del ciclo de vida – Requisitos y directrices., 2009.\n[2] CANACEM. Procesos de Producción, 2007.\n[3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014.\n[4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas.\n[5] R. B. Leighou. Chemistry of Engineering Materials. McGraw-Hill Book Company, Inc, Japón, 1953.\n[6] Arnaldo Cardim de Carvalho Filho. Análisis del ciclo de vida de productos derivados del cemento – Aportaciones al análisis de los inventarios del ciclo de vida del cemento. Doctorado, Universidad Politécnica de Cataluña, España, 2001.\n[7] Secretaría de Economía. Perfil de mercado del yeso. Technical report, Coordinación General de Minería, Dirección General de Desarrollo Minero, Distrito Federal, México, 2012.\n[8] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009.\n[9] C. A. Espinoza. Inventario de análisis de ciclo de vida para el cemento. PhD thesis, Instituto Tecnológico y de Estudios Superiores de Monterrey, 2005.\n[10] CMM. Estrategias de Mitigación de Gases de Efecto Invernadero en el Sector Cemento. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2008.\n[11] Environmental Protection Agency. Capítulo 11.6, Portland Cement Manufacturing. In Emission Factors & AP 42, Compilation of Air Pollutant Emission Factors. E.U.A., 2009.\n[12] Manual del Constructor CEMEX.\n[13] Iron and steel - Sector Profile.",
+            "Project": "Memoria de Cálculo Borrador, Centro Mario Molina",
+            "Intended application": "Estimar la huella de carbono del proceso de fabricación del cemento Portland en plantas localizadas en la zona centro de México para conocer el impacto ambiental de la industria en estos rubros.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández",
+            "Data set documentor": "Andrea Hernández",
+            "Publication": "Memoria de Cálculo Borrador",
+            "Creation date": "2014-12-18",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "04\/12\/2025 23:49",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 0.8406,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Agua de red."
+            },
+            {
+                "is_reference": false,
+                "flow": "Caliza",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21231:Stone mining and quarrying",
+                "amount": 0.7028,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Arcilla",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21232:Clay and refractory mineral mining",
+                "amount": 0.2181,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Silicio",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21232:Clay and refractory mineral mining",
+                "amount": 0.0242,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Probablemente arena de sílice."
+            },
+            {
+                "is_reference": false,
+                "flow": "Fierro",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2122:Metal ore mining\/21221:Iron ore mining",
+                "amount": 0.0048,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Mineral de hierro."
+            },
+            {
+                "is_reference": false,
+                "flow": "Yeso",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21239:Other nonmetallic mineral mining and quarrying",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Piedra para extracción",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying",
+                "amount": 2.0575,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Material auxiliar para la extracción en cantera."
+            },
+            {
+                "is_reference": false,
+                "flow": "Arena sílica para extracción",
+                "category": "B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21232:Clay and refractory mineral mining",
+                "amount": 0.065,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Material auxiliar para la extracción en cantera."
+            },
+            {
+                "is_reference": false,
+                "flow": "Explosivos para extracción",
+                "category": "C:Manufacturing\/325:Chemical manufacturing\/3259:Other chemical product and preparation manufacturing\/325920:Explosives manufacturing",
+                "amount": 3.36e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 461,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Consumo eléctrico total del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 16,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Consumo energético de diésel."
+            },
+            {
+                "is_reference": false,
+                "flow": "Combustóleo",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 3230,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Consumo energético de combustóleo."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "B:Mining and quarrying\/211:Oil and Gas Extraction\/211130:Natural Gas Extraction",
+                "amount": 422,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Consumo energético de gas natural."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte de materia prima",
+                "category": "H:Transportation and Warehousing\/484:Truck Transportation",
+                "amount": 0.0173,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Transporte agregado de todas las materias primas."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Cemento Portland",
+                "category": "C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/327310:Cement Manufacturing",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Unidad funcional: 1 kg de cemento gris estándar terminado en planta."
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "Emisiones al aire",
+                "amount": 0.8329,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Dióxido de carbono"
+            },
+            {
+                "is_reference": false,
+                "flow": "SO2",
+                "category": "Emisiones al aire",
+                "amount": 0.0005,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Dióxido de azufre"
+            },
+            {
+                "is_reference": false,
+                "flow": "NOx",
+                "category": "Emisiones al aire",
+                "amount": 0.002,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Óxidos de nitrógeno"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO",
+                "category": "Emisiones al aire",
+                "amount": 0.0017,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Monóxido de carbono"
+            },
+            {
+                "is_reference": false,
+                "flow": "COT",
+                "category": "Emisiones al aire",
+                "amount": 0.0001,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Carbono Orgánico Total"
+            },
+            {
+                "is_reference": false,
+                "flow": "COV",
+                "category": "Emisiones al aire",
+                "amount": 4.89e-7,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Compuestos Orgánicos Volátiles"
+            },
+            {
+                "is_reference": false,
+                "flow": "CH4",
+                "category": "Emisiones al aire",
+                "amount": 3.59e-6,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009, y Espinoza, 2005",
+                "description": "Metano"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"2b038166-055d-4412-a264-c7ac40e61d45\",\"Name\":\"ACV CEMENTO ANÁLISIS DE CICLO DE VIDA DEL CEMENTO PORTLAND MEMORIA DE CÁLCULO\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\",\"Description\":\"Se determinó la huella de carbono para la fabricación del cemento tipo Portland a partir de un Inventario de Ciclo de Vida (ICV), con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El objetivo es estimar la huella de carbono del proceso de fabricación del cemento Portland en plantas localizadas en la zona centro de México. La unidad funcional es producir un kilogramo de cemento gris estándar terminado en planta localizada en la zona centro de México, con datos de 2009. El estudio se enfoca en determinar la huella de carbono para el cemento durante las etapas de extracción de materia prima, transporte al punto de fabricación y el proceso de fabricación per se. Los resultados obtenidos muestran una huella de carbono de 1.3807 kg CO2eq y una demanda acumulada de energía de 7.2930 MJeq respecto a la producción de 1 kg de cemento Portland en planta.\",\"Tags\":\"Análisis de ciclo de vida, ACV, huella de carbono, cemento Portland, México, cradle-to-gate\",\"Technology Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. El proceso de fabricación descrito es el proceso seco, que consiste en la extracción de materia prima, molienda y mezclado para producir harina cruda, calcinación en hornos rotatorios para producir clínker, y una segunda molienda del clínker con yeso para obtener el cemento Portland.\",\"Code\":\"MX\",\"Last change\":\"04\/12\/2025 23:49\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"ISO 14044, CML 2001 v. 4.2\",\"Process type\":\"Proceso de fabricación cradle-to-gate\",\"Modeling constants\":\"Criterio de corte de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se tomará en cuenta. La producción de electricidad se basó en el mix energético nacional de México. Se asume que el agua requerida se toma directamente de la red.\",\"Data source information\":\"Datos obtenidos en México de diversas fuentes: CANACEM (2004, 2007), Chargoy (2009), Espinoza (2005), Centro Mario Molina (2014), INEGI DENUE, entre otros.\",\"Data completeness\":\"El alcance se limita a la fabricación del cemento (extracción, transporte y manufactura). El resto de las etapas del ciclo de vida no son tratadas. Para la extracción de materia prima únicamente se incluye el impacto por el transporte debido a la negativa de las empresas extractoras para aportar mayor información.\",\"Data selection\":\"El criterio de corte utilizado es el de masa al 1%. Adicionalmente, se busca determinar si existen otras variables representativas tomando como base el criterio de corte ambiental.\",\"Data treatment\":\"Las cantidades de materia prima se calcularon a partir de la producción anual y la composición típica de clinker en México. El consumo energético se calculó como el promedio de dos empresas. Las distancias de transporte se calcularon como el promedio entre las 34 plantas de cemento del país y las minas de cada materia prima.\",\"Sampling procedure\":\"Recopilación de datos de fuentes secundarias como reportes de emisiones, promedios de datos de empresas, y estimaciones basadas en ubicaciones geográficas de industrias y minas.\",\"Data collection period\":\"2009\",\"Use advice\":\"La variación de la composición química de las materias primas extraídas es una limitante trascendental para este inventario. Los datos fueron limitados y no se tuvo acceso a las condiciones de operación, eficiencia energética y métodos de control de la contaminación específica de las plantas.\",\"Completeness\":\"Parcial. El estudio es explícito en sus limitaciones, como la exclusión de etapas del ciclo de vida y la falta de datos primarios detallados para la etapa de extracción.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental – Análisis del ciclo de vida – Requisitos y directrices., 2009.\\n[2] CANACEM. Procesos de Producción, 2007.\\n[3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014.\\n[4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas.\\n[5] R. B. Leighou. Chemistry of Engineering Materials. McGraw-Hill Book Company, Inc, Japón, 1953.\\n[6] Arnaldo Cardim de Carvalho Filho. Análisis del ciclo de vida de productos derivados del cemento – Aportaciones al análisis de los inventarios del ciclo de vida del cemento. Doctorado, Universidad Politécnica de Cataluña, España, 2001.\\n[7] Secretaría de Economía. Perfil de mercado del yeso. Technical report, Coordinación General de Minería, Dirección General de Desarrollo Minero, Distrito Federal, México, 2012.\\n[8] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009.\\n[9] C. A. Espinoza. Inventario de análisis de ciclo de vida para el cemento. PhD thesis, Instituto Tecnológico y de Estudios Superiores de Monterrey, 2005.\\n[10] CMM. Estrategias de Mitigación de Gases de Efecto Invernadero en el Sector Cemento. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2008.\\n[11] Environmental Protection Agency. Capítulo 11.6, Portland Cement Manufacturing. In Emission Factors & AP 42, Compilation of Air Pollutant Emission Factors. E.U.A., 2009.\\n[12] Manual del Constructor CEMEX.\\n[13] Iron and steel - Sector Profile.\",\"Project\":\"Memoria de Cálculo Borrador, Centro Mario Molina\",\"Intended application\":\"Estimar la huella de carbono del proceso de fabricación del cemento Portland en plantas localizadas en la zona centro de México para conocer el impacto ambiental de la industria en estos rubros.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández\",\"Data set documentor\":\"Andrea Hernández\",\"Publication\":\"Memoria de Cálculo Borrador\",\"Creation date\":\"2014-12-18\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"04\/12\/2025 23:49\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":0.8406,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Agua de red.\"},{\"is_reference\":false,\"flow\":\"Caliza\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21231:Stone mining and quarrying\",\"amount\":0.7028,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":null},{\"is_reference\":false,\"flow\":\"Arcilla\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21232:Clay and refractory mineral mining\",\"amount\":0.2181,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":null},{\"is_reference\":false,\"flow\":\"Silicio\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21232:Clay and refractory mineral mining\",\"amount\":0.0242,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Probablemente arena de sílice.\"},{\"is_reference\":false,\"flow\":\"Fierro\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2122:Metal ore mining\/21221:Iron ore mining\",\"amount\":0.0048,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Mineral de hierro.\"},{\"is_reference\":false,\"flow\":\"Yeso\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21239:Other nonmetallic mineral mining and quarrying\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":null},{\"is_reference\":false,\"flow\":\"Piedra para extracción\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\",\"amount\":2.0575,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Material auxiliar para la extracción en cantera.\"},{\"is_reference\":false,\"flow\":\"Arena sílica para extracción\",\"category\":\"B:Mining and quarrying\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\/21232:Clay and refractory mineral mining\",\"amount\":0.065,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Material auxiliar para la extracción en cantera.\"},{\"is_reference\":false,\"flow\":\"Explosivos para extracción\",\"category\":\"C:Manufacturing\/325:Chemical manufacturing\/3259:Other chemical product and preparation manufacturing\/325920:Explosives manufacturing\",\"amount\":0.0000336,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":null},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":461,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Consumo eléctrico total del proceso.\"},{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":16,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Consumo energético de diésel.\"},{\"is_reference\":false,\"flow\":\"Combustóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":3230,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Consumo energético de combustóleo.\"},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"B:Mining and quarrying\/211:Oil and Gas Extraction\/211130:Natural Gas Extraction\",\"amount\":422,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Consumo energético de gas natural.\"},{\"is_reference\":false,\"flow\":\"Transporte de materia prima\",\"category\":\"H:Transportation and Warehousing\/484:Truck Transportation\",\"amount\":0.0173,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Transporte agregado de todas las materias primas.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Cemento Portland\",\"category\":\"C:Manufacturing\/327:Nonmetallic Mineral Product Manufacturing\/3273:Cement and Concrete Product Manufacturing\/327310:Cement Manufacturing\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Unidad funcional: 1 kg de cemento gris estándar terminado en planta.\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"Emisiones al aire\",\"amount\":0.8329,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Dióxido de carbono\"},{\"is_reference\":false,\"flow\":\"SO2\",\"category\":\"Emisiones al aire\",\"amount\":0.0005,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Dióxido de azufre\"},{\"is_reference\":false,\"flow\":\"NOx\",\"category\":\"Emisiones al aire\",\"amount\":0.002,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Óxidos de nitrógeno\"},{\"is_reference\":false,\"flow\":\"CO\",\"category\":\"Emisiones al aire\",\"amount\":0.0017,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Monóxido de carbono\"},{\"is_reference\":false,\"flow\":\"COT\",\"category\":\"Emisiones al aire\",\"amount\":0.0001,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Carbono Orgánico Total\"},{\"is_reference\":false,\"flow\":\"COV\",\"category\":\"Emisiones al aire\",\"amount\":4.89e-7,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Compuestos Orgánicos Volátiles\"},{\"is_reference\":false,\"flow\":\"CH4\",\"category\":\"Emisiones al aire\",\"amount\":0.00000359,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009, y Espinoza, 2005\",\"description\":\"Metano\"}]}",
+    "http_code": 200,
+    "timestamp": 1764892193
+}

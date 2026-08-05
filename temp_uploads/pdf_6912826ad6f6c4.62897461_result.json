@@ -1,0 +1,438 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "7774a8a2-d9d9-4339-a844-8042d60d5d0d",
+            "Name": "Environmental impact of beef production in Mexico through life cycle assessment",
+            "Category": "Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería",
+            "Description": "Intensive and extensive systems of beef production in the Mexican tropics were analyzed. The aim of the study was to estimate and compare the environmental impact of two typical beef production systems in Veracruz, Mexico. A system boundary was established from farm production to prior to transport for consumer consumption, including intermediate stages of product processing, marketing and transportation. The functional unit was 1 kg of boneless and fatless beef. The life cycle inventory was built using information from case studies; farmers, slaughterhouses and retail point managers who provided information from records and expert knowledge were interviewed. The study included cow-calf processes, pre-fattening, fattening, processing and retail. Several impact categories were analyzed using SimaPro software and the ReCiPe Midpoint method for impact characterization. The results showed that for the extensive system, the cow-calf stage is the major contributor in eleven of the twelve impact categories analyzed, while in the intensive system, it is the main contributor to the climate change, terrestrial acidification, freshwater and marine eutrophication. The fattening stage of intensive system, has a predominant impact on human toxicity, water depletion, terrestrial ecotoxicity, fossil depletion, photo-oxidants formation, freshwater ecotoxicity and marine ecotoxicity; the processing stage has relevant contributions to fossil fuel depletion and the formation of photochemical oxidants in intensive systems. Finally, the marketing stage did not have a predominant impact on any category. The results indicated that the extensive system has better environmental performance than the intensive system for nine of the twelve studied categories.",
+            "Tags": "Life cycle assessment, Mexican beef, Extensive beef production, Intensive beef production, Mexican beef supply chain, Environmental impact assessment, Beef production in Mexican tropic",
+            "Technology | Description": "The analysis was performed using SimaPro 7.3.3 software for processing the inventory, ReCiPe Midpoint (H) method version 1.06. The ReCiPe method was selected because it is an actual and accepted method which uses mid and endpoint impact categories. It uses an environmental mechanism as a base for the impact model; similarly, it allows the quantification of the environmental impacts from specific indicators and was used to evaluate the twelve impact categories. These categories were: Climate change (CC in kg CO2 eq), Human Toxicity (HT in kg, 1.4-DB eq), Terrestrial Acidification (TA in kg, SO2 eq), Freshwater Eutrophication (FEU in kg Peq), Marine Eutrophication (MEU in kgNeq), Terrestrial Ecotoxicity (ET in kg 1,4-DB eq), Agricultural Land Occupation (ALO in m2 x yr), Water depletion (WD in m3), Fossil Depletion.",
+            "Code": "MX",
+            "Last_change": "11\/11\/2025 00:26"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Life cycle assessment methodology according to ISO 14040:2006, using SimaPro 7.3.3 software and ReCiPe Midpoint (H) method version 1.06 for impact characterization",
+            "Process type": "Cradle-to-grave approach from farm production to prior to transport for consumer consumption, including intermediate stages of product processing, marketing and transportation",
+            "Modeling constants": "Tier 1 methodology of IPCC (2006) for methane emissions from cattle enteric fermentation and manure; direct and indirect nitrous oxide and ammonia manure emissions; economic allocation (64.5% to milk and 35.5% to calf production) for cow-calf stage; functional unit: 1 kg of boneless and fatless beef",
+            "Data source information": "17 case studies via interviews with farmers, slaughterhouse representatives and marketing point sellers; supplemented by literature values and expert interviews; data from Mexican government entities (FIRA, INEGI, SAGARPA, SEMARNAT)",
+            "Data completeness": "Comprehensive coverage of all major processes: cow-calf, pre-fattening, fattening, processing and marketing stages; includes animals, pasture, concentrates, fertilizers, pesticides, water, electricity, gas, packaging, transportation, organic waste disposal",
+            "Data selection": "Included: all material and energy flows relevant to beef production chain; Excluded: infrastructure and equipment according to LCA best practices (European Commission, 2010)",
+            "Data treatment": "Data validation through consultations with livestock associations, researchers, academics and extension specialists; comparison with published data, reports and domestic statistics",
+            "Sampling procedure": "Purposive sampling of representative case studies: 2 ranches for cow-calf process; 2 case studies per process and system for pre-fattening, fattening and processing stages; convenience sampling for marketing points (supermarket chain for IS, butcher houses for ES)",
+            "Data collection period": "One year of operations for each livestock production, processing and marketing unit analyzed; specific collection dates not specified",
+            "Use advice": "Results specific to Mexican tropical conditions in Veracruz; applicable to similar dual-purpose and feedlot systems; limitations in generalizability to other regions with different production conditions",
+            "Completeness": "High completeness with comprehensive system boundaries covering entire production chain; data validated through multiple sources and expert consultation",
+            "Sources": "ANETIF, 2011; CEPAL-FAO-ICA, 2013; FIRA, 2012; FAO, 2010; INEGI, 2007; SIAP, 2011; Signorini et al., 2006; IPCC, 2006; European Commission, 2010",
+            "Project": "Knowledge-based Sustainable vAlue-added food chains: innovative tools for monitoring ethical, environmental and Socio-economical impActs and implementing Eu-Latin America shared strategies, Grant agreement no.: 265927, Seventh Framework Program",
+            "Intended application": "Quantification and comparison of environmental impacts of intensive and extensive beef production systems in Mexico; identification of hotspots along beef value chains; recommendations for sustainable production improvements",
+            "Data set owner": "Universidad Nacional Autónoma de México, Facultad de Medicina Veterinaria y Zootecnia and Instituto de Ingeniería",
+            "Data set generator": "Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano",
+            "Data set documentor": "Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano",
+            "Publication": "Resources, Conservation and Recycling 109 (2016) 44-53",
+            "Creation date": "2016",
+            "Copyright": "© 2016 Published by Elsevier B.V.",
+            "Access and use restrictions": "Standard Elsevier copyright restrictions apply; supplementary data available online at http:\/\/dx.doi.org\/10.1016\/j.resconrec.2016.01.020"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-11T00:27:11.656Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 13.4,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption for cows in production"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 8.5,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption for heifers"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 15,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption for bulls"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 3.2,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption for calves"
+            },
+            {
+                "is_reference": false,
+                "flow": "Mineral fertilizer (NH4)2SO4",
+                "category": "C:Manufacturing\/20:Manufacture of chemicals and chemical products\/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds\/2011:Manufacture of basic chemicals",
+                "amount": 150,
+                "unit": "kg\/ha\/year",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Mineral fertilizer on pasture"
+            },
+            {
+                "is_reference": false,
+                "flow": "Dietary supplementation",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared animal feeds",
+                "amount": 1,
+                "unit": "kg\/head\/76 d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Dietary supplementation in pre-fattening stage"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 7.4,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption in pre-fattening intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 8.6,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption in pre-fattening extensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 2.2,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption in fattening intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Forage",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 10.1,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage consumption in fattening extensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Concentrated feed",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared animal feeds",
+                "amount": 10.8,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Concentrated feed consumption in fattening intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Concentrated feed",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared animal feeds",
+                "amount": 0.6,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Concentrated feed consumption in fattening extensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transportation",
+                "category": "H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking",
+                "amount": 10,
+                "unit": "km",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transportation distance for pre-fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transportation",
+                "category": "H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking",
+                "amount": 138,
+                "unit": "km",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transportation distance for fattening in intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transportation",
+                "category": "H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking",
+                "amount": 80,
+                "unit": "km",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transportation distance for fattening in extensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transportation",
+                "category": "H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking",
+                "amount": 350,
+                "unit": "km",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Traveled distance to selling point for intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transportation",
+                "category": "H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking",
+                "amount": 7,
+                "unit": "km",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Traveled distance to selling point for extensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transportation",
+                "category": "H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking",
+                "amount": 2.3,
+                "unit": "km",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Distance to the consumer's home"
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricity mix",
+                "category": "D:Electricity, Gas, Steam and Air Conditioning Supply\/35:Electric power generation, transmission and distribution\/351:Electric power generation, transmission and distribution\/3511:Electric power generation",
+                "amount": 1,
+                "unit": "kWh",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Electricity mix: 22% hydro, 22% natural gas, 5% coal, 3% nuclear, 0.2% wind and 48% combined cycle"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Standing calf",
+                "category": "",
+                "amount": 0.93,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Cow-calf stage output for intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Standing calf",
+                "category": "",
+                "amount": 1.04,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Cow-calf stage output for extensive system"
+            },
+            {
+                "is_reference": true,
+                "flow": "Standing bovine",
+                "category": "",
+                "amount": 1.39,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Pre-fattening stage output for intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Standing bovine",
+                "category": "",
+                "amount": 1.81,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Pre-fattening stage output for extensive system"
+            },
+            {
+                "is_reference": true,
+                "flow": "Standing bovine",
+                "category": "",
+                "amount": 2.21,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Fattening stage output for intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Standing bovine",
+                "category": "",
+                "amount": 2.78,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Fattening stage output for extensive system"
+            },
+            {
+                "is_reference": true,
+                "flow": "Beef in pieces",
+                "category": "",
+                "amount": 1.089,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Processing stage output for intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Beef carcasses",
+                "category": "",
+                "amount": 1.45,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Processing stage output for extensive system"
+            },
+            {
+                "is_reference": true,
+                "flow": "Beef",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Marketing stage output for both systems"
+            },
+            {
+                "is_reference": false,
+                "flow": "Carcass Waste",
+                "category": "",
+                "amount": 51.4,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Processing waste for intensive system"
+            },
+            {
+                "is_reference": true,
+                "flow": "Waste of meat",
+                "category": "",
+                "amount": 24818.6,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Marketing waste for intensive system"
+            },
+            {
+                "is_reference": false,
+                "flow": "Waste of meat",
+                "category": "",
+                "amount": 5698,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Marketing waste for extensive system"
+            },
+            {
+                "is_reference": true,
+                "flow": "Methane emissions",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "From cattle enteric fermentation and manure"
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrous oxide (N2O)",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Direct and indirect manure emissions"
+            },
+            {
+                "is_reference": true,
+                "flow": "Ammonia (NH3)",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Manure emissions"
+            },
+            {
+                "is_reference": false,
+                "flow": "Phosphorus emissions",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "From manure"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"7774a8a2-d9d9-4339-a844-8042d60d5d0d\",\"Name\":\"Environmental impact of beef production in Mexico through life cycle assessment\",\"Category\":\"Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería\",\"Description\":\"Intensive and extensive systems of beef production in the Mexican tropics were analyzed. The aim of the study was to estimate and compare the environmental impact of two typical beef production systems in Veracruz, Mexico. A system boundary was established from farm production to prior to transport for consumer consumption, including intermediate stages of product processing, marketing and transportation. The functional unit was 1 kg of boneless and fatless beef. The life cycle inventory was built using information from case studies; farmers, slaughterhouses and retail point managers who provided information from records and expert knowledge were interviewed. The study included cow-calf processes, pre-fattening, fattening, processing and retail. Several impact categories were analyzed using SimaPro software and the ReCiPe Midpoint method for impact characterization. The results showed that for the extensive system, the cow-calf stage is the major contributor in eleven of the twelve impact categories analyzed, while in the intensive system, it is the main contributor to the climate change, terrestrial acidification, freshwater and marine eutrophication. The fattening stage of intensive system, has a predominant impact on human toxicity, water depletion, terrestrial ecotoxicity, fossil depletion, photo-oxidants formation, freshwater ecotoxicity and marine ecotoxicity; the processing stage has relevant contributions to fossil fuel depletion and the formation of photochemical oxidants in intensive systems. Finally, the marketing stage did not have a predominant impact on any category. The results indicated that the extensive system has better environmental performance than the intensive system for nine of the twelve studied categories.\",\"Tags\":\"Life cycle assessment, Mexican beef, Extensive beef production, Intensive beef production, Mexican beef supply chain, Environmental impact assessment, Beef production in Mexican tropic\",\"Technology | Description\":\"The analysis was performed using SimaPro 7.3.3 software for processing the inventory, ReCiPe Midpoint (H) method version 1.06. The ReCiPe method was selected because it is an actual and accepted method which uses mid and endpoint impact categories. It uses an environmental mechanism as a base for the impact model; similarly, it allows the quantification of the environmental impacts from specific indicators and was used to evaluate the twelve impact categories. These categories were: Climate change (CC in kg CO2 eq), Human Toxicity (HT in kg, 1.4-DB eq), Terrestrial Acidification (TA in kg, SO2 eq), Freshwater Eutrophication (FEU in kg Peq), Marine Eutrophication (MEU in kgNeq), Terrestrial Ecotoxicity (ET in kg 1,4-DB eq), Agricultural Land Occupation (ALO in m2 x yr), Water depletion (WD in m3), Fossil Depletion.\",\"Code\":\"MX\",\"Last_change\":\"11\/11\/2025 00:26\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Life cycle assessment methodology according to ISO 14040:2006, using SimaPro 7.3.3 software and ReCiPe Midpoint (H) method version 1.06 for impact characterization\",\"Process type\":\"Cradle-to-grave approach from farm production to prior to transport for consumer consumption, including intermediate stages of product processing, marketing and transportation\",\"Modeling constants\":\"Tier 1 methodology of IPCC (2006) for methane emissions from cattle enteric fermentation and manure; direct and indirect nitrous oxide and ammonia manure emissions; economic allocation (64.5% to milk and 35.5% to calf production) for cow-calf stage; functional unit: 1 kg of boneless and fatless beef\",\"Data source information\":\"17 case studies via interviews with farmers, slaughterhouse representatives and marketing point sellers; supplemented by literature values and expert interviews; data from Mexican government entities (FIRA, INEGI, SAGARPA, SEMARNAT)\",\"Data completeness\":\"Comprehensive coverage of all major processes: cow-calf, pre-fattening, fattening, processing and marketing stages; includes animals, pasture, concentrates, fertilizers, pesticides, water, electricity, gas, packaging, transportation, organic waste disposal\",\"Data selection\":\"Included: all material and energy flows relevant to beef production chain; Excluded: infrastructure and equipment according to LCA best practices (European Commission, 2010)\",\"Data treatment\":\"Data validation through consultations with livestock associations, researchers, academics and extension specialists; comparison with published data, reports and domestic statistics\",\"Sampling procedure\":\"Purposive sampling of representative case studies: 2 ranches for cow-calf process; 2 case studies per process and system for pre-fattening, fattening and processing stages; convenience sampling for marketing points (supermarket chain for IS, butcher houses for ES)\",\"Data collection period\":\"One year of operations for each livestock production, processing and marketing unit analyzed; specific collection dates not specified\",\"Use advice\":\"Results specific to Mexican tropical conditions in Veracruz; applicable to similar dual-purpose and feedlot systems; limitations in generalizability to other regions with different production conditions\",\"Completeness\":\"High completeness with comprehensive system boundaries covering entire production chain; data validated through multiple sources and expert consultation\",\"Sources\":\"ANETIF, 2011; CEPAL-FAO-ICA, 2013; FIRA, 2012; FAO, 2010; INEGI, 2007; SIAP, 2011; Signorini et al., 2006; IPCC, 2006; European Commission, 2010\",\"Project\":\"Knowledge-based Sustainable vAlue-added food chains: innovative tools for monitoring ethical, environmental and Socio-economical impActs and implementing Eu-Latin America shared strategies, Grant agreement no.: 265927, Seventh Framework Program\",\"Intended application\":\"Quantification and comparison of environmental impacts of intensive and extensive beef production systems in Mexico; identification of hotspots along beef value chains; recommendations for sustainable production improvements\",\"Data set owner\":\"Universidad Nacional Autónoma de México, Facultad de Medicina Veterinaria y Zootecnia and Instituto de Ingeniería\",\"Data set generator\":\"Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano\",\"Data set documentor\":\"Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano\",\"Publication\":\"Resources, Conservation and Recycling 109 (2016) 44-53\",\"Creation date\":\"2016\",\"Copyright\":\"© 2016 Published by Elsevier B.V.\",\"Access and use restrictions\":\"Standard Elsevier copyright restrictions apply; supplementary data available online at http:\/\/dx.doi.org\/10.1016\/j.resconrec.2016.01.020\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-11T00:27:11.656Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":13.4,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption for cows in production\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":8.5,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption for heifers\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":15,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption for bulls\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":3.2,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption for calves\"},{\"is_reference\":false,\"flow\":\"Mineral fertilizer (NH4)2SO4\",\"category\":\"C:Manufacturing\/20:Manufacture of chemicals and chemical products\/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds\/2011:Manufacture of basic chemicals\",\"amount\":150,\"unit\":\"kg\/ha\/year\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Mineral fertilizer on pasture\"},{\"is_reference\":false,\"flow\":\"Dietary supplementation\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared animal feeds\",\"amount\":1,\"unit\":\"kg\/head\/76 d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Dietary supplementation in pre-fattening stage\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":7.4,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption in pre-fattening intensive system\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":8.6,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption in pre-fattening extensive system\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":2.2,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption in fattening intensive system\"},{\"is_reference\":false,\"flow\":\"Forage\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":10.1,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage consumption in fattening extensive system\"},{\"is_reference\":false,\"flow\":\"Concentrated feed\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared animal feeds\",\"amount\":10.8,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Concentrated feed consumption in fattening intensive system\"},{\"is_reference\":false,\"flow\":\"Concentrated feed\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared animal feeds\",\"amount\":0.6,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Concentrated feed consumption in fattening extensive system\"},{\"is_reference\":false,\"flow\":\"Transportation\",\"category\":\"H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking\",\"amount\":10,\"unit\":\"km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transportation distance for pre-fattening\"},{\"is_reference\":false,\"flow\":\"Transportation\",\"category\":\"H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking\",\"amount\":138,\"unit\":\"km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transportation distance for fattening in intensive system\"},{\"is_reference\":false,\"flow\":\"Transportation\",\"category\":\"H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking\",\"amount\":80,\"unit\":\"km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transportation distance for fattening in extensive system\"},{\"is_reference\":false,\"flow\":\"Transportation\",\"category\":\"H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking\",\"amount\":350,\"unit\":\"km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Traveled distance to selling point for intensive system\"},{\"is_reference\":false,\"flow\":\"Transportation\",\"category\":\"H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking\",\"amount\":7,\"unit\":\"km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Traveled distance to selling point for extensive system\"},{\"is_reference\":false,\"flow\":\"Transportation\",\"category\":\"H:Transportation and Warehousing\/48:Truck transportation\/484:Truck transportation\/4841:General freight trucking\",\"amount\":2.3,\"unit\":\"km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Distance to the consumer's home\"},{\"is_reference\":false,\"flow\":\"Electricity mix\",\"category\":\"D:Electricity, Gas, Steam and Air Conditioning Supply\/35:Electric power generation, transmission and distribution\/351:Electric power generation, transmission and distribution\/3511:Electric power generation\",\"amount\":1,\"unit\":\"kWh\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Electricity mix: 22% hydro, 22% natural gas, 5% coal, 3% nuclear, 0.2% wind and 48% combined cycle\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Standing calf\",\"category\":\"\",\"amount\":0.93,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Cow-calf stage output for intensive system\"},{\"is_reference\":false,\"flow\":\"Standing calf\",\"category\":\"\",\"amount\":1.04,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Cow-calf stage output for extensive system\"},{\"is_reference\":true,\"flow\":\"Standing bovine\",\"category\":\"\",\"amount\":1.39,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Pre-fattening stage output for intensive system\"},{\"is_reference\":false,\"flow\":\"Standing bovine\",\"category\":\"\",\"amount\":1.81,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Pre-fattening stage output for extensive system\"},{\"is_reference\":true,\"flow\":\"Standing bovine\",\"category\":\"\",\"amount\":2.21,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Fattening stage output for intensive system\"},{\"is_reference\":false,\"flow\":\"Standing bovine\",\"category\":\"\",\"amount\":2.78,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Fattening stage output for extensive system\"},{\"is_reference\":true,\"flow\":\"Beef in pieces\",\"category\":\"\",\"amount\":1.089,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Processing stage output for intensive system\"},{\"is_reference\":false,\"flow\":\"Beef carcasses\",\"category\":\"\",\"amount\":1.45,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Processing stage output for extensive system\"},{\"is_reference\":true,\"flow\":\"Beef\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Marketing stage output for both systems\"},{\"is_reference\":false,\"flow\":\"Carcass Waste\",\"category\":\"\",\"amount\":51.4,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Processing waste for intensive system\"},{\"is_reference\":true,\"flow\":\"Waste of meat\",\"category\":\"\",\"amount\":24818.6,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Marketing waste for intensive system\"},{\"is_reference\":false,\"flow\":\"Waste of meat\",\"category\":\"\",\"amount\":5698,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Marketing waste for extensive system\"},{\"is_reference\":true,\"flow\":\"Methane emissions\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"From cattle enteric fermentation and manure\"},{\"is_reference\":false,\"flow\":\"Nitrous oxide (N2O)\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Direct and indirect manure emissions\"},{\"is_reference\":true,\"flow\":\"Ammonia (NH3)\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Manure emissions\"},{\"is_reference\":false,\"flow\":\"Phosphorus emissions\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"From manure\"}]}",
+    "http_code": 200,
+    "timestamp": 1762820972
+}

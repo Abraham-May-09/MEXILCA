@@ -1,0 +1,277 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "13f4c007-269b-48df-8e09-2b3a5df7c78d",
+            "Name": "Metodología con enfoque de análisis de ciclo de vida para evaluar el impacto ambiental de insumos adquiridos por una organización",
+            "Category": "Manufactura\/325 Fabricación de Productos Químicos",
+            "Description": "La producción de bienes y servicios conlleva a la generación de impactos ambientales. Esta tesis plantea una alternativa a determinados problemas que enfrentan los usuarios del ACV tradicional, proponiendo una metodología aplicable a cualquier organización. Se propone una manera rápida de evaluar impactos ambientales de productos con enfoque de ciclo de vida y la generación de un software que puede emplearse para apoyar la selección de insumos. La metodología se conforma de cuatro etapas. La primera consiste en la toma de una serie de decisiones basadas en ACV (definición de objetivo y alcance, límites del sistema, selección de unidad funcional y de categorías de impacto). En la segunda etapa se recolectará información acerca de los insumos a evaluar. En tercer lugar, se contempla el desarrollo de un software de evaluación. Por último, la cuarta etapa consiste en la validación y mejora de la herramienta. Como caso de estudio, esta metodología fue aplicada en la fábrica de billetes del Banco de México, para evaluar el impacto ambiental de insumos considerando diferentes proveedores.",
+            "Tags": "Análisis de Ciclo de Vida, ACV, ACV rápido, impacto ambiental, insumos, toma de decisiones, compras sostenibles, MARCO, detergentes",
+            "Technology Description": "La metodología (MARCO) se basa en los principios de Análisis de Ciclo de Vida simplificado (ISO 14040\/14044). Para la evaluación de impacto ambiental, se utilizó el método ReCiPe v1.08 con una perspectiva jerárquica a 100 años. El inventario de ciclo de vida se construyó utilizando la base de datos ecoinvent v3.3. Para componentes no disponibles, se modelaron inventarios a partir de literatura científica. La herramienta de software para el caso de estudio fue desarrollada en MS Excel y Visual Basic.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:06"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida Simplificado (Streamlined LCA) basado en ISO 14040 y 14044. Método de evaluación de impacto: ReCiPe 2008 (H) v1.08 Midpoint.",
+            "Process type": "Proceso de fabricación de la cuna a la puerta (Cradle-to-gate) para un componente químico (aceite de alga).",
+            "Modeling constants": "El alcance del sistema es de la cuna a la puerta, incluyendo la extracción de materias primas y la manufactura del producto. Se emplean módulos de datos globales de la base de datos ecoinvent v3.3 cuando no hay datos regionales específicos disponibles. El horizonte temporal para la evaluación de impacto es de 100 años (perspectiva jerárquica de ReCiPe).",
+            "Data source information": "Base de datos Ecoinvent v3.3. Para el modelado de aceite de alga, se utilizó el inventario del estudio de Passell, H., et al. (2013), 'Algae biodiesel life cycle assessment using current commercial data'.",
+            "Data completeness": "El inventario se basa en datos comerciales reportados en la literatura científica para la producción de aceite de alga. Cubre las principales entradas de materiales y energía, así como las salidas de emisiones y residuos.",
+            "Data selection": "La selección de flujos se basa en el inventario publicado por Passell et al. (2013). No se mencionan criterios de corte explícitos.",
+            "Data treatment": "Los datos del inventario de Passell et al. (2013) fueron escalados para la producción de 1 kg de aceite de alga y se multiplicaron por los factores de caracterización del método ReCiPe.",
+            "Sampling procedure": "No aplica. Los datos son secundarios, extraídos de la literatura científica y bases de datos LCI.",
+            "Data collection period": "La tesis fue publicada en 2017. El inventario base para el aceite de alga es de una publicación de 2013.",
+            "Use advice": "Los resultados son parte de un ejemplo ilustrativo para una metodología de ACV simplificado. Están destinados a la toma de decisiones comparativas internas y no para afirmaciones públicas.",
+            "Completeness": "El inventario del componente (aceite de alga) es detallado y se considera representativo de la producción comercial según la fuente citada.",
+            "Sources": "Passell, H., Dhaliwal, H., Reno, M., Wu, B., Ben Amotz, A., Ivry, E., … Ayer, N. (2013). Algae biodiesel life cycle assessment using current commercial data. Journal of Environmental Management, 129, 103–111. Goedkoop, M., Heijungs, R., De Schryver, A., Struijs, J., & van Zelm, R. (2013). ReCiPe 2008. Wernet, G., et al. (2016). The ecoinvent database version 3. ISO 14040 & 14044.",
+            "Project": "Tesis de Maestría en Ingeniería Ambiental, Universidad Nacional Autónoma de México (UNAM).",
+            "Intended application": "Desarrollar y aplicar una metodología de ACV rápido para la comparación del impacto ambiental de insumos, apoyando la toma de decisiones en adquisiciones por parte de una organización.",
+            "Data set owner": "Dora Yesenia Ruiz Méndez, Universidad Nacional Autónoma de México.",
+            "Data set generator": "Dora Yesenia Ruiz Méndez",
+            "Data set documentor": "Dora Yesenia Ruiz Méndez",
+            "Publication": "Ruiz Méndez, D. Y. (2017). Metodología con enfoque de análisis de ciclo de vida para evaluar el impacto ambiental de insumos adquiridos por una organización. [Tesis de Maestría, Universidad Nacional Autónoma de México].",
+            "Creation date": "2017-09",
+            "Copyright": "DERECHOS RESERVADOS ©",
+            "Access and use restrictions": "PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El uso del material será exclusivamente para fines educativos e informativos. Algunos datos utilizados son considerados información reservada perteneciente al Banco de México."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:06",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Fertilizante de nitrógeno",
+                "category": "Manufactura\/325 Fabricación de Productos Químicos\/3253 Fabricación de Pesticidas, Fertilizantes y Otros Productos Químicos para la Agricultura\/325311 Fabricación de Fertilizantes Nitrogenados",
+                "amount": 0.26,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Entrada para el cultivo de algas."
+            },
+            {
+                "is_reference": false,
+                "flow": "Fertilizante de fósforo",
+                "category": "Manufactura\/325 Fabricación de Productos Químicos\/3253 Fabricación de Pesticidas, Fertilizantes y Otros Productos Químicos para la Agricultura\/325312 Fabricación de Fertilizantes Fosfatados",
+                "amount": 0.045,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Entrada para el cultivo de algas."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad (molino)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 30,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico para la molienda."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad (flujo de gas)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 12,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico para el manejo de gases."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad (bombeo de agua)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 3.33,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico para bombeo de agua."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad (inoculado de algas)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 6.77,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico para inoculación de algas."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad (preparado inoculado)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 14.9,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico para la preparación del inóculo."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 0.21,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico general."
+            },
+            {
+                "is_reference": false,
+                "flow": "Calor (pretratamiento y extracción)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 1.445719243,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo de energía térmica para pretratamiento y extracción."
+            },
+            {
+                "is_reference": false,
+                "flow": "Calor (recuperación de solvente)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 1.839899738,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo de energía térmica para recuperación de solvente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Calor (separación de aceite)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 0.529160205,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo de energía térmica para la separación del aceite."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad (prensa de filtro de correa)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 2,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo eléctrico para prensa de filtro."
+            },
+            {
+                "is_reference": false,
+                "flow": "Calor (secado de alimentos)",
+                "category": "Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica",
+                "amount": 1.880636607,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Consumo de energía térmica para el secado de la biomasa."
+            },
+            {
+                "is_reference": false,
+                "flow": "Hexano",
+                "category": "Manufactura\/325 Fabricación de Productos Químicos\/3251 Fabricación de Productos Químicos Básicos\/325110 Fabricación de Productos Petroquímicos",
+                "amount": 0.33,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Solvente para extracción de aceite."
+            },
+            {
+                "is_reference": false,
+                "flow": "Químico A",
+                "category": "Manufactura\/325 Fabricación de Productos Químicos\/3251 Fabricación de Productos Químicos Básicos\/325199 Fabricación de Todos los Demás Productos Químicos Orgánicos Básicos",
+                "amount": 0.08,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Entrada de químico no especificado."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Aceite de alga",
+                "category": "Manufactura\/325 Fabricación de Productos Químicos\/3251 Fabricación de Productos Químicos Básicos\/325199 Fabricación de Todos los Demás Productos Químicos Orgánicos Básicos",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto de referencia del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2 emitido",
+                "category": "Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación",
+                "amount": 179,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Emisión de dióxido de carbono al aire durante el proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Residuos de algas",
+                "category": "Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\/5622 Tratamiento y Eliminación de Desechos\/562219 Tratamiento y Eliminación de Otros Desechos No Peligrosos",
+                "amount": 1.87,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Residuo sólido de biomasa de algas."
+            },
+            {
+                "is_reference": false,
+                "flow": "Lípidos de bajo valor",
+                "category": "Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\/5622 Tratamiento y Eliminación de Desechos\/562219 Tratamiento y Eliminación de Otros Desechos No Peligrosos",
+                "amount": 0.67,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Coproducto o residuo lipídico."
+            },
+            {
+                "is_reference": false,
+                "flow": "Aguas residuales",
+                "category": "Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\/5629 Otros Servicios de Gestión de Desechos\/562998 Todos los Demás Servicios Diversos de Gestión de Desechos",
+                "amount": 17.35,
+                "unit": "m3",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. (2013)",
+                "description": "Efluente líquido del proceso."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"13f4c007-269b-48df-8e09-2b3a5df7c78d\",\"Name\":\"Metodología con enfoque de análisis de ciclo de vida para evaluar el impacto ambiental de insumos adquiridos por una organización\",\"Category\":\"Manufactura\/325 Fabricación de Productos Químicos\",\"Description\":\"La producción de bienes y servicios conlleva a la generación de impactos ambientales. Esta tesis plantea una alternativa a determinados problemas que enfrentan los usuarios del ACV tradicional, proponiendo una metodología aplicable a cualquier organización. Se propone una manera rápida de evaluar impactos ambientales de productos con enfoque de ciclo de vida y la generación de un software que puede emplearse para apoyar la selección de insumos. La metodología se conforma de cuatro etapas. La primera consiste en la toma de una serie de decisiones basadas en ACV (definición de objetivo y alcance, límites del sistema, selección de unidad funcional y de categorías de impacto). En la segunda etapa se recolectará información acerca de los insumos a evaluar. En tercer lugar, se contempla el desarrollo de un software de evaluación. Por último, la cuarta etapa consiste en la validación y mejora de la herramienta. Como caso de estudio, esta metodología fue aplicada en la fábrica de billetes del Banco de México, para evaluar el impacto ambiental de insumos considerando diferentes proveedores.\",\"Tags\":\"Análisis de Ciclo de Vida, ACV, ACV rápido, impacto ambiental, insumos, toma de decisiones, compras sostenibles, MARCO, detergentes\",\"Technology Description\":\"La metodología (MARCO) se basa en los principios de Análisis de Ciclo de Vida simplificado (ISO 14040\/14044). Para la evaluación de impacto ambiental, se utilizó el método ReCiPe v1.08 con una perspectiva jerárquica a 100 años. El inventario de ciclo de vida se construyó utilizando la base de datos ecoinvent v3.3. Para componentes no disponibles, se modelaron inventarios a partir de literatura científica. La herramienta de software para el caso de estudio fue desarrollada en MS Excel y Visual Basic.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:06\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida Simplificado (Streamlined LCA) basado en ISO 14040 y 14044. Método de evaluación de impacto: ReCiPe 2008 (H) v1.08 Midpoint.\",\"Process type\":\"Proceso de fabricación de la cuna a la puerta (Cradle-to-gate) para un componente químico (aceite de alga).\",\"Modeling constants\":\"El alcance del sistema es de la cuna a la puerta, incluyendo la extracción de materias primas y la manufactura del producto. Se emplean módulos de datos globales de la base de datos ecoinvent v3.3 cuando no hay datos regionales específicos disponibles. El horizonte temporal para la evaluación de impacto es de 100 años (perspectiva jerárquica de ReCiPe).\",\"Data source information\":\"Base de datos Ecoinvent v3.3. Para el modelado de aceite de alga, se utilizó el inventario del estudio de Passell, H., et al. (2013), 'Algae biodiesel life cycle assessment using current commercial data'.\",\"Data completeness\":\"El inventario se basa en datos comerciales reportados en la literatura científica para la producción de aceite de alga. Cubre las principales entradas de materiales y energía, así como las salidas de emisiones y residuos.\",\"Data selection\":\"La selección de flujos se basa en el inventario publicado por Passell et al. (2013). No se mencionan criterios de corte explícitos.\",\"Data treatment\":\"Los datos del inventario de Passell et al. (2013) fueron escalados para la producción de 1 kg de aceite de alga y se multiplicaron por los factores de caracterización del método ReCiPe.\",\"Sampling procedure\":\"No aplica. Los datos son secundarios, extraídos de la literatura científica y bases de datos LCI.\",\"Data collection period\":\"La tesis fue publicada en 2017. El inventario base para el aceite de alga es de una publicación de 2013.\",\"Use advice\":\"Los resultados son parte de un ejemplo ilustrativo para una metodología de ACV simplificado. Están destinados a la toma de decisiones comparativas internas y no para afirmaciones públicas.\",\"Completeness\":\"El inventario del componente (aceite de alga) es detallado y se considera representativo de la producción comercial según la fuente citada.\",\"Sources\":\"Passell, H., Dhaliwal, H., Reno, M., Wu, B., Ben Amotz, A., Ivry, E., … Ayer, N. (2013). Algae biodiesel life cycle assessment using current commercial data. Journal of Environmental Management, 129, 103–111. Goedkoop, M., Heijungs, R., De Schryver, A., Struijs, J., & van Zelm, R. (2013). ReCiPe 2008. Wernet, G., et al. (2016). The ecoinvent database version 3. ISO 14040 & 14044.\",\"Project\":\"Tesis de Maestría en Ingeniería Ambiental, Universidad Nacional Autónoma de México (UNAM).\",\"Intended application\":\"Desarrollar y aplicar una metodología de ACV rápido para la comparación del impacto ambiental de insumos, apoyando la toma de decisiones en adquisiciones por parte de una organización.\",\"Data set owner\":\"Dora Yesenia Ruiz Méndez, Universidad Nacional Autónoma de México.\",\"Data set generator\":\"Dora Yesenia Ruiz Méndez\",\"Data set documentor\":\"Dora Yesenia Ruiz Méndez\",\"Publication\":\"Ruiz Méndez, D. Y. (2017). Metodología con enfoque de análisis de ciclo de vida para evaluar el impacto ambiental de insumos adquiridos por una organización. [Tesis de Maestría, Universidad Nacional Autónoma de México].\",\"Creation date\":\"2017-09\",\"Copyright\":\"DERECHOS RESERVADOS ©\",\"Access and use restrictions\":\"PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. El uso del material será exclusivamente para fines educativos e informativos. Algunos datos utilizados son considerados información reservada perteneciente al Banco de México.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:06\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Fertilizante de nitrógeno\",\"category\":\"Manufactura\/325 Fabricación de Productos Químicos\/3253 Fabricación de Pesticidas, Fertilizantes y Otros Productos Químicos para la Agricultura\/325311 Fabricación de Fertilizantes Nitrogenados\",\"amount\":0.26,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Entrada para el cultivo de algas.\"},{\"is_reference\":false,\"flow\":\"Fertilizante de fósforo\",\"category\":\"Manufactura\/325 Fabricación de Productos Químicos\/3253 Fabricación de Pesticidas, Fertilizantes y Otros Productos Químicos para la Agricultura\/325312 Fabricación de Fertilizantes Fosfatados\",\"amount\":0.045,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Entrada para el cultivo de algas.\"},{\"is_reference\":false,\"flow\":\"Electricidad (molino)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":30,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico para la molienda.\"},{\"is_reference\":false,\"flow\":\"Electricidad (flujo de gas)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":12,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico para el manejo de gases.\"},{\"is_reference\":false,\"flow\":\"Electricidad (bombeo de agua)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":3.33,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico para bombeo de agua.\"},{\"is_reference\":false,\"flow\":\"Electricidad (inoculado de algas)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":6.77,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico para inoculación de algas.\"},{\"is_reference\":false,\"flow\":\"Electricidad (preparado inoculado)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":14.9,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico para la preparación del inóculo.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":0.21,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico general.\"},{\"is_reference\":false,\"flow\":\"Calor (pretratamiento y extracción)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":1.445719243,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo de energía térmica para pretratamiento y extracción.\"},{\"is_reference\":false,\"flow\":\"Calor (recuperación de solvente)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":1.839899738,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo de energía térmica para recuperación de solvente.\"},{\"is_reference\":false,\"flow\":\"Calor (separación de aceite)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":0.529160205,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo de energía térmica para la separación del aceite.\"},{\"is_reference\":false,\"flow\":\"Electricidad (prensa de filtro de correa)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":2,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo eléctrico para prensa de filtro.\"},{\"is_reference\":false,\"flow\":\"Calor (secado de alimentos)\",\"category\":\"Servicios Públicos\/221 Servicios Públicos\/2211 Generación, Transmisión y Distribución de Energía Eléctrica\",\"amount\":1.880636607,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Consumo de energía térmica para el secado de la biomasa.\"},{\"is_reference\":false,\"flow\":\"Hexano\",\"category\":\"Manufactura\/325 Fabricación de Productos Químicos\/3251 Fabricación de Productos Químicos Básicos\/325110 Fabricación de Productos Petroquímicos\",\"amount\":0.33,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Solvente para extracción de aceite.\"},{\"is_reference\":false,\"flow\":\"Químico A\",\"category\":\"Manufactura\/325 Fabricación de Productos Químicos\/3251 Fabricación de Productos Químicos Básicos\/325199 Fabricación de Todos los Demás Productos Químicos Orgánicos Básicos\",\"amount\":0.08,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Entrada de químico no especificado.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Aceite de alga\",\"category\":\"Manufactura\/325 Fabricación de Productos Químicos\/3251 Fabricación de Productos Químicos Básicos\/325199 Fabricación de Todos los Demás Productos Químicos Orgánicos Básicos\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto de referencia del proceso.\"},{\"is_reference\":false,\"flow\":\"CO2 emitido\",\"category\":\"Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\",\"amount\":179,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Emisión de dióxido de carbono al aire durante el proceso.\"},{\"is_reference\":false,\"flow\":\"Residuos de algas\",\"category\":\"Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\/5622 Tratamiento y Eliminación de Desechos\/562219 Tratamiento y Eliminación de Otros Desechos No Peligrosos\",\"amount\":1.87,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Residuo sólido de biomasa de algas.\"},{\"is_reference\":false,\"flow\":\"Lípidos de bajo valor\",\"category\":\"Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\/5622 Tratamiento y Eliminación de Desechos\/562219 Tratamiento y Eliminación de Otros Desechos No Peligrosos\",\"amount\":0.67,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Coproducto o residuo lipídico.\"},{\"is_reference\":false,\"flow\":\"Aguas residuales\",\"category\":\"Servicios de Gestión de Desechos y Remediación\/562 Servicios de Gestión de Desechos y Remediación\/5629 Otros Servicios de Gestión de Desechos\/562998 Todos los Demás Servicios Diversos de Gestión de Desechos\",\"amount\":17.35,\"unit\":\"m3\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. (2013)\",\"description\":\"Efluente líquido del proceso.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765505164
+}

@@ -1,0 +1,187 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "e71736ae-8e1b-4808-9099-b9df360e573d",
+            "Name": "METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN (Análisis de Ciclo de Vida de Aceite de Alga para Detergentes)",
+            "Category": "Manufacturing\/325 Chemical Manufacturing",
+            "Description": "El estudio desarrolla una metodología de Análisis de Ciclo de Vida (ACV) rápido para evaluar el impacto ambiental de insumos y apoyar la toma de decisiones en organizaciones. La metodología se aplicó en un caso de estudio para el Banco de México, evaluando insumos para la fabricación de billetes. Como parte de este trabajo, se modeló el ciclo de vida para la producción de 1 kg de aceite de alga, un componente para detergentes, ya que no se encontraba disponible en bases de datos. Los límites del sistema para este componente son de la cuna a la puerta, incluyendo la adquisición de materias primas (fertilizantes, químicos), consumo de energía (electricidad y calor) y el manejo de los residuos y emisiones generadas.",
+            "Tags": "Análisis de Ciclo de Vida, ACV, Aceite de Alga, Detergentes, Compras Sostenibles, Ecoinvent, ReCiPe, Metodología Rápida",
+            "Technology Description": "La evaluación de impacto se realizó con el método ReCiPe v1.08, perspectiva Jerárquica (H) a 100 años. La fuente principal de datos de inventario de fondo fue la base de datos ecoinvent v3.3. Para los componentes no disponibles en la base de datos, como el aceite de alga, se construyeron modelos de inventario basados en datos de literatura científica (Passell et al., 2013). La herramienta de software descrita en la tesis fue desarrollada en MS Excel y Visual Basic.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:09"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida conforme a ISO 14040 e ISO 14044. El método de Evaluación de Impacto de Ciclo de Vida (LCIA) utilizado es ReCiPe 2008 (v1.08) Midpoint (H).",
+            "Process type": "Proceso de fabricación de la cuna a la puerta (cradle-to-gate) para un producto químico intermedio.",
+            "Modeling constants": "La evaluación se basa en una unidad funcional de 1 kg de aceite de alga producido. Se emplean módulos globales de la base de datos ecoinvent para representar procesos sin especificidad regional. El horizonte temporal para la evaluación de impacto es de 100 años (perspectiva jerárquica).",
+            "Data source information": "El inventario para la producción de aceite de alga se basa en datos comerciales publicados en Passell, H., et al. (2013), 'Algae biodiesel life cycle assessment using current commercial data'. Los datos de fondo para insumos (electricidad, químicos, fertilizantes) provienen de la base de datos ecoinvent v3.3.",
+            "Data completeness": "El inventario cubre las principales entradas de materiales y energía, así como las salidas de producto, co-productos, residuos y emisiones al aire y agua, según la fuente literaria.",
+            "Data selection": "Se incluyen todos los flujos elementales y de materiales reportados en la fuente de datos (Tabla 5.23, referenciando a Passell et al., 2013) para la producción del aceite de alga.",
+            "Data treatment": "Los datos del inventario de la literatura fueron escalados para corresponder a la producción de 1 kg de aceite de alga. Los impactos se calcularon multiplicando la magnitud de cada flujo por su factor de caracterización correspondiente del método ReCiPe.",
+            "Sampling procedure": "No aplica. Los datos se obtuvieron de fuentes secundarias (literatura científica y bases de datos).",
+            "Data collection period": "La tesis fue publicada en 2017. Los datos de la fuente principal son de 2013.",
+            "Use advice": "Este es un modelo de un subproceso (producción de un ingrediente) basado en datos de literatura. No debe ser utilizado para afirmaciones comparativas públicas sin una revisión crítica. Los límites del sistema excluyen las etapas de formulación del detergente, uso y fin de vida.",
+            "Completeness": "El inventario es completo con respecto a los datos reportados en la fuente literaria para el proceso de producción de aceite de alga.",
+            "Sources": "Passell, H., Dhaliwal, H., Reno, M., Wu, B., Ben Amotz, A., Ivry, E., … Ayer, N. (2013). Algae biodiesel life cycle assessment using current commercial data. Journal of Environmental Management, 129, 103–111. | Ruiz Méndez, D. Y. (2017). METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN. Tesis de Maestría, Universidad Nacional Autónoma de México.",
+            "Project": "Tesis para optar por el grado de Maestro en Ingeniería, UNAM. Caso de estudio realizado en colaboración con el Banco de México.",
+            "Intended application": "El conjunto de datos fue desarrollado para ser integrado en una herramienta de ACV rápido para la evaluación de la composición de detergentes, apoyando la toma de decisiones en la adquisición de insumos.",
+            "Data set owner": "Universidad Nacional Autónoma de México (UNAM)",
+            "Data set generator": "Dora Yesenia Ruiz Méndez",
+            "Data set documentor": "Dora Yesenia Ruiz Méndez",
+            "Publication": "Tesis de Maestría en Ingeniería, Programa de Maestría y Doctorado en Ingeniería, UNAM.",
+            "Creation date": "2017-09-01",
+            "Copyright": "Derechos Reservados ©, UNAM",
+            "Access and use restrictions": "Algunos datos utilizados en la tesis son considerados información reservada perteneciente al Banco de México. Prohibida su reproducción total o parcial sin citar la fuente."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:09",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Fertilizante de nitrógeno",
+                "category": "Manufacturing\/32531:Fertilizer Manufacturing",
+                "amount": 0.26,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. 2013",
+                "description": "Input de fertilizante nitrogenado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Fertilizante de fósforo",
+                "category": "Manufacturing\/32531:Fertilizer Manufacturing",
+                "amount": 0.045,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. 2013",
+                "description": "Input de fertilizante fosforado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 75.21,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. 2013",
+                "description": "Suma de todos los consumos eléctricos: molino (30), flujo de gas (12), bombeo (3.33), inoculado (6.77), preparado (14.9), electricidad general (0.21), prensa (2)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Calor",
+                "category": "Utilities\/2213:Steam and Air-Conditioning Supply",
+                "amount": 5.695,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Passell et al. 2013",
+                "description": "Suma de todos los consumos de calor: pretratamiento (1.446), recuperación solvente (1.840), separación aceite (0.529), secado (1.881). Asumiendo la unidad es kWh como en las entradas de electricidad."
+            },
+            {
+                "is_reference": false,
+                "flow": "Hexano",
+                "category": "Manufacturing\/32519:Other Basic Organic Chemical Manufacturing",
+                "amount": 0.33,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. 2013",
+                "description": "Solvente para extracción."
+            },
+            {
+                "is_reference": false,
+                "flow": "Químico A",
+                "category": "Manufacturing\/3251:Basic Chemical Manufacturing",
+                "amount": 0.08,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Passell et al. 2013",
+                "description": "Input químico no especificado."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Aceite de alga",
+                "category": "Manufacturing\/32519:Other Basic Organic Chemical Manufacturing",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto principal del proceso, destinado a ser usado como ingrediente en detergentes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Dióxido de carbono",
+                "category": "Manufacturing\/32519:Other Basic Organic Chemical Manufacturing",
+                "amount": 179,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. 2013",
+                "description": "Emisiones de CO2 al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "Residuos de algas",
+                "category": "Waste Management and Remediation Services\/562:Waste Management and Remediation Services",
+                "amount": 1.87,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. 2013",
+                "description": "Residuo sólido del proceso de extracción."
+            },
+            {
+                "is_reference": false,
+                "flow": "Lípidos de bajo valor",
+                "category": "Waste Management and Remediation Services\/562:Waste Management and Remediation Services",
+                "amount": 0.67,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. 2013",
+                "description": "Co-producto o residuo lipídico de bajo valor comercial."
+            },
+            {
+                "is_reference": false,
+                "flow": "Aguas residuales",
+                "category": "Waste Management and Remediation Services\/5622:Waste Treatment and Disposal",
+                "amount": 17.35,
+                "unit": "m3",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Passell et al. 2013",
+                "description": "Descarga de agua residual del proceso."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"e71736ae-8e1b-4808-9099-b9df360e573d\",\"Name\":\"METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN (Análisis de Ciclo de Vida de Aceite de Alga para Detergentes)\",\"Category\":\"Manufacturing\/325 Chemical Manufacturing\",\"Description\":\"El estudio desarrolla una metodología de Análisis de Ciclo de Vida (ACV) rápido para evaluar el impacto ambiental de insumos y apoyar la toma de decisiones en organizaciones. La metodología se aplicó en un caso de estudio para el Banco de México, evaluando insumos para la fabricación de billetes. Como parte de este trabajo, se modeló el ciclo de vida para la producción de 1 kg de aceite de alga, un componente para detergentes, ya que no se encontraba disponible en bases de datos. Los límites del sistema para este componente son de la cuna a la puerta, incluyendo la adquisición de materias primas (fertilizantes, químicos), consumo de energía (electricidad y calor) y el manejo de los residuos y emisiones generadas.\",\"Tags\":\"Análisis de Ciclo de Vida, ACV, Aceite de Alga, Detergentes, Compras Sostenibles, Ecoinvent, ReCiPe, Metodología Rápida\",\"Technology Description\":\"La evaluación de impacto se realizó con el método ReCiPe v1.08, perspectiva Jerárquica (H) a 100 años. La fuente principal de datos de inventario de fondo fue la base de datos ecoinvent v3.3. Para los componentes no disponibles en la base de datos, como el aceite de alga, se construyeron modelos de inventario basados en datos de literatura científica (Passell et al., 2013). La herramienta de software descrita en la tesis fue desarrollada en MS Excel y Visual Basic.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:09\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida conforme a ISO 14040 e ISO 14044. El método de Evaluación de Impacto de Ciclo de Vida (LCIA) utilizado es ReCiPe 2008 (v1.08) Midpoint (H).\",\"Process type\":\"Proceso de fabricación de la cuna a la puerta (cradle-to-gate) para un producto químico intermedio.\",\"Modeling constants\":\"La evaluación se basa en una unidad funcional de 1 kg de aceite de alga producido. Se emplean módulos globales de la base de datos ecoinvent para representar procesos sin especificidad regional. El horizonte temporal para la evaluación de impacto es de 100 años (perspectiva jerárquica).\",\"Data source information\":\"El inventario para la producción de aceite de alga se basa en datos comerciales publicados en Passell, H., et al. (2013), 'Algae biodiesel life cycle assessment using current commercial data'. Los datos de fondo para insumos (electricidad, químicos, fertilizantes) provienen de la base de datos ecoinvent v3.3.\",\"Data completeness\":\"El inventario cubre las principales entradas de materiales y energía, así como las salidas de producto, co-productos, residuos y emisiones al aire y agua, según la fuente literaria.\",\"Data selection\":\"Se incluyen todos los flujos elementales y de materiales reportados en la fuente de datos (Tabla 5.23, referenciando a Passell et al., 2013) para la producción del aceite de alga.\",\"Data treatment\":\"Los datos del inventario de la literatura fueron escalados para corresponder a la producción de 1 kg de aceite de alga. Los impactos se calcularon multiplicando la magnitud de cada flujo por su factor de caracterización correspondiente del método ReCiPe.\",\"Sampling procedure\":\"No aplica. Los datos se obtuvieron de fuentes secundarias (literatura científica y bases de datos).\",\"Data collection period\":\"La tesis fue publicada en 2017. Los datos de la fuente principal son de 2013.\",\"Use advice\":\"Este es un modelo de un subproceso (producción de un ingrediente) basado en datos de literatura. No debe ser utilizado para afirmaciones comparativas públicas sin una revisión crítica. Los límites del sistema excluyen las etapas de formulación del detergente, uso y fin de vida.\",\"Completeness\":\"El inventario es completo con respecto a los datos reportados en la fuente literaria para el proceso de producción de aceite de alga.\",\"Sources\":\"Passell, H., Dhaliwal, H., Reno, M., Wu, B., Ben Amotz, A., Ivry, E., … Ayer, N. (2013). Algae biodiesel life cycle assessment using current commercial data. Journal of Environmental Management, 129, 103–111. | Ruiz Méndez, D. Y. (2017). METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN. Tesis de Maestría, Universidad Nacional Autónoma de México.\",\"Project\":\"Tesis para optar por el grado de Maestro en Ingeniería, UNAM. Caso de estudio realizado en colaboración con el Banco de México.\",\"Intended application\":\"El conjunto de datos fue desarrollado para ser integrado en una herramienta de ACV rápido para la evaluación de la composición de detergentes, apoyando la toma de decisiones en la adquisición de insumos.\",\"Data set owner\":\"Universidad Nacional Autónoma de México (UNAM)\",\"Data set generator\":\"Dora Yesenia Ruiz Méndez\",\"Data set documentor\":\"Dora Yesenia Ruiz Méndez\",\"Publication\":\"Tesis de Maestría en Ingeniería, Programa de Maestría y Doctorado en Ingeniería, UNAM.\",\"Creation date\":\"2017-09-01\",\"Copyright\":\"Derechos Reservados ©, UNAM\",\"Access and use restrictions\":\"Algunos datos utilizados en la tesis son considerados información reservada perteneciente al Banco de México. Prohibida su reproducción total o parcial sin citar la fuente.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:09\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Fertilizante de nitrógeno\",\"category\":\"Manufacturing\/32531:Fertilizer Manufacturing\",\"amount\":0.26,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Input de fertilizante nitrogenado.\"},{\"is_reference\":false,\"flow\":\"Fertilizante de fósforo\",\"category\":\"Manufacturing\/32531:Fertilizer Manufacturing\",\"amount\":0.045,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Input de fertilizante fosforado.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":75.21,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Suma de todos los consumos eléctricos: molino (30), flujo de gas (12), bombeo (3.33), inoculado (6.77), preparado (14.9), electricidad general (0.21), prensa (2).\"},{\"is_reference\":false,\"flow\":\"Calor\",\"category\":\"Utilities\/2213:Steam and Air-Conditioning Supply\",\"amount\":5.695,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Suma de todos los consumos de calor: pretratamiento (1.446), recuperación solvente (1.840), separación aceite (0.529), secado (1.881). Asumiendo la unidad es kWh como en las entradas de electricidad.\"},{\"is_reference\":false,\"flow\":\"Hexano\",\"category\":\"Manufacturing\/32519:Other Basic Organic Chemical Manufacturing\",\"amount\":0.33,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Solvente para extracción.\"},{\"is_reference\":false,\"flow\":\"Químico A\",\"category\":\"Manufacturing\/3251:Basic Chemical Manufacturing\",\"amount\":0.08,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Input químico no especificado.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Aceite de alga\",\"category\":\"Manufacturing\/32519:Other Basic Organic Chemical Manufacturing\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto principal del proceso, destinado a ser usado como ingrediente en detergentes.\"},{\"is_reference\":false,\"flow\":\"Dióxido de carbono\",\"category\":\"Manufacturing\/32519:Other Basic Organic Chemical Manufacturing\",\"amount\":179,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Emisiones de CO2 al aire.\"},{\"is_reference\":false,\"flow\":\"Residuos de algas\",\"category\":\"Waste Management and Remediation Services\/562:Waste Management and Remediation Services\",\"amount\":1.87,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Residuo sólido del proceso de extracción.\"},{\"is_reference\":false,\"flow\":\"Lípidos de bajo valor\",\"category\":\"Waste Management and Remediation Services\/562:Waste Management and Remediation Services\",\"amount\":0.67,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Co-producto o residuo lipídico de bajo valor comercial.\"},{\"is_reference\":false,\"flow\":\"Aguas residuales\",\"category\":\"Waste Management and Remediation Services\/5622:Waste Treatment and Disposal\",\"amount\":17.35,\"unit\":\"m3\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Passell et al. 2013\",\"description\":\"Descarga de agua residual del proceso.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765505377
+}

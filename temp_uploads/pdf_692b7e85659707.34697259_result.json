@@ -1,0 +1,269 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "7d92080d-6aa1-4357-bc44-e02bf7bc4910",
+            "Name": "Análisis de Ciclo de Vida del Vigueta",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\/3273 Fabricación de productos de cemento y hormigón",
+            "Description": "Se determinó la huella de carbono y la demanda acumulada de energía durante la fabricación de vigueta. El estudio se enfoca en las etapas de extracción de materia prima, transporte y fabricación per se (cradle-to-gate). La unidad funcional es producir un metro lineal de vigueta terminada en planta en la zona centro de México, con datos de 2009. El resultado obtenido respecto a la producción de 1 m lineal de vigueta en planta fue de 6.40565 kgCO2eq.",
+            "Tags": "ACV, vigueta, huella de carbono, análisis de ciclo de vida, construcción, concreto, México",
+            "Technology Description": "La vigueta es un elemento estructural fabricado con concreto y varillas de acero. El estudio se centra en la vigueta de alma abierta, la cual se elabora con una estructura de varilla soldada que es colada sobre mesas de metal con una mezcla de concreto (cemento, grava, arena, agua).",
+            "Code": "MX",
+            "Last change": "29\/11\/2025 23:16"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "El inventario de ciclo de vida (ICV) se realizó tomando como base las especificaciones de la ISO 14044. El método de evaluación de impacto fue CML 2001 v. 4.2.",
+            "Process type": "Proceso de fabricación cradle-to-gate",
+            "Modeling constants": "Criterio de corte de masa al 1%. Supuestos: la producción de electricidad se basó en el mix energético nacional (Centro Mario Molina [2]); el agua se toma directamente de la red; las distancias de transporte son una estimación a partir de datos de DENUE [4].",
+            "Data source information": "Datos primarios obtenidos de empresas productoras en la zona centro de México. Fuentes secundarias: Mix energético de CMM [2], Inventario de Chargoy et al., 2009 [3], Distancias de transporte de INEGI DENUE [4], Factores de emisión AP-42 adaptados a México.",
+            "Data completeness": "El inventario omite el consumo de soldadura (0.356% de la masa). No se obtuvieron datos suficientes para determinar la emisión de sólidos totales al agua. El impacto de la extracción de materia prima (excepto transporte) no se incluye por falta de datos.",
+            "Data selection": "Criterio de corte de masa al 1%. Cualquier compuesto que represente menos del 1% de la masa total no se tomó en cuenta. Se omitió el consumo de soldadura.",
+            "Data treatment": "El consumo de energía fue dividido por la producción correspondiente para obtener un valor por unidad. Se usó un promedio ponderado de los resultados de las empresas participantes con base en el nivel de producción para calcular los flujos del inventario.",
+            "Sampling procedure": "Observación del proceso de elaboración en cada empresa para determinar el consumo de materia prima por unidad funcional.",
+            "Data collection period": "2009",
+            "Use advice": "Los resultados son representativos para plantas en la zona centro de México. El estudio presenta limitaciones como la exclusión de emisiones al agua y el impacto de la extracción de materias primas (no se incluye el proceso, solo el transporte).",
+            "Completeness": "Parcial. Faltan datos de emisiones al agua y del proceso de extracción de materias primas.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental – Análisis del ciclo de vida – Requisitos y directrices., 2009.\n[2] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014.\n[3] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009.\n[4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas.\n[5] Iron and steel - Sector Profile.",
+            "Project": "Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México",
+            "Intended application": "Estimar la huella de carbono durante el proceso de fabricación de viguetas para conocer el impacto ambiental de la industria.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández",
+            "Data set documentor": "Andrea Hernández",
+            "Publication": "ACV VIGUETA, ANÁLISIS DE CICLO DE VIDA DEL VIGUETA, MEMORIA DE CÁLCULO, BORRADOR",
+            "Creation date": "2014-12-17",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "29\/11\/2025 23:16",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 1.89,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Agua de red para la mezcla de concreto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Arena",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/21:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying",
+                "amount": 2.75,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Material pétreo para la mezcla de concreto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Grava",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/21:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying",
+                "amount": 4.73,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Material pétreo para la mezcla de concreto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Cemento",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 2.42,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Aglutinante para la mezcla de concreto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Varilla 3\/8 in",
+                "category": "C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing",
+                "amount": 1.09,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Refuerzo de acero."
+            },
+            {
+                "is_reference": false,
+                "flow": "Varilla 1\/2 in",
+                "category": "C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing",
+                "amount": 0.95,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Refuerzo de acero."
+            },
+            {
+                "is_reference": false,
+                "flow": "Varilla 3\/16 in",
+                "category": "C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing",
+                "amount": 0.2,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Refuerzo de acero."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution",
+                "amount": 1153.56,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum refineries",
+                "amount": 39.84,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Combustóleo",
+                "category": "C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum refineries",
+                "amount": 7821.85,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/21:Mining, quarrying, and oil and gas extraction\/211:Oil and gas extraction",
+                "amount": 1022.86,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte materia prima",
+                "category": "F:Transportation and warehousing\/48-49:Transportation and warehousing\/484:Truck transportation",
+                "amount": 5.8726,
+                "unit": "tkm",
+                "uncertainty": null,
+                "provider": "Chargoy, 2009",
+                "description": "Transporte de insumos a la planta."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Vigueta",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 1,
+                "unit": "m lineal",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Unidad funcional: 1 metro lineal de vigueta terminada en planta."
+            },
+            {
+                "is_reference": false,
+                "flow": "Partículas sedimentables",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0015,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "SO2",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0012,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "CO",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0041,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "NOx",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0048,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "PM10",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0009,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 2.0172,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Chargoy, 2009",
+                "description": "Emisión al aire."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"7d92080d-6aa1-4357-bc44-e02bf7bc4910\",\"Name\":\"Análisis de Ciclo de Vida del Vigueta\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\/3273 Fabricación de productos de cemento y hormigón\",\"Description\":\"Se determinó la huella de carbono y la demanda acumulada de energía durante la fabricación de vigueta. El estudio se enfoca en las etapas de extracción de materia prima, transporte y fabricación per se (cradle-to-gate). La unidad funcional es producir un metro lineal de vigueta terminada en planta en la zona centro de México, con datos de 2009. El resultado obtenido respecto a la producción de 1 m lineal de vigueta en planta fue de 6.40565 kgCO2eq.\",\"Tags\":\"ACV, vigueta, huella de carbono, análisis de ciclo de vida, construcción, concreto, México\",\"Technology Description\":\"La vigueta es un elemento estructural fabricado con concreto y varillas de acero. El estudio se centra en la vigueta de alma abierta, la cual se elabora con una estructura de varilla soldada que es colada sobre mesas de metal con una mezcla de concreto (cemento, grava, arena, agua).\",\"Code\":\"MX\",\"Last change\":\"29\/11\/2025 23:16\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"El inventario de ciclo de vida (ICV) se realizó tomando como base las especificaciones de la ISO 14044. El método de evaluación de impacto fue CML 2001 v. 4.2.\",\"Process type\":\"Proceso de fabricación cradle-to-gate\",\"Modeling constants\":\"Criterio de corte de masa al 1%. Supuestos: la producción de electricidad se basó en el mix energético nacional (Centro Mario Molina [2]); el agua se toma directamente de la red; las distancias de transporte son una estimación a partir de datos de DENUE [4].\",\"Data source information\":\"Datos primarios obtenidos de empresas productoras en la zona centro de México. Fuentes secundarias: Mix energético de CMM [2], Inventario de Chargoy et al., 2009 [3], Distancias de transporte de INEGI DENUE [4], Factores de emisión AP-42 adaptados a México.\",\"Data completeness\":\"El inventario omite el consumo de soldadura (0.356% de la masa). No se obtuvieron datos suficientes para determinar la emisión de sólidos totales al agua. El impacto de la extracción de materia prima (excepto transporte) no se incluye por falta de datos.\",\"Data selection\":\"Criterio de corte de masa al 1%. Cualquier compuesto que represente menos del 1% de la masa total no se tomó en cuenta. Se omitió el consumo de soldadura.\",\"Data treatment\":\"El consumo de energía fue dividido por la producción correspondiente para obtener un valor por unidad. Se usó un promedio ponderado de los resultados de las empresas participantes con base en el nivel de producción para calcular los flujos del inventario.\",\"Sampling procedure\":\"Observación del proceso de elaboración en cada empresa para determinar el consumo de materia prima por unidad funcional.\",\"Data collection period\":\"2009\",\"Use advice\":\"Los resultados son representativos para plantas en la zona centro de México. El estudio presenta limitaciones como la exclusión de emisiones al agua y el impacto de la extracción de materias primas (no se incluye el proceso, solo el transporte).\",\"Completeness\":\"Parcial. Faltan datos de emisiones al agua y del proceso de extracción de materias primas.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental – Análisis del ciclo de vida – Requisitos y directrices., 2009.\\n[2] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014.\\n[3] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009.\\n[4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas.\\n[5] Iron and steel - Sector Profile.\",\"Project\":\"Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México\",\"Intended application\":\"Estimar la huella de carbono durante el proceso de fabricación de viguetas para conocer el impacto ambiental de la industria.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández\",\"Data set documentor\":\"Andrea Hernández\",\"Publication\":\"ACV VIGUETA, ANÁLISIS DE CICLO DE VIDA DEL VIGUETA, MEMORIA DE CÁLCULO, BORRADOR\",\"Creation date\":\"2014-12-17\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"29\/11\/2025 23:16\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":1.89,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Agua de red para la mezcla de concreto.\"},{\"is_reference\":false,\"flow\":\"Arena\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/21:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\",\"amount\":2.75,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Material pétreo para la mezcla de concreto.\"},{\"is_reference\":false,\"flow\":\"Grava\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/21:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\",\"amount\":4.73,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Material pétreo para la mezcla de concreto.\"},{\"is_reference\":false,\"flow\":\"Cemento\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":2.42,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Aglutinante para la mezcla de concreto.\"},{\"is_reference\":false,\"flow\":\"Varilla 3\/8 in\",\"category\":\"C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing\",\"amount\":1.09,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Refuerzo de acero.\"},{\"is_reference\":false,\"flow\":\"Varilla 1\/2 in\",\"category\":\"C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing\",\"amount\":0.95,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Refuerzo de acero.\"},{\"is_reference\":false,\"flow\":\"Varilla 3\/16 in\",\"category\":\"C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing\",\"amount\":0.2,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Refuerzo de acero.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution\",\"amount\":1153.56,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum refineries\",\"amount\":39.84,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Combustóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum refineries\",\"amount\":7821.85,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/21:Mining, quarrying, and oil and gas extraction\/211:Oil and gas extraction\",\"amount\":1022.86,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Transporte materia prima\",\"category\":\"F:Transportation and warehousing\/48-49:Transportation and warehousing\/484:Truck transportation\",\"amount\":5.8726,\"unit\":\"tkm\",\"uncertainty\":null,\"provider\":\"Chargoy, 2009\",\"description\":\"Transporte de insumos a la planta.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Vigueta\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":1,\"unit\":\"m lineal\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Unidad funcional: 1 metro lineal de vigueta terminada en planta.\"},{\"is_reference\":false,\"flow\":\"Partículas sedimentables\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0015,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"SO2\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0012,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"CO\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0041,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"NOx\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0048,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"PM10\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0009,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":2.0172,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Chargoy, 2009\",\"description\":\"Emisión al aire.\"}]}",
+    "http_code": 200,
+    "timestamp": 1764458176
+}

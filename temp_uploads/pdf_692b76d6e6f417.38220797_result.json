@@ -1,0 +1,270 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "393e601b-9852-40c7-96bf-c849a03a5ce1",
+            "Name": "Análisis de ciclo de vida organizacional (O-LCA) en el Complejo Legaria del Banco de México",
+            "Category": "Finanzas y seguros\/521 Autoridades Monetarias - Banco Central",
+            "Description": "El presente trabajo presenta los resultados del análisis de desempeño ambiental del Complejo Legaria del Banco de México a través de 11 indicadores ambientales utilizando el enfoque de análisis de ciclo de vida organizacional (ACV-O), que buscan determinar los impactos ambientales asociados a las actividades de la organización. El estudio aplica la metodología de la norma ISO 14072 y la guía de UNEP\/SETAC. La evaluación tuvo en cuenta el ciclo de vida del producto principal (billetes) y los insumos de los 9 módulos que conforman la organización (acondicionamiento de tintas, fotografía, mantenimiento, planchas calcográficas, fotograbado, fabricación de rodillos, impresión de billete, servicios auxiliares y de administración y proceso de billete), considerando las etapas de extracción de materias primas, manufactura, transporte, disposición final, así como la electricidad y consumo de combustibles, los residuos generados y el transporte a confinamiento. El flujo de reporte es la cantidad total en kilogramos de billetes fabricados en el año 2013, es decir 1,200,000 kg.",
+            "Tags": "ACV-O, Análisis de Ciclo de Vida Organizacional, Banco de México, Complejo Legaria, fabricación de billetes, desempeño ambiental, ISO 14072, huella de carbono",
+            "Technology Description": "La evaluación de impacto se realizó con el método ReCiPe 1.08 (punto medio) con el apoyo del software Umberto NXT LCA v7.1 y la base de datos Ecoinvent v3.1. La metodología general sigue los lineamientos de la norma ISO 14072 y la guía de Organizational Life Cycle Assessment de UNEP y SETAC.",
+            "Code": "MX",
+            "Last change": "29\/11\/2025 22:45"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida Organizacional (ACV-O) según ISO 14072 y la guía de UNEP\/SETAC.",
+            "Process type": "Análisis de Ciclo de Vida Organizacional (ACV-O) cuna a tumba para las operaciones del Complejo Legaria en el año 2013.",
+            "Modeling constants": "El año de referencia es 2013. El flujo de reporte es la producción total de 1,200,000 kg de billetes. Las distancias de transporte de insumos son promedios. El consumo eléctrico global se repartió entre los módulos. Los residuos peligrosos se envían a tratamiento a un relleno sanitario en el norte del país. No se consideraron las instalaciones administrativas fuera del complejo, los Cajeros Regionales ni los Bancos Corresponsales. La asignación de cargas para emisiones, descargas y residuos se realizó de forma porcentual por módulo basado en reportes oficiales.",
+            "Data source information": "Los datos fueron recopilados de la Cédula de Operación Anual (COA), la Licencia Ambiental Única para el Distrito Federal (LAUDF), reportes de laboratorios acreditados, cuestionarios a proveedores de materias primas y la base de datos Ecoinvent v3.1 para datos faltantes.",
+            "Data completeness": "El inventario cubre las actividades de producción y transporte de materias primas, las actividades de los 9 módulos productivos y de soporte del Complejo Legaria, y las actividades indirectas corriente abajo (distribución y disposición final).",
+            "Data selection": "Se incluyeron todas las entradas y salidas de los 9 módulos evaluados sin aplicar criterios de priorización para las actividades de producción y de la organización. Se excluyó el transporte de los empleados y el consumo energético de los cajeros automáticos en el inventario base.",
+            "Data treatment": "Los datos globales de emisiones, descargas y residuos del Complejo Legaria fueron repartidos por módulo usando porcentajes de asignación. Los datos de proveedores se obtuvieron por cuestionarios y se complementaron con Ecoinvent v3.1.",
+            "Sampling procedure": "Recopilación de datos a través de revisión exhaustiva de documentos oficiales (COA, LAUDF), resultados de análisis de laboratorios y cuestionarios específicos a proveedores.",
+            "Data collection period": "Año 2013",
+            "Use advice": "La metodología de ACV-O no debe utilizarse para comparaciones de resultados entre diferentes organizaciones. Los resultados son específicos para las operaciones del Complejo Legaria en el año 2013. Ciertas confidencialidades de datos de proveedores (tintas, sustratos) llevaron a supuestos en la emisión de residuos.",
+            "Completeness": "Alta. El estudio es exhaustivo, cubriendo las principales etapas del ciclo de vida de la organización (upstream, core, downstream) para el año de referencia.",
+            "Sources": "Aitor, P., Rodriguez, C., Ciroth, A. (2014). Impact Assessment Methods in Life Cycle Assessment and Their Impact Categories. Green Delta, 1–23. Alzate, A. (2005). Evaluación de desempeño ambiental e indicadores. Centro Nacional de Producción Limpia, 1–6. Armendariz-lopez, J. F., Luna-leon, A., Gonzalez-trevizo, M. E., & Arena-granados, A. P. (2016). Life Cycle Cost of Photovoltaic Technologies in Commercial Buildings in Baja California , Mexico, 87, 564–571. Australia Central Bank. (2012). Management of the Reserve, 51–54. Banco de Chile. (2014). Reporte de Sustentabilidad, 88. Banco de la República. (2013). Informe de Sostenibilidad. Impacto Económico, Social y Ambiental. Bank of Ireland. (2014). Central Bank Annual Report. Banque de France. (2014). Banque de France’s Annual Report, 78–91. Blanco, J. M., Finkbeiner, M., & Iniba, A. (2015). Guidance on Organizational Life Cycle Assessment. Bouman, B. a M. (2001). Water-efficient Management Strategies in Rice Production. Breyer, C., Koskinen, O., & Blechinger, P. (2015). Profitable Climate Change Mitigation. Buxton, G. (1988). The Montreal Protocol on Substances that Deplete the Ozone Layer. Canada, B. (2013). Bank of Canada Annual Report 2012. Central Bank of Sri Lanka. (2014). Central Bank Annual Report 2014. Centro Mario Molina. (2010). Los Biocombustibles en México. Chapagain, K., & Hoekstra, Y. (2010). The Green, Blue and Grey Water Footprint of Farm Animals and Animal Products. Comisión para la Cooperación Ambiental en America del Norte. (2008). Ozono Troposférico. Commission, E. (2014). Guidance for the Implementation of the EU Product Environmental Footprint (PEF) During the Environmental Footprint (EF) Pilot Phase. CONAGUA. (2014). Inventario Nacional de Plantas Municipales de Potabilización y de Tratamiento de Aguas Residuales en Operación. Conferencia, L., Naciones, D., & Ambiente, M. (1992). Antecedentes Históricos de los Sistemas de Gestión Ambiental. Croezen, H., & Kampman, B. (2009). The Impact of Ethanol and ETBE Blending on Refinery Operations and GHG-Emissions. Davis, J., & Sonesson, U. (2008). Life Cycle Assessment of Integrated Food Chains. De Schryver, A. M., Brakkee, K. W., Goedkoop, M. J., & Huijbregts, M. a J. (2009). Characterization Factors for Global Warming in life Cycle Assessment Based on Damages to Humans and Ecosystems. Dewaele, J., Pant, R., & Schowanek, D. (2006). Comparative Life Cycle Assessment (LCA) of Ariel “Actif à froid” (2006). Dias, A. C., Arroja, L., & Capela, I. (2007). LCA Case Studies Life Cycle Assessment of Printing and Writing Paper Produced in Portugal. Directiva, J., Ejecutiva, G., & Servicios, S. G. D. E. (n.d.). Contribución del Banco de la República al Bienestar de la Sociedad. DTTL- Deloitte Touche Tohmatsu Limited. (2014). Desarrollo del gas natural vehicular en España. Eberle, U., & Fels, J. (2016). Environmental Impacts of German Food Consumption and Food Losses. Elgendy, E., Hassanain, M., & Fatouh, M. (2015). Assessment of R-438A as a Retrofit Refrigerant for R-22 in Direct Expansion Water Chiller. Ellingsen, H., & Aanondsen, S. A. (2006). Environmental Impacts of Wild Caught Cod and Farmed Salmon. European Commission. (2013). Organisation Environmental Footprint Guide. Fahey, D. W. (2002). Twenty Questions and Answers About the Ozone Layer. Goedkoop, M., Heijungs, R., Huijbregts, M., Schryver, A. De, Struijs, J., & Zelm, R. Van. (2009). ReCiPe 2008. Güereca, L. P., Torres, N., & Juárez-López, C. R. (2015). The Co-processing of Municipal Waste in a Cement Kiln in Mexico. Güereca, L. P., Torres, N., & Noyola, A. (2013). Carbon Footprint as a Basis for a Cleaner Research Institute in Mexico. Gustavsson, J., Cedeberg, C., Sonession, U. (2011). Global Food Losses and Food Waste. Hayashi, K., Nakagawa, A., Itsubo, N., & Inaba, A. (2006). LCA Methodology Expanded Damage Function of Stratospheric Ozone Depletion to Cover Major Endpoints Regarding Life Cycle Impact Assessment. Hoekstra, A. Y. (2012). The Hidden Water Resource use Behind Meat and Dairy. Hout, D. et al. (1998). The Impact of Atmospheric Deposition of Non-Acidifying Substances on the Quality of European Forest Soils and North Sea. Huerta, A. R., Güereca, L. P., & Lozano, M. D. L. S. R. (2016). Environmental Impact of Beef Production in Mexico Through Life Cycle Assessment. Huijbregts, Mark A,J., et al. (2005). Human-Toxicological Effect and Damage Factors of Carcinogenic and Noncarcinogenic Chemicals for Life Cycle Impact Assessment. Ingham, J., Dunn, I. J., Pr, E., & Heinzle, E. (2007). Chemical Engineering Dynamics. ISO. (1999). ISO 14031. ISO. (2000). ISO 14001. ISO. (2004). ISO 14004. ISO. (2014a). ISO 14072. ISO. (2014b). ISO\/TS 14072:2014. ISO. (2015). ISO 14001. King, M. R. (2008). An Overview of Carbon Markets and Emissions Trading. Koellner, T., & Scholz, R. W. (2007). Assessment of Land Use Impacts on the Natural Environment. López, V., Daza, G. (2013). Alternativas De Gestión De Lodos Papeleros En La Industria De Papel Tisú Y Kraft. Lujan, C. (2014). Evaluación del Desempeño Ambiental de Billetes Mexicanos y Generación de Indicadores Ambientales. Makower, B. J. (2014). State of Green Business 2014. Makridou, G., Andriosopoulos, K., Doumpos, M., & Zopounidis, C. (2016). Measuring the Efficiency of Energy-Intensive Industries Across European Countries. Manfredi, S., Allacker, K., Chomkhamsri, K., Pelletier, N., & Souza, D. M. De. (2012). Product Environmental Footprint ( PEF ) Guide. Martinez, B., Finkbeiner, M., Inaba, A. (2015). Guidance on Organizational Life Cycle Assessment. McMichael, A.J., et al. (2003). Climate Change and Human Health Editors. Meinshausen, M. (2005). Emission & Concentration Implications of Long-Term Climate Targets. Mundo-hernández, J., et al. (2014). An Overview of Solar Photovoltaic Energy in Mexico and Germany. Murray, J.L., & Lopez, A. D. (1996). The Global Burden of Disease. Peters, G. M., et al. (2010). Accounting for Water use in Australian Red Meat Production. Pratt, L., & Rojas, E. (2001). Programas Ambientales en Bancos Latinoamericanos. Procuraduria General de Protección al Ambiente. (2012). Ley General de Cambio Climático. Protocol, G. G. (2008). Calculating Scope 3 Emissions. Röös, E., et al. (2013). Can Carbon Footprint Serve as an Indicator of the Environmental Impact of Meat Production?. Secretaria de Medio Ambiente. (2007). Acciones Nacionales de Mitigación Apropiadas (NAMAs). Secretaria de Medio Ambiente. (2013a). Infraestructura para el Manejo de Residuos Sólidos. Secretaria de Medio Ambiente. (2013b). Primer Informe. Secretaria del Medio Ambiente. (2014). Programa de Acción Climática de la Ciudad de México 2014 - 2020. SEDEMA. (2015). Tercer Informe de Gobierno. SEMARNAT. (2013). Inventario de Residuos Sólidos de la Ciudad de México. Smetana, S., et al. (2015). Meat Alternatives : Life Cycle Assessment of Most Known Meat Substitutes. Spirinckx, C., & Ceuterick, D. (1996). Biodiesel and Fossil Diesel Fuel. Tammaro, M., et al. (2016). Experimental Investigation to Evaluate the Potential Environmental Hazards of Photovoltaic Panels. Tang, L., et al. (2016). Estimating Land Transformation Area Caused by Nickel Mining Considering Regional Variation. Unidad de Planeación Minero - Energética (UPME). (2009). Cálculo del Factor de Emisión de CO2 del Sistema Eléctrico Interconectado Colombiano. United Nations Environment Programme. (2013). Understanding the Concept of Nationally Appopiate Mitigation Action. Valente, C., Spinelli, R., & Gunnar, B. (2011). LCA of Environmental and Socio-Economic Impacts Related to Wood Energy Production in Alpine Conditions. Wettstein, F., Division, C., & Bank, S. N. (n.d.). Life Cycle Assessment ( LCA ) of Swiss banknotes. Xu, Y., et al. (2016). Improved Water Management to Reduce Greenhouse Gas Emissions in no-till Rapeseed–Rice Rotations in Central China. Zhang, Q. (2007). Strategies for Developing Green Super Rice. Zuev, V. V, et al. (2015). The Antarctic Ozone Depletion Caused by Erebus Volcano Gas Emissions.",
+            "Project": "Análisis de ciclo de vida organizacional en el Complejo Legaria del Banco de México",
+            "Intended application": "Evaluar la gestión ambiental del Complejo Legaria del Banco de México, identificar y cuantificar indicadores de desempeño ambiental, y proponer acciones de mejora.",
+            "Data set owner": "Banco de México",
+            "Data set generator": "Banco de México",
+            "Data set documentor": "Banco de México",
+            "Publication": "Análisis de ciclo de vida organizacional (O-LCA) en el Complejo Legaria del Banco de México",
+            "Creation date": null,
+            "Copyright": "Banco de México",
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "29\/11\/2025 22:45",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "Servicios\/221 Suministro de electricidad, agua y gas",
+                "amount": 9249344.76,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Mix eléctrico mexicano",
+                "description": "Consumo total de electricidad del Complejo Legaria. Suma de los módulos: Impresión, Fotografía, Fotograbado, Planchas Calcográficas, Acondicionamiento de tintas, Fabricación de rodillos, Mantenimiento, Servicios Auxiliares y Proceso de billete."
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "Servicios\/221 Suministro de electricidad, agua y gas",
+                "amount": 29686.3,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Consumo total de agua. Suma de los módulos: Impresión, Fotografía, Fotograbado, Planchas Calcográficas, Mantenimiento y Servicios Auxiliares."
+            },
+            {
+                "is_reference": false,
+                "flow": "Papel de alta durabilidad",
+                "category": "Manufactura\/322 Fabricación de papel",
+                "amount": 949126.2,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Proveedores externos",
+                "description": "Sustrato para impresión de billetes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Diésel",
+                "category": "Manufactura\/324 Fabricación de productos derivados del petróleo y del carbón",
+                "amount": 6156.8,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Consumo en los módulos de Impresión y Mantenimiento."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "Servicios\/221 Suministro de electricidad, agua y gas",
+                "amount": 8394.37,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Consumo en el área de Comedor del módulo de Servicios Auxiliares."
+            },
+            {
+                "is_reference": false,
+                "flow": "Carne de res",
+                "category": "Manufactura\/311 Fabricación de productos alimenticios",
+                "amount": 22260.67,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Consumo en el área de Comedor."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte de materias primas",
+                "category": "Transporte y almacenamiento\/48-49 Transporte",
+                "amount": 2415.89,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Masa de materiales transportados al módulo de Impresión. La distancia no se especifica en la tabla."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte aéreo",
+                "category": "Transporte y almacenamiento\/481 Transporte aéreo",
+                "amount": 6492129,
+                "unit": "tkm",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Transporte para la distribución de billetes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte terrestre",
+                "category": "Transporte y almacenamiento\/484 Transporte por carretera",
+                "amount": 11424.82,
+                "unit": "tkm",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Transporte para la distribución de billetes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Molienda de billete algodón",
+                "category": "Manufactura\/322 Fabricación de papel",
+                "amount": 955126.25,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Residuos de billetes de algodón y merma enviados a disposición final."
+            },
+            {
+                "is_reference": false,
+                "flow": "Molienda de billete polímero",
+                "category": "Manufactura\/326 Fabricación de productos de plástico y de hule",
+                "amount": 286933.75,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Residuos de billetes de polímero y merma enviados a disposición final."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Billetes impresos",
+                "category": "Manufactura\/323 Impresión y actividades relacionadas",
+                "amount": 1200000,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Producción total del Complejo Legaria para el año 2013."
+            },
+            {
+                "is_reference": false,
+                "flow": "Dióxido de carbono",
+                "category": "Emisiones al aire",
+                "amount": 342235.2,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Emisiones de CO2 fósil a aire urbano. Suma de todos los módulos."
+            },
+            {
+                "is_reference": false,
+                "flow": "Lodos",
+                "category": "Servicios de remediación y otros servicios de gestión de desechos\/562 Gestión de desechos y servicios de remediación",
+                "amount": 217035.5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Lodos de producción de pulpa y papel y de digestión. Suma de todos los módulos."
+            },
+            {
+                "is_reference": false,
+                "flow": "Residuos sólidos municipales",
+                "category": "Servicios de remediación y otros servicios de gestión de desechos\/562 Gestión de desechos y servicios de remediación",
+                "amount": 191486.82,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Suma de los residuos sólidos municipales generados en todos los módulos."
+            },
+            {
+                "is_reference": false,
+                "flow": "Metal ferroso",
+                "category": "Servicios de remediación y otros servicios de gestión de desechos\/562 Gestión de desechos y servicios de remediación",
+                "amount": 222108.99,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Residuos de metal ferroso. Suma de los módulos Impresión, Planchas Calcográficas, Acondicionamiento de tintas, Fabricación de rodillos, Mantenimiento, Servicios Auxiliares y Procesamiento de billete."
+            },
+            {
+                "is_reference": false,
+                "flow": "DBO",
+                "category": "Emisiones al agua",
+                "amount": 3.78,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Demanda Biológica de Oxígeno. Suma de los módulos Impresión, Fotografía, Fotograbado, Planchas Calcográficas y Mantenimiento."
+            },
+            {
+                "is_reference": false,
+                "flow": "Óxidos de nitrógeno",
+                "category": "Emisiones al aire",
+                "amount": 236.85,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Suma de emisiones de NOx de todos los módulos."
+            },
+            {
+                "is_reference": false,
+                "flow": "Compuestos orgánicos volátiles",
+                "category": "Emisiones al aire",
+                "amount": 7617.84,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Agregado de tablas de inventario",
+                "description": "Suma de emisiones de COV de todos los módulos."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"393e601b-9852-40c7-96bf-c849a03a5ce1\",\"Name\":\"Análisis de ciclo de vida organizacional (O-LCA) en el Complejo Legaria del Banco de México\",\"Category\":\"Finanzas y seguros\/521 Autoridades Monetarias - Banco Central\",\"Description\":\"El presente trabajo presenta los resultados del análisis de desempeño ambiental del Complejo Legaria del Banco de México a través de 11 indicadores ambientales utilizando el enfoque de análisis de ciclo de vida organizacional (ACV-O), que buscan determinar los impactos ambientales asociados a las actividades de la organización. El estudio aplica la metodología de la norma ISO 14072 y la guía de UNEP\/SETAC. La evaluación tuvo en cuenta el ciclo de vida del producto principal (billetes) y los insumos de los 9 módulos que conforman la organización (acondicionamiento de tintas, fotografía, mantenimiento, planchas calcográficas, fotograbado, fabricación de rodillos, impresión de billete, servicios auxiliares y de administración y proceso de billete), considerando las etapas de extracción de materias primas, manufactura, transporte, disposición final, así como la electricidad y consumo de combustibles, los residuos generados y el transporte a confinamiento. El flujo de reporte es la cantidad total en kilogramos de billetes fabricados en el año 2013, es decir 1,200,000 kg.\",\"Tags\":\"ACV-O, Análisis de Ciclo de Vida Organizacional, Banco de México, Complejo Legaria, fabricación de billetes, desempeño ambiental, ISO 14072, huella de carbono\",\"Technology Description\":\"La evaluación de impacto se realizó con el método ReCiPe 1.08 (punto medio) con el apoyo del software Umberto NXT LCA v7.1 y la base de datos Ecoinvent v3.1. La metodología general sigue los lineamientos de la norma ISO 14072 y la guía de Organizational Life Cycle Assessment de UNEP y SETAC.\",\"Code\":\"MX\",\"Last change\":\"29\/11\/2025 22:45\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida Organizacional (ACV-O) según ISO 14072 y la guía de UNEP\/SETAC.\",\"Process type\":\"Análisis de Ciclo de Vida Organizacional (ACV-O) cuna a tumba para las operaciones del Complejo Legaria en el año 2013.\",\"Modeling constants\":\"El año de referencia es 2013. El flujo de reporte es la producción total de 1,200,000 kg de billetes. Las distancias de transporte de insumos son promedios. El consumo eléctrico global se repartió entre los módulos. Los residuos peligrosos se envían a tratamiento a un relleno sanitario en el norte del país. No se consideraron las instalaciones administrativas fuera del complejo, los Cajeros Regionales ni los Bancos Corresponsales. La asignación de cargas para emisiones, descargas y residuos se realizó de forma porcentual por módulo basado en reportes oficiales.\",\"Data source information\":\"Los datos fueron recopilados de la Cédula de Operación Anual (COA), la Licencia Ambiental Única para el Distrito Federal (LAUDF), reportes de laboratorios acreditados, cuestionarios a proveedores de materias primas y la base de datos Ecoinvent v3.1 para datos faltantes.\",\"Data completeness\":\"El inventario cubre las actividades de producción y transporte de materias primas, las actividades de los 9 módulos productivos y de soporte del Complejo Legaria, y las actividades indirectas corriente abajo (distribución y disposición final).\",\"Data selection\":\"Se incluyeron todas las entradas y salidas de los 9 módulos evaluados sin aplicar criterios de priorización para las actividades de producción y de la organización. Se excluyó el transporte de los empleados y el consumo energético de los cajeros automáticos en el inventario base.\",\"Data treatment\":\"Los datos globales de emisiones, descargas y residuos del Complejo Legaria fueron repartidos por módulo usando porcentajes de asignación. Los datos de proveedores se obtuvieron por cuestionarios y se complementaron con Ecoinvent v3.1.\",\"Sampling procedure\":\"Recopilación de datos a través de revisión exhaustiva de documentos oficiales (COA, LAUDF), resultados de análisis de laboratorios y cuestionarios específicos a proveedores.\",\"Data collection period\":\"Año 2013\",\"Use advice\":\"La metodología de ACV-O no debe utilizarse para comparaciones de resultados entre diferentes organizaciones. Los resultados son específicos para las operaciones del Complejo Legaria en el año 2013. Ciertas confidencialidades de datos de proveedores (tintas, sustratos) llevaron a supuestos en la emisión de residuos.\",\"Completeness\":\"Alta. El estudio es exhaustivo, cubriendo las principales etapas del ciclo de vida de la organización (upstream, core, downstream) para el año de referencia.\",\"Sources\":\"Aitor, P., Rodriguez, C., Ciroth, A. (2014). Impact Assessment Methods in Life Cycle Assessment and Their Impact Categories. Green Delta, 1–23. Alzate, A. (2005). Evaluación de desempeño ambiental e indicadores. Centro Nacional de Producción Limpia, 1–6. Armendariz-lopez, J. F., Luna-leon, A., Gonzalez-trevizo, M. E., & Arena-granados, A. P. (2016). Life Cycle Cost of Photovoltaic Technologies in Commercial Buildings in Baja California , Mexico, 87, 564–571. Australia Central Bank. (2012). Management of the Reserve, 51–54. Banco de Chile. (2014). Reporte de Sustentabilidad, 88. Banco de la República. (2013). Informe de Sostenibilidad. Impacto Económico, Social y Ambiental. Bank of Ireland. (2014). Central Bank Annual Report. Banque de France. (2014). Banque de France’s Annual Report, 78–91. Blanco, J. M., Finkbeiner, M., & Iniba, A. (2015). Guidance on Organizational Life Cycle Assessment. Bouman, B. a M. (2001). Water-efficient Management Strategies in Rice Production. Breyer, C., Koskinen, O., & Blechinger, P. (2015). Profitable Climate Change Mitigation. Buxton, G. (1988). The Montreal Protocol on Substances that Deplete the Ozone Layer. Canada, B. (2013). Bank of Canada Annual Report 2012. Central Bank of Sri Lanka. (2014). Central Bank Annual Report 2014. Centro Mario Molina. (2010). Los Biocombustibles en México. Chapagain, K., & Hoekstra, Y. (2010). The Green, Blue and Grey Water Footprint of Farm Animals and Animal Products. Comisión para la Cooperación Ambiental en America del Norte. (2008). Ozono Troposférico. Commission, E. (2014). Guidance for the Implementation of the EU Product Environmental Footprint (PEF) During the Environmental Footprint (EF) Pilot Phase. CONAGUA. (2014). Inventario Nacional de Plantas Municipales de Potabilización y de Tratamiento de Aguas Residuales en Operación. Conferencia, L., Naciones, D., & Ambiente, M. (1992). Antecedentes Históricos de los Sistemas de Gestión Ambiental. Croezen, H., & Kampman, B. (2009). The Impact of Ethanol and ETBE Blending on Refinery Operations and GHG-Emissions. Davis, J., & Sonesson, U. (2008). Life Cycle Assessment of Integrated Food Chains. De Schryver, A. M., Brakkee, K. W., Goedkoop, M. J., & Huijbregts, M. a J. (2009). Characterization Factors for Global Warming in life Cycle Assessment Based on Damages to Humans and Ecosystems. Dewaele, J., Pant, R., & Schowanek, D. (2006). Comparative Life Cycle Assessment (LCA) of Ariel “Actif à froid” (2006). Dias, A. C., Arroja, L., & Capela, I. (2007). LCA Case Studies Life Cycle Assessment of Printing and Writing Paper Produced in Portugal. Directiva, J., Ejecutiva, G., & Servicios, S. G. D. E. (n.d.). Contribución del Banco de la República al Bienestar de la Sociedad. DTTL- Deloitte Touche Tohmatsu Limited. (2014). Desarrollo del gas natural vehicular en España. Eberle, U., & Fels, J. (2016). Environmental Impacts of German Food Consumption and Food Losses. Elgendy, E., Hassanain, M., & Fatouh, M. (2015). Assessment of R-438A as a Retrofit Refrigerant for R-22 in Direct Expansion Water Chiller. Ellingsen, H., & Aanondsen, S. A. (2006). Environmental Impacts of Wild Caught Cod and Farmed Salmon. European Commission. (2013). Organisation Environmental Footprint Guide. Fahey, D. W. (2002). Twenty Questions and Answers About the Ozone Layer. Goedkoop, M., Heijungs, R., Huijbregts, M., Schryver, A. De, Struijs, J., & Zelm, R. Van. (2009). ReCiPe 2008. Güereca, L. P., Torres, N., & Juárez-López, C. R. (2015). The Co-processing of Municipal Waste in a Cement Kiln in Mexico. Güereca, L. P., Torres, N., & Noyola, A. (2013). Carbon Footprint as a Basis for a Cleaner Research Institute in Mexico. Gustavsson, J., Cedeberg, C., Sonession, U. (2011). Global Food Losses and Food Waste. Hayashi, K., Nakagawa, A., Itsubo, N., & Inaba, A. (2006). LCA Methodology Expanded Damage Function of Stratospheric Ozone Depletion to Cover Major Endpoints Regarding Life Cycle Impact Assessment. Hoekstra, A. Y. (2012). The Hidden Water Resource use Behind Meat and Dairy. Hout, D. et al. (1998). The Impact of Atmospheric Deposition of Non-Acidifying Substances on the Quality of European Forest Soils and North Sea. Huerta, A. R., Güereca, L. P., & Lozano, M. D. L. S. R. (2016). Environmental Impact of Beef Production in Mexico Through Life Cycle Assessment. Huijbregts, Mark A,J., et al. (2005). Human-Toxicological Effect and Damage Factors of Carcinogenic and Noncarcinogenic Chemicals for Life Cycle Impact Assessment. Ingham, J., Dunn, I. J., Pr, E., & Heinzle, E. (2007). Chemical Engineering Dynamics. ISO. (1999). ISO 14031. ISO. (2000). ISO 14001. ISO. (2004). ISO 14004. ISO. (2014a). ISO 14072. ISO. (2014b). ISO\/TS 14072:2014. ISO. (2015). ISO 14001. King, M. R. (2008). An Overview of Carbon Markets and Emissions Trading. Koellner, T., & Scholz, R. W. (2007). Assessment of Land Use Impacts on the Natural Environment. López, V., Daza, G. (2013). Alternativas De Gestión De Lodos Papeleros En La Industria De Papel Tisú Y Kraft. Lujan, C. (2014). Evaluación del Desempeño Ambiental de Billetes Mexicanos y Generación de Indicadores Ambientales. Makower, B. J. (2014). State of Green Business 2014. Makridou, G., Andriosopoulos, K., Doumpos, M., & Zopounidis, C. (2016). Measuring the Efficiency of Energy-Intensive Industries Across European Countries. Manfredi, S., Allacker, K., Chomkhamsri, K., Pelletier, N., & Souza, D. M. De. (2012). Product Environmental Footprint ( PEF ) Guide. Martinez, B., Finkbeiner, M., Inaba, A. (2015). Guidance on Organizational Life Cycle Assessment. McMichael, A.J., et al. (2003). Climate Change and Human Health Editors. Meinshausen, M. (2005). Emission & Concentration Implications of Long-Term Climate Targets. Mundo-hernández, J., et al. (2014). An Overview of Solar Photovoltaic Energy in Mexico and Germany. Murray, J.L., & Lopez, A. D. (1996). The Global Burden of Disease. Peters, G. M., et al. (2010). Accounting for Water use in Australian Red Meat Production. Pratt, L., & Rojas, E. (2001). Programas Ambientales en Bancos Latinoamericanos. Procuraduria General de Protección al Ambiente. (2012). Ley General de Cambio Climático. Protocol, G. G. (2008). Calculating Scope 3 Emissions. Röös, E., et al. (2013). Can Carbon Footprint Serve as an Indicator of the Environmental Impact of Meat Production?. Secretaria de Medio Ambiente. (2007). Acciones Nacionales de Mitigación Apropiadas (NAMAs). Secretaria de Medio Ambiente. (2013a). Infraestructura para el Manejo de Residuos Sólidos. Secretaria de Medio Ambiente. (2013b). Primer Informe. Secretaria del Medio Ambiente. (2014). Programa de Acción Climática de la Ciudad de México 2014 - 2020. SEDEMA. (2015). Tercer Informe de Gobierno. SEMARNAT. (2013). Inventario de Residuos Sólidos de la Ciudad de México. Smetana, S., et al. (2015). Meat Alternatives : Life Cycle Assessment of Most Known Meat Substitutes. Spirinckx, C., & Ceuterick, D. (1996). Biodiesel and Fossil Diesel Fuel. Tammaro, M., et al. (2016). Experimental Investigation to Evaluate the Potential Environmental Hazards of Photovoltaic Panels. Tang, L., et al. (2016). Estimating Land Transformation Area Caused by Nickel Mining Considering Regional Variation. Unidad de Planeación Minero - Energética (UPME). (2009). Cálculo del Factor de Emisión de CO2 del Sistema Eléctrico Interconectado Colombiano. United Nations Environment Programme. (2013). Understanding the Concept of Nationally Appopiate Mitigation Action. Valente, C., Spinelli, R., & Gunnar, B. (2011). LCA of Environmental and Socio-Economic Impacts Related to Wood Energy Production in Alpine Conditions. Wettstein, F., Division, C., & Bank, S. N. (n.d.). Life Cycle Assessment ( LCA ) of Swiss banknotes. Xu, Y., et al. (2016). Improved Water Management to Reduce Greenhouse Gas Emissions in no-till Rapeseed–Rice Rotations in Central China. Zhang, Q. (2007). Strategies for Developing Green Super Rice. Zuev, V. V, et al. (2015). The Antarctic Ozone Depletion Caused by Erebus Volcano Gas Emissions.\",\"Project\":\"Análisis de ciclo de vida organizacional en el Complejo Legaria del Banco de México\",\"Intended application\":\"Evaluar la gestión ambiental del Complejo Legaria del Banco de México, identificar y cuantificar indicadores de desempeño ambiental, y proponer acciones de mejora.\",\"Data set owner\":\"Banco de México\",\"Data set generator\":\"Banco de México\",\"Data set documentor\":\"Banco de México\",\"Publication\":\"Análisis de ciclo de vida organizacional (O-LCA) en el Complejo Legaria del Banco de México\",\"Creation date\":null,\"Copyright\":\"Banco de México\",\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"29\/11\/2025 22:45\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"Servicios\/221 Suministro de electricidad, agua y gas\",\"amount\":9249344.76,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Mix eléctrico mexicano\",\"description\":\"Consumo total de electricidad del Complejo Legaria. Suma de los módulos: Impresión, Fotografía, Fotograbado, Planchas Calcográficas, Acondicionamiento de tintas, Fabricación de rodillos, Mantenimiento, Servicios Auxiliares y Proceso de billete.\"},{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"Servicios\/221 Suministro de electricidad, agua y gas\",\"amount\":29686.3,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":null,\"description\":\"Consumo total de agua. Suma de los módulos: Impresión, Fotografía, Fotograbado, Planchas Calcográficas, Mantenimiento y Servicios Auxiliares.\"},{\"is_reference\":false,\"flow\":\"Papel de alta durabilidad\",\"category\":\"Manufactura\/322 Fabricación de papel\",\"amount\":949126.2,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Proveedores externos\",\"description\":\"Sustrato para impresión de billetes.\"},{\"is_reference\":false,\"flow\":\"Diésel\",\"category\":\"Manufactura\/324 Fabricación de productos derivados del petróleo y del carbón\",\"amount\":6156.8,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Consumo en los módulos de Impresión y Mantenimiento.\"},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"Servicios\/221 Suministro de electricidad, agua y gas\",\"amount\":8394.37,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":null,\"description\":\"Consumo en el área de Comedor del módulo de Servicios Auxiliares.\"},{\"is_reference\":false,\"flow\":\"Carne de res\",\"category\":\"Manufactura\/311 Fabricación de productos alimenticios\",\"amount\":22260.67,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Consumo en el área de Comedor.\"},{\"is_reference\":false,\"flow\":\"Transporte de materias primas\",\"category\":\"Transporte y almacenamiento\/48-49 Transporte\",\"amount\":2415.89,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Masa de materiales transportados al módulo de Impresión. La distancia no se especifica en la tabla.\"},{\"is_reference\":false,\"flow\":\"Transporte aéreo\",\"category\":\"Transporte y almacenamiento\/481 Transporte aéreo\",\"amount\":6492129,\"unit\":\"tkm\",\"uncertainty\":null,\"provider\":null,\"description\":\"Transporte para la distribución de billetes.\"},{\"is_reference\":false,\"flow\":\"Transporte terrestre\",\"category\":\"Transporte y almacenamiento\/484 Transporte por carretera\",\"amount\":11424.82,\"unit\":\"tkm\",\"uncertainty\":null,\"provider\":null,\"description\":\"Transporte para la distribución de billetes.\"},{\"is_reference\":false,\"flow\":\"Molienda de billete algodón\",\"category\":\"Manufactura\/322 Fabricación de papel\",\"amount\":955126.25,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Residuos de billetes de algodón y merma enviados a disposición final.\"},{\"is_reference\":false,\"flow\":\"Molienda de billete polímero\",\"category\":\"Manufactura\/326 Fabricación de productos de plástico y de hule\",\"amount\":286933.75,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Residuos de billetes de polímero y merma enviados a disposición final.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Billetes impresos\",\"category\":\"Manufactura\/323 Impresión y actividades relacionadas\",\"amount\":1200000,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Producción total del Complejo Legaria para el año 2013.\"},{\"is_reference\":false,\"flow\":\"Dióxido de carbono\",\"category\":\"Emisiones al aire\",\"amount\":342235.2,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Emisiones de CO2 fósil a aire urbano. Suma de todos los módulos.\"},{\"is_reference\":false,\"flow\":\"Lodos\",\"category\":\"Servicios de remediación y otros servicios de gestión de desechos\/562 Gestión de desechos y servicios de remediación\",\"amount\":217035.5,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Lodos de producción de pulpa y papel y de digestión. Suma de todos los módulos.\"},{\"is_reference\":false,\"flow\":\"Residuos sólidos municipales\",\"category\":\"Servicios de remediación y otros servicios de gestión de desechos\/562 Gestión de desechos y servicios de remediación\",\"amount\":191486.82,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Suma de los residuos sólidos municipales generados en todos los módulos.\"},{\"is_reference\":false,\"flow\":\"Metal ferroso\",\"category\":\"Servicios de remediación y otros servicios de gestión de desechos\/562 Gestión de desechos y servicios de remediación\",\"amount\":222108.99,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Residuos de metal ferroso. Suma de los módulos Impresión, Planchas Calcográficas, Acondicionamiento de tintas, Fabricación de rodillos, Mantenimiento, Servicios Auxiliares y Procesamiento de billete.\"},{\"is_reference\":false,\"flow\":\"DBO\",\"category\":\"Emisiones al agua\",\"amount\":3.78,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Demanda Biológica de Oxígeno. Suma de los módulos Impresión, Fotografía, Fotograbado, Planchas Calcográficas y Mantenimiento.\"},{\"is_reference\":false,\"flow\":\"Óxidos de nitrógeno\",\"category\":\"Emisiones al aire\",\"amount\":236.85,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Suma de emisiones de NOx de todos los módulos.\"},{\"is_reference\":false,\"flow\":\"Compuestos orgánicos volátiles\",\"category\":\"Emisiones al aire\",\"amount\":7617.84,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Agregado de tablas de inventario\",\"description\":\"Suma de emisiones de COV de todos los módulos.\"}]}",
+    "http_code": 200,
+    "timestamp": 1764456333
+}

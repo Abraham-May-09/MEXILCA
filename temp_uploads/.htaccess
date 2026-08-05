@@ -1,0 +1,39 @@
+# Bloquear acceso directo al directorio (navegación)
+Options -Indexes
+
+# Denegar acceso HTTP desde navegadores a TODO
+Order Deny,Allow
+Deny from all
+
+# EXCEPCIONES: Permitir a n8n (tu servidor AWS) acceder a los callbacks
+# Reemplaza 3.17.144.50 con la IP real de tu servidor n8n
+Allow from 3.17.144.50
+
+# Permitir acceso desde localhost (tu propio servidor)
+Allow from 127.0.0.1
+
+# Permitir acceso desde tu servidor (para que PHP interno funcione)
+# Esto permite que process-background-direct.php ejecute callbacks locales
+SetEnvIf Host "^" INTERNAL_ACCESS=1
+Allow from env=INTERNAL_ACCESS
+
+# Bloquear acceso directo a archivos sensibles desde navegador
+<FilesMatch "\.(log|json|pdf)$">
+    # Pero permitir acceso programático desde PHP
+    # (file_get_contents, file_put_contents siguen funcionando)
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+    Allow from 3.17.144.50
+</FilesMatch>
+
+# Permitir que Apache ejecute PHP (importante para logging)
+<FilesMatch "\.php$">
+    Allow from all
+</FilesMatch>
+
+# Proteger .htaccess
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>

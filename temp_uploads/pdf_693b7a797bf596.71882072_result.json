@@ -1,0 +1,340 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "81cfd9c0-a5f2-4986-a0b1-98c1d451409b",
+            "Name": "MIX DE ACERO EN MÉXICO ANÁLISIS DE CICLO DE VIDA DEL MIX PARA LA PRODUCCIÓN DE ACERO COMERCIAL MEMORIA DE CÁLCULO BORRADOR",
+            "Category": "Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing",
+            "Description": "Se determinó la huella de carbono y la demanda acumulada de energía para el mix de la producción de acero comercial en México, tomando como base las especificaciones de la ISO 14044. El estudio considera un mix de producción con una proporción de 26% para la ruta Alto Horno y Horno Básico de Oxígeno (BF+BOF), 38% para la ruta de Reducción Directa y Horno de Arco Eléctrico (DRI-EAF) y 36% para la ruta de chatarra y Horno de Arco Eléctrico (chatarra-EAF). La unidad funcional es la producción de 1 kg de acero comercial en planta, con datos de 2009. El alcance es de la cuna a la puerta (extracción de materia prima, transporte y proceso de fabricación). Los resultados obtenidos para la producción de 1 kg de acero comercial en planta muestran una huella de carbono de 1.4882 kg CO2eq y una demanda acumulada de energía de 28.2763 MJeq.",
+            "Tags": "acero, steel, life cycle analysis, LCA, huella de carbono, carbon footprint, demanda de energía, energy demand, México, BF+BOF, DRI+EAF, EAF+LRF",
+            "Technology Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. para determinar el Potencial de Calentamiento Global; mientras que para la Demanda Acumulada de Energía el método usado fue Cumulative Energy Demand v.1.0.1 de Green Delta. Las tecnologías de producción analizadas son: 1) método de Alto Horno y Horno Básico de Oxígeno (BF+BOF), 2) método de Reducción Directa y Horno de Arco Eléctrico (DRI+EAF), y 3) método de Horno de Arco Eléctrico y Horno de Refinación de Cuchara (EAF+LRF) para producir acero a partir de chatarra.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:16"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida conforme a ISO 14044. Los métodos de evaluación de impacto son CML 2001 v. 4.2 para Potencial de Calentamiento Global y Cumulative Energy Demand v.1.0.1 para Demanda Acumulada de Energía.",
+            "Process type": "Proceso de fabricación de la cuna a la puerta (cradle-to-gate).",
+            "Modeling constants": "El criterio de corte utilizado es el de masa al 1%. No se consideran las entradas auxiliares de materia y energía que no forman parte del producto resultante, la fabricación y mantenimiento de maquinaria, la recuperación de productos (excepto energía), operaciones como calefacción e iluminación, producción de materiales auxiliares, flujos de agua y emisiones a la tierra y agua. Las suposiciones sobre la producción de electricidad se basaron en el mix energético nacional calculado en el Centro Mario Molina.",
+            "Data source information": "La información utilizada proviene de: 1) documentos Best Available Techniques Reference Document on the Production of Iron and Steel del IPPC, 2) valores nacionales del Balance Nacional de Energía 2007 de SENER, 3) fuentes locales específicas de alguna empresa, 4) factores de emisión del Inventario Nacional de Emisiones de Gases de Efecto Invernadero 1990-2010 de México, y 5) factores de emisión de la EPA para gases de proceso.",
+            "Data completeness": "El estudio asegura, como mínimo, la consideración de aproximadamente el 80% de los impactos, energía y emisiones generadas, dejando cerca del 20% de información fuera por el nivel de profundidad del análisis.",
+            "Data selection": "Cualquier compuesto que represente menos del 1% de la masa total no se tomará en cuenta. Se excluyen las entradas auxiliares que no forman parte del producto resultante.",
+            "Data treatment": "Las emisiones al aire se calcularon tomando como base el consumo energético de los distintos combustibles y los factores de emisión del inventario nacional. El transporte de materia prima se calculó estimando las toneladas-kilómetro totales con base en distancias promedio nacionales entre minas\/industrias y las plantas siderúrgicas.",
+            "Sampling procedure": "No se realizó medición directa. La información utilizada proviene de fuentes nacionales e internacionales, incluyendo documentos técnicos, reportes gubernamentales y datos de empresas específicas.",
+            "Data collection period": "Los datos para la unidad funcional son del año 2009. Otras fuentes de datos abarcan el periodo 1990-2010.",
+            "Use advice": "La etapa de producción es la causa principal de incertidumbre en los resultados obtenidos. Una variación del 20% en los datos de la etapa de producción provoca una variación máxima de +\/- 17.5% en los resultados.",
+            "Completeness": "Alta, cubriendo aproximadamente el 80% de los flujos relevantes de energía, emisiones e impactos.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental – Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] CMM. Estrategias de Mitigación de Gases de Efecto Invernadero en el Sector Siderúrgico. Technical report, Centro Mario Molina, 2014. [3] IPCC. Directrices del IPCC de 2006 para los Inventarios Nacionales de Gases de Efecto Invernadero. Japón, 2006. [4] INEGI. La industria siderúrgica en México 2012, Serie de Estadísticas Sectoriales. 2013. [5] Integrated Pollution Prevention European IPPC Bureau and Control. Best Available Techniques Refrerence Document on the Production of Iron and Steel. 2001. [6] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. 2014. [7] Francisco Javier Ayón Hernández. Energía Incorporada y Emisiones de CO2 en la Edificación. Phd, Universidad Nacional Autónoma de México, 2010. [8] Integrated Pollution Prevention European IPPC Bureau and Control. Draft Reference Document on Best Available Techniques Refrerence Document on the Production of Iron and Steel. 2008. [9] Guido Pablo Espinosa Rivas. Diseño, desarrollo e implementación del sistema computacional de información estadística para el control de la producción de varilla corrugada. 2012. [10] El proceso, 2014. [11] Ünal Çamdali and Murat Tunç. Steady state heat transfer of ladle furnace during steel production process. Journal of Iron and Steel Research, International, 13(3):18-20, 25, 2006. [12] José Luis Enriquez Berciano and Enrique Tremps Guerra. Metalurgia secundaria. 2009. [13] José Luis Enriquez Berciano, et al. Colada del acero. 2009. [14] G. J. W. Kor and P. C. Glaws. Ladle Refining and Vacuum Degassing. In The Making, Shaping and Treating of Steel. 1998. [15] Ladle Refining Furnace, 2014. [16] Horno de cuchara para refinación. [17] Ladle furnace. [18] Secondary refining. [19] SENER. Balance Nacional de Energía 2007. 2008. [20] Instituto Nacional de Ecología. Inventario Nacional de Emisiones de Gases de Efecto Invernadero 1990-2002. 2006. [21] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [22] Iron and steel - Sector Profile.",
+            "Intended application": "Estimar la huella de carbono y la demanda acumulada de energía para el mix de producción del acero comercial en las plantas localizadas en México para conocer el impacto ambiental de la industria en estos rubros.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández, Margarita Garfias",
+            "Data set documentor": "Andrea Hernández, Margarita Garfias",
+            "Publication": "MIX DE ACERO EN MÉXICO ANÁLISIS DE CICLO DE VIDA DEL MIX PARA LA PRODUCCIÓN DE ACERO COMERCIAL, MEMORIA DE CÁLCULO, BORRADOR",
+            "Creation date": "2014-12-22",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:16",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Mineral de hierro",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2122 Metal Ore Mining\/212210 Iron Ore Mining",
+                "amount": 1.0376,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Weighted average from BF+BOF and DRI+EAF routes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Chatarra preparada",
+                "category": "Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers",
+                "amount": 0.4176,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for EAF+LRF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Materiales carbonosos (carbón, coque, antracita)",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2121 Coal Mining\/212110 Coal Mining",
+                "amount": 0.7154,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Weighted average of carbon, coke, and anthracite inputs across all routes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Cal (cálcica y dolomítica)",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212310 Stone Mining and Quarrying",
+                "amount": 0.0582,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Weighted average of all types of lime inputs across all routes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Caliza\/Dolomita",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212312 Crushed and Broken Limestone Mining and Quarrying",
+                "amount": 0.0641,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Weighted average of limestone\/dolomite inputs."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ferroaleaciones",
+                "category": "Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing",
+                "amount": 0.0149,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Weighted average across all routes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Bentonita",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212320 Sand, Gravel, Clay, and Ceramic and Refractory Minerals Mining and Quarrying",
+                "amount": 0.0025,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for BF+BOF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Olivino",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212390 Other Nonmetallic Mineral Mining and Quarrying",
+                "amount": 0.0138,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for BF+BOF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electrodos de grafito",
+                "category": "Manufacturing\/335 Electrical Equipment, Appliance, and Component Manufacturing\/3359 Other Electrical Equipment and Component Manufacturing\/335990 All Other Electrical Equipment and Component Manufacturing",
+                "amount": 0.0017,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for DRI+EAF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution",
+                "amount": 3.8138,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": "Mix energético nacional de México",
+                "description": "Weighted average of electricity consumption across all routes."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas Natural",
+                "category": "Utilities\/221 Utilities\/2212 Natural Gas Distribution",
+                "amount": 3.5821,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for DRI+EAF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Petróleo",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries",
+                "amount": 0.0431,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Energy input for pelletizing in BF+BOF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Vapor",
+                "category": "Utilities\/221 Utilities\/2213 Steam and Air-Conditioning Supply",
+                "amount": 0.3762,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Energy input for BF+BOF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Oxígeno Líquido Industrial",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing",
+                "amount": 0.0201,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for EAF+LRF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrógeno Industrial",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing",
+                "amount": 0.000666,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for EAF+LRF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Argón Industrial",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing",
+                "amount": 0.000168,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Input for EAF+LRF route."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte",
+                "category": "Transportation and Warehousing\/484 Truck Transportation",
+                "amount": 0.8236,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Weighted average of freight transport for raw materials."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Acero comercial laminado",
+                "category": "Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Unidad funcional: producción de un kilogramo de acero comercial terminado en planta, en México, con datos de 2009."
+            },
+            {
+                "is_reference": false,
+                "flow": "Potencial de Calentamiento Global",
+                "category": "Emissions",
+                "amount": 1.4882,
+                "unit": "kg CO2eq",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "CML 2001 v. 4.2",
+                "description": "Huella de carbono total del mix de producción de acero."
+            },
+            {
+                "is_reference": false,
+                "flow": "Demanda Acumulada de Energía",
+                "category": "Resources",
+                "amount": 28.2763,
+                "unit": "MJeq",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "Cumulative Energy Demand v.1.0.1",
+                "description": "Demanda acumulada de energía total del mix de producción de acero."
+            },
+            {
+                "is_reference": false,
+                "flow": "Dióxido de carbono (fósil)",
+                "category": "Emissions to air",
+                "amount": 0.4174,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones directas de proceso, calculadas como media ponderada."
+            },
+            {
+                "is_reference": false,
+                "flow": "Monóxido de carbono (fósil)",
+                "category": "Emissions to air",
+                "amount": 6.35e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones directas de proceso, calculadas como media ponderada."
+            },
+            {
+                "is_reference": false,
+                "flow": "Metano (fósil)",
+                "category": "Emissions to air",
+                "amount": 5.96e-6,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones directas de proceso, calculadas como media ponderada."
+            },
+            {
+                "is_reference": false,
+                "flow": "Óxido nitroso",
+                "category": "Emissions to air",
+                "amount": 9.43e-7,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones directas de proceso, calculadas como media ponderada."
+            },
+            {
+                "is_reference": false,
+                "flow": "Compuestos orgánicos volátiles no metánicos (COVDM)",
+                "category": "Emissions to air",
+                "amount": 2.17e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones directas de proceso, calculadas como media ponderada."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas de Alto Horno (BFG)",
+                "category": "Emissions to air",
+                "amount": 0.5356,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Co-producto gaseoso del proceso de Alto Horno, a menudo recirculado para energía."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"81cfd9c0-a5f2-4986-a0b1-98c1d451409b\",\"Name\":\"MIX DE ACERO EN MÉXICO ANÁLISIS DE CICLO DE VIDA DEL MIX PARA LA PRODUCCIÓN DE ACERO COMERCIAL MEMORIA DE CÁLCULO BORRADOR\",\"Category\":\"Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\",\"Description\":\"Se determinó la huella de carbono y la demanda acumulada de energía para el mix de la producción de acero comercial en México, tomando como base las especificaciones de la ISO 14044. El estudio considera un mix de producción con una proporción de 26% para la ruta Alto Horno y Horno Básico de Oxígeno (BF+BOF), 38% para la ruta de Reducción Directa y Horno de Arco Eléctrico (DRI-EAF) y 36% para la ruta de chatarra y Horno de Arco Eléctrico (chatarra-EAF). La unidad funcional es la producción de 1 kg de acero comercial en planta, con datos de 2009. El alcance es de la cuna a la puerta (extracción de materia prima, transporte y proceso de fabricación). Los resultados obtenidos para la producción de 1 kg de acero comercial en planta muestran una huella de carbono de 1.4882 kg CO2eq y una demanda acumulada de energía de 28.2763 MJeq.\",\"Tags\":\"acero, steel, life cycle analysis, LCA, huella de carbono, carbon footprint, demanda de energía, energy demand, México, BF+BOF, DRI+EAF, EAF+LRF\",\"Technology Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. para determinar el Potencial de Calentamiento Global; mientras que para la Demanda Acumulada de Energía el método usado fue Cumulative Energy Demand v.1.0.1 de Green Delta. Las tecnologías de producción analizadas son: 1) método de Alto Horno y Horno Básico de Oxígeno (BF+BOF), 2) método de Reducción Directa y Horno de Arco Eléctrico (DRI+EAF), y 3) método de Horno de Arco Eléctrico y Horno de Refinación de Cuchara (EAF+LRF) para producir acero a partir de chatarra.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:16\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida conforme a ISO 14044. Los métodos de evaluación de impacto son CML 2001 v. 4.2 para Potencial de Calentamiento Global y Cumulative Energy Demand v.1.0.1 para Demanda Acumulada de Energía.\",\"Process type\":\"Proceso de fabricación de la cuna a la puerta (cradle-to-gate).\",\"Modeling constants\":\"El criterio de corte utilizado es el de masa al 1%. No se consideran las entradas auxiliares de materia y energía que no forman parte del producto resultante, la fabricación y mantenimiento de maquinaria, la recuperación de productos (excepto energía), operaciones como calefacción e iluminación, producción de materiales auxiliares, flujos de agua y emisiones a la tierra y agua. Las suposiciones sobre la producción de electricidad se basaron en el mix energético nacional calculado en el Centro Mario Molina.\",\"Data source information\":\"La información utilizada proviene de: 1) documentos Best Available Techniques Reference Document on the Production of Iron and Steel del IPPC, 2) valores nacionales del Balance Nacional de Energía 2007 de SENER, 3) fuentes locales específicas de alguna empresa, 4) factores de emisión del Inventario Nacional de Emisiones de Gases de Efecto Invernadero 1990-2010 de México, y 5) factores de emisión de la EPA para gases de proceso.\",\"Data completeness\":\"El estudio asegura, como mínimo, la consideración de aproximadamente el 80% de los impactos, energía y emisiones generadas, dejando cerca del 20% de información fuera por el nivel de profundidad del análisis.\",\"Data selection\":\"Cualquier compuesto que represente menos del 1% de la masa total no se tomará en cuenta. Se excluyen las entradas auxiliares que no forman parte del producto resultante.\",\"Data treatment\":\"Las emisiones al aire se calcularon tomando como base el consumo energético de los distintos combustibles y los factores de emisión del inventario nacional. El transporte de materia prima se calculó estimando las toneladas-kilómetro totales con base en distancias promedio nacionales entre minas\/industrias y las plantas siderúrgicas.\",\"Sampling procedure\":\"No se realizó medición directa. La información utilizada proviene de fuentes nacionales e internacionales, incluyendo documentos técnicos, reportes gubernamentales y datos de empresas específicas.\",\"Data collection period\":\"Los datos para la unidad funcional son del año 2009. Otras fuentes de datos abarcan el periodo 1990-2010.\",\"Use advice\":\"La etapa de producción es la causa principal de incertidumbre en los resultados obtenidos. Una variación del 20% en los datos de la etapa de producción provoca una variación máxima de +\/- 17.5% en los resultados.\",\"Completeness\":\"Alta, cubriendo aproximadamente el 80% de los flujos relevantes de energía, emisiones e impactos.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental – Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] CMM. Estrategias de Mitigación de Gases de Efecto Invernadero en el Sector Siderúrgico. Technical report, Centro Mario Molina, 2014. [3] IPCC. Directrices del IPCC de 2006 para los Inventarios Nacionales de Gases de Efecto Invernadero. Japón, 2006. [4] INEGI. La industria siderúrgica en México 2012, Serie de Estadísticas Sectoriales. 2013. [5] Integrated Pollution Prevention European IPPC Bureau and Control. Best Available Techniques Refrerence Document on the Production of Iron and Steel. 2001. [6] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. 2014. [7] Francisco Javier Ayón Hernández. Energía Incorporada y Emisiones de CO2 en la Edificación. Phd, Universidad Nacional Autónoma de México, 2010. [8] Integrated Pollution Prevention European IPPC Bureau and Control. Draft Reference Document on Best Available Techniques Refrerence Document on the Production of Iron and Steel. 2008. [9] Guido Pablo Espinosa Rivas. Diseño, desarrollo e implementación del sistema computacional de información estadística para el control de la producción de varilla corrugada. 2012. [10] El proceso, 2014. [11] Ünal Çamdali and Murat Tunç. Steady state heat transfer of ladle furnace during steel production process. Journal of Iron and Steel Research, International, 13(3):18-20, 25, 2006. [12] José Luis Enriquez Berciano and Enrique Tremps Guerra. Metalurgia secundaria. 2009. [13] José Luis Enriquez Berciano, et al. Colada del acero. 2009. [14] G. J. W. Kor and P. C. Glaws. Ladle Refining and Vacuum Degassing. In The Making, Shaping and Treating of Steel. 1998. [15] Ladle Refining Furnace, 2014. [16] Horno de cuchara para refinación. [17] Ladle furnace. [18] Secondary refining. [19] SENER. Balance Nacional de Energía 2007. 2008. [20] Instituto Nacional de Ecología. Inventario Nacional de Emisiones de Gases de Efecto Invernadero 1990-2002. 2006. [21] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [22] Iron and steel - Sector Profile.\",\"Intended application\":\"Estimar la huella de carbono y la demanda acumulada de energía para el mix de producción del acero comercial en las plantas localizadas en México para conocer el impacto ambiental de la industria en estos rubros.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández, Margarita Garfias\",\"Data set documentor\":\"Andrea Hernández, Margarita Garfias\",\"Publication\":\"MIX DE ACERO EN MÉXICO ANÁLISIS DE CICLO DE VIDA DEL MIX PARA LA PRODUCCIÓN DE ACERO COMERCIAL, MEMORIA DE CÁLCULO, BORRADOR\",\"Creation date\":\"2014-12-22\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:16\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Mineral de hierro\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2122 Metal Ore Mining\/212210 Iron Ore Mining\",\"amount\":1.0376,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Weighted average from BF+BOF and DRI+EAF routes.\"},{\"is_reference\":false,\"flow\":\"Chatarra preparada\",\"category\":\"Wholesale Trade\/423 Merchant Wholesalers, Durable Goods\/4239 Miscellaneous Durable Goods Merchant Wholesalers\/423930 Recyclable Material Merchant Wholesalers\",\"amount\":0.4176,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for EAF+LRF route.\"},{\"is_reference\":false,\"flow\":\"Materiales carbonosos (carbón, coque, antracita)\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2121 Coal Mining\/212110 Coal Mining\",\"amount\":0.7154,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Weighted average of carbon, coke, and anthracite inputs across all routes.\"},{\"is_reference\":false,\"flow\":\"Cal (cálcica y dolomítica)\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212310 Stone Mining and Quarrying\",\"amount\":0.0582,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Weighted average of all types of lime inputs across all routes.\"},{\"is_reference\":false,\"flow\":\"Caliza\/Dolomita\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212312 Crushed and Broken Limestone Mining and Quarrying\",\"amount\":0.0641,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Weighted average of limestone\/dolomite inputs.\"},{\"is_reference\":false,\"flow\":\"Ferroaleaciones\",\"category\":\"Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing\",\"amount\":0.0149,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Weighted average across all routes.\"},{\"is_reference\":false,\"flow\":\"Bentonita\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212320 Sand, Gravel, Clay, and Ceramic and Refractory Minerals Mining and Quarrying\",\"amount\":0.0025,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for BF+BOF route.\"},{\"is_reference\":false,\"flow\":\"Olivino\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212390 Other Nonmetallic Mineral Mining and Quarrying\",\"amount\":0.0138,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for BF+BOF route.\"},{\"is_reference\":false,\"flow\":\"Electrodos de grafito\",\"category\":\"Manufacturing\/335 Electrical Equipment, Appliance, and Component Manufacturing\/3359 Other Electrical Equipment and Component Manufacturing\/335990 All Other Electrical Equipment and Component Manufacturing\",\"amount\":0.0017,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for DRI+EAF route.\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution\",\"amount\":3.8138,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":\"Mix energético nacional de México\",\"description\":\"Weighted average of electricity consumption across all routes.\"},{\"is_reference\":false,\"flow\":\"Gas Natural\",\"category\":\"Utilities\/221 Utilities\/2212 Natural Gas Distribution\",\"amount\":3.5821,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for DRI+EAF route.\"},{\"is_reference\":false,\"flow\":\"Petróleo\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries\",\"amount\":0.0431,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Energy input for pelletizing in BF+BOF route.\"},{\"is_reference\":false,\"flow\":\"Vapor\",\"category\":\"Utilities\/221 Utilities\/2213 Steam and Air-Conditioning Supply\",\"amount\":0.3762,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Energy input for BF+BOF route.\"},{\"is_reference\":false,\"flow\":\"Oxígeno Líquido Industrial\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing\",\"amount\":0.0201,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for EAF+LRF route.\"},{\"is_reference\":false,\"flow\":\"Nitrógeno Industrial\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing\",\"amount\":0.000666,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for EAF+LRF route.\"},{\"is_reference\":false,\"flow\":\"Argón Industrial\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325120 Industrial Gas Manufacturing\",\"amount\":0.000168,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":null,\"description\":\"Input for EAF+LRF route.\"},{\"is_reference\":false,\"flow\":\"Transporte\",\"category\":\"Transportation and Warehousing\/484 Truck Transportation\",\"amount\":0.8236,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":null,\"description\":\"Weighted average of freight transport for raw materials.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Acero comercial laminado\",\"category\":\"Manufacturing\/331 Primary Metal Manufacturing\/3311 Iron and Steel Mills and Ferroalloy Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Unidad funcional: producción de un kilogramo de acero comercial terminado en planta, en México, con datos de 2009.\"},{\"is_reference\":false,\"flow\":\"Potencial de Calentamiento Global\",\"category\":\"Emissions\",\"amount\":1.4882,\"unit\":\"kg CO2eq\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"CML 2001 v. 4.2\",\"description\":\"Huella de carbono total del mix de producción de acero.\"},{\"is_reference\":false,\"flow\":\"Demanda Acumulada de Energía\",\"category\":\"Resources\",\"amount\":28.2763,\"unit\":\"MJeq\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"Cumulative Energy Demand v.1.0.1\",\"description\":\"Demanda acumulada de energía total del mix de producción de acero.\"},{\"is_reference\":false,\"flow\":\"Dióxido de carbono (fósil)\",\"category\":\"Emissions to air\",\"amount\":0.4174,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones directas de proceso, calculadas como media ponderada.\"},{\"is_reference\":false,\"flow\":\"Monóxido de carbono (fósil)\",\"category\":\"Emissions to air\",\"amount\":0.0000635,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones directas de proceso, calculadas como media ponderada.\"},{\"is_reference\":false,\"flow\":\"Metano (fósil)\",\"category\":\"Emissions to air\",\"amount\":0.00000596,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones directas de proceso, calculadas como media ponderada.\"},{\"is_reference\":false,\"flow\":\"Óxido nitroso\",\"category\":\"Emissions to air\",\"amount\":9.43e-7,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones directas de proceso, calculadas como media ponderada.\"},{\"is_reference\":false,\"flow\":\"Compuestos orgánicos volátiles no metánicos (COVDM)\",\"category\":\"Emissions to air\",\"amount\":0.0000217,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones directas de proceso, calculadas como media ponderada.\"},{\"is_reference\":false,\"flow\":\"Gas de Alto Horno (BFG)\",\"category\":\"Emissions to air\",\"amount\":0.5356,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Co-producto gaseoso del proceso de Alto Horno, a menudo recirculado para energía.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765505767
+}

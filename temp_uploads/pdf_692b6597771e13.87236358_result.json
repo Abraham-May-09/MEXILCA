@@ -1,0 +1,195 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "02c8287e-1fd2-440f-b4c6-c9512a4b67dc",
+            "Name": "ACV MURO DE TABIQUE ANÁLISIS DE LA CONSTRUCCIÓN DE MURO DE TABIQUE ROJO RECOCIDO",
+            "Category": "Construcción\/237 Heavy and Civil Engineering Construction",
+            "Description": "Se realizó la evaluación de la construcción de un muro de tabique rojo recocido artesanal, hecho con piezas de tamaño común (5 x 11,5 x 23 cm), asentado con mortero de cemento-arena en proporción 1:4, sin acabado. Para determinar las distancias de recorrido desde las plantas hasta las obras se consideraron como origen las unidades económicas reportadas por el Inegi para cada tipo de industria y, como destino, las principales zonas metropolitanas de todo el país; para mejorar la precisión de dichas distancias se dividió al país en siete regiones. El resultado registrado para la categoría de calentamiento global es de 59.24504 kgCO2eq emitidos en la construcción de 1 m2 de muro de tabique recocido artesanal.",
+            "Tags": "Análisis de ciclo de vida, construcción, muro de tabique, huella de carbono, sustentabilidad",
+            "Technology | Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. Para definir la distancia hasta los sitios de construcción se tomaron como destinos las 97 ciudades con más de cien mil habitantes del país (97 zonas metropolitanas) que, a su vez, fueron agrupadas en siete regiones: Península de Baja California, Noroccidente, Norte, Occidente, Centro, Sureste y Península de Yucatán. Se calculó la distancia desde cada uno de los productores o minas hasta cada una de las ciudades, se definió la media y la desviación estándar para cada región; utilizando el programa de análisis estadístico R.",
+            "Code": "MX",
+            "Last_change": "29\/11\/2025 21:29"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Método CML 2001 v. 4.2 utilizando software Open LCA 1.3.4",
+            "Process type": "Proceso unitario de construcción manual de muro de tabique rojo recocido artesanal",
+            "Modeling constants": "5% de la masa seca total corresponde a residuos de construcción, juntas de 1.4 cm, proporción mortero cemento-arena 1:4",
+            "Data source information": "Bimsa Reports (2013) para costos de construcción, INEGI DENUE para ubicación de productores, Pech Pérez (2004) para residuos de construcción",
+            "Data completeness": "Incluye extracción de materiales, transporte, construcción y disposición de residuos. Excluye medios mecánicos para edificios de más de dos pisos y colado de castillos de refuerzo",
+            "Data selection": "Se incluyen tabique rojo recocido, mortero cemento-arena, agua, transporte y residuos. Se excluye energía para construcción manual",
+            "Data treatment": "Cálculo de distancias promedio nacionales y regionales usando programa R, agrupación del país en 7 regiones, consideración de 97 zonas metropolitanas",
+            "Sampling procedure": "Referencia a reportes de costos de construcción Bimsa y directorio económico INEGI DENUE para ubicación de productores",
+            "Data collection period": "Datos de 2013-2014, corrida del análisis en noviembre de 2014",
+            "Use advice": "Aplicable para construcciones de hasta dos niveles en México, representativo para muros de tabique artesanal sin acabado",
+            "Completeness": "Cobertura completa de flujos principales de materiales y transporte, limitada por exclusión de procesos mecánicos en edificios altos",
+            "Sources": "[1] Bimsa Reports. Activecost Universe, Costos de construcción. Technical report, México, 2013. [2] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [3] Josué Gerardo Pech Pérez. Medición del empleo real de recursos en la construcción de viviendas de interés social. Ingeniería, Revista Académica de la FI-UADY, 8(2):21-30, 2004. [4] CMM. Actualización y Ampliación del Índice de Sustentabilidad de la Vivienda en México. [5] R Development Core Team. R: A language and environment for statistical computing. [6] Emission Factors & AP 42, Compilation of Air Pollutant Emission Factors. Capítulo 11.6, Portland Cement Manufacturing, 2008.",
+            "Project": "Evaluación de huella de carbono en construcción de muros de tabique - Centro Mario Molina",
+            "Intended application": "Determinar impacto ambiental en categoría de calentamiento global para construcción de muros de tabique en México",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández, Angel Pérez Padilla",
+            "Data set documentor": "Andrea Hernández, Angel Pérez Padilla",
+            "Publication": "Memoria de cálculo borrador - ACV Muro de Tabique",
+            "Creation date": "17 de diciembre de 2014",
+            "Copyright": "Centro Mario Molina",
+            "Access and use restrictions": "Documento borrador para uso interno de investigación"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-29T21:30:34.670Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Tabique rojo recocido 6.5 x 11.5 x 23 cm",
+                "category": "",
+                "amount": 111.6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Material principal para construcción de muro de tabique, tamaño 6.5 x 11.5 x 23 cm"
+            },
+            {
+                "is_reference": false,
+                "flow": "Mortero cemento arena 1:4",
+                "category": "",
+                "amount": 76.94,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Mezcla de cemento y arena en proporción 1:4 para unión de tabiques"
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "",
+                "amount": 60,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Agua para mojado del tabique y elaboración del mortero"
+            },
+            {
+                "is_reference": false,
+                "flow": "Cemento portland compuesto",
+                "category": "",
+                "amount": 430,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Componente principal del mortero para 1 m3"
+            },
+            {
+                "is_reference": false,
+                "flow": "Arena de mina",
+                "category": "",
+                "amount": 2027.2,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Arena para elaboración del mortero cemento-arena 1:4"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte tabique rojo recocido",
+                "category": "",
+                "amount": 48.35,
+                "unit": "tkm",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transporte de tabique rojo recocido a la obra"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte mortero cemento arena",
+                "category": "",
+                "amount": 54.11,
+                "unit": "tkm",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transporte de mortero cemento-arena 1:4 a la obra"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte residuos construcción",
+                "category": "",
+                "amount": 0.19,
+                "unit": "tkm",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transporte de residuos de construcción a sitios de disposición final"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte agregados",
+                "category": "",
+                "amount": 1241.13,
+                "unit": "tkm",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transporte total para agregados en producción de mortero"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Muro de tabique rojo recocido artesanal",
+                "category": "",
+                "amount": 1,
+                "unit": "m2",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto principal - muro de tabique rojo recocido artesanal de 1 m2"
+            },
+            {
+                "is_reference": false,
+                "flow": "Residuos de construcción",
+                "category": "",
+                "amount": 9.4269,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Residuos generados durante la construcción del muro"
+            },
+            {
+                "is_reference": true,
+                "flow": "Transporte de residuos",
+                "category": "",
+                "amount": 0.19,
+                "unit": "tkm",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Transporte de residuos de construcción a sitios de disposición final"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"02c8287e-1fd2-440f-b4c6-c9512a4b67dc\",\"Name\":\"ACV MURO DE TABIQUE ANÁLISIS DE LA CONSTRUCCIÓN DE MURO DE TABIQUE ROJO RECOCIDO\",\"Category\":\"Construcción\/237 Heavy and Civil Engineering Construction\",\"Description\":\"Se realizó la evaluación de la construcción de un muro de tabique rojo recocido artesanal, hecho con piezas de tamaño común (5 x 11,5 x 23 cm), asentado con mortero de cemento-arena en proporción 1:4, sin acabado. Para determinar las distancias de recorrido desde las plantas hasta las obras se consideraron como origen las unidades económicas reportadas por el Inegi para cada tipo de industria y, como destino, las principales zonas metropolitanas de todo el país; para mejorar la precisión de dichas distancias se dividió al país en siete regiones. El resultado registrado para la categoría de calentamiento global es de 59.24504 kgCO2eq emitidos en la construcción de 1 m2 de muro de tabique recocido artesanal.\",\"Tags\":\"Análisis de ciclo de vida, construcción, muro de tabique, huella de carbono, sustentabilidad\",\"Technology | Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. Para definir la distancia hasta los sitios de construcción se tomaron como destinos las 97 ciudades con más de cien mil habitantes del país (97 zonas metropolitanas) que, a su vez, fueron agrupadas en siete regiones: Península de Baja California, Noroccidente, Norte, Occidente, Centro, Sureste y Península de Yucatán. Se calculó la distancia desde cada uno de los productores o minas hasta cada una de las ciudades, se definió la media y la desviación estándar para cada región; utilizando el programa de análisis estadístico R.\",\"Code\":\"MX\",\"Last_change\":\"29\/11\/2025 21:29\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Método CML 2001 v. 4.2 utilizando software Open LCA 1.3.4\",\"Process type\":\"Proceso unitario de construcción manual de muro de tabique rojo recocido artesanal\",\"Modeling constants\":\"5% de la masa seca total corresponde a residuos de construcción, juntas de 1.4 cm, proporción mortero cemento-arena 1:4\",\"Data source information\":\"Bimsa Reports (2013) para costos de construcción, INEGI DENUE para ubicación de productores, Pech Pérez (2004) para residuos de construcción\",\"Data completeness\":\"Incluye extracción de materiales, transporte, construcción y disposición de residuos. Excluye medios mecánicos para edificios de más de dos pisos y colado de castillos de refuerzo\",\"Data selection\":\"Se incluyen tabique rojo recocido, mortero cemento-arena, agua, transporte y residuos. Se excluye energía para construcción manual\",\"Data treatment\":\"Cálculo de distancias promedio nacionales y regionales usando programa R, agrupación del país en 7 regiones, consideración de 97 zonas metropolitanas\",\"Sampling procedure\":\"Referencia a reportes de costos de construcción Bimsa y directorio económico INEGI DENUE para ubicación de productores\",\"Data collection period\":\"Datos de 2013-2014, corrida del análisis en noviembre de 2014\",\"Use advice\":\"Aplicable para construcciones de hasta dos niveles en México, representativo para muros de tabique artesanal sin acabado\",\"Completeness\":\"Cobertura completa de flujos principales de materiales y transporte, limitada por exclusión de procesos mecánicos en edificios altos\",\"Sources\":\"[1] Bimsa Reports. Activecost Universe, Costos de construcción. Technical report, México, 2013. [2] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [3] Josué Gerardo Pech Pérez. Medición del empleo real de recursos en la construcción de viviendas de interés social. Ingeniería, Revista Académica de la FI-UADY, 8(2):21-30, 2004. [4] CMM. Actualización y Ampliación del Índice de Sustentabilidad de la Vivienda en México. [5] R Development Core Team. R: A language and environment for statistical computing. [6] Emission Factors & AP 42, Compilation of Air Pollutant Emission Factors. Capítulo 11.6, Portland Cement Manufacturing, 2008.\",\"Project\":\"Evaluación de huella de carbono en construcción de muros de tabique - Centro Mario Molina\",\"Intended application\":\"Determinar impacto ambiental en categoría de calentamiento global para construcción de muros de tabique en México\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández, Angel Pérez Padilla\",\"Data set documentor\":\"Andrea Hernández, Angel Pérez Padilla\",\"Publication\":\"Memoria de cálculo borrador - ACV Muro de Tabique\",\"Creation date\":\"17 de diciembre de 2014\",\"Copyright\":\"Centro Mario Molina\",\"Access and use restrictions\":\"Documento borrador para uso interno de investigación\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-29T21:30:34.670Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Tabique rojo recocido 6.5 x 11.5 x 23 cm\",\"category\":\"\",\"amount\":111.6,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Material principal para construcción de muro de tabique, tamaño 6.5 x 11.5 x 23 cm\"},{\"is_reference\":false,\"flow\":\"Mortero cemento arena 1:4\",\"category\":\"\",\"amount\":76.94,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Mezcla de cemento y arena en proporción 1:4 para unión de tabiques\"},{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"\",\"amount\":60,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Agua para mojado del tabique y elaboración del mortero\"},{\"is_reference\":false,\"flow\":\"Cemento portland compuesto\",\"category\":\"\",\"amount\":430,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Componente principal del mortero para 1 m3\"},{\"is_reference\":false,\"flow\":\"Arena de mina\",\"category\":\"\",\"amount\":2027.2,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Arena para elaboración del mortero cemento-arena 1:4\"},{\"is_reference\":false,\"flow\":\"Transporte tabique rojo recocido\",\"category\":\"\",\"amount\":48.35,\"unit\":\"tkm\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transporte de tabique rojo recocido a la obra\"},{\"is_reference\":false,\"flow\":\"Transporte mortero cemento arena\",\"category\":\"\",\"amount\":54.11,\"unit\":\"tkm\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transporte de mortero cemento-arena 1:4 a la obra\"},{\"is_reference\":false,\"flow\":\"Transporte residuos construcción\",\"category\":\"\",\"amount\":0.19,\"unit\":\"tkm\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transporte de residuos de construcción a sitios de disposición final\"},{\"is_reference\":false,\"flow\":\"Transporte agregados\",\"category\":\"\",\"amount\":1241.13,\"unit\":\"tkm\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transporte total para agregados en producción de mortero\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Muro de tabique rojo recocido artesanal\",\"category\":\"\",\"amount\":1,\"unit\":\"m2\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto principal - muro de tabique rojo recocido artesanal de 1 m2\"},{\"is_reference\":false,\"flow\":\"Residuos de construcción\",\"category\":\"\",\"amount\":9.4269,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Residuos generados durante la construcción del muro\"},{\"is_reference\":true,\"flow\":\"Transporte de residuos\",\"category\":\"\",\"amount\":0.19,\"unit\":\"tkm\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Transporte de residuos de construcción a sitios de disposición final\"}]}",
+    "http_code": 200,
+    "timestamp": 1764451899
+}

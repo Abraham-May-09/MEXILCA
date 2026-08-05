@@ -1,0 +1,137 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "1beab443-f5a0-4470-9bd1-ed83476d92cb",
+            "Name": "> 7 Ton diesel por km",
+            "Category": "Transportation and Warehousing\/484 Truck Transportation",
+            "Description": "Life Cycle Inventory data for the transport of goods using a diesel truck with a capacity greater than 7 tons, over a distance of 1 kilometer. The process is located in Mexico and refers to the year 2014. The functional unit is 1 km of transport.",
+            "Tags": "transportation, truck, diesel, freight, life cycle inventory, LCI, Mexico",
+            "Technology Description": "Transportation by a diesel-powered truck with a load capacity greater than 7 tons.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:34"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": null,
+            "Process type": "UNIT_PROCESS",
+            "Modeling constants": null,
+            "Data source information": "MexiLCA_IINGEN dataset",
+            "Data completeness": null,
+            "Data selection": null,
+            "Data treatment": null,
+            "Sampling procedure": null,
+            "Data collection period": "2014",
+            "Use advice": null,
+            "Completeness": null,
+            "Sources": null,
+            "Project": "MexiLCA IINGEN",
+            "Intended application": "For use in Life Cycle Assessment studies involving freight transport in Mexico.",
+            "Data set owner": "N\/A",
+            "Data set generator": "Ciclo de Vida System - UNAM CREAA",
+            "Data set documentor": null,
+            "Publication": null,
+            "Creation date": "2025-12-12",
+            "Copyright": "Public Domain \/ CC-BY-4.0",
+            "Access and use restrictions": "Public"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:34",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Diesel, at service station",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries",
+                "amount": 0.328112,
+                "unit": "GJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Product"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "> 7 Ton diesel por km",
+                "category": "Transportation and Warehousing\/484 Truck Transportation",
+                "amount": 1,
+                "unit": "km",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Functional unit for truck transportation."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen oxides",
+                "category": "Elementary Flows\/Air",
+                "amount": 0.0682662,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Fossil fuel combustion emission"
+            },
+            {
+                "is_reference": false,
+                "flow": "Particulates, < 10 um",
+                "category": "Elementary Flows\/Air",
+                "amount": 2.616e-6,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Fossil fuel combustion emission"
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide, fossil",
+                "category": "Elementary Flows\/Air",
+                "amount": 23.965,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Fossil fuel combustion emission"
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon monoxide, fossil",
+                "category": "Elementary Flows\/Air",
+                "amount": 0.003119565,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Fossil fuel combustion emission"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"1beab443-f5a0-4470-9bd1-ed83476d92cb\",\"Name\":\"> 7 Ton diesel por km\",\"Category\":\"Transportation and Warehousing\/484 Truck Transportation\",\"Description\":\"Life Cycle Inventory data for the transport of goods using a diesel truck with a capacity greater than 7 tons, over a distance of 1 kilometer. The process is located in Mexico and refers to the year 2014. The functional unit is 1 km of transport.\",\"Tags\":\"transportation, truck, diesel, freight, life cycle inventory, LCI, Mexico\",\"Technology Description\":\"Transportation by a diesel-powered truck with a load capacity greater than 7 tons.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:34\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":null,\"Process type\":\"UNIT_PROCESS\",\"Modeling constants\":null,\"Data source information\":\"MexiLCA_IINGEN dataset\",\"Data completeness\":null,\"Data selection\":null,\"Data treatment\":null,\"Sampling procedure\":null,\"Data collection period\":\"2014\",\"Use advice\":null,\"Completeness\":null,\"Sources\":null,\"Project\":\"MexiLCA IINGEN\",\"Intended application\":\"For use in Life Cycle Assessment studies involving freight transport in Mexico.\",\"Data set owner\":\"N\/A\",\"Data set generator\":\"Ciclo de Vida System - UNAM CREAA\",\"Data set documentor\":null,\"Publication\":null,\"Creation date\":\"2025-12-12\",\"Copyright\":\"Public Domain \/ CC-BY-4.0\",\"Access and use restrictions\":\"Public\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:34\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Diesel, at service station\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries\",\"amount\":0.328112,\"unit\":\"GJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Product\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"> 7 Ton diesel por km\",\"category\":\"Transportation and Warehousing\/484 Truck Transportation\",\"amount\":1,\"unit\":\"km\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Functional unit for truck transportation.\"},{\"is_reference\":false,\"flow\":\"Nitrogen oxides\",\"category\":\"Elementary Flows\/Air\",\"amount\":0.0682662,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Fossil fuel combustion emission\"},{\"is_reference\":false,\"flow\":\"Particulates, < 10 um\",\"category\":\"Elementary Flows\/Air\",\"amount\":0.000002616,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Fossil fuel combustion emission\"},{\"is_reference\":false,\"flow\":\"Carbon dioxide, fossil\",\"category\":\"Elementary Flows\/Air\",\"amount\":23.965,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Fossil fuel combustion emission\"},{\"is_reference\":false,\"flow\":\"Carbon monoxide, fossil\",\"category\":\"Elementary Flows\/Air\",\"amount\":0.003119565,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Fossil fuel combustion emission\"}]}",
+    "http_code": 200,
+    "timestamp": 1765506850
+}

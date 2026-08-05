@@ -1,0 +1,9 @@
+{
+    "status": "completed",
+    "response": "",
+    "response_data": null,
+    "response_length": 0,
+    "http_code": 200,
+    "timestamp": 1761325180,
+    "note": "n8n devolvió HTTP 200 pero sin contenido. Verifica configuración del webhook."
+}

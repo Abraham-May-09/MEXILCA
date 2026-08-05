@@ -1,0 +1,105 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "2e839b3f-a5bc-4d16-8206-04065d6c7194",
+                "Name": "AGUA MEMORIA DE CÁLCULO BORRADOR",
+                "Category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply",
+                "Description": "Se determinaron la huella de carbono y la demanda acumulada de energía asociadas a la producción y distribución de 1 m³ de agua en México. Para realizar el cálculo se utilizaron dos métodos; el primero toma en cuenta la información publica disponible (Oficial); el segundo, realizado por GIZ-BID. La unidad funcional es un 1 m³ de agua potable producida y transportada por el sistema de bombeo en México, en 2012. Para los fines de este estudio se considera la energía eléctrica utilizada en el sistema de bombeo para extraer el agua potable y distribuirla al destino, asi como para dirigir las aguas negras a las plantas de tratamiento. La energía eléctrica utilizada adicionalmente por el usuario final (sistema cisterna-tinaco) y el consumo de combustible en la distribución de agua por medio de pipas, así como la energía y los materiales necesarios para la fabricación y el mantenimiento de las bombas hidraulicas y los tubos PVC, quedan fuera de los límites del sistema. Los resultados obtenidos para el método Oficial fueron: 0.21185 kg CO2eq y 3.787773 MJeq.",
+                "Tags": "huella de carbono, demanda acumulada de energía, agua potable, bombeo, México, Análisis de Ciclo de Vida",
+                "Technology Description": "El estudio analiza el sistema de bombeo de agua potable en México. Se utilizaron dos métodos de cálculo: 1) Método Oficial, que toma como referencia el Anuario Estadístico de la INEGI 2012 y la información proporcionada por PIGOO. 2) Método GIZ-BID, que complementa la información pública con la del censo económico 2004 y un estudio de GIZ. Las categorías de impacto analizadas son el Potencial de Calentamiento Global (PCG) a cien años y la Demanda Acumulada de Energía (DAE).",
+                "Code": "MX",
+                "Last change": "20\/05\/2026 01:40"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "El inventario se basa en el Índice de Consumo Energético (ICE) en kWh\/m³. Los impactos se calculan para las categorías Potencial de Calentamiento Global (PCG) y Demanda Acumulada de Energía (DAE).",
+                "Process type": "Producción y distribución de agua potable",
+                "Modeling constants": "El método Oficial, utilizado para este dataset, distribuye la energía eléctrica gastada en el agua perdida por fugas entre el agua que llega a los usuarios. Se hace la suposición de que la totalidad del agua consumida por una entidad federativa es producida y distribuída por la misma.",
+                "Data source information": "Se tomó como referencia el Anuario Estadístico de la INEGI 2012 y la información proporcionada por PIGOO (Programa de Indicadores de Gestión de Organismos Operadores).",
+                "Data completeness": "El método GIZ-BID se presenta como una alternativa más completa, ya que se considera que la información pública del método Oficial es deficiente y no incluye todos los sistemas de bombeo de agua existentes.",
+                "Data selection": "Se considera la energía eléctrica utilizada en el sistema de bombeo para extraer el agua potable, distribuirla y dirigir las aguas negras a las plantas de tratamiento. Se excluye la energía eléctrica del usuario final (cisterna-tinaco), el combustible de pipas y la energía y materiales para fabricación y mantenimiento de la infraestructura (bombas, tubos PVC).",
+                "Data treatment": "Se realizaron cálculos a nivel estatal y posteriormente se realizó un promedio ponderado al consumo de agua de cada estado para obtener valores nacionales.",
+                "Sampling procedure": "Recopilación de datos de fuentes públicas estadísticas (INEGI) y de gestión (PIGOO).",
+                "Data collection period": "El año de referencia es 2012. La consulta de datos se realizó en diciembre de 2014.",
+                "Use advice": "Los resultados corresponden al método 'Oficial', basado en información pública que podría ser incompleta según el propio estudio. Los límites del sistema excluyen la infraestructura y el consumo en el punto de uso.",
+                "Completeness": "El estudio considera la información oficial como deficiente, sugiriendo que los impactos reales podrían ser mayores.",
+                "Sources": "[1] Estudio Integral de Sistemas de Bombeo de Agua Potable Municipal. GIZ, CONUEE. México, 2011.\n[2] Índices GEI para el Uso del Agua en la Vivienda en México. Banco Interamericano de Desarrollo, Estados Unidos de America, 2013.\n[3] PIGOO [en línea]: Programa de Indicadores de Gestión de Organismos Operadores del Instituto Mexicano de Tecnología del Agua. Consulta en línea. México, [fecha de consulta: diciembre de 2014]. Disponible desde: <http:\/\/www.pigoo.gob.mx\/>",
+                "Project": "Memoria de Cálculo del Centro Mario Molina.",
+                "Intended application": "Estimar la huella de carbono y demanda acumulada de energía de la producción y distribución de 1 m³ de agua potable en México.",
+                "Data set owner": "Centro Mario Molina",
+                "Data set generator": "María José González de Abiega, Ángel Pérez Padilla",
+                "Data set documentor": "María José González de Abiega, Ángel Pérez Padilla",
+                "Publication": "AGUA MEMORIA DE CÁLCULO BORRADOR",
+                "Creation date": "2015-01-15",
+                "Copyright": null,
+                "Access and use restrictions": null
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "20\/05\/2026 01:40",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Energy",
+                    "category": "D:Utilities\/35:Utilities\/351:Electric Power Generation, Transmission and Distribution",
+                    "amount": 3.787773,
+                    "unit": "MJeq",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Demanda Acumulada de Energía (DAE) para la producción y distribución de 1 m³ de agua potable. Método Oficial."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "agua potable, producida y transportada",
+                    "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                    "amount": 1,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Unidad funcional: 1 m³ de agua potable producida y transportada por el sistema de bombeo en México, en 2012."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Dióxido de carbono, equivalente",
+                    "category": "H:Environmental Quality and Other Non-Market Output",
+                    "amount": 0.21185,
+                    "unit": "kg CO2eq",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Potencial de Calentamiento Global (PCG) a cien años. Método Oficial."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779241230
+}

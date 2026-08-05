@@ -1,0 +1,237 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "786142b4-1e6b-4165-bf83-82ba466b4218",
+            "Name": "ACV VIDRIO PLANO ANÁLISIS DE CICLO DEL VIDRIO PLANO",
+            "Category": "Manufactura\/3272 Vidrio y Productos de Vidrio",
+            "Description": "Se evaluó la huella de carbono, en un análisis de la cuna a la puerta, del vidrio plano comúnmente producido en México. El análisis de sensibilidad mostró el comportamiento de los impactos al incrementar o disminuir el porcentaje de cullet en la mezcla y la distancia recorrida para su suministro. El estudio se realizó en comparación con el escenario cero, el cual solo considera materia prima vírgen en la mezcla de fundición del vidrio. Los resultados mostraron que al incrementar los porcentajes de cullet en la mezcla se pueden disminuir los impactos generados, siempre y cuando el cullet sea suministrado dentro de un radio de 100 km. Los resultados finales son reportados para el escenario más común en la industria del vidrio plano, el cual utiliza 20 % de cullet en la mezcla (10 % cullet interno y 10 % cullet externo) y un radio de suministro de 37 km. Se reportaron 1.25282 kgCO2 eq.\/kg para el vidrio plano.",
+            "Tags": "Análisis de ciclo de vida, Huella de carbono, Vidrio plano, Reciclaje, Cullet, Sustentabilidad",
+            "Technology | Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA V.1.3 y la metodología del CML V.4.2, 1990, para la categoría de huella de carbono. El proceso de fabricación del vidrio inicia con la mezcla de los principales componentes del vidrio, las materias primas (arena sílica, dolomita, carbonato de calcio, carbonato de sodio y sulfato de sodio) y los materiales secundarios (vidrio reciclado y aditivos). Posteriormente, se calienta la mezcla en el horno de fundición a una temperatura promedio de 1500 ℃ hasta que la mezcla forma un líquido viscoso y homogéneo. El vidrio fundido sale del horno a una temperatura aproximada de 1050 °C, en un estado maleable y elástico que permite su conversión en la forma deseada. Para esto se realiza el proceso de flotado, en esta etapa la diferencia de densidades hace que la mezcla de vidrio sobrenade la superficie de un baño de estaño líquido, logrando así una superficie lisa y paralela.",
+            "Code": "MX",
+            "Last_change": "10\/11\/2025 23:23"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Metodología CML V.4.2, 1990 para la categoría de huella de carbono, utilizando software Open LCA V.1.3",
+            "Process type": "Análisis de ciclo de vida de cuna a puerta",
+            "Modeling constants": "Criterio de corte de masa al 1%, no se consideraron procesos de asignación, normalización o ponderación",
+            "Data source information": "Fuentes literarias, entrevistas al sector, datos de VITRO 2013, INECC 2009, European Commission 2013, CONUEE 2009, y bases de datos Ecoinvent",
+            "Data completeness": "Cobertura completa de todos los flujos relevantes dentro de los límites del sistema definidos, excluyendo empaquetado específico, procesos de caracterización final y residuos especiales",
+            "Data selection": "Inclusión de flujos que representan más del 1% de la masa total, exclusión de componentes menores como óxido de potasio y óxido de aluminio por criterio de corte",
+            "Data treatment": "Sustitución de procesos energéticos y de transporte por equivalentes mexicanos, habituación a la industria mexicana",
+            "Sampling procedure": "Recopilación mediante entrevistas al sector industrial y consulta de literatura especializada",
+            "Data collection period": "Datos de 2013, con referencia a información de VITRO 2013",
+            "Use advice": "Válido para vidrio plano producido en México mediante método de flotación, con mezcla típica de 20% cullet (10% interno y 10% externo) y radio de suministro de cullet externo hasta 100 km",
+            "Completeness": "Exhaustivo dentro de los límites definidos, considerando transporte de materias primas, procesos energéticos y emisiones atmosféricas relevantes",
+            "Sources": "[1] INEGI. Directorio Estadístico Nacional de Unidades Económicas, 2013. [2] David C. Boyd et al. Encyclopedia of Chemical Technology-Glass. John Wiley and Sons, Inc., USA, 2004. [3] CAVIPLAN. Manual del Vidrio Plano. Cámara del Vidrio Plano y sus Manufacturas de la República Argentina, 2009. [4] Tessy López and Ana Martínez. El Mundo Mágico del Vidrio. Fondo de Cultura Económica, México, 1995. [5] Cebrace. Componentes del vidrio, 2014. [6] Ministerio de Medio Ambiente. Prevención y control integrados de la contaminación (IPPC). España, 2004. [7] Joseph S. Amstock. Manual del vidrio en la construcción. McGraw-Hill, 1999. [8] European Commission. Best Available Techniques (BAT) Reference Document for the Manufacture of Glass. European Union, 2013. [9] VITRO. Proceso de Flotado, 2002. [10] PILKINGTON. Company History 1950-1999, 2014. [11] René Itten et al. Life Cycle Inventories of Electricity Mixes and Grid. Paul Scherrer Institut, 2014. [12] VITRO. Informe de Desarrollo Sustentable 2013. [13] INECC. Informes del Inventario Nacional de Emisiones de Gases de Efecto Invernadero 1990-2006. [14] CONUEE. Metodologías para la Cuantificación de Emisiones de Gases de Efecto Invernadero, 2009.",
+            "Project": "Análisis de Ciclo de Vida del Vidrio Plano - Centro Mario Molina",
+            "Intended application": "Estimación de huella de carbono del vidrio plano mexicano para evaluación ambiental y toma de decisiones en la industria",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Piña Bolaños",
+            "Data set documentor": "Andrea Piña Bolaños",
+            "Publication": "Memoria de Cálculo Borrador - ACV Vidrio Plano",
+            "Creation date": "17 de diciembre de 2014",
+            "Copyright": "Centro Mario Molina",
+            "Access and use restrictions": "Documento borrador con restricciones de uso académico y de investigación"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-10T23:24:04.900Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "arena sílica (SiO2)",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Material vitrificante"
+            },
+            {
+                "is_reference": false,
+                "flow": "dolomita (CaMg(CO3)2)",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fuente de base cálcica-magnésica"
+            },
+            {
+                "is_reference": false,
+                "flow": "carbonato de calcio (CaCO3)",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fuente de base cálcica"
+            },
+            {
+                "is_reference": false,
+                "flow": "carbonato de sodio (Na2CO3)",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Material fundente, fuente de óxido de sodio"
+            },
+            {
+                "is_reference": false,
+                "flow": "sulfato de sodio (Na2SO4)",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Material fundente, fuente de óxido de sodio en menor proporción"
+            },
+            {
+                "is_reference": false,
+                "flow": "vidrio reciclado",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Material secundario (cullet)"
+            },
+            {
+                "is_reference": false,
+                "flow": "aditivos",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Materiales secundarios"
+            },
+            {
+                "is_reference": false,
+                "flow": "agua",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Agua de pozo tratada y reutilizada"
+            },
+            {
+                "is_reference": false,
+                "flow": "gas natural",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Combustible quemado en hornos"
+            },
+            {
+                "is_reference": false,
+                "flow": "energía eléctrica",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Procesos mexicanos sustituidos"
+            },
+            {
+                "is_reference": false,
+                "flow": "estaño líquido",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Para proceso de flotado"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "vidrio plano",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto final principal del proceso de producción"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Generado durante las reacciones de calcinación (ecuaciones 1, 3, 4, 5)"
+            },
+            {
+                "is_reference": true,
+                "flow": "SOx",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Generado durante la reacción del sulfato de sodio (ecuaciones 2 y 5)"
+            },
+            {
+                "is_reference": false,
+                "flow": "residuos",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Mencionado en el diagrama de límites del sistema"
+            },
+            {
+                "is_reference": true,
+                "flow": "material defectuoso (cullet interno)",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Vidrio defectuoso que se recicla como material secundario"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"786142b4-1e6b-4165-bf83-82ba466b4218\",\"Name\":\"ACV VIDRIO PLANO ANÁLISIS DE CICLO DEL VIDRIO PLANO\",\"Category\":\"Manufactura\/3272 Vidrio y Productos de Vidrio\",\"Description\":\"Se evaluó la huella de carbono, en un análisis de la cuna a la puerta, del vidrio plano comúnmente producido en México. El análisis de sensibilidad mostró el comportamiento de los impactos al incrementar o disminuir el porcentaje de cullet en la mezcla y la distancia recorrida para su suministro. El estudio se realizó en comparación con el escenario cero, el cual solo considera materia prima vírgen en la mezcla de fundición del vidrio. Los resultados mostraron que al incrementar los porcentajes de cullet en la mezcla se pueden disminuir los impactos generados, siempre y cuando el cullet sea suministrado dentro de un radio de 100 km. Los resultados finales son reportados para el escenario más común en la industria del vidrio plano, el cual utiliza 20 % de cullet en la mezcla (10 % cullet interno y 10 % cullet externo) y un radio de suministro de 37 km. Se reportaron 1.25282 kgCO2 eq.\/kg para el vidrio plano.\",\"Tags\":\"Análisis de ciclo de vida, Huella de carbono, Vidrio plano, Reciclaje, Cullet, Sustentabilidad\",\"Technology | Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA V.1.3 y la metodología del CML V.4.2, 1990, para la categoría de huella de carbono. El proceso de fabricación del vidrio inicia con la mezcla de los principales componentes del vidrio, las materias primas (arena sílica, dolomita, carbonato de calcio, carbonato de sodio y sulfato de sodio) y los materiales secundarios (vidrio reciclado y aditivos). Posteriormente, se calienta la mezcla en el horno de fundición a una temperatura promedio de 1500 ℃ hasta que la mezcla forma un líquido viscoso y homogéneo. El vidrio fundido sale del horno a una temperatura aproximada de 1050 °C, en un estado maleable y elástico que permite su conversión en la forma deseada. Para esto se realiza el proceso de flotado, en esta etapa la diferencia de densidades hace que la mezcla de vidrio sobrenade la superficie de un baño de estaño líquido, logrando así una superficie lisa y paralela.\",\"Code\":\"MX\",\"Last_change\":\"10\/11\/2025 23:23\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Metodología CML V.4.2, 1990 para la categoría de huella de carbono, utilizando software Open LCA V.1.3\",\"Process type\":\"Análisis de ciclo de vida de cuna a puerta\",\"Modeling constants\":\"Criterio de corte de masa al 1%, no se consideraron procesos de asignación, normalización o ponderación\",\"Data source information\":\"Fuentes literarias, entrevistas al sector, datos de VITRO 2013, INECC 2009, European Commission 2013, CONUEE 2009, y bases de datos Ecoinvent\",\"Data completeness\":\"Cobertura completa de todos los flujos relevantes dentro de los límites del sistema definidos, excluyendo empaquetado específico, procesos de caracterización final y residuos especiales\",\"Data selection\":\"Inclusión de flujos que representan más del 1% de la masa total, exclusión de componentes menores como óxido de potasio y óxido de aluminio por criterio de corte\",\"Data treatment\":\"Sustitución de procesos energéticos y de transporte por equivalentes mexicanos, habituación a la industria mexicana\",\"Sampling procedure\":\"Recopilación mediante entrevistas al sector industrial y consulta de literatura especializada\",\"Data collection period\":\"Datos de 2013, con referencia a información de VITRO 2013\",\"Use advice\":\"Válido para vidrio plano producido en México mediante método de flotación, con mezcla típica de 20% cullet (10% interno y 10% externo) y radio de suministro de cullet externo hasta 100 km\",\"Completeness\":\"Exhaustivo dentro de los límites definidos, considerando transporte de materias primas, procesos energéticos y emisiones atmosféricas relevantes\",\"Sources\":\"[1] INEGI. Directorio Estadístico Nacional de Unidades Económicas, 2013. [2] David C. Boyd et al. Encyclopedia of Chemical Technology-Glass. John Wiley and Sons, Inc., USA, 2004. [3] CAVIPLAN. Manual del Vidrio Plano. Cámara del Vidrio Plano y sus Manufacturas de la República Argentina, 2009. [4] Tessy López and Ana Martínez. El Mundo Mágico del Vidrio. Fondo de Cultura Económica, México, 1995. [5] Cebrace. Componentes del vidrio, 2014. [6] Ministerio de Medio Ambiente. Prevención y control integrados de la contaminación (IPPC). España, 2004. [7] Joseph S. Amstock. Manual del vidrio en la construcción. McGraw-Hill, 1999. [8] European Commission. Best Available Techniques (BAT) Reference Document for the Manufacture of Glass. European Union, 2013. [9] VITRO. Proceso de Flotado, 2002. [10] PILKINGTON. Company History 1950-1999, 2014. [11] René Itten et al. Life Cycle Inventories of Electricity Mixes and Grid. Paul Scherrer Institut, 2014. [12] VITRO. Informe de Desarrollo Sustentable 2013. [13] INECC. Informes del Inventario Nacional de Emisiones de Gases de Efecto Invernadero 1990-2006. [14] CONUEE. Metodologías para la Cuantificación de Emisiones de Gases de Efecto Invernadero, 2009.\",\"Project\":\"Análisis de Ciclo de Vida del Vidrio Plano - Centro Mario Molina\",\"Intended application\":\"Estimación de huella de carbono del vidrio plano mexicano para evaluación ambiental y toma de decisiones en la industria\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Piña Bolaños\",\"Data set documentor\":\"Andrea Piña Bolaños\",\"Publication\":\"Memoria de Cálculo Borrador - ACV Vidrio Plano\",\"Creation date\":\"17 de diciembre de 2014\",\"Copyright\":\"Centro Mario Molina\",\"Access and use restrictions\":\"Documento borrador con restricciones de uso académico y de investigación\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-10T23:24:04.900Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"arena sílica (SiO2)\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Material vitrificante\"},{\"is_reference\":false,\"flow\":\"dolomita (CaMg(CO3)2)\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fuente de base cálcica-magnésica\"},{\"is_reference\":false,\"flow\":\"carbonato de calcio (CaCO3)\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fuente de base cálcica\"},{\"is_reference\":false,\"flow\":\"carbonato de sodio (Na2CO3)\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Material fundente, fuente de óxido de sodio\"},{\"is_reference\":false,\"flow\":\"sulfato de sodio (Na2SO4)\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Material fundente, fuente de óxido de sodio en menor proporción\"},{\"is_reference\":false,\"flow\":\"vidrio reciclado\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Material secundario (cullet)\"},{\"is_reference\":false,\"flow\":\"aditivos\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Materiales secundarios\"},{\"is_reference\":false,\"flow\":\"agua\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Agua de pozo tratada y reutilizada\"},{\"is_reference\":false,\"flow\":\"gas natural\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Combustible quemado en hornos\"},{\"is_reference\":false,\"flow\":\"energía eléctrica\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Procesos mexicanos sustituidos\"},{\"is_reference\":false,\"flow\":\"estaño líquido\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Para proceso de flotado\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"vidrio plano\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto final principal del proceso de producción\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Generado durante las reacciones de calcinación (ecuaciones 1, 3, 4, 5)\"},{\"is_reference\":true,\"flow\":\"SOx\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Generado durante la reacción del sulfato de sodio (ecuaciones 2 y 5)\"},{\"is_reference\":false,\"flow\":\"residuos\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Mencionado en el diagrama de límites del sistema\"},{\"is_reference\":true,\"flow\":\"material defectuoso (cullet interno)\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Vidrio defectuoso que se recicla como material secundario\"}]}",
+    "http_code": 200,
+    "timestamp": 1762817109
+}

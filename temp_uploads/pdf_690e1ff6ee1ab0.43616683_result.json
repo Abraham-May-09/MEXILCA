@@ -1,0 +1,137 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "2e497886-1684-4216-a115-7c45df2dbe26",
+            "Name": "7 Ton diesel por km",
+            "Category": "Transportation and Storage\/484 Truck Transportation",
+            "Description": "Inventario del ciclo de vida para el transporte de carga pesada utilizando camiones de 7 toneladas que consumen diesel. El proceso incluye las emisiones asociadas al consumo de combustible durante 1 km de recorrido. Límites del sistema: incluye únicamente las emisiones directas del proceso de combustión del diesel durante el transporte.",
+            "Tags": "transporte de carga, diesel, emisiones, ciclo de vida, camiones",
+            "Technology | Description": "Motor diesel para transporte de carga pesada en camiones de 7 toneladas. Combustible: diesel de estación de servicio con un consumo de 0.328112 GJ por km.",
+            "Code": "MX",
+            "Last_change": "07\/11\/2025 16:36"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "",
+            "Process type": "UNIT_PROCESS",
+            "Modeling constants": "",
+            "Data source information": "",
+            "Data completeness": "",
+            "Data selection": "",
+            "Data treatment": "",
+            "Sampling procedure": "",
+            "Data collection period": "",
+            "Use advice": "",
+            "Completeness": "",
+            "Sources": "",
+            "Project": "",
+            "Intended application": "",
+            "Data set owner": "N\/A",
+            "Data set generator": "Ciclo de Vida System - UNAM CREAA",
+            "Data set documentor": "",
+            "Publication": "",
+            "Creation date": "2025-11-05",
+            "Copyright": "Public Domain \/ CC-BY-4.0",
+            "Access and use restrictions": "Public"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-07T16:37:02.031Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Diesel, at service station",
+                "category": "MexiLCA_IINGEN\/Transportation and storage (H)",
+                "amount": 0.328112,
+                "unit": "GJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "> 7 Ton diesel por km",
+                "category": "MexiLCA_IINGEN\/Transportation and storage (H)",
+                "amount": 1,
+                "unit": "km",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide, fossil",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 865,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Carbon monoxide, fossil",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 3.15,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen oxides",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 6.71666667,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Particulates, < 10 um",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 0.20166667,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"2e497886-1684-4216-a115-7c45df2dbe26\",\"Name\":\"7 Ton diesel por km\",\"Category\":\"Transportation and Storage\/484 Truck Transportation\",\"Description\":\"Inventario del ciclo de vida para el transporte de carga pesada utilizando camiones de 7 toneladas que consumen diesel. El proceso incluye las emisiones asociadas al consumo de combustible durante 1 km de recorrido. Límites del sistema: incluye únicamente las emisiones directas del proceso de combustión del diesel durante el transporte.\",\"Tags\":\"transporte de carga, diesel, emisiones, ciclo de vida, camiones\",\"Technology | Description\":\"Motor diesel para transporte de carga pesada en camiones de 7 toneladas. Combustible: diesel de estación de servicio con un consumo de 0.328112 GJ por km.\",\"Code\":\"MX\",\"Last_change\":\"07\/11\/2025 16:36\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"\",\"Process type\":\"UNIT_PROCESS\",\"Modeling constants\":\"\",\"Data source information\":\"\",\"Data completeness\":\"\",\"Data selection\":\"\",\"Data treatment\":\"\",\"Sampling procedure\":\"\",\"Data collection period\":\"\",\"Use advice\":\"\",\"Completeness\":\"\",\"Sources\":\"\",\"Project\":\"\",\"Intended application\":\"\",\"Data set owner\":\"N\/A\",\"Data set generator\":\"Ciclo de Vida System - UNAM CREAA\",\"Data set documentor\":\"\",\"Publication\":\"\",\"Creation date\":\"2025-11-05\",\"Copyright\":\"Public Domain \/ CC-BY-4.0\",\"Access and use restrictions\":\"Public\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-07T16:37:02.031Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Diesel, at service station\",\"category\":\"MexiLCA_IINGEN\/Transportation and storage (H)\",\"amount\":0.328112,\"unit\":\"GJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"> 7 Ton diesel por km\",\"category\":\"MexiLCA_IINGEN\/Transportation and storage (H)\",\"amount\":1,\"unit\":\"km\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Carbon dioxide, fossil\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":865,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Carbon monoxide, fossil\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":3.15,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Nitrogen oxides\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":6.71666667,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Particulates, < 10 um\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":0.20166667,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1762533465
+}

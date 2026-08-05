@@ -1,0 +1,261 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "54651665-7c65-4116-ad80-5baec81fb516",
+            "Name": "Análisis de Ciclo de Vida (ACV) de la Producción de Azúcar Estándar de un Ingenio Azucarero en México",
+            "Category": "Manufactura\/3113 Fabricación de Azúcar",
+            "Description": "La metodología del ACV se aplicó al proceso de producción y comercialización de azúcar estándar de un ingenio azucarero en México. El estudio consideró dos subsistemas: ingenio azucarero y producto final, tomando en cuenta desde que la caña de azúcar llega al ingenio azucarero e insumos principales para fabricar el producto analizado, así como el uso del producto, que es la comercialización y los residuos de los empaques por su consumo. La etapa agrícola que comprende el cultivo, fertilización, cosecha y transporte de la caña al ingenio no se tomó en cuenta. En el subsistema de Ingenio azucarero, se consideran los procesos asociados a la obtención del azúcar como producto, y del bagazo, cachaza y melaza como subproductos. En el subsistema de producto final, se consideran la producción del envase (costales de polipropileno), la comercialización del azúcar y los residuos del consumo.",
+            "Tags": "Análisis de Ciclo de Vida, Impacto Ambiental, Industria Azucarera, Ecoindicador 99, Sustentabilidad",
+            "Technology | Description": "Se emplea la metodología general del Análisis de Ciclo de Vida (ACV) para determinar las cargas ambientales que ocasionan la elaboración y comercialización de azúcar estándar. Las etapas que se realizaron en este estudio fueron los objetivos y alcances, se calcularon los balances de masa y energía, se consultaron diferentes datos para el análisis inventario (ICV), se llevó a cabo la evaluación de impactos a través del método Ecoindicador 99 (EICV), y finalmente se interpretaron los resultados y establecieron las conclusiones.",
+            "Code": "MX",
+            "Last_change": "18\/11\/2025 21:17"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Metodología general del ACV según ISO 14040:2006, incluyendo análisis de inventario y evaluación de impactos mediante el método Ecoindicador 99",
+            "Process type": "Proceso de producción y comercialización de azúcar estándar en ingenio azucarero mexicano, incluyendo subsistemas de ingenio azucarero y producto final",
+            "Modeling constants": "Pureza de la miel final no mayor al 35% de sacarosa, humedad del azúcar del 0.1%",
+            "Data source information": "CONADESUCA, CNIAA, SAGARPA, PEMEX, SEMARNAT, bibliografía especializada en industria azucarera",
+            "Data completeness": "Excluye etapa agrícola (cultivo, fertilización, cosecha y transporte de caña), exportaciones de azúcar estándar",
+            "Data selection": "Se incluyen procesos desde la llegada de la caña al ingenio hasta comercialización y residuos de empaques",
+            "Data treatment": "Balances de masa y energía en diferentes etapas de producción, datos nacionales de acceso público",
+            "Sampling procedure": "No especificado en el texto proporcionado",
+            "Data collection period": "No especificado en el texto proporcionado",
+            "Use advice": "Limitado a producción y comercialización de azúcar estándar en México, excluye etapa agrícola y exportaciones",
+            "Completeness": "Cobertura parcial del ciclo de vida, excluyendo etapa agrícola y exportaciones",
+            "Sources": "Adams et al. (2008), Akrami (2016), Aranda y Zabalza (2010), Basanta et al. (2007), Benavides y León (2007), Botha & Blottnitz (2006), Bravo (2014), Caicedo y Medina (2012), Capuz y Gómez (2004), CONADESUCA, CNIAA, SAGARPA, PEMEX, SEMARNAT",
+            "Project": "Análisis de Ciclo de Vida (ACV) de la producción de azúcar estándar de un ingenio azucarero en México",
+            "Intended application": "Identificación de procesos con mayor impacto ambiental y propuesta de mejoras para disminuir carga ambiental global",
+            "Data set owner": "Universidad Nacional Autónoma de México, Facultad de Estudios Superiores Zaragoza",
+            "Data set generator": "Mónica Rodríguez Castillo",
+            "Data set documentor": "Mónica Rodríguez Castillo",
+            "Publication": "Tesis para obtener el título de Ingeniera Química",
+            "Creation date": "2019",
+            "Copyright": "Derechos reservados © Prohibida su reproducción total o parcial. Protegido por la Ley Federal del Derecho de Autor de México",
+            "Access and use restrictions": "Uso exclusivamente para fines educativos e informativos, debe citar la fuente. Prohibido uso comercial, reproducción, edición o modificación sin autorización"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-18T21:17:55.711Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Caña de azúcar",
+                "category": "",
+                "amount": 439,
+                "unit": "t\/h",
+                "uncertainty": "",
+                "provider": "CONADESUCA-SAGARPA",
+                "description": "Flujo másico de caña de azúcar que ingresa a los molinos para extracción del jugo, con contenido de sacarosa del 14.92% y 12.89% de componentes no-sacarosa"
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua de imbibición",
+                "category": "",
+                "amount": 171.74,
+                "unit": "t\/h",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Agua caliente de 70℃ a 80℃ utilizada para lavado en la serie de molinos, facilitando la desinfección y extracción de sacarosa en el bagazo"
+            },
+            {
+                "is_reference": false,
+                "flow": "Óxido de calcio (CaO)",
+                "category": "",
+                "amount": 13.17,
+                "unit": "t\/h",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Cal utilizada para neutralizar la acidez del guarapo en el proceso de clarificación, aproximadamente 3 toneladas por cada 100 toneladas de caña"
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua para lechada de cal",
+                "category": "",
+                "amount": 60.58,
+                "unit": "t\/h",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Agua requerida para preparar la lechada de cal, aproximadamente 4.6 veces el peso del CaO"
+            },
+            {
+                "is_reference": false,
+                "flow": "Vapor de agua saturado",
+                "category": "",
+                "amount": 96.2,
+                "unit": "t\/h",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Vapor de baja presión (20 psi) utilizado en el proceso de evaporación de múltiple efecto para concentrar el jugo clarificado"
+            },
+            {
+                "is_reference": false,
+                "flow": "Aire seco",
+                "category": "",
+                "amount": "",
+                "unit": "t\/h",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Aire seco inyectado a temperatura entre 80°C y 90°C en el secador rotativo para reducir la humedad del azúcar de 1% a 0.1%"
+            },
+            {
+                "is_reference": false,
+                "flow": "Energía eléctrica",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "CONUEE",
+                "description": "Electricidad para operación de equipos en el ingenio azucarero"
+            },
+            {
+                "is_reference": false,
+                "flow": "Combustible",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "PEMEX",
+                "description": "Combustible para transporte y operación de equipos en el proceso productivo"
+            },
+            {
+                "is_reference": false,
+                "flow": "Polipropileno",
+                "category": "",
+                "amount": "",
+                "unit": "",
+                "uncertainty": "",
+                "provider": "ELCD 3.2",
+                "description": "Material para producción de costales de 50 kg para envasado del azúcar estándar"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "azúcar estándar",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto principal con 98.9% de sacarosa y 1.1% de humedad después del secado"
+            },
+            {
+                "is_reference": false,
+                "flow": "bagazo",
+                "category": "",
+                "amount": 0.203,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Subproducto con 3.28% de sacarosa, 45.84% de no-sacarosa y 50.88% de humedad"
+            },
+            {
+                "is_reference": true,
+                "flow": "cachaza",
+                "category": "",
+                "amount": 0.0967,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Residuo de filtración con 6.1% de sacarosa, 38% de no-sacarosa y 55.9% de humedad"
+            },
+            {
+                "is_reference": false,
+                "flow": "melaza",
+                "category": "",
+                "amount": null,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Miel final con pureza menor al 35% de sacarosa"
+            },
+            {
+                "is_reference": true,
+                "flow": "aguas residuales",
+                "category": "",
+                "amount": null,
+                "unit": "m3",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Aguas de lavado de caña y condensadas de evaporación"
+            },
+            {
+                "is_reference": false,
+                "flow": "gases de combustión",
+                "category": "",
+                "amount": null,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisiones al aire de las calderas"
+            },
+            {
+                "is_reference": true,
+                "flow": "cenizas",
+                "category": "",
+                "amount": null,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Residuos sólidos de la combustión del bagazo"
+            },
+            {
+                "is_reference": false,
+                "flow": "residuos de empaques",
+                "category": "",
+                "amount": null,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Costales de polipropileno después del consumo"
+            },
+            {
+                "is_reference": true,
+                "flow": "emisiones al aire",
+                "category": "",
+                "amount": null,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Durante la comercialización y transporte"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"54651665-7c65-4116-ad80-5baec81fb516\",\"Name\":\"Análisis de Ciclo de Vida (ACV) de la Producción de Azúcar Estándar de un Ingenio Azucarero en México\",\"Category\":\"Manufactura\/3113 Fabricación de Azúcar\",\"Description\":\"La metodología del ACV se aplicó al proceso de producción y comercialización de azúcar estándar de un ingenio azucarero en México. El estudio consideró dos subsistemas: ingenio azucarero y producto final, tomando en cuenta desde que la caña de azúcar llega al ingenio azucarero e insumos principales para fabricar el producto analizado, así como el uso del producto, que es la comercialización y los residuos de los empaques por su consumo. La etapa agrícola que comprende el cultivo, fertilización, cosecha y transporte de la caña al ingenio no se tomó en cuenta. En el subsistema de Ingenio azucarero, se consideran los procesos asociados a la obtención del azúcar como producto, y del bagazo, cachaza y melaza como subproductos. En el subsistema de producto final, se consideran la producción del envase (costales de polipropileno), la comercialización del azúcar y los residuos del consumo.\",\"Tags\":\"Análisis de Ciclo de Vida, Impacto Ambiental, Industria Azucarera, Ecoindicador 99, Sustentabilidad\",\"Technology | Description\":\"Se emplea la metodología general del Análisis de Ciclo de Vida (ACV) para determinar las cargas ambientales que ocasionan la elaboración y comercialización de azúcar estándar. Las etapas que se realizaron en este estudio fueron los objetivos y alcances, se calcularon los balances de masa y energía, se consultaron diferentes datos para el análisis inventario (ICV), se llevó a cabo la evaluación de impactos a través del método Ecoindicador 99 (EICV), y finalmente se interpretaron los resultados y establecieron las conclusiones.\",\"Code\":\"MX\",\"Last_change\":\"18\/11\/2025 21:17\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Metodología general del ACV según ISO 14040:2006, incluyendo análisis de inventario y evaluación de impactos mediante el método Ecoindicador 99\",\"Process type\":\"Proceso de producción y comercialización de azúcar estándar en ingenio azucarero mexicano, incluyendo subsistemas de ingenio azucarero y producto final\",\"Modeling constants\":\"Pureza de la miel final no mayor al 35% de sacarosa, humedad del azúcar del 0.1%\",\"Data source information\":\"CONADESUCA, CNIAA, SAGARPA, PEMEX, SEMARNAT, bibliografía especializada en industria azucarera\",\"Data completeness\":\"Excluye etapa agrícola (cultivo, fertilización, cosecha y transporte de caña), exportaciones de azúcar estándar\",\"Data selection\":\"Se incluyen procesos desde la llegada de la caña al ingenio hasta comercialización y residuos de empaques\",\"Data treatment\":\"Balances de masa y energía en diferentes etapas de producción, datos nacionales de acceso público\",\"Sampling procedure\":\"No especificado en el texto proporcionado\",\"Data collection period\":\"No especificado en el texto proporcionado\",\"Use advice\":\"Limitado a producción y comercialización de azúcar estándar en México, excluye etapa agrícola y exportaciones\",\"Completeness\":\"Cobertura parcial del ciclo de vida, excluyendo etapa agrícola y exportaciones\",\"Sources\":\"Adams et al. (2008), Akrami (2016), Aranda y Zabalza (2010), Basanta et al. (2007), Benavides y León (2007), Botha & Blottnitz (2006), Bravo (2014), Caicedo y Medina (2012), Capuz y Gómez (2004), CONADESUCA, CNIAA, SAGARPA, PEMEX, SEMARNAT\",\"Project\":\"Análisis de Ciclo de Vida (ACV) de la producción de azúcar estándar de un ingenio azucarero en México\",\"Intended application\":\"Identificación de procesos con mayor impacto ambiental y propuesta de mejoras para disminuir carga ambiental global\",\"Data set owner\":\"Universidad Nacional Autónoma de México, Facultad de Estudios Superiores Zaragoza\",\"Data set generator\":\"Mónica Rodríguez Castillo\",\"Data set documentor\":\"Mónica Rodríguez Castillo\",\"Publication\":\"Tesis para obtener el título de Ingeniera Química\",\"Creation date\":\"2019\",\"Copyright\":\"Derechos reservados © Prohibida su reproducción total o parcial. Protegido por la Ley Federal del Derecho de Autor de México\",\"Access and use restrictions\":\"Uso exclusivamente para fines educativos e informativos, debe citar la fuente. Prohibido uso comercial, reproducción, edición o modificación sin autorización\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-18T21:17:55.711Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Caña de azúcar\",\"category\":\"\",\"amount\":439,\"unit\":\"t\/h\",\"uncertainty\":\"\",\"provider\":\"CONADESUCA-SAGARPA\",\"description\":\"Flujo másico de caña de azúcar que ingresa a los molinos para extracción del jugo, con contenido de sacarosa del 14.92% y 12.89% de componentes no-sacarosa\"},{\"is_reference\":false,\"flow\":\"Agua de imbibición\",\"category\":\"\",\"amount\":171.74,\"unit\":\"t\/h\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Agua caliente de 70℃ a 80℃ utilizada para lavado en la serie de molinos, facilitando la desinfección y extracción de sacarosa en el bagazo\"},{\"is_reference\":false,\"flow\":\"Óxido de calcio (CaO)\",\"category\":\"\",\"amount\":13.17,\"unit\":\"t\/h\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Cal utilizada para neutralizar la acidez del guarapo en el proceso de clarificación, aproximadamente 3 toneladas por cada 100 toneladas de caña\"},{\"is_reference\":false,\"flow\":\"Agua para lechada de cal\",\"category\":\"\",\"amount\":60.58,\"unit\":\"t\/h\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Agua requerida para preparar la lechada de cal, aproximadamente 4.6 veces el peso del CaO\"},{\"is_reference\":false,\"flow\":\"Vapor de agua saturado\",\"category\":\"\",\"amount\":96.2,\"unit\":\"t\/h\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Vapor de baja presión (20 psi) utilizado en el proceso de evaporación de múltiple efecto para concentrar el jugo clarificado\"},{\"is_reference\":false,\"flow\":\"Aire seco\",\"category\":\"\",\"amount\":\"\",\"unit\":\"t\/h\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Aire seco inyectado a temperatura entre 80°C y 90°C en el secador rotativo para reducir la humedad del azúcar de 1% a 0.1%\"},{\"is_reference\":false,\"flow\":\"Energía eléctrica\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"CONUEE\",\"description\":\"Electricidad para operación de equipos en el ingenio azucarero\"},{\"is_reference\":false,\"flow\":\"Combustible\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"PEMEX\",\"description\":\"Combustible para transporte y operación de equipos en el proceso productivo\"},{\"is_reference\":false,\"flow\":\"Polipropileno\",\"category\":\"\",\"amount\":\"\",\"unit\":\"\",\"uncertainty\":\"\",\"provider\":\"ELCD 3.2\",\"description\":\"Material para producción de costales de 50 kg para envasado del azúcar estándar\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"azúcar estándar\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto principal con 98.9% de sacarosa y 1.1% de humedad después del secado\"},{\"is_reference\":false,\"flow\":\"bagazo\",\"category\":\"\",\"amount\":0.203,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Subproducto con 3.28% de sacarosa, 45.84% de no-sacarosa y 50.88% de humedad\"},{\"is_reference\":true,\"flow\":\"cachaza\",\"category\":\"\",\"amount\":0.0967,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Residuo de filtración con 6.1% de sacarosa, 38% de no-sacarosa y 55.9% de humedad\"},{\"is_reference\":false,\"flow\":\"melaza\",\"category\":\"\",\"amount\":null,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Miel final con pureza menor al 35% de sacarosa\"},{\"is_reference\":true,\"flow\":\"aguas residuales\",\"category\":\"\",\"amount\":null,\"unit\":\"m3\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Aguas de lavado de caña y condensadas de evaporación\"},{\"is_reference\":false,\"flow\":\"gases de combustión\",\"category\":\"\",\"amount\":null,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisiones al aire de las calderas\"},{\"is_reference\":true,\"flow\":\"cenizas\",\"category\":\"\",\"amount\":null,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Residuos sólidos de la combustión del bagazo\"},{\"is_reference\":false,\"flow\":\"residuos de empaques\",\"category\":\"\",\"amount\":null,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Costales de polipropileno después del consumo\"},{\"is_reference\":true,\"flow\":\"emisiones al aire\",\"category\":\"\",\"amount\":null,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Durante la comercialización y transporte\"}]}",
+    "http_code": 200,
+    "timestamp": 1763500770
+}

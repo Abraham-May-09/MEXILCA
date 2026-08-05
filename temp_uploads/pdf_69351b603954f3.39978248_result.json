@@ -1,0 +1,164 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "0d8e6873-868d-46f3-852f-269c467e1f40",
+            "Name": "Análisis del ciclo de vida de la producción de biodiésel a partir de aceites usados",
+            "Category": "Manufacturing\/325 Chemical Manufacturing",
+            "Description": "El estudio presenta un análisis de ciclo de vida para la producción de biodiésel a partir de aceite de cocina usado con alta concentración de ácidos grasos libres (13.58%). El proceso evaluado es un sistema de dos etapas: 1) una pre-etapa de esterificación con catalizador ácido (H2SO4) para reducir la acidez por debajo del 2%, y 2) una etapa de transesterificación con catalizador básico (NaOH) para producir el biodiésel. Los límites del sistema son 'cradle-to-gate', incluyendo la recolección del aceite usado, el transporte, la producción de biodiésel (ambas etapas de reacción), y la purificación (secado y lavado). La unidad funcional es la producción de 100 litros de biodiésel. El estudio concluye que el proceso permite una reducción del 65% en las emisiones de CO2eq y presenta un índice energético fósil de 0.67 en comparación con el diésel de petróleo.",
+            "Tags": "Biodiésel, aceite de cocina usado, Análisis de Ciclo de Vida, ACV, esterificación, transesterificación, balance energético, mitigación de CO2",
+            "Technology Description": "Proceso de dos etapas para aceite con alta acidez (>13%). 1) Esterificación ácida: catalizador de ácido sulfúrico (H2SO4) al 1% p\/p, relación molar metanol:aceite de 15:1, 60°C, 6 horas de reacción. 2) Transesterificación básica: catalizador de hidróxido de sodio (NaOH) al 0.5% p\/p, relación molar metanol:aceite de 9:1, 50°C, 45-60 minutos de reacción. El proceso incluye etapas de calentamiento con resistencias eléctricas, mezcla con bombas eléctricas, secado para eliminar agua y metanol, y lavado con agua para purificar el biodiésel. El análisis estadístico de los parámetros de reacción se realizó con los programas Statgraphics Centurión XV y Sigmaplot 11.0.",
+            "Code": "MX",
+            "Last change": "07\/12\/2025 06:16"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) conforme a las cuatro fases descritas en la norma ISO 14044.",
+            "Process type": "Proceso de producción 'cradle-to-gate' de biodiésel a partir de un residuo (aceite de cocina usado).",
+            "Modeling constants": "Poder calorífico del biodiesel: 37 MJ\/L. Poder calorífico de la gasolina: 32.6 MJ\/L. Densidad del aceite usado: 0.90 kg\/L. Factor de emisión para diésel de referencia: 84.2 kgCO2\/GJ.",
+            "Data source information": "Datos primarios de consumo de reactivos y energía de un proceso experimental a escala de laboratorio. Datos de recolección de aceite de la empresa MORECO en Morelia, México. Factores de consumo energético y de emisión de CO2 obtenidos de la literatura científica y bases de datos como IPCC (2006), Energy Factor (1997), The Gold Standard (2009), y American Chemistry Council (2011).",
+            "Data completeness": "El inventario cubre la recolección de la materia prima (transporte), los insumos químicos (metanol, H2SO4, NaOH) y energéticos (gasolina, electricidad) para las etapas de esterificación, secado, transesterificación y lavado del producto.",
+            "Data selection": "Se incluyen los flujos de materiales y energía directos del proceso. Las emisiones consideradas son las asociadas a la producción y consumo de los insumos (ciclo de vida de los insumos), no las emisiones directas en el punto de producción del biodiésel.",
+            "Data treatment": "Los datos experimentales de consumo se calcularon para un lote de producción de 100 litros de aceite de cocina usado. Se utilizaron factores de la literatura para convertir los consumos de materiales y energía en energía fósil consumida y emisiones de CO2 equivalente.",
+            "Sampling procedure": "Se utilizó una mezcla de aceites de cocina usados de diferente tipo y procedencia, donados por la empresa MORECO, para obtener una muestra con una acidez inicial representativa de 13.58%.",
+            "Data collection period": "El documento fue publicado en agosto de 2015, por lo que la recolección de datos experimentales se realizó en el periodo inmediatamente anterior.",
+            "Use advice": "Los resultados se basan en datos de un proceso a escala de laboratorio\/piloto y pueden no ser directamente escalables a una producción industrial. Se detecta una inconsistencia en el documento entre el total de emisiones reportado en la tabla de inventario resumen (Tabla 15: 29.6 kg CO2eq) y el valor mencionado en la discusión (124.38 kg CO2eq). Este inventario se basa en los datos desagregados de las tablas de la sección de metodología.",
+            "Completeness": "El estudio es completo para un análisis 'cradle-to-gate'. No se incluye la construcción de la infraestructura, la producción de equipos, ni el fin de vida del producto.",
+            "Sources": "IPCC. 2006; Castillo, 2012; REN 21, 2014; The Gold Standard, 2009; Energy Factor, 1997; American Chemistry Council (ACC), 2011.",
+            "Project": "Tesis de Maestría en Ciencias Biológicas, UNAM.",
+            "Intended application": "Analizar la mitigación de gases de efecto invernadero y el balance energético asociado a la reutilización del aceite vegetal procesado para la producción de biodiésel.",
+            "Data set owner": "Universidad Nacional Autónoma de México (UNAM)",
+            "Data set generator": "Fermín Morales Troyo",
+            "Data set documentor": "Fermín Morales Troyo",
+            "Publication": "Tesis que para optar por el grado de Maestro en Ciencias Biológicas",
+            "Creation date": "2015-08",
+            "Copyright": "Derechos Reservados © UNAM",
+            "Access and use restrictions": "Prohibida su reproducción total o parcial. El uso del material es exclusivamente para fines educativos e informativos citando la fuente."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "07\/12\/2025 06:16",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Used cooking oil",
+                "category": "Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562210 Waste Treatment and Disposal",
+                "amount": 90,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "MORECO",
+                "description": "Materia prima principal. Asumiendo 100 L con densidad 0.9 kg\/L. Acidez inicial 13.58%."
+            },
+            {
+                "is_reference": false,
+                "flow": "Methanol",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325190 Other Basic Organic Chemical Manufacturing",
+                "amount": 80.94,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Calculated from thesis",
+                "description": "Suma del metanol usado en la etapa de esterificación (50.59 kg) y transesterificación (30.35 kg)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricity, grid mix",
+                "category": "Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution",
+                "amount": 5.91,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Calculated from thesis",
+                "description": "Consumo total de electricidad para bombas y resistencias. Suma de 2.24 kWh (Ester.), 3 kWh (Secado), 0.37 kWh (Trans.), y 0.3 kWh (Lavado)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasoline",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/3241 Petroleum Refineries",
+                "amount": 1.31,
+                "unit": "L",
+                "uncertainty": null,
+                "provider": "Calculated from thesis",
+                "description": "Consumo de combustible para el transporte y recolección de 100 L de aceite usado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfuric acid",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325180 Other Basic Inorganic Chemical Manufacturing",
+                "amount": 0.9,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Calculated from thesis",
+                "description": "Catalizador para la reacción de esterificación."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sodium hydroxide",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325180 Other Basic Inorganic Chemical Manufacturing",
+                "amount": 0.45,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Calculated from thesis",
+                "description": "Catalizador para la reacción de transesterificación."
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, process",
+                "category": "Utilities\/221 Utilities\/2213 Water, Sewage and Other Systems\/221310 Water Supply and Irrigation Systems",
+                "amount": 50,
+                "unit": "L",
+                "uncertainty": null,
+                "provider": "Calculated from thesis",
+                "description": "Agua utilizada para el lavado y purificación del biodiésel."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Biodiesel from used cooking oil",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325190 Other Basic Organic Chemical Manufacturing",
+                "amount": 100,
+                "unit": "L",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Producto principal del proceso. Se asume un rendimiento cercano al 100% en volumen."
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide equivalent",
+                "category": "Air pollutant emissions",
+                "amount": 124.38,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Thesis text (p. 67)",
+                "description": "Emisiones agregadas de CO2 equivalente asociadas al ciclo de vida de los insumos (electricidad, gasolina, metanol, catalizadores) utilizados en el proceso. Este valor se extrae del texto de la discusión, ya que es más consistente que el valor de la tabla resumen."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"0d8e6873-868d-46f3-852f-269c467e1f40\",\"Name\":\"Análisis del ciclo de vida de la producción de biodiésel a partir de aceites usados\",\"Category\":\"Manufacturing\/325 Chemical Manufacturing\",\"Description\":\"El estudio presenta un análisis de ciclo de vida para la producción de biodiésel a partir de aceite de cocina usado con alta concentración de ácidos grasos libres (13.58%). El proceso evaluado es un sistema de dos etapas: 1) una pre-etapa de esterificación con catalizador ácido (H2SO4) para reducir la acidez por debajo del 2%, y 2) una etapa de transesterificación con catalizador básico (NaOH) para producir el biodiésel. Los límites del sistema son 'cradle-to-gate', incluyendo la recolección del aceite usado, el transporte, la producción de biodiésel (ambas etapas de reacción), y la purificación (secado y lavado). La unidad funcional es la producción de 100 litros de biodiésel. El estudio concluye que el proceso permite una reducción del 65% en las emisiones de CO2eq y presenta un índice energético fósil de 0.67 en comparación con el diésel de petróleo.\",\"Tags\":\"Biodiésel, aceite de cocina usado, Análisis de Ciclo de Vida, ACV, esterificación, transesterificación, balance energético, mitigación de CO2\",\"Technology Description\":\"Proceso de dos etapas para aceite con alta acidez (>13%). 1) Esterificación ácida: catalizador de ácido sulfúrico (H2SO4) al 1% p\/p, relación molar metanol:aceite de 15:1, 60°C, 6 horas de reacción. 2) Transesterificación básica: catalizador de hidróxido de sodio (NaOH) al 0.5% p\/p, relación molar metanol:aceite de 9:1, 50°C, 45-60 minutos de reacción. El proceso incluye etapas de calentamiento con resistencias eléctricas, mezcla con bombas eléctricas, secado para eliminar agua y metanol, y lavado con agua para purificar el biodiésel. El análisis estadístico de los parámetros de reacción se realizó con los programas Statgraphics Centurión XV y Sigmaplot 11.0.\",\"Code\":\"MX\",\"Last change\":\"07\/12\/2025 06:16\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) conforme a las cuatro fases descritas en la norma ISO 14044.\",\"Process type\":\"Proceso de producción 'cradle-to-gate' de biodiésel a partir de un residuo (aceite de cocina usado).\",\"Modeling constants\":\"Poder calorífico del biodiesel: 37 MJ\/L. Poder calorífico de la gasolina: 32.6 MJ\/L. Densidad del aceite usado: 0.90 kg\/L. Factor de emisión para diésel de referencia: 84.2 kgCO2\/GJ.\",\"Data source information\":\"Datos primarios de consumo de reactivos y energía de un proceso experimental a escala de laboratorio. Datos de recolección de aceite de la empresa MORECO en Morelia, México. Factores de consumo energético y de emisión de CO2 obtenidos de la literatura científica y bases de datos como IPCC (2006), Energy Factor (1997), The Gold Standard (2009), y American Chemistry Council (2011).\",\"Data completeness\":\"El inventario cubre la recolección de la materia prima (transporte), los insumos químicos (metanol, H2SO4, NaOH) y energéticos (gasolina, electricidad) para las etapas de esterificación, secado, transesterificación y lavado del producto.\",\"Data selection\":\"Se incluyen los flujos de materiales y energía directos del proceso. Las emisiones consideradas son las asociadas a la producción y consumo de los insumos (ciclo de vida de los insumos), no las emisiones directas en el punto de producción del biodiésel.\",\"Data treatment\":\"Los datos experimentales de consumo se calcularon para un lote de producción de 100 litros de aceite de cocina usado. Se utilizaron factores de la literatura para convertir los consumos de materiales y energía en energía fósil consumida y emisiones de CO2 equivalente.\",\"Sampling procedure\":\"Se utilizó una mezcla de aceites de cocina usados de diferente tipo y procedencia, donados por la empresa MORECO, para obtener una muestra con una acidez inicial representativa de 13.58%.\",\"Data collection period\":\"El documento fue publicado en agosto de 2015, por lo que la recolección de datos experimentales se realizó en el periodo inmediatamente anterior.\",\"Use advice\":\"Los resultados se basan en datos de un proceso a escala de laboratorio\/piloto y pueden no ser directamente escalables a una producción industrial. Se detecta una inconsistencia en el documento entre el total de emisiones reportado en la tabla de inventario resumen (Tabla 15: 29.6 kg CO2eq) y el valor mencionado en la discusión (124.38 kg CO2eq). Este inventario se basa en los datos desagregados de las tablas de la sección de metodología.\",\"Completeness\":\"El estudio es completo para un análisis 'cradle-to-gate'. No se incluye la construcción de la infraestructura, la producción de equipos, ni el fin de vida del producto.\",\"Sources\":\"IPCC. 2006; Castillo, 2012; REN 21, 2014; The Gold Standard, 2009; Energy Factor, 1997; American Chemistry Council (ACC), 2011.\",\"Project\":\"Tesis de Maestría en Ciencias Biológicas, UNAM.\",\"Intended application\":\"Analizar la mitigación de gases de efecto invernadero y el balance energético asociado a la reutilización del aceite vegetal procesado para la producción de biodiésel.\",\"Data set owner\":\"Universidad Nacional Autónoma de México (UNAM)\",\"Data set generator\":\"Fermín Morales Troyo\",\"Data set documentor\":\"Fermín Morales Troyo\",\"Publication\":\"Tesis que para optar por el grado de Maestro en Ciencias Biológicas\",\"Creation date\":\"2015-08\",\"Copyright\":\"Derechos Reservados © UNAM\",\"Access and use restrictions\":\"Prohibida su reproducción total o parcial. El uso del material es exclusivamente para fines educativos e informativos citando la fuente.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"07\/12\/2025 06:16\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Used cooking oil\",\"category\":\"Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562210 Waste Treatment and Disposal\",\"amount\":90,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"MORECO\",\"description\":\"Materia prima principal. Asumiendo 100 L con densidad 0.9 kg\/L. Acidez inicial 13.58%.\"},{\"is_reference\":false,\"flow\":\"Methanol\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325190 Other Basic Organic Chemical Manufacturing\",\"amount\":80.94,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Calculated from thesis\",\"description\":\"Suma del metanol usado en la etapa de esterificación (50.59 kg) y transesterificación (30.35 kg).\"},{\"is_reference\":false,\"flow\":\"Electricity, grid mix\",\"category\":\"Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution\",\"amount\":5.91,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Calculated from thesis\",\"description\":\"Consumo total de electricidad para bombas y resistencias. Suma de 2.24 kWh (Ester.), 3 kWh (Secado), 0.37 kWh (Trans.), y 0.3 kWh (Lavado).\"},{\"is_reference\":false,\"flow\":\"Gasoline\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/3241 Petroleum Refineries\",\"amount\":1.31,\"unit\":\"L\",\"uncertainty\":null,\"provider\":\"Calculated from thesis\",\"description\":\"Consumo de combustible para el transporte y recolección de 100 L de aceite usado.\"},{\"is_reference\":false,\"flow\":\"Sulfuric acid\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325180 Other Basic Inorganic Chemical Manufacturing\",\"amount\":0.9,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Calculated from thesis\",\"description\":\"Catalizador para la reacción de esterificación.\"},{\"is_reference\":false,\"flow\":\"Sodium hydroxide\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325180 Other Basic Inorganic Chemical Manufacturing\",\"amount\":0.45,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Calculated from thesis\",\"description\":\"Catalizador para la reacción de transesterificación.\"},{\"is_reference\":false,\"flow\":\"Water, process\",\"category\":\"Utilities\/221 Utilities\/2213 Water, Sewage and Other Systems\/221310 Water Supply and Irrigation Systems\",\"amount\":50,\"unit\":\"L\",\"uncertainty\":null,\"provider\":\"Calculated from thesis\",\"description\":\"Agua utilizada para el lavado y purificación del biodiésel.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Biodiesel from used cooking oil\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/3251 Basic Chemical Manufacturing\/325190 Other Basic Organic Chemical Manufacturing\",\"amount\":100,\"unit\":\"L\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Producto principal del proceso. Se asume un rendimiento cercano al 100% en volumen.\"},{\"is_reference\":false,\"flow\":\"Carbon dioxide equivalent\",\"category\":\"Air pollutant emissions\",\"amount\":124.38,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Thesis text (p. 67)\",\"description\":\"Emisiones agregadas de CO2 equivalente asociadas al ciclo de vida de los insumos (electricidad, gasolina, metanol, catalizadores) utilizados en el proceso. Este valor se extrae del texto de la discusión, ya que es más consistente que el valor de la tabla resumen.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765088175
+}

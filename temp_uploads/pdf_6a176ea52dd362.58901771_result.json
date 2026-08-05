@@ -1,0 +1,145 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "f413abbb-e853-4cb1-9543-610a89895970",
+                "Name": "The water, energy, and land footprint of tilapia aquaculture in mexico, a comparison of the footprints of fish and meat",
+                "Category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture\/1125 Aquaculture",
+                "Description": "In the food-energy-water (FEW) nexus, livestock has a dominant place. It is generally considered as water, energy and land-intensive. Aquaculture could provide additional animal protein and contribute to meeting the food demand. However, aquaculture requires natural resources and causes freshwater pollution due to aquafeed, fertilizer, and hormone use. This study assesses the sustainability of aquaculture using the indicators water footprint (WF), energy footprint (EF) and land footprint (LF), comparing results with livestock. It uses extensive, semi-intensive and intensive Tilapia aquaculture in Mexico as a case study including broodstock, breeding, fattening, processing, and transportation phases. Tilapia production in intensive aquaculture has the largest footprints. Blue WFs are smallest in semi-intensive systems; green WFs, EFs and LFs are smallest for extensive systems. For protein, tilapia from intensive systems has the largest WF (126 l\/g protein), beef (51 l\/g), pork (33 l\/g) and poultry (14 l\/g) have smaller WFs. EFs per unit of protein or nutritional energy fall in the range of values for beef, poultry and pork. LFs of Tilapia (m²\/kg) are larger than LFs of poultry but fall in the range of beef and pork. Per unit of nutritional energy EFs are similar to EFs for beef but larger than EFs of poultry and pork. From a FEW nexus perspective, it is not more sustainable to replace livestock with Tilapia. Tilapia requires more freshwater than beef, pork and poultry and pollutes larger amounts of water. For energy and land, Tilapia is not the better choice, because footprints are comparable.",
+                "Tags": "Food energy water nexus, Aquaculture, Tilapia, Water footprint, Energy footprint, Land footprint",
+                "Technology Description": "The study uses the indicators water footprint (WF), energy footprint (EF), and land footprint (LF). For the WF, the study used the WF method from the Water Footprint Assessment Manual (Hoekstra et al., 2011), considering blue, green, and grey water. For the EF and LF, the study used a chain analysis approach. The study covers five production phases: (i) broodstock, (ii) breeding, (iii) fattening, (iv) processing and (v) the transportation phase.",
+                "Code": "MX",
+                "Last change": "27\/05\/2026 22:23"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "Footprint analysis based on the Water Footprint Assessment Manual (Hoekstra et al., 2011) and a chain analysis approach for energy and land footprints.",
+                "Process type": "Cradle-to-gate analysis of Tilapia fillet production, including broodstock, breeding, fattening, processing, and transportation. It excludes packaging, retailing, and consumer transportation and cooking.",
+                "Modeling constants": "The functional unit is one ton of Tilapia fillet. Fillet yield is 33%. Intensive system refreshment rates are assumed at an average of 250% per day. Average transportation distance is assumed to be 100 km. Aquafeed composition is based on literature values (New, 1988), with all crops assumed to be grown in Mexico and fishmeal originating from tuna waste.",
+                "Data source information": "Data was derived from a variety of sources including: Mekonnen and Hoekstra (2010b) for meat WFs; Williams et al. (2006), De Vries and De Boer (2010), and Kramer and Moll (1995) for meat EFs; Gerbens-Leenes et al. (2002) for meat LFs; SAGARPA (2013, 2015) for Mexican aquaculture statistics; Pahlow et al. (2015) for aquafeed WFs; and Flores-Nava (2007) for system parameters.",
+                "Data completeness": "The study covers all major production stages from egg to processed fillet. It explicitly excludes packaging, retailing, and consumer use phases.",
+                "Data selection": "The study focuses on inputs and outputs relevant to calculating water, energy, and land footprints. This includes direct water and energy use, as well as indirect resource use associated with aquafeed production.",
+                "Data treatment": "A seven-step calculation process was used: 1. Estimation of direct blue WF; 2. Calculation of direct LF; 3. Calculation of aquafeed offered; 4. Allocation of aquafeed; 5. Estimation of the WF from aquafeed; 6. Calculation of EF; and finally, 7. Calculation of the direct grey WF.",
+                "Sampling procedure": "Data is not based on direct sampling but on a combination of literature review, government statistics, and common practices informed by fieldwork experience.",
+                "Data collection period": "The article was published in 2021, using data from various sources published between 1988 and 2018.",
+                "Use advice": "Results are subject to uncertainty, particularly regarding water refreshment rates in intensive systems (which can vary from 100-400%), transportation distances, and specific aquafeed composition, which can significantly influence the final footprint values.",
+                "Completeness": "High within the defined system boundaries (cradle-to-processing), but with acknowledged uncertainties and exclusions (packaging, retail, consumer use).",
+                "Sources": "Aina, Q., Agustina, S.E., 2015. Energy consumption of pond-based intensive Tilapia aquaculture system. Case study in Wunut, Central Java, Indonesia. In: The 22nd Tri-U International Joint Seminar and Symposium. Jiangsu University. China. Baltazar, P.M., 2007. La Tilapia en el Perú: acuicultura, mercado, y perspectivas. Revista peruana de Biología 13 (3), 267-273. Bautista-Covarrubias, J.C., Arce, R.V., De Jesus, J.M., 2011. Calidad De Agua Para El Cultivo De Tilapia en Tanques De Geomembrana. Bazilian, M., et al., 2011. Considering the energy, water and food nexus: towards an integrated modelling approach. Energy Policy 39, 7896-7906. Bhujel, R.C., 2013. On-farm feed management practices for Nile Tilapia (Oreochromis niloticus) in Thailand. FAO Fisheries and Aquaculture Technical Paper No. 583. Bohrer, B.M., 2017. Nutrient density and nutritional value of meat products and non-meat foods high in protein. Trends Food Sci Technol 65, 103-112. Borucke, M., et al., 2013. Accounting for demand and supply of the biosphere's regenerative capacity: the national footprint accounts' underlying methodology and framework. Ecol Indic 24, 518-533. Botero-Silva, D.A., López-Ardila, D.E., Hurtado-Azuero, S.L., 2009. Diseño e Implementación De Una Planta Procesadora De Tilapia (propescol) En El Departamento Del Huila. Colombia. Boyd, C.E., et al., 2007. Indicators of resource use efficiency and environmental performance in fish and crustacean aquaculture. Reviews in Fisheries science 15 (4), 327-360. Cantor, A.F., 2007. Manual De Producción de Tilapia. Secretaría de Desarrollo Rural del Estado de Puebla. De Vries, M., De Boer, I.J.M., 2010. Comparing environmental impacts for livestock products: a review of life cycle assessments. Livest Sci 128 (1-3), 1-11. FAO, 2003, 2005, 2017. Flores-Nava, A., 2007. Feeds and fertilizers for sustainable aquaculture development: a regional review for Latin America. FAO Fisheries Technical Paper. No. 497. García, A., Calvario, O., 2008. Manual De Buenas Prácticas De Producción Acuícola De Tilapia para La Inocuidad Alimentaria. Gephart, J.A., Pace, M.L., D'Odorico, P., 2014. Freshwater savings from marine protein consumption. Environmental Research Letters 9 (1), 014005. Gerbens-Leenes, P.W., et al., 2013, 2002. Ghaly, A.E., et al., 2013. Fish Processing Wastes as a Potential Source of Proteins. Amino Acids and Oils: a Critical Review. J. Microb. Biochem. Technol 5 (4), 107-129. Hermoso, J.P.G., 2016. Tesis de Doctorado. Hoekstra, A.Y., et al., 2011. The Water Footprint Assessment Manual: Setting the Global Standard. Hoff, H., 2011. Understanding the Nexus. Background Paper for the Bonn2011 Conference. Ibidhi, R., et al., 2017. Water, land and carbon footprints of sheep and chicken meat produced in Tunisia under different farming systems. Ecol Indic 77, 304-313. Islam, M.S., et al., 2004. Waste loading in shrimp and fish processing effluents. Mar. Pollut. Bull. 49 (1-2), 103-110. Junior, M.Z., et al., 2012. The sex ratio and testosteronelevels in Nile tilapia immersed in different doses of 17α-methyltestosterone. Jurnal Akuakultur Indonesia 16 (1), 51-59. Kramer, K.J., Moll, 1995. Energie voedt, Nadere Analyses Van Het Directe Energieverbruik Van voedingsmiddelen. Lele, U., et al., 2013. Good governance for food, water and energy security. Aquatic Procedia 1, 44-63. Liu, J., et al., 2020, 2019.",
+                "Project": null,
+                "Intended application": "To assess the water footprint (WF), energy footprint (EF), and land footprint (LF) of Tilapia produced in extensive, semi-intensive, and intensive aquacultural systems in Mexico and to compare results with footprints of different meat types (beef, poultry, pork) to inform sustainable food production and consumption within the FEW nexus.",
+                "Data set owner": "Integrated Research on Energy, Environment and Society (IREES), University of Groningen",
+                "Data set generator": "P. Guzmán-Luna, P.W. Gerbens-Leenes, S.D. Vaca-Jiménez",
+                "Data set documentor": "P. Guzmán-Luna, P.W. Gerbens-Leenes, S.D. Vaca-Jiménez",
+                "Publication": "Resources, Conservation & Recycling 165 (2021) 105224",
+                "Creation date": "2020-10-27",
+                "Copyright": "© 2020 The Authors. Published by Elsevier B.V.",
+                "Access and use restrictions": "This is an open access article under the CC BY license (http:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "27\/05\/2026 22:23",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Water, surface\/ground (blue water)",
+                    "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                    "amount": 13.027,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Direct and indirect blue water consumption per kg of fillet in an intensive system. Primarily for water refreshments in ponds."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water, rain (green water)",
+                    "category": "A:Agriculture, forestry and fishing\/01:Crop and animal production, hunting and related service activities",
+                    "amount": 7.831,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Rainwater consumed for growing feed crops per kg of fillet in an intensive system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Energy, from fuel",
+                    "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products",
+                    "amount": 4,
+                    "unit": "MJ",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Energy consumption from fuel (e.g., diesel for transport, agriculture) per kg of fillet. Estimated from Figure 7."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Energy, from electricity",
+                    "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/3510:Electric power generation, transmission and distribution",
+                    "amount": 18.2,
+                    "unit": "MJ",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Energy consumption from electricity (e.g., for pumping, aeration) per kg of fillet. Estimated from Figure 7."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Land use",
+                    "category": "L:Real estate activities\/68:Real estate activities",
+                    "amount": 10.711,
+                    "unit": "m2",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Direct land use for facilities and indirect land use for aquafeed production per kg of fillet in an intensive system."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Tilapia fillet",
+                    "category": "C:Manufacturing\/10:Manufacture of food products\/1020:Processing and preserving of fish, crustaceans and molluscs",
+                    "amount": 1,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Functional unit of the study: one kilogram of processed Tilapia fillet from an intensive aquaculture system."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Grey water footprint",
+                    "category": "E:Water supply; sewerage, waste management and remediation activities\/37:Sewerage\/3700:Sewerage",
+                    "amount": 1.873,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Water pollution indicator representing the volume of freshwater required to assimilate the load of pollutants (from aquafeed, fertilizers, hormones) to meet ambient water quality standards, per kg of fillet."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779920606
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+  <div class="absolute inset-0 -z-10">
+    <img src="IMAGENES/ESCULTORICO-UNAM.jpg" alt="Fondo" class="w-full h-full object-cover opacity-75 backdrop-brightness-75">
+  </div>
+  <div class="w-full max-w-md rounded-lg border bg-white text-black shadow-sm dark:border-primary/20 dark:bg-gray-800">
+    <div class="flex flex-col space-y-1.5 p-6 text-center">
+      <div class="mx-auto mb-4 w-16 h-16 flex items-center justify-center bg-green-100 dark:bg-primary/10 rounded-full text-green-600 dark:text-primary hover:rotate-12 transition-transform">
+        <i data-lucide="user-plus" class="w-6 h-6"></i>
+      </div>
+      <h3 class="text-2xl font-semibold leading-none tracking-tight">Crear Cuenta</h3>
+      <p class="text-sm text-muted-foreground text-gray-500">Completa tus datos para registrarte.</p>
+    </div>
+    <div class="p-6 pt-0">
+      <form class="space-y-4" method="POST" action="guardar_registro.php">
+        <div class="grid gap-2 text-left">
+          <label for="email" class="text-sm font-medium leading-none">Correo electrónico</label>
+          <input type="email" id="email" name="email" required class="flex h-10 w-full rounded-md border border-input bg-gray-50 px-3 py-2 text-sm" />
+        </div>
+        <div class="grid gap-2 text-left">
+          <label for="password" class="text-sm font-medium leading-none">Contraseña</label>
+          <input type="password" id="password" name="password" required class="flex h-10 w-full rounded-md border border-input bg-gray-50 px-3 py-2 text-sm" />
+        </div>
+        <div class="grid gap-2 text-left">
+          <label for="confirm" class="text-sm font-medium leading-none">Confirmar contraseña</label>
+          <input type="password" id="confirm" required class="flex h-10 w-full rounded-md border border-input bg-gray-50 px-3 py-2 text-sm" />
+        </div>
+        <button type="submit" class="inline-flex items-center justify-center rounded-md bg-green-600 text-white text-sm font-medium px-4 py-2 w-full hover:bg-green-700 transition-colors">
+          <i data-lucide="user-plus" class="w-4 h-4 mr-2"></i> Crear cuenta
+        </button>
+      </form>
+    </div>
+    <div class="text-center text-sm text-gray-500 p-4">
+      ¿Ya tienes cuenta? <a href="login.html" class="text-green-600 font-bold hover:underline">Inicia sesión aquí</a>
+    </div>
+  </div>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

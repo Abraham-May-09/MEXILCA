@@ -1,0 +1,346 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "d3235415-5402-4586-8177-555a8d5445cf",
+                "Name": "ACV PISO CERÁMICO ANÁLISIS DE CICLO DE VIDA DE UN KILOGRAMO (1kg) DE LOSETAS Y AZULEJOS DE GRES PORCELÁNICO ESMALTADO Y GRES DE PASTA ROJA MEMORIA DE CÁLCULO BORRADOR",
+                "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos",
+                "Description": "Se determinó la huella de carbono y la demanda acumulada de energía durante la fabricación de un kilogramo (1 kg) de losetas y azulejos de gres porcelánico esmaltado y gres de pasta roja. Se usó como base las especificaciones de la ISO 14044. El objetivo fue estimar la huella de carbono y la demanda acumulada de energía durante el proceso de fabricación y disposición para conocer el impacto ambiental de estos materiales. El alcance se limita al estudio del proceso de fabricación (extracción de materia prima, transporte y fabricación). La unidad funcional se definió como un kilogramo (1 kg) de losetas y azulejos. Se obtuvieron los siguientes resultados para 1 kg de gres porcelánico esmaltado: huella de carbono de 1.036 kg CO2eq y demanda acumulada de 10.42 MJeq.",
+                "Tags": "ACV, piso cerámico, losetas, azulejos, gres porcelánico, huella de carbono, demanda acumulada de energía, cradle-to-gate",
+                "Technology Description": "El cálculo se realizó con el software OpenLCA V1.3.4. Se utilizó el método CML 2001 v. 4.2 para el potencial de calentamiento global y Cumulative Energy Demand v.1.0.1 de Green Delta para la demanda de energía. El proceso de fabricación modelado incluye molienda en húmedo, atomizado, prensado, secado y cocción en hornos rápidos y continuos a base de gas natural. Las temperaturas de cocción son de alrededor de 1,205°C para el gres porcelánico.",
+                "Code": "MX",
+                "Last change": "24\/05\/2026 17:18"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "ISO 14044, CML 2001 v. 4.2 (Potencial de Calentamiento Global), Cumulative Energy Demand v.1.0.1 (Demanda acumulada de energía).",
+                "Process type": "Proceso de fabricación cradle-to-gate",
+                "Modeling constants": "Criterio de corte de masa al 1%. No se considera la fabricación de la maquinaria. Se asume el uso del proceso de molienda en húmedo y atomizado. Para el consumo eléctrico se utilizó el mix energético nacional de México calculado por el Centro Mario Molina. Las distancias de transporte se calcularon usando información de DENUE.",
+                "Data source information": "Los datos del inventario se basan principalmente en la referencia de Cargnin et. al [12], adaptados a las condiciones de México. También se usaron tesis y artículos científicos de España y Brasil. Se utilizó la base de datos Ecoinvent 3 para los datos de las arcillas.",
+                "Data completeness": "El estudio cubre las etapas de extracción de materia prima, transporte y fabricación. No se incluyen las etapas de uso y fin de vida. No se incluye la fabricación de la maquinaria.",
+                "Data selection": "El criterio de corte utilizado es el de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se tomó en cuenta.",
+                "Data treatment": "Los valores de inventario de literatura fueron adaptados para México en cuanto al consumo energético correspondiente al proceso, utilizando el mix eléctrico nacional.",
+                "Sampling procedure": null,
+                "Data collection period": null,
+                "Use advice": "Se encontraron numerosas dificultades para la obtención de los datos del inventario por lo que para futuros estudios se recomienda ampliar las fuentes de información para obtener resultados de mayor precisión.",
+                "Completeness": "El inventario se basa en datos secundarios y adaptados, con un criterio de corte del 1%. Se mencionan dificultades en la obtención de datos, lo que sugiere una completitud media.",
+                "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] Norma Oficial Mexicana NOM-231-SSA1-2002. [3] Álvaro Guzmán A., et al. Boletín de la Sociedad Española de Cerámica y Vidrio, 52(6):283–290, 2013. [4] F. Andreola, et al. Journal of the European Ceramic Society, 22:1457-1462, 2002. [5] Omar Aguilar García, et al. Journal of Ceramics, 2014:7, 2014. [6] Javier Cuellar Lozano. Desarrollo y caracterización de un Gres porcelánico. Maestría, Universidad Autónoma de Nuevo León. [7] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [8] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina, 2014. [9] Ecoinvent database. [10] Ángel Miguel Gilabert Alvarez. Aproximación medioambiental al inventario de ciclo de vida de la baldosa de Castellón. Doctorado, Universidad de Valencia, 2007. [11] Vicentiz. Esmaltes cerámicos. Fichas Técnicas. Technical report, 2014. [12] Ana Luiza Maykon Cargnin, et al. Estudio de caso del Análisis de Ciclo de Vida (ACV) comparativo. Technical report, Qualicer, Castellón, España, 2012. [13] Iron and steel - Sector Profile.",
+                "Project": "Memoria de cálculo del Centro Mario Molina.",
+                "Intended application": "Conocer el impacto ambiental de materiales de acabado de construcción (losetas y azulejos) en los rubros de huella de carbono y demanda de energía.",
+                "Data set owner": "Centro Mario Molina",
+                "Data set generator": "Margarita Garfias",
+                "Data set documentor": "Margarita Garfias",
+                "Publication": "ACV PISO CERÁMICO - MEMORIA DE CÁLCULO BORRADOR",
+                "Creation date": "2015-01-05",
+                "Copyright": null,
+                "Access and use restrictions": null
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "24\/05\/2026 17:18",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Caolín",
+                    "category": "B:Mining and quarrying\/08:Other mining and quarrying\/0812:Clay and Refractory Mineral Mining",
+                    "amount": 0.54073,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12], Ecoinvent",
+                    "description": "Materia prima para la pasta cerámica. Calculado a partir de la Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Feldespato",
+                    "category": "B:Mining and quarrying\/08:Other mining and quarrying\/081:Quarrying of stone, sand and clay",
+                    "amount": 0.37851,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12], Ecoinvent",
+                    "description": "Materia prima para la pasta cerámica. Calculado a partir de la Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Sílice (SiO2)",
+                    "category": "B:Mining and quarrying\/08:Other mining and quarrying\/0811:Dimension Stone Mining and Quarrying",
+                    "amount": 0.16222,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12], Ecoinvent",
+                    "description": "Materia prima para la pasta cerámica. Calculado a partir de la Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Agua (recuperada)",
+                    "category": "E:Water supply; sewerage, waste management\/36:Water collection, treatment and supply",
+                    "amount": 0.08368,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Agua para molienda en húmedo. Calculado a partir de la Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Agua (tratada)",
+                    "category": "E:Water supply; sewerage, waste management\/36:Water collection, treatment and supply",
+                    "amount": 0.00989,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Agua para preparación de esmaltes. Calculado a partir de la Tabla 3."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Desfloculante (Silicato de sodio)",
+                    "category": "C:Manufacturing\/20:Manufacture of chemicals\/2011:Manufacture of basic chemicals",
+                    "amount": 0.01212,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Aditivo para la pasta. Calculado a partir de la Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Diesel",
+                    "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/1920:Manufacture of refined petroleum products",
+                    "amount": 6.812e-5,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Combustible para maquinaria (no especificado). Calculado a partir de la Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Materias primas para esmalte",
+                    "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/239:Manufacture of other non-metallic mineral products n.e.c.",
+                    "amount": 0.0407,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Compuestos para la preparación de esmaltes y tintas. Calculado a partir de la Tabla 3."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Tripolifosfato de sodio",
+                    "category": "C:Manufacturing\/20:Manufacture of chemicals\/2011:Manufacture of basic chemicals",
+                    "amount": 0.0001485,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Aditivo para esmaltes. Calculado a partir de la Tabla 3."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Carboximetilcelulosa",
+                    "category": "C:Manufacturing\/20:Manufacture of chemicals\/2011:Manufacture of basic chemicals",
+                    "amount": 7.965e-5,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Aditivo para esmaltes. Calculado a partir de la Tabla 3."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Conservante",
+                    "category": "C:Manufacturing\/20:Manufacture of chemicals\/2011:Manufacture of basic chemicals",
+                    "amount": 3.136e-5,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Aditivo para esmaltes. Calculado a partir de la Tabla 3."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Gas natural",
+                    "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply",
+                    "amount": 0.1361,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Combustible para atomización, secado y cocción. Calculado a partir de las Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Electricidad",
+                    "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply",
+                    "amount": 0.20511,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Consumo eléctrico total del proceso. Calculado a partir de las Tablas 1, 2, 3 y 4."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Losetas y azulejos de gres porcelánico esmaltado",
+                    "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/2331:Manufacture of ceramic tiles and flags",
+                    "amount": 1,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Producto final. Unidad funcional del estudio."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Dióxido de carbono (CO2)",
+                    "category": "Emissions\/Air",
+                    "amount": 0.28057,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión por combustión. Calculado de Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Monóxido de carbono (CO)",
+                    "category": "Emissions\/Air",
+                    "amount": 0.04823,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión por combustión. Calculado de Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Óxidos de nitrógeno (NOx)",
+                    "category": "Emissions\/Air",
+                    "amount": 0.03818,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión por combustión. Calculado de Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Óxidos de azufre (SOx)",
+                    "category": "Emissions\/Air",
+                    "amount": 0.001962,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión por combustión. Calculado de Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Ácido clorhídrico (HCl)",
+                    "category": "Emissions\/Air",
+                    "amount": 0.0003626,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión del proceso. Calculado de Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Fluoruros",
+                    "category": "Emissions\/Air",
+                    "amount": 0.11512,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión del proceso de cocción. Valor de Tabla 4 (corregido por posible error tipográfico)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Cloruros",
+                    "category": "Emissions\/Air",
+                    "amount": 0.19884,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión del proceso de cocción. Valor de Tabla 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Partículas (chimenea filtro de mangas)",
+                    "category": "Emissions\/Air",
+                    "amount": 9.526e-5,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión de partículas del proceso. Calculado de Tabla 1."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Partículas (combustible)",
+                    "category": "Emissions\/Air",
+                    "amount": 0.03948,
+                    "unit": "g",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Emisión de partículas por combustión. Calculado de Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Agua evaporada",
+                    "category": "Emissions\/Air",
+                    "amount": 0.62785,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Agua evaporada en las etapas de atomización, secado y cocción. Calculado de Tablas 1, 2 y 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pérdida por calcinación",
+                    "category": "Emissions\/Air",
+                    "amount": 0.02965,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Pérdida de masa durante la cocción. Valor de Tabla 4."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Residuos sólidos y pérdidas de proceso",
+                    "category": "Waste\/Solid",
+                    "amount": 0.11178,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Cargnin et. al [12]",
+                    "description": "Suma de todas las pérdidas sólidas del proceso: Barbotina (0.02481), Polvo atomizado (0.01276), Partículas retenidas (0.041), Baldosas (0.00697), Baldosas esmaltadas (0.02094), Esmaltes (0.0053)."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779643088
+}

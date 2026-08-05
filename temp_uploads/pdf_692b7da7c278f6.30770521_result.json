@@ -1,0 +1,194 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "fad7de2d-b144-4b4c-830b-c5cf222f1836",
+            "Name": "Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México",
+            "Category": "Construction\/237 Highway, Street, and Bridge Construction",
+            "Description": "El objetivo de este trabajo de tesis es cuantificar y analizar los impactos ambientales de tres distintos métodos de tratamientos de rehabilitación de carpetas asfálticas propuestos para las vialidades de la red primaria de la Ciudad de México (CDMX) y compararlos con el procedimiento actual (Escenario Base: fresado parcial y reencarpetado). Se determina la factibilidad de la introducción de alternativas distintas de rehabilitación con base en un enfoque de Análisis de Ciclo de Vida (ACV), basado en las Normas ISO 14040 y 14044. La Unidad Funcional se define como la rehabilitación de la carpeta asfáltica de 1 km-carril de vialidad principal de la Ciudad de México con 3.5 metros de ancho, sin curvas, salidas o incorporaciones y durante un período de estudio de 30 años. El alcance de los sistemas toma en cuenta todo el Ciclo de Vida de la rehabilitación de la carpeta: desde la primera extracción de materias primas, hasta la última remoción y disposición final del material residual. Se observó que el Escenario Base obtuvo el peor desempeño ambiental para todas las categorías de impacto evaluadas, debido principalmente a su corta vida útil.",
+            "Tags": "Análisis de Ciclo de Vida, ACV, pavimentos, rehabilitación de carpetas asfálticas, fresado parcial, reencarpetado, Ciudad de México, LCA, pavement, rehabilitation",
+            "Technology Description": "La evaluación de impacto se realizó utilizando el software Umberto LCA+ y la metodología ReCiPe. Los datos de inventario de fondo se tomaron de la base de datos Ecoinvent 3.6. El estudio se basa en las normas ISO 14040 e ISO 14044. El escenario convencional consiste en el fresado de 7 cm de la carpeta asfáltica y la reposición con una nueva capa de concreto asfáltico en caliente, utilizando maquinaria como fresadoras, petrolizadoras, finishers y compactadores.",
+            "Code": "MX",
+            "Last change": "29\/11\/2025 23:12"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) basado en las normas ISO 14040 e ISO 14044. La metodología de evaluación de impacto fue ReCiPe.",
+            "Process type": "Proceso de rehabilitación de pavimentos, desde la cuna hasta la tumba (cradle-to-grave).",
+            "Modeling constants": "Período de análisis de 30 años. Se excluyen las emisiones de la etapa de uso generadas por los vehículos que transitan. Se excluyen los impactos por afectación a la circulación, ya que las obras se realizan de noche. No se considera la señalización horizontal o vertical.",
+            "Data source information": "Los datos de inventario se obtuvieron de la base de datos Ecoinvent 3.6, fichas técnicas de maquinaria (Basso, García, Maquinarias-Pesadas, HAMM, Caterpillar, WIRTGEN), tabuladores de la Secretaría de Comunicaciones y Transportes (SCT), artículos de investigación y comunicación con expertos.",
+            "Data completeness": "El estudio cubre todas las etapas del ciclo de vida de la rehabilitación: extracción de materias primas, procesamiento, transporte, rehabilitación en sitio, remoción y disposición final. Se excluyen las emisiones de la fase de uso vehicular.",
+            "Data selection": "Se seleccionó como escenario de referencia el método de fresado parcial y reencarpetado por ser la práctica actual en la Ciudad de México. Se excluyen flujos que son constantes en todos los escenarios, como la señalización.",
+            "Data treatment": "Las cantidades del inventario fueron calculadas para una Unidad Funcional de 1 km-carril a lo largo de un período de 30 años, considerando una vida útil de 3 años para el escenario base y por tanto 10 repeticiones del proceso.",
+            "Sampling procedure": null,
+            "Data collection period": "2019-2021",
+            "Use advice": "Los resultados de la modelación de los residuos de carpeta en relleno sanitario fueron adoptados de la base de datos Ecoinvent y corresponden a un contexto suizo, lo que sugiere la necesidad de desarrollar estudios locales. Las vidas útiles son estimaciones basadas en consulta con expertos.",
+            "Completeness": "Alta para el alcance definido. Se reconoce la limitación del uso de datos de contexto no mexicano para la disposición final de residuos.",
+            "Sources": "APA. (2011). LIFE-CYCLE COST ANALYSIS: A POSITION PAPER. Arquitec. (2016). Petrolizadoras. Banxico. (2020). Tasas de Inflación. Basso, D. (n.d.). Máquina fresadora de pavimentos. Butt, A. A. (2012). Life Cycle Assessment of Asphalt Pavements. Caterpillar. (2009). Compactadores de suelos vibratorios Cs44 cp44. Caterpillar. (2010). PS150C. Diario de la Federacion. (2013). Ley general del equilibrio ecológico y protección del medio ambiente. Doka, G. (2003). Life Cycle Inventories of Waste Treatment Services. Ecoinvent Report No. 13. Garnica, P., et al. (2004). Aspectos del diseño volumétrico de mezclas asfálticas. ifu Hamburg. (2020). Umberto LCA+. ISO. (2006). ISO 14040-Environmental management. Maquinarias-Pesadas. (2010). Tablas rendimiento, consumo combustible, costo maquinaria pesada. SCT. (2019). Tabulador De Precios Referenciales a Costo Directo. Vidal, R., et al. (2013). Life cycle assessment of hot mix asphalt.",
+            "Project": "Tesis de Licenciatura, Facultad de Ingeniería, Universidad Nacional Autónoma de México.",
+            "Intended application": "Generar información para que los tomadores de decisiones implementen medidas sostenibles dentro de la infraestructura de carreteras urbanas y pavimentos de la CDMX.",
+            "Data set owner": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO",
+            "Data set generator": "Carlos Enrique Caballero Güereca",
+            "Data set documentor": "Carlos Enrique Caballero Güereca",
+            "Publication": "Caballero Güereca, C. E. (2021). Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México. Tesis de Licenciatura. Universidad Nacional Autónoma de México, Facultad de Ingeniería.",
+            "Creation date": "2021",
+            "Copyright": "DERECHOS RESERVADOS ©",
+            "Access and use restrictions": "El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "29\/11\/2025 23:12",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Bitumen adhesive compound, hot",
+                "category": "Manufacturing\/324\/324110\/Petroleum Refineries",
+                "amount": 285670,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Asfalto para carpeta. Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Bitumen adhesive compound, cold",
+                "category": "Manufacturing\/324\/324110\/Petroleum Refineries",
+                "amount": 34335,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Asfalto para emulsión asfáltica. Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gravel, crushed",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212\/212321\/Construction Sand and Gravel Mining",
+                "amount": 5104330,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Grava triturada. Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, well, in ground",
+                "category": "Utilities\/221\/221310\/Water Supply and Irrigation Systems",
+                "amount": 31.5,
+                "unit": "m3",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Agua de pozo. 31,500 litros en total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Water pump operation, electric",
+                "category": "Utilities\/221\/2211\/Electric Power Generation, Transmission and Distribution",
+                "amount": 0.945,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Energía eléctrica para bombeo de agua. Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transport, freight, lorry >32 metric ton, unregulated",
+                "category": "Transportation and Warehousing\/484\/484220\/Specialized Freight (except Used Goods) Trucking, Local",
+                "amount": 1242020.6,
+                "unit": "tkm",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Transporte total de maquinaria, materiales y residuos. Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Machine operation, diesel >= 74.57kW, high load factor",
+                "category": "Real Estate and Rental and Leasing\/532\/532412\/Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",
+                "amount": 231.9,
+                "unit": "h",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Operación de maquinaria pesada (finisher, compactadores, fresadora). Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Machine operation, diesel < 18.64kW, high load factor",
+                "category": "Real Estate and Rental and Leasing\/532\/532412\/Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",
+                "amount": 0.67,
+                "unit": "h",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Operación de maquinaria ligera (petrolizadora). Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Lubricating oil",
+                "category": "Manufacturing\/324\/324191\/Petroleum Lubricating Oil and Grease Manufacturing",
+                "amount": 11,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Consumo de aceite lubricante por toda la maquinaria. Cantidad total para una UF de 1 km-carril durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Propane, burned in building machine",
+                "category": "Manufacturing\/324\/324110\/Petroleum Refineries",
+                "amount": 30.7,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Consumo de propano. Cantidad total para una UF de 1 km-carril durante 30 años."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Rehabilitación de pavimento, fresado parcial, 1 km-carril por 30 años",
+                "category": "Construction\/237\/237310\/Highway, Street, and Bridge Construction",
+                "amount": 1,
+                "unit": "unidad funcional",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Producto de referencia del sistema. Corresponde a la rehabilitación y mantenimiento de un tramo de vialidad durante 30 años mediante el método de fresado parcial y reencarpetado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Waste asphalt",
+                "category": "Administrative and Support and Waste Management and Remediation Services\/562\/562212\/Solid Waste Landfill",
+                "amount": 5929000,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Balance de materia",
+                "description": "Material residual de carpeta fresada enviado a relleno sanitario. Cantidad total para una UF de 1 km-carril durante 30 años."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"fad7de2d-b144-4b4c-830b-c5cf222f1836\",\"Name\":\"Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México\",\"Category\":\"Construction\/237 Highway, Street, and Bridge Construction\",\"Description\":\"El objetivo de este trabajo de tesis es cuantificar y analizar los impactos ambientales de tres distintos métodos de tratamientos de rehabilitación de carpetas asfálticas propuestos para las vialidades de la red primaria de la Ciudad de México (CDMX) y compararlos con el procedimiento actual (Escenario Base: fresado parcial y reencarpetado). Se determina la factibilidad de la introducción de alternativas distintas de rehabilitación con base en un enfoque de Análisis de Ciclo de Vida (ACV), basado en las Normas ISO 14040 y 14044. La Unidad Funcional se define como la rehabilitación de la carpeta asfáltica de 1 km-carril de vialidad principal de la Ciudad de México con 3.5 metros de ancho, sin curvas, salidas o incorporaciones y durante un período de estudio de 30 años. El alcance de los sistemas toma en cuenta todo el Ciclo de Vida de la rehabilitación de la carpeta: desde la primera extracción de materias primas, hasta la última remoción y disposición final del material residual. Se observó que el Escenario Base obtuvo el peor desempeño ambiental para todas las categorías de impacto evaluadas, debido principalmente a su corta vida útil.\",\"Tags\":\"Análisis de Ciclo de Vida, ACV, pavimentos, rehabilitación de carpetas asfálticas, fresado parcial, reencarpetado, Ciudad de México, LCA, pavement, rehabilitation\",\"Technology Description\":\"La evaluación de impacto se realizó utilizando el software Umberto LCA+ y la metodología ReCiPe. Los datos de inventario de fondo se tomaron de la base de datos Ecoinvent 3.6. El estudio se basa en las normas ISO 14040 e ISO 14044. El escenario convencional consiste en el fresado de 7 cm de la carpeta asfáltica y la reposición con una nueva capa de concreto asfáltico en caliente, utilizando maquinaria como fresadoras, petrolizadoras, finishers y compactadores.\",\"Code\":\"MX\",\"Last change\":\"29\/11\/2025 23:12\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) basado en las normas ISO 14040 e ISO 14044. La metodología de evaluación de impacto fue ReCiPe.\",\"Process type\":\"Proceso de rehabilitación de pavimentos, desde la cuna hasta la tumba (cradle-to-grave).\",\"Modeling constants\":\"Período de análisis de 30 años. Se excluyen las emisiones de la etapa de uso generadas por los vehículos que transitan. Se excluyen los impactos por afectación a la circulación, ya que las obras se realizan de noche. No se considera la señalización horizontal o vertical.\",\"Data source information\":\"Los datos de inventario se obtuvieron de la base de datos Ecoinvent 3.6, fichas técnicas de maquinaria (Basso, García, Maquinarias-Pesadas, HAMM, Caterpillar, WIRTGEN), tabuladores de la Secretaría de Comunicaciones y Transportes (SCT), artículos de investigación y comunicación con expertos.\",\"Data completeness\":\"El estudio cubre todas las etapas del ciclo de vida de la rehabilitación: extracción de materias primas, procesamiento, transporte, rehabilitación en sitio, remoción y disposición final. Se excluyen las emisiones de la fase de uso vehicular.\",\"Data selection\":\"Se seleccionó como escenario de referencia el método de fresado parcial y reencarpetado por ser la práctica actual en la Ciudad de México. Se excluyen flujos que son constantes en todos los escenarios, como la señalización.\",\"Data treatment\":\"Las cantidades del inventario fueron calculadas para una Unidad Funcional de 1 km-carril a lo largo de un período de 30 años, considerando una vida útil de 3 años para el escenario base y por tanto 10 repeticiones del proceso.\",\"Sampling procedure\":null,\"Data collection period\":\"2019-2021\",\"Use advice\":\"Los resultados de la modelación de los residuos de carpeta en relleno sanitario fueron adoptados de la base de datos Ecoinvent y corresponden a un contexto suizo, lo que sugiere la necesidad de desarrollar estudios locales. Las vidas útiles son estimaciones basadas en consulta con expertos.\",\"Completeness\":\"Alta para el alcance definido. Se reconoce la limitación del uso de datos de contexto no mexicano para la disposición final de residuos.\",\"Sources\":\"APA. (2011). LIFE-CYCLE COST ANALYSIS: A POSITION PAPER. Arquitec. (2016). Petrolizadoras. Banxico. (2020). Tasas de Inflación. Basso, D. (n.d.). Máquina fresadora de pavimentos. Butt, A. A. (2012). Life Cycle Assessment of Asphalt Pavements. Caterpillar. (2009). Compactadores de suelos vibratorios Cs44 cp44. Caterpillar. (2010). PS150C. Diario de la Federacion. (2013). Ley general del equilibrio ecológico y protección del medio ambiente. Doka, G. (2003). Life Cycle Inventories of Waste Treatment Services. Ecoinvent Report No. 13. Garnica, P., et al. (2004). Aspectos del diseño volumétrico de mezclas asfálticas. ifu Hamburg. (2020). Umberto LCA+. ISO. (2006). ISO 14040-Environmental management. Maquinarias-Pesadas. (2010). Tablas rendimiento, consumo combustible, costo maquinaria pesada. SCT. (2019). Tabulador De Precios Referenciales a Costo Directo. Vidal, R., et al. (2013). Life cycle assessment of hot mix asphalt.\",\"Project\":\"Tesis de Licenciatura, Facultad de Ingeniería, Universidad Nacional Autónoma de México.\",\"Intended application\":\"Generar información para que los tomadores de decisiones implementen medidas sostenibles dentro de la infraestructura de carreteras urbanas y pavimentos de la CDMX.\",\"Data set owner\":\"UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\",\"Data set generator\":\"Carlos Enrique Caballero Güereca\",\"Data set documentor\":\"Carlos Enrique Caballero Güereca\",\"Publication\":\"Caballero Güereca, C. E. (2021). Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México. Tesis de Licenciatura. Universidad Nacional Autónoma de México, Facultad de Ingeniería.\",\"Creation date\":\"2021\",\"Copyright\":\"DERECHOS RESERVADOS ©\",\"Access and use restrictions\":\"El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"29\/11\/2025 23:12\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Bitumen adhesive compound, hot\",\"category\":\"Manufacturing\/324\/324110\/Petroleum Refineries\",\"amount\":285670,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Asfalto para carpeta. Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Bitumen adhesive compound, cold\",\"category\":\"Manufacturing\/324\/324110\/Petroleum Refineries\",\"amount\":34335,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Asfalto para emulsión asfáltica. Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Gravel, crushed\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212\/212321\/Construction Sand and Gravel Mining\",\"amount\":5104330,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Grava triturada. Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Water, well, in ground\",\"category\":\"Utilities\/221\/221310\/Water Supply and Irrigation Systems\",\"amount\":31.5,\"unit\":\"m3\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Agua de pozo. 31,500 litros en total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Water pump operation, electric\",\"category\":\"Utilities\/221\/2211\/Electric Power Generation, Transmission and Distribution\",\"amount\":0.945,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Energía eléctrica para bombeo de agua. Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Transport, freight, lorry >32 metric ton, unregulated\",\"category\":\"Transportation and Warehousing\/484\/484220\/Specialized Freight (except Used Goods) Trucking, Local\",\"amount\":1242020.6,\"unit\":\"tkm\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Transporte total de maquinaria, materiales y residuos. Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Machine operation, diesel >= 74.57kW, high load factor\",\"category\":\"Real Estate and Rental and Leasing\/532\/532412\/Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing\",\"amount\":231.9,\"unit\":\"h\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Operación de maquinaria pesada (finisher, compactadores, fresadora). Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Machine operation, diesel < 18.64kW, high load factor\",\"category\":\"Real Estate and Rental and Leasing\/532\/532412\/Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing\",\"amount\":0.67,\"unit\":\"h\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Operación de maquinaria ligera (petrolizadora). Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Lubricating oil\",\"category\":\"Manufacturing\/324\/324191\/Petroleum Lubricating Oil and Grease Manufacturing\",\"amount\":11,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Consumo de aceite lubricante por toda la maquinaria. Cantidad total para una UF de 1 km-carril durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Propane, burned in building machine\",\"category\":\"Manufacturing\/324\/324110\/Petroleum Refineries\",\"amount\":30.7,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Consumo de propano. Cantidad total para una UF de 1 km-carril durante 30 años.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Rehabilitación de pavimento, fresado parcial, 1 km-carril por 30 años\",\"category\":\"Construction\/237\/237310\/Highway, Street, and Bridge Construction\",\"amount\":1,\"unit\":\"unidad funcional\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Producto de referencia del sistema. Corresponde a la rehabilitación y mantenimiento de un tramo de vialidad durante 30 años mediante el método de fresado parcial y reencarpetado.\"},{\"is_reference\":false,\"flow\":\"Waste asphalt\",\"category\":\"Administrative and Support and Waste Management and Remediation Services\/562\/562212\/Solid Waste Landfill\",\"amount\":5929000,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Balance de materia\",\"description\":\"Material residual de carpeta fresada enviado a relleno sanitario. Cantidad total para una UF de 1 km-carril durante 30 años.\"}]}",
+    "http_code": 200,
+    "timestamp": 1764457977
+}

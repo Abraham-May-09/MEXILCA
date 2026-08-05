@@ -1,0 +1,93 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "c2efc4cf-6a81-447a-b774-8e3fc35967ae",
+            "Name": "market for water pump, 22kW",
+            "Category": "Manufactura\/2812 Manufacture of fluid power equipment",
+            "Description": "This is a market activity representing the consumption mix of a water pump product in the Global geography. The market connects suppliers with consumers of the same product in the same geographical area, grouping producers and imports while accounting for transport to consumers and relevant losses. This represents a mobile infrastructure for a water pump used for agricultural irrigation (both surface water and groundwater) with total mass of 300 kg, engine nominal power of 22 KW, volumetric capacity of 30 m3\/h for delivery pressure of 7 to 8 bar. Lifetime is 10 years with lifetime capacity of 317,442.01 m3. The process includes input materials, infrastructure use, treatment and end-of-life of the pump but excludes energy consumption to assemble the pump. The activity starts at the gate of activities producing 'water pump, 22KW' in Global geography and ends with supply to consumers including transport.",
+            "Tags": "market activity, water pump, agricultural irrigation, fluid power equipment, consumption mix",
+            "Technology | Description": "Mobile infrastructure representing an average water pump used for agricultural irrigation with specifications: total mass 300 kg, engine nominal power 22 KW, volumetric capacity 30 m3\/h, delivery pressure 7-8 bar, lifetime 10 years, lifetime capacity 317,442.01 m3. Includes transport from producers to consumers within the geography.",
+            "Code": "GLO",
+            "Last_change": "10\/11\/2025 04:56"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "56bca136-90bb-3a77-9abb-7ce558af711e",
+            "name": "Global",
+            "description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+            "version": "00.00.000",
+            "code": "GLO",
+            "latitude": 0,
+            "longitude": 0
+        },
+        "processDocumentation": {
+            "LCI method": "Allocation, cut-off system model",
+            "Process type": "Market activity",
+            "Modeling constants": "Transport from producers to consumers included; product losses during transportation assumed negligible and not included; lifetime of 10 years with capacity of 317,442.01 m3",
+            "Data source information": "Nemecek, T., Kägi, T., Blaser, S. (2007) Life Cycle Inventories of Agricultural Production Systems, Volume 15",
+            "Data completeness": "Covers all relevant flows for market activity including production inputs, infrastructure use, treatment and end-of-life of pump",
+            "Data selection": "Includes materials, infrastructure use, treatment and end-of-life; excludes energy consumption to assemble the pump",
+            "Data treatment": "Market represents consumption mix of product in Global geography, connecting suppliers with consumers",
+            "Sampling procedure": "Not specified in extract",
+            "Data collection period": "2007-01-01 to 2024-12-31",
+            "Use advice": "Valid for entire period 2007-2024; represents average pump used for agricultural irrigation with 22kW power, 300kg mass, 30 m3\/h capacity",
+            "Completeness": "Complete for market activity scope including transport to consumer and relevant losses",
+            "Sources": "Nemecek, T., Kägi, T., Blaser, S. (2007) Life Cycle Inventories of Agricultural Production Systems, Volume 15",
+            "Project": "Not specified in extract",
+            "Intended application": "Life cycle assessment studies requiring data on water pumps for agricultural irrigation",
+            "Data set owner": "ecoinvent Association",
+            "Data set generator": "[System]",
+            "Data set documentor": "[System]",
+            "Publication": "ecoinvent database version 3.11",
+            "Creation date": "Not specified in extract",
+            "Copyright": "Copyright ecoinvent Association, 2025",
+            "Access and use restrictions": "Restrictions of use stipulated in the EULA remain applicable"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-10T04:57:04.347Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "water pump, 22kW",
+                "category": "",
+                "amount": 1,
+                "unit": "unit",
+                "uncertainty": "",
+                "provider": "water pump production, 22kW GLO - water pump, 22kW",
+                "description": "This is a market activity representing the consumption mix of 'water pump, 22KW' in the Global geography. The product corresponds to an average pump used for agricultural irrigation with total mass of 300 kg, engine nominal power 22 KW, volumetric capacity of 30 m3\/h for delivery pressure of 7 to 8 bar. Lifetime is 10 years with lifetime capacity of 317,442.01 m3. The process includes input materials, infrastructure use, treatment and end-of-life of the pump but excludes energy consumption to assemble the pump."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "water pump, 22kW",
+                "category": "",
+                "amount": 1,
+                "unit": "unit",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Average pump used for agricultural irrigation with total mass of 300 kg, engine nominal power 22 KW, volumetric capacity of 30 m3\/h for delivery pressure of 7 to 8 bar. Lifetime 10 years, lifetime capacity 317,442.01 m3."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"c2efc4cf-6a81-447a-b774-8e3fc35967ae\",\"Name\":\"market for water pump, 22kW\",\"Category\":\"Manufactura\/2812 Manufacture of fluid power equipment\",\"Description\":\"This is a market activity representing the consumption mix of a water pump product in the Global geography. The market connects suppliers with consumers of the same product in the same geographical area, grouping producers and imports while accounting for transport to consumers and relevant losses. This represents a mobile infrastructure for a water pump used for agricultural irrigation (both surface water and groundwater) with total mass of 300 kg, engine nominal power of 22 KW, volumetric capacity of 30 m3\/h for delivery pressure of 7 to 8 bar. Lifetime is 10 years with lifetime capacity of 317,442.01 m3. The process includes input materials, infrastructure use, treatment and end-of-life of the pump but excludes energy consumption to assemble the pump. The activity starts at the gate of activities producing 'water pump, 22KW' in Global geography and ends with supply to consumers including transport.\",\"Tags\":\"market activity, water pump, agricultural irrigation, fluid power equipment, consumption mix\",\"Technology | Description\":\"Mobile infrastructure representing an average water pump used for agricultural irrigation with specifications: total mass 300 kg, engine nominal power 22 KW, volumetric capacity 30 m3\/h, delivery pressure 7-8 bar, lifetime 10 years, lifetime capacity 317,442.01 m3. Includes transport from producers to consumers within the geography.\",\"Code\":\"GLO\",\"Last_change\":\"10\/11\/2025 04:56\"},\"location\":{\"@type\":\"Location\",\"@id\":\"56bca136-90bb-3a77-9abb-7ce558af711e\",\"name\":\"Global\",\"description\":\"reference location, sources:  ecoinvent 3, ILCD, GaBi\",\"version\":\"00.00.000\",\"code\":\"GLO\",\"latitude\":0,\"longitude\":0},\"processDocumentation\":{\"LCI method\":\"Allocation, cut-off system model\",\"Process type\":\"Market activity\",\"Modeling constants\":\"Transport from producers to consumers included; product losses during transportation assumed negligible and not included; lifetime of 10 years with capacity of 317,442.01 m3\",\"Data source information\":\"Nemecek, T., Kägi, T., Blaser, S. (2007) Life Cycle Inventories of Agricultural Production Systems, Volume 15\",\"Data completeness\":\"Covers all relevant flows for market activity including production inputs, infrastructure use, treatment and end-of-life of pump\",\"Data selection\":\"Includes materials, infrastructure use, treatment and end-of-life; excludes energy consumption to assemble the pump\",\"Data treatment\":\"Market represents consumption mix of product in Global geography, connecting suppliers with consumers\",\"Sampling procedure\":\"Not specified in extract\",\"Data collection period\":\"2007-01-01 to 2024-12-31\",\"Use advice\":\"Valid for entire period 2007-2024; represents average pump used for agricultural irrigation with 22kW power, 300kg mass, 30 m3\/h capacity\",\"Completeness\":\"Complete for market activity scope including transport to consumer and relevant losses\",\"Sources\":\"Nemecek, T., Kägi, T., Blaser, S. (2007) Life Cycle Inventories of Agricultural Production Systems, Volume 15\",\"Project\":\"Not specified in extract\",\"Intended application\":\"Life cycle assessment studies requiring data on water pumps for agricultural irrigation\",\"Data set owner\":\"ecoinvent Association\",\"Data set generator\":\"[System]\",\"Data set documentor\":\"[System]\",\"Publication\":\"ecoinvent database version 3.11\",\"Creation date\":\"Not specified in extract\",\"Copyright\":\"Copyright ecoinvent Association, 2025\",\"Access and use restrictions\":\"Restrictions of use stipulated in the EULA remain applicable\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-10T04:57:04.347Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"water pump, 22kW\",\"category\":\"\",\"amount\":1,\"unit\":\"unit\",\"uncertainty\":\"\",\"provider\":\"water pump production, 22kW GLO - water pump, 22kW\",\"description\":\"This is a market activity representing the consumption mix of 'water pump, 22KW' in the Global geography. The product corresponds to an average pump used for agricultural irrigation with total mass of 300 kg, engine nominal power 22 KW, volumetric capacity of 30 m3\/h for delivery pressure of 7 to 8 bar. Lifetime is 10 years with lifetime capacity of 317,442.01 m3. The process includes input materials, infrastructure use, treatment and end-of-life of the pump but excludes energy consumption to assemble the pump.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"water pump, 22kW\",\"category\":\"\",\"amount\":1,\"unit\":\"unit\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Average pump used for agricultural irrigation with total mass of 300 kg, engine nominal power 22 KW, volumetric capacity of 30 m3\/h for delivery pressure of 7 to 8 bar. Lifetime 10 years, lifetime capacity 317,442.01 m3.\"}]}",
+    "http_code": 200,
+    "timestamp": 1762750667
+}

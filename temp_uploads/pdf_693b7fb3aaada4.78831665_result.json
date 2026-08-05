@@ -1,0 +1,283 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "fee058d4-f31a-4912-b29c-b3eb0c208758",
+            "Name": "METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN",
+            "Category": "Manufacturing\/325 Soap, Cleaning Compound, and Toilet Preparation Manufacturing",
+            "Description": "Esta tesis presenta una metodología rápida (MARCO) con enfoque de Análisis de Ciclo de Vida para evaluar y comparar los impactos ambientales de insumos adquiridos por una organización, facilitando la toma de decisiones. La metodología se basa en los principios de la norma ISO 14040, pero de forma simplificada. Se conforma de cuatro etapas: decisiones metodológicas (objetivo y alcance, límites, unidad funcional, categorías de impacto), recopilación de información, desarrollo de una herramienta de software, y validación. El sistema evaluado considera un enfoque de la cuna a la puerta, incluyendo la manufactura de los componentes del producto y su transporte. La unidad funcional para el caso de estudio de detergentes es la 'Manufactura y transporte de un kilogramo de detergente hasta la puerta de la organización'. Como caso de estudio, la metodología se aplicó para apoyar la selección de insumos en la fábrica de billetes del Banco de México, desarrollando un software para la evaluación comparativa de diferentes formulaciones de detergentes.",
+            "Tags": "LCA, ACV, análisis de ciclo de vida, ACV simplificado, detergentes, MARCO, toma de decisiones, compras sostenibles, impacto ambiental",
+            "Technology Description": "La metodología de evaluación de impacto ambiental utilizada es ReCiPe v1.08 con una perspectiva jerárquica a 100 años. La principal fuente de datos de inventario de ciclo de vida es la base de datos ecoinvent v3.3, complementada con modelación de procesos específicos a partir de literatura científica para componentes no disponibles. La metodología fue implementada en una herramienta de software (desarrollada en MS Excel) para facilitar la comparación de productos. El estudio presenta un caso de estudio hipotético para un detergente en polvo.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:38"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) simplificado basado en los estándares ISO 14040 e ISO 14044. La Evaluación de Impacto de Ciclo de Vida (EICV) se realiza con el método ReCiPe v1.08 (perspectiva Jerárquica H, 100 años).",
+            "Process type": "Proceso de fabricación cradle-to-gate",
+            "Modeling constants": "Límites del sistema: de la cuna a la puerta, incluyendo la extracción de materias primas, manufactura de componentes y transporte a la organización. Límites geográficos: Se emplean módulos globales de la base de datos ecoinvent. Límites tecnológicos: Se utilizan los módulos que mejor representan la tecnología de producción de cada componente.",
+            "Data source information": "La fuente principal de datos secundarios es la base de datos ecoinvent v3.3. Para componentes no encontrados en la base de datos (e.g., aceite de alga, enzimas), se realizó una modelación propia basada en inventarios de publicaciones científicas (e.g., Passell et al., 2013; Golsteijn et al., 2015).",
+            "Data completeness": "Alta. El uso de la base de datos ecoinvent busca cubrir la mayoría de los flujos de fondo. Los flujos de primer plano (composición del producto) se definen a partir de formulaciones típicas encontradas en la literatura.",
+            "Data selection": "Los componentes del detergente se seleccionaron en base a una revisión de literatura sobre formulaciones típicas de detergentes en polvo. Se incluyen los ingredientes principales que cumplen funciones de fuente alcalina, blanqueadores, suavizantes, auxiliares, enzimas y surfactantes.",
+            "Data treatment": "Para componentes modelados, se construyeron inventarios de ciclo de vida a partir de datos de la literatura, y se calcularon sus impactos para generar nuevos datasets. Para la comparación final de productos, se realiza una normalización y ponderación de los resultados de impacto para obtener un único indicador.",
+            "Sampling procedure": null,
+            "Data collection period": "La tesis fue publicada en septiembre de 2017. La literatura y bases de datos utilizadas son anteriores a esa fecha.",
+            "Use advice": "La metodología está diseñada como una herramienta de ACV simplificado para la toma de decisiones internas en una organización (screening LCA). No es adecuada para declaraciones comparativas públicas. La flexibilidad del método permite su adaptación, pero los resultados dependen de las decisiones tomadas por el desarrollador.",
+            "Completeness": "El estudio es completo dentro de su alcance definido como un ACV simplificado. La metodología aborda la falta de datos para componentes novedosos mediante modelación específica. Sin embargo, no presenta un inventario detallado de flujos elementales, sino los resultados de impacto agregados.",
+            "Sources": "Dora Yesenia Ruiz Méndez (2017). METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN. Tesis de Maestría, UNAM. Base de datos ecoinvent v3.3. Método de evaluación de impacto ReCiPe 2008.",
+            "Project": "Tesis para optar por el grado de Maestro en Ingeniería, Programa de Maestría y Doctorado en Ingeniería, UNAM.",
+            "Intended application": "Apoyar la toma de decisiones en el proceso de adquisición de insumos en organizaciones, permitiendo una evaluación rápida y comparativa del impacto ambiental de diferentes productos y proveedores.",
+            "Data set owner": "Universidad Nacional Autónoma de México (UNAM)",
+            "Data set generator": "Dora Yesenia Ruiz Méndez",
+            "Data set documentor": "Dora Yesenia Ruiz Méndez",
+            "Publication": "Tesis de Maestría, Universidad Nacional Autónoma de México",
+            "Creation date": "2017-09-01",
+            "Copyright": "© DERECHOS RESERVADOS",
+            "Access and use restrictions": "PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. Todo el material contenido en esta tesis esta protegido por la Ley Federal del Derecho de Autor (LFDA) de los Estados Unidos Mexicanos (México). El uso será exclusivamente para fines educativos e informativos. Algunos datos son considerados información reservada perteneciente al Banco de México."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:38",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Cloruro amónico",
+                "category": "Manufacturing\/325\/3256\/325611",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Fuente alcalina)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Policarboxilato",
+                "category": "Manufacturing\/325\/3256\/325611",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Suavizante de agua)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Zeolita",
+                "category": "Manufacturing\/327\/3279\/327992",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Suavizante de agua)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de sodio anhídrido",
+                "category": "Manufacturing\/325\/3251\/325180",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Suavizante de agua)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Trifosfato de sodio",
+                "category": "Manufacturing\/325\/3251\/325180",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Suavizante de agua)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Etilendiamina",
+                "category": "Manufacturing\/325\/3251\/325199",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Blanqueador)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Percarbonato de sodio",
+                "category": "Manufacturing\/325\/3251\/325180",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Blanqueador)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Silicato de sodio",
+                "category": "Manufacturing\/325\/3251\/325180",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Blanqueador)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Carboximetil celulosa",
+                "category": "Manufacturing\/325\/3251\/325199",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Auxiliar)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Hidróxido de sodio",
+                "category": "Manufacturing\/325\/3251\/325180",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Auxiliar)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Cloruro de sodio",
+                "category": "Manufacturing\/325\/3259\/325998",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Auxiliar)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ácido cítrico",
+                "category": "Manufacturing\/325\/3251\/325199",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Auxiliar)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ácido sulfúrico",
+                "category": "Manufacturing\/325\/3251\/325180",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Auxiliar)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Alquilbenceno sulfonato",
+                "category": "Manufacturing\/325\/3256\/325611",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Surfactante)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de alcohol graso",
+                "category": "Manufacturing\/325\/3256\/325611",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Surfactante)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Alcohol etoxilado",
+                "category": "Manufacturing\/325\/3256\/325611",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Surfactante)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Aceite de alga",
+                "category": "Manufacturing\/325\/3251\/325194",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente (Surfactante). Modelado a partir de literatura."
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua suavizada",
+                "category": "Utilities\/221\/2213\/221310",
+                "amount": 0.1,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente."
+            },
+            {
+                "is_reference": false,
+                "flow": "Enzimas",
+                "category": "Manufacturing\/325\/3251\/325199",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Componente del detergente. Modelado a partir de literatura."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transport, freight, air",
+                "category": "Transportation and Warehousing\/481\/4812\/481212",
+                "amount": 8,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Transporte del producto final a la organización. Basado en un ejemplo de 8000 km para 1 kg de producto."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Detergent, powder",
+                "category": "Manufacturing\/325\/3256\/325611",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto de referencia (unidad funcional)."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"fee058d4-f31a-4912-b29c-b3eb0c208758\",\"Name\":\"METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN\",\"Category\":\"Manufacturing\/325 Soap, Cleaning Compound, and Toilet Preparation Manufacturing\",\"Description\":\"Esta tesis presenta una metodología rápida (MARCO) con enfoque de Análisis de Ciclo de Vida para evaluar y comparar los impactos ambientales de insumos adquiridos por una organización, facilitando la toma de decisiones. La metodología se basa en los principios de la norma ISO 14040, pero de forma simplificada. Se conforma de cuatro etapas: decisiones metodológicas (objetivo y alcance, límites, unidad funcional, categorías de impacto), recopilación de información, desarrollo de una herramienta de software, y validación. El sistema evaluado considera un enfoque de la cuna a la puerta, incluyendo la manufactura de los componentes del producto y su transporte. La unidad funcional para el caso de estudio de detergentes es la 'Manufactura y transporte de un kilogramo de detergente hasta la puerta de la organización'. Como caso de estudio, la metodología se aplicó para apoyar la selección de insumos en la fábrica de billetes del Banco de México, desarrollando un software para la evaluación comparativa de diferentes formulaciones de detergentes.\",\"Tags\":\"LCA, ACV, análisis de ciclo de vida, ACV simplificado, detergentes, MARCO, toma de decisiones, compras sostenibles, impacto ambiental\",\"Technology Description\":\"La metodología de evaluación de impacto ambiental utilizada es ReCiPe v1.08 con una perspectiva jerárquica a 100 años. La principal fuente de datos de inventario de ciclo de vida es la base de datos ecoinvent v3.3, complementada con modelación de procesos específicos a partir de literatura científica para componentes no disponibles. La metodología fue implementada en una herramienta de software (desarrollada en MS Excel) para facilitar la comparación de productos. El estudio presenta un caso de estudio hipotético para un detergente en polvo.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:38\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) simplificado basado en los estándares ISO 14040 e ISO 14044. La Evaluación de Impacto de Ciclo de Vida (EICV) se realiza con el método ReCiPe v1.08 (perspectiva Jerárquica H, 100 años).\",\"Process type\":\"Proceso de fabricación cradle-to-gate\",\"Modeling constants\":\"Límites del sistema: de la cuna a la puerta, incluyendo la extracción de materias primas, manufactura de componentes y transporte a la organización. Límites geográficos: Se emplean módulos globales de la base de datos ecoinvent. Límites tecnológicos: Se utilizan los módulos que mejor representan la tecnología de producción de cada componente.\",\"Data source information\":\"La fuente principal de datos secundarios es la base de datos ecoinvent v3.3. Para componentes no encontrados en la base de datos (e.g., aceite de alga, enzimas), se realizó una modelación propia basada en inventarios de publicaciones científicas (e.g., Passell et al., 2013; Golsteijn et al., 2015).\",\"Data completeness\":\"Alta. El uso de la base de datos ecoinvent busca cubrir la mayoría de los flujos de fondo. Los flujos de primer plano (composición del producto) se definen a partir de formulaciones típicas encontradas en la literatura.\",\"Data selection\":\"Los componentes del detergente se seleccionaron en base a una revisión de literatura sobre formulaciones típicas de detergentes en polvo. Se incluyen los ingredientes principales que cumplen funciones de fuente alcalina, blanqueadores, suavizantes, auxiliares, enzimas y surfactantes.\",\"Data treatment\":\"Para componentes modelados, se construyeron inventarios de ciclo de vida a partir de datos de la literatura, y se calcularon sus impactos para generar nuevos datasets. Para la comparación final de productos, se realiza una normalización y ponderación de los resultados de impacto para obtener un único indicador.\",\"Sampling procedure\":null,\"Data collection period\":\"La tesis fue publicada en septiembre de 2017. La literatura y bases de datos utilizadas son anteriores a esa fecha.\",\"Use advice\":\"La metodología está diseñada como una herramienta de ACV simplificado para la toma de decisiones internas en una organización (screening LCA). No es adecuada para declaraciones comparativas públicas. La flexibilidad del método permite su adaptación, pero los resultados dependen de las decisiones tomadas por el desarrollador.\",\"Completeness\":\"El estudio es completo dentro de su alcance definido como un ACV simplificado. La metodología aborda la falta de datos para componentes novedosos mediante modelación específica. Sin embargo, no presenta un inventario detallado de flujos elementales, sino los resultados de impacto agregados.\",\"Sources\":\"Dora Yesenia Ruiz Méndez (2017). METODOLOGÍA CON ENFOQUE DE ANÁLISIS DE CICLO DE VIDA PARA EVALUAR EL IMPACTO AMBIENTAL DE INSUMOS ADQUIRIDOS POR UNA ORGANIZACIÓN. Tesis de Maestría, UNAM. Base de datos ecoinvent v3.3. Método de evaluación de impacto ReCiPe 2008.\",\"Project\":\"Tesis para optar por el grado de Maestro en Ingeniería, Programa de Maestría y Doctorado en Ingeniería, UNAM.\",\"Intended application\":\"Apoyar la toma de decisiones en el proceso de adquisición de insumos en organizaciones, permitiendo una evaluación rápida y comparativa del impacto ambiental de diferentes productos y proveedores.\",\"Data set owner\":\"Universidad Nacional Autónoma de México (UNAM)\",\"Data set generator\":\"Dora Yesenia Ruiz Méndez\",\"Data set documentor\":\"Dora Yesenia Ruiz Méndez\",\"Publication\":\"Tesis de Maestría, Universidad Nacional Autónoma de México\",\"Creation date\":\"2017-09-01\",\"Copyright\":\"© DERECHOS RESERVADOS\",\"Access and use restrictions\":\"PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. Todo el material contenido en esta tesis esta protegido por la Ley Federal del Derecho de Autor (LFDA) de los Estados Unidos Mexicanos (México). El uso será exclusivamente para fines educativos e informativos. Algunos datos son considerados información reservada perteneciente al Banco de México.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:38\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Cloruro amónico\",\"category\":\"Manufacturing\/325\/3256\/325611\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Fuente alcalina).\"},{\"is_reference\":false,\"flow\":\"Policarboxilato\",\"category\":\"Manufacturing\/325\/3256\/325611\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Suavizante de agua).\"},{\"is_reference\":false,\"flow\":\"Zeolita\",\"category\":\"Manufacturing\/327\/3279\/327992\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Suavizante de agua).\"},{\"is_reference\":false,\"flow\":\"Sulfato de sodio anhídrido\",\"category\":\"Manufacturing\/325\/3251\/325180\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Suavizante de agua).\"},{\"is_reference\":false,\"flow\":\"Trifosfato de sodio\",\"category\":\"Manufacturing\/325\/3251\/325180\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Suavizante de agua).\"},{\"is_reference\":false,\"flow\":\"Etilendiamina\",\"category\":\"Manufacturing\/325\/3251\/325199\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Blanqueador).\"},{\"is_reference\":false,\"flow\":\"Percarbonato de sodio\",\"category\":\"Manufacturing\/325\/3251\/325180\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Blanqueador).\"},{\"is_reference\":false,\"flow\":\"Silicato de sodio\",\"category\":\"Manufacturing\/325\/3251\/325180\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Blanqueador).\"},{\"is_reference\":false,\"flow\":\"Carboximetil celulosa\",\"category\":\"Manufacturing\/325\/3251\/325199\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Auxiliar).\"},{\"is_reference\":false,\"flow\":\"Hidróxido de sodio\",\"category\":\"Manufacturing\/325\/3251\/325180\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Auxiliar).\"},{\"is_reference\":false,\"flow\":\"Cloruro de sodio\",\"category\":\"Manufacturing\/325\/3259\/325998\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Auxiliar).\"},{\"is_reference\":false,\"flow\":\"Ácido cítrico\",\"category\":\"Manufacturing\/325\/3251\/325199\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Auxiliar).\"},{\"is_reference\":false,\"flow\":\"Ácido sulfúrico\",\"category\":\"Manufacturing\/325\/3251\/325180\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Auxiliar).\"},{\"is_reference\":false,\"flow\":\"Alquilbenceno sulfonato\",\"category\":\"Manufacturing\/325\/3256\/325611\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Surfactante).\"},{\"is_reference\":false,\"flow\":\"Sulfato de alcohol graso\",\"category\":\"Manufacturing\/325\/3256\/325611\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Surfactante).\"},{\"is_reference\":false,\"flow\":\"Alcohol etoxilado\",\"category\":\"Manufacturing\/325\/3256\/325611\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Surfactante).\"},{\"is_reference\":false,\"flow\":\"Aceite de alga\",\"category\":\"Manufacturing\/325\/3251\/325194\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente (Surfactante). Modelado a partir de literatura.\"},{\"is_reference\":false,\"flow\":\"Agua suavizada\",\"category\":\"Utilities\/221\/2213\/221310\",\"amount\":0.1,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente.\"},{\"is_reference\":false,\"flow\":\"Enzimas\",\"category\":\"Manufacturing\/325\/3251\/325199\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Componente del detergente. Modelado a partir de literatura.\"},{\"is_reference\":false,\"flow\":\"Transport, freight, air\",\"category\":\"Transportation and Warehousing\/481\/4812\/481212\",\"amount\":8,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":null,\"description\":\"Transporte del producto final a la organización. Basado en un ejemplo de 8000 km para 1 kg de producto.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Detergent, powder\",\"category\":\"Manufacturing\/325\/3256\/325611\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto de referencia (unidad funcional).\"}]}",
+    "http_code": 200,
+    "timestamp": 1765507081
+}

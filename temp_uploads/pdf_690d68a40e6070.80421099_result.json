@@ -1,0 +1,155 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "87d4b84c-d78b-426a-9fa0-084045904816",
+            "Name": "Análisis de Ciclo de Vida del Adobe de Producción Artesanal",
+            "Category": "Construcción\/3273 Cement and Concrete Product Manufacturing",
+            "Description": "Se evaluó la huella de carbono y la demanda acumulada de energía durante el proceso de producción de un kilogramo de adobe artesanal, partiendo del Inventario de Ciclo de Vida (ICV), con datos obtenidos en el municipio de Pátzcuaro, Michoacán, y comunidades aledañas. Se siguió la metodología ISO-14040. Los límites del sistema incluyen la fabricación del adobe, lo que implica la obtención de los insumos, el transporte de los mismos a la planta y el proceso de transformación. Las etapas subsecuentes de venta, uso y transporte del producto obtenido no se cubren en este estudio.",
+            "Tags": "Adobe artesanal, Análisis de ciclo de vida, Huella de carbono, Construcción sostenible, Materiales naturales",
+            "Technology | Description": "El adobe se caracteriza por ser un producto elaborado con materiales naturales como: tierra, agua y fibras naturales (las cuales pueden ser paja de trigo, paja de avena o huinumo). El proceso inicia con la mezcla de la tierra con las fibras de origen natural, a la cual se va incorporando el agua; esto se hace para generar un lodo que se revolverá con el paso de caballos o, en su defecto, con los pies y manos de los trabajadores. Una vez hecha la mezcla, se le transporta al sitio de moldeado con carretilla o cubetas; ahí se le da la medida y forma deseada con moldes de madera. Posteriormente, se retira el molde y el bloque se deja secar al sol durante uno o dos días; luego, el bloque se cambia de posición para permitir que se seque el lado la cara que miraba al piso y se le deja ahí, bajo el sol, por otros dos o tres días. Finalmente se estiba y se almacena.",
+            "Code": "MX",
+            "Last_change": "07\/11\/2025 03:34"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Metodología ISO-14040",
+            "Process type": "Análisis de ciclo de vida de producto artesanal",
+            "Modeling constants": "Criterio de corte de masa al 1%, cualquier compuesto que represente menos del 1% de la masa total no se considera",
+            "Data source information": "Datos primarios obtenidos de tres fabricantes de adobe en Pátzcuaro, Michoacán mediante entrevistas y mediciones directas",
+            "Data completeness": "Cobertura completa de todas las etapas del proceso productivo: obtención de insumos, transporte y proceso de transformación",
+            "Data selection": "Se incluyen todos los flujos relevantes de materia y energía que superan el criterio de corte del 1% de masa",
+            "Data treatment": "Promedio de datos de tres casos diferentes, mediciones de masa y cálculos de volúmenes, verificación con fuentes bibliográficas",
+            "Sampling procedure": "Entrevistas y mediciones directas a tres fabricantes de adobe en la región de Pátzcuaro",
+            "Data collection period": "2014",
+            "Use advice": "Aplicable específicamente para adobe artesanal producido en la zona de Pátzcuaro, Michoacán bajo condiciones similares a las descritas",
+            "Completeness": "Exhaustivo para el proceso productivo definido, excluye etapas de venta, uso y transporte del producto final",
+            "Sources": "[1] ISO 14044:2006, [2] SOLID EARTH LTD, [3] Raul Mannise, [4] Irene García Doval, [5] Thomas Dominguez, [6] Desertphile, [7] Construcciones de Adobe, [8] Iron and steel - Sector Profile, [9] Brick Industry Association, [10] CEMEX, [11] 2008 prices, adobe test results, [12] INEGI DENUE, [13] Google Maps INEGI",
+            "Project": "Análisis de Ciclo de Vida del Adobe de Producción Artesanal",
+            "Intended application": "Estimación de huella de carbono y demanda acumulada de energía para adobe artesanal",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Carlos García Bustamante, Alejandro Tavera Durán",
+            "Data set documentor": "Carlos García Bustamante, Alejandro Tavera Durán",
+            "Publication": "Memoria de Cálculo Borrador - ACV Adobe Artesanal",
+            "Creation date": "19 de diciembre de 2014",
+            "Copyright": "",
+            "Access and use restrictions": ""
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-07T03:35:33.727Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Tierra (húmeda)",
+                "category": "",
+                "amount": 1.12,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Tierra contiene una cantidad de agua que se evapora con el secado al sol"
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "",
+                "amount": 0.14,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Agua añadida durante el proceso de mezclado"
+            },
+            {
+                "is_reference": false,
+                "flow": "Fibras",
+                "category": "",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fibras naturales (paja de trigo, paja de avena o huinumo)"
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasolina",
+                "category": "",
+                "amount": 3.98e-5,
+                "unit": "MJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Combustible para transporte y operación de equipos"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte de materia prima",
+                "category": "",
+                "amount": 0.0035,
+                "unit": "tkm",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Transporte de materia prima considerando distancia entre lugar de extracción y plantas productoras (viaje ida y vuelta)"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Bloque de adobe",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto principal. Masa promedio de 23 kg por bloque, dimensiones variables entre 50x30x11 cm y 50x30x12 cm"
+            },
+            {
+                "is_reference": false,
+                "flow": "Emisiones de CO2 equivalente",
+                "category": "",
+                "amount": null,
+                "unit": "kg CO2 eq",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Calculado mediante método CML 2001 v.4.2 para Potencial de Calentamiento Global"
+            },
+            {
+                "is_reference": true,
+                "flow": "Vapor de agua",
+                "category": "",
+                "amount": null,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Agua que se evapora durante el secado al sol (4-5 días)"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"87d4b84c-d78b-426a-9fa0-084045904816\",\"Name\":\"Análisis de Ciclo de Vida del Adobe de Producción Artesanal\",\"Category\":\"Construcción\/3273 Cement and Concrete Product Manufacturing\",\"Description\":\"Se evaluó la huella de carbono y la demanda acumulada de energía durante el proceso de producción de un kilogramo de adobe artesanal, partiendo del Inventario de Ciclo de Vida (ICV), con datos obtenidos en el municipio de Pátzcuaro, Michoacán, y comunidades aledañas. Se siguió la metodología ISO-14040. Los límites del sistema incluyen la fabricación del adobe, lo que implica la obtención de los insumos, el transporte de los mismos a la planta y el proceso de transformación. Las etapas subsecuentes de venta, uso y transporte del producto obtenido no se cubren en este estudio.\",\"Tags\":\"Adobe artesanal, Análisis de ciclo de vida, Huella de carbono, Construcción sostenible, Materiales naturales\",\"Technology | Description\":\"El adobe se caracteriza por ser un producto elaborado con materiales naturales como: tierra, agua y fibras naturales (las cuales pueden ser paja de trigo, paja de avena o huinumo). El proceso inicia con la mezcla de la tierra con las fibras de origen natural, a la cual se va incorporando el agua; esto se hace para generar un lodo que se revolverá con el paso de caballos o, en su defecto, con los pies y manos de los trabajadores. Una vez hecha la mezcla, se le transporta al sitio de moldeado con carretilla o cubetas; ahí se le da la medida y forma deseada con moldes de madera. Posteriormente, se retira el molde y el bloque se deja secar al sol durante uno o dos días; luego, el bloque se cambia de posición para permitir que se seque el lado la cara que miraba al piso y se le deja ahí, bajo el sol, por otros dos o tres días. Finalmente se estiba y se almacena.\",\"Code\":\"MX\",\"Last_change\":\"07\/11\/2025 03:34\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Metodología ISO-14040\",\"Process type\":\"Análisis de ciclo de vida de producto artesanal\",\"Modeling constants\":\"Criterio de corte de masa al 1%, cualquier compuesto que represente menos del 1% de la masa total no se considera\",\"Data source information\":\"Datos primarios obtenidos de tres fabricantes de adobe en Pátzcuaro, Michoacán mediante entrevistas y mediciones directas\",\"Data completeness\":\"Cobertura completa de todas las etapas del proceso productivo: obtención de insumos, transporte y proceso de transformación\",\"Data selection\":\"Se incluyen todos los flujos relevantes de materia y energía que superan el criterio de corte del 1% de masa\",\"Data treatment\":\"Promedio de datos de tres casos diferentes, mediciones de masa y cálculos de volúmenes, verificación con fuentes bibliográficas\",\"Sampling procedure\":\"Entrevistas y mediciones directas a tres fabricantes de adobe en la región de Pátzcuaro\",\"Data collection period\":\"2014\",\"Use advice\":\"Aplicable específicamente para adobe artesanal producido en la zona de Pátzcuaro, Michoacán bajo condiciones similares a las descritas\",\"Completeness\":\"Exhaustivo para el proceso productivo definido, excluye etapas de venta, uso y transporte del producto final\",\"Sources\":\"[1] ISO 14044:2006, [2] SOLID EARTH LTD, [3] Raul Mannise, [4] Irene García Doval, [5] Thomas Dominguez, [6] Desertphile, [7] Construcciones de Adobe, [8] Iron and steel - Sector Profile, [9] Brick Industry Association, [10] CEMEX, [11] 2008 prices, adobe test results, [12] INEGI DENUE, [13] Google Maps INEGI\",\"Project\":\"Análisis de Ciclo de Vida del Adobe de Producción Artesanal\",\"Intended application\":\"Estimación de huella de carbono y demanda acumulada de energía para adobe artesanal\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Carlos García Bustamante, Alejandro Tavera Durán\",\"Data set documentor\":\"Carlos García Bustamante, Alejandro Tavera Durán\",\"Publication\":\"Memoria de Cálculo Borrador - ACV Adobe Artesanal\",\"Creation date\":\"19 de diciembre de 2014\",\"Copyright\":\"\",\"Access and use restrictions\":\"\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-07T03:35:33.727Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Tierra (húmeda)\",\"category\":\"\",\"amount\":1.12,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Tierra contiene una cantidad de agua que se evapora con el secado al sol\"},{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"\",\"amount\":0.14,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Agua añadida durante el proceso de mezclado\"},{\"is_reference\":false,\"flow\":\"Fibras\",\"category\":\"\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fibras naturales (paja de trigo, paja de avena o huinumo)\"},{\"is_reference\":false,\"flow\":\"Gasolina\",\"category\":\"\",\"amount\":0.0000398,\"unit\":\"MJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Combustible para transporte y operación de equipos\"},{\"is_reference\":false,\"flow\":\"Transporte de materia prima\",\"category\":\"\",\"amount\":0.0035,\"unit\":\"tkm\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Transporte de materia prima considerando distancia entre lugar de extracción y plantas productoras (viaje ida y vuelta)\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Bloque de adobe\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto principal. Masa promedio de 23 kg por bloque, dimensiones variables entre 50x30x11 cm y 50x30x12 cm\"},{\"is_reference\":false,\"flow\":\"Emisiones de CO2 equivalente\",\"category\":\"\",\"amount\":null,\"unit\":\"kg CO2 eq\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Calculado mediante método CML 2001 v.4.2 para Potencial de Calentamiento Global\"},{\"is_reference\":true,\"flow\":\"Vapor de agua\",\"category\":\"\",\"amount\":null,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Agua que se evapora durante el secado al sol (4-5 días)\"}]}",
+    "http_code": 200,
+    "timestamp": 1762486590
+}

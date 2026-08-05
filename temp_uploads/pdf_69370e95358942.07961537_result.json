@@ -1,0 +1,179 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "f48d7c2b-364e-439d-a335-077c1d60e33e",
+            "Name": "Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México",
+            "Category": "Construction\/237 Civil Engineering Construction\/2373 Highway, Street, and Bridge Construction",
+            "Description": "El objetivo de este trabajo de tesis es cuantificar y analizar los impactos ambientales de tres distintos métodos de tratamientos de rehabilitación de carpetas asfálticas propuestos para las vialidades de la red primaria de la Ciudad de México (CDMX) y compararlos con el procedimiento actual para determinar la factibilidad de la introducción de alternativas distintas de rehabilitación con base en un enfoque de Análisis de Ciclo de Vida (ACV), basado en las Normas ISO 14040 y 14044. El cumplimiento de este objetivo busca el mejoramiento en la eficiencia y el desempeño ambiental de los procesos de obras en la CDMX, trabajando así, hacia los objetivos de desarrollo sostenible planteados por Naciones Unidas y favoreciendo la economía circular. Cada uno de los cuatro distintos métodos de rehabilitación analizados en este documento se denominan escenarios. El Escenario Base (cero) representa la forma actual de rehabilitación de carpetas en la CDMX: un fresado parcial de la carpeta asfáltica y reencarpetado de siete centímetros de profundidad. La Unidad Funcional se define como la rehabilitación de la carpeta asfáltica de 1 km-carril de vialidad principal de la Ciudad de México con 3.5 metros de ancho, sin curvas, salidas o incorporaciones y durante un período de estudio de 30 años. El alcance de los sistemas toma en cuenta todo el Ciclo de Vida de la rehabilitación de la carpeta: desde la primera extracción de materias primas, hasta la última remoción y disposición final del material residual de la carpeta 30 años después, tomando como punto de partida para todos los escenarios la existencia previa de una vialidad con daños en toda la profundidad de la carpeta asfáltica. De los cuatro sistemas evaluados se observó que el Escenario Base obtuvo el peor desempeño ambiental para todas las categorías de impacto evaluadas, debido principalmente a su corta vida útil.",
+            "Tags": "Análisis de Ciclo de Vida, ACV, pavimentos, rehabilitación de carreteras, fresado, carpeta asfáltica, Ciudad de México, costo de ciclo de vida",
+            "Technology Description": "El estudio utiliza el software Umberto LCA+ para modelar los escenarios. La metodología de evaluación de impacto de ciclo de vida seleccionada es ReCiPe (punto medio). Las bases de datos de inventario utilizadas son principalmente Ecoinvent 3.6. El escenario convencional (Escenario Base) consiste en el fresado parcial de 7 cm de la carpeta asfáltica y su posterior reencarpetado, utilizando maquinaria como fresadora LXL1000A, petrolizadora Escudero E-20000, finisher Caterpillar AP1000, y compactadores Hamm 3410 y Caterpillar PS150C. Este proceso se repite cada 3 años.",
+            "Code": "MX",
+            "Last change": "08\/12\/2025 17:46"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) basado en las normas ISO 14040 e ISO 14044. La metodología de evaluación de impacto es ReCiPe (punto medio).",
+            "Process type": "Análisis comparativo de cuna a tumba de rehabilitación de pavimentos",
+            "Modeling constants": "Período de análisis: 30 años. Unidad Funcional: rehabilitación de 1 km-carril de 3.5 m de ancho. Vida útil del Escenario Base: 3 años. Tasa de descuento para ACCV: 4%. Se excluyen las emisiones de la fase de uso por vehículos y los impactos por afectación a la circulación.",
+            "Data source information": "Base de datos Ecoinvent 3.6; fichas técnicas de maquinaria (Basso, Caterpillar, HAMM, WIRTGEN); Tabulador de precios de la Secretaría de Comunicaciones y Transportes (SCT) 2019; literatura científica (Garnica et al., 2004; Arquitec, 2016).",
+            "Data completeness": "Se cubre el ciclo de vida completo desde la extracción de materias primas hasta la disposición final. Se excluyen las emisiones de la fase de uso de vehículos. Se excluye el pilar social del ACV.",
+            "Data selection": "Se seleccionaron siete categorías de impacto relevantes para pavimentos: Cambio climático, acidificación terrestre, formación de oxidantes fotoquímicos, agotamiento de recursos fósiles, toxicidad humana, eutrofización de agua dulce y agotamiento de recursos hídricos. Los flujos de la fase de uso vehicular se excluyen por ser constantes en todos los escenarios.",
+            "Data treatment": "Los datos de inventario se calcularon y normalizaron para la unidad funcional definida (1 km-carril sobre un periodo de 30 años). Se realizaron balances de materia y energía. Para el ACCV, los costos futuros se llevaron a Valor Presente Neto (VPN) usando una tasa de descuento.",
+            "Sampling procedure": "No se realizó muestreo en campo. Los datos se recopilaron de fuentes secundarias como bases de datos, fichas técnicas, tabuladores de precios y literatura científica.",
+            "Data collection period": "La tesis fue publicada en 2021, utilizando datos de fuentes que van aproximadamente desde 2004 hasta 2020.",
+            "Use advice": "Los datos para tecnologías de reciclaje (Escenarios 2 y 3) son teóricos debido a su uso no extendido en México y se recomienda validación con proyectos reales. El modelo de disposición final en relleno sanitario se basa en datos del contexto suizo (Ecoinvent), lo que sugiere la necesidad de desarrollar estudios específicos para México.",
+            "Completeness": "El estudio es completo para los pilares ambiental y económico dentro del alcance definido. El pilar social no fue incluido.",
+            "Sources": "APA. (2011). LIFE-CYCLE COST ANALYSIS: A POSITION PAPER. Arquitec. (2016). Petrolizadoras. 4(1), 64–75. Banxico. (2020). Tasas de Inflación. Basso, D. (n.d.). Máquina fresadora de pavimentos. Butt, A. A. (2012). Life Cycle Assessment of Asphalt Pavements including the Feedstock Energy and Asphalt Additives. Caballero Güereca, C. E. (2020). Apéndice 1: Encuesta de evaluación de softwares de análisis de ciclo de vida. Caterpillar. (2009). Compactadores de suelos vibratorios Cs44 cp44. Caterpillar. (2010). PS150C. Diario de la Federacion. (2013). Ley general del equilibrio ecológico y protección del medio ambiente. Díaz Infante de la Mora, L. A. (2018). Curso de edificación (3a ed.). Doka, G. (2003). Life Cycle Inventories of Waste Treatment Services. Ecoinvent Report No. 13. Expansión. (2021). México baja sus tipos de interés. García, J. (2012). Petrolizadoras. Garnica, P., et al. (2004). Aspectos del diseño volumétrico de mezclas asfálticas. Giani, M. I., et al. (2015). Comparative life cycle assessment of asphalt pavements using reclaimed asphalt, warm mix technology and cold in-place recycling. Goedkoop, M. J., et al. (2013). Category indicators at the midpoint and the endpoint level ReCiPe 2008. GreenDelta. (2020). openLCA. Grupo Selome S.A. de C.V. (2009). MIA Regional, Carretera México-Tuxpan. Güereca, L. P. (2006). Desarrollo de una metodología para la valoración en el Análisis del Ciclo de Vida aplicada a la gestión integral de residuos municipales. Güereca, L. P., et al. (2014, October). Evaluación comparativa de los impactos ambientales de dos tipos de pavimentos. HAMM. (n.d.). Compactador con tambor liso Compactadores Serie 3000. Hasan, U., et al. (2020). Life cycle assessment of roadworks in United Arab Emirates. Hernández-Michaca, J. L., et al. (2001). Impacto ambiental de proyectos carreteros. ifu Hamburg. (2020). Umberto LCA+. Instituto Nacional de Estadística y Geografía. (2016). Síntesis metodológica de la Estadística de vehículos de motor registrados en circulación. ISO. (2006). ISO 14040-Environmental management - Life Cycle Assessment - Principles and Framework. Jelse, K., et al. (2009). Life Cycle Assessment of consumer packaging for liquid food. Ma, F., et al. (2020). Life cycle assessment of greenhouse gas emissions from asphalt pavement maintenance. Maquinarias-Pesadas. (2010). Tablas rendimiento, consumo combustible, costo maquinaria pesada. Mavis, J. (2003). Water Use in Industries of the Future: Mining Industry. Miranda-Rebolledo, R. (2010). Deterioros en pavimentos flexibles y rígidos. Molina, L. T., et al. (2009). Air quality, weather and climate in Mexico City. Mroueh, U.-M., et al. (2000). Life cycle assessment of Road construction. MS Motorservice International. (2014). Consumo y pérdida de aceite. N. Hernandez-Fernandez, et al. (2019). LCA Consortium for a road environmental-friendly infrastructure in Mexico City. Pantini, S., et al. (2018). Towards resource-efficient management of asphalt waste in Lombardy region (Italy). Peralta, O., et al. (2021). Ozone over Mexico City during the COVID-19 pandemic. PRé. (2020). SimaPro. PROFEPA. (2019). Manifestación de Impacto Ambiental. Santero, N., et al. (2010). Life Cycle Assessment of Pavements: A Critical Review of Existing Literature and Research. Santos, J., et al. (2018). Life cycle assessment of low temperature asphalt mixtures for road pavement surfaces. Schlegel, T., et al. (2016). The limits of partial life cycle assessment studies in road construction practices. SCT. (2006). CMT. CARACTERÍSTICAS DE LOS MATERIALES. MATERIALES PARA PAVIMENTOS. SCT. (2017). CATÁLOGO DE SECCIONES ESTRUCTURALES DEPAVIMENTOS PARA LASCARRETERAS DE LA REPÚBLICA MEXICANA. SCT. (2019). Tabulador De Precios Referenciales a Costo Directo. thinkstep. (2020). GaBi. Tokede, O. O., et al. (2020). Life cycle assessment of asphalt variants in infrastructures. United Nations. (2018). World Urbanization Prospects. Vidal, R., et al. (2013). Life cycle assessment of hot mix asphalt and zeolite-based warm mix asphalt with reclaimed asphalt pavement. WIRTGEN Group. (2019). Binding agent spreader SW 18 SC \/ SW 18 SC i. WIRTGEN Group. (2020a). Cold Recyclers and Soil Stabilizers WR Series. WIRTGEN Group. (2020b). Productos.",
+            "Project": "Tesis para obtener el título de Ingeniero Civil",
+            "Intended application": "Generar información para que los tomadores de decisiones (entidades gubernamentales o privadas) implementen medidas sostenibles en la infraestructura de carreteras urbanas y pavimentos de la CDMX.",
+            "Data set owner": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO, FACULTAD DE INGENIERÍA",
+            "Data set generator": "Carlos Enrique Caballero Güereca",
+            "Data set documentor": "Carlos Enrique Caballero Güereca",
+            "Publication": {
+                "name": "Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México",
+                "type": "Tesis de Licenciatura",
+                "year": 2021,
+                "institution": "Universidad Nacional Autónoma de México"
+            },
+            "Creation date": "2021",
+            "Copyright": "DERECHOS RESERVADOS ©",
+            "Access and use restrictions": "El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "08\/12\/2025 17:46",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Bitumen adhesive compound, hot",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries",
+                "amount": 285670,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Asfalto para carpeta, requerido durante 30 años de estudio."
+            },
+            {
+                "is_reference": false,
+                "flow": "Bitumen adhesive compound, cold",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries",
+                "amount": 34335,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Asfalto para emulsión asfáltica, requerido durante 30 años de estudio. Fuente original Arquitec, 2016."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gravel, crushed",
+                "category": "Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212319 Other Crushed and Broken Stone Mining and Quarrying",
+                "amount": 5104330,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Grava requerida durante 30 años de estudio."
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, well, in ground",
+                "category": "Utilities\/221 Utilities\/2213 Water, Sewage and Other Systems\/221310 Water Supply and Irrigation Systems",
+                "amount": 31500,
+                "unit": "l",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Agua de pozo requerida durante 30 años de estudio."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricity for water pump",
+                "category": "Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution",
+                "amount": 945000,
+                "unit": "J",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Energía eléctrica para operación de bomba de agua durante 30 años de estudio."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transport, freight, lorry >32 metric ton, unregulated",
+                "category": "Transportation and Warehousing\/484 Truck Transportation\/4841 General Freight Trucking",
+                "amount": 1232020.6,
+                "unit": "tkm",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Transporte total de maquinaria, materiales y residuos durante 30 años. Incluye transporte de finisher, petrolizadora, compactadores, fresadora, material de carpeta y residuos a relleno sanitario."
+            },
+            {
+                "is_reference": false,
+                "flow": "Lubricating oil",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324191 Petroleum Lubricating Oil and Grease Manufacturing",
+                "amount": 11,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Aceite lubricante total consumido por la maquinaria (finisher, petrolizadora, compactadores, fresadora) durante 30 años."
+            },
+            {
+                "is_reference": false,
+                "flow": "Propane, burned in building machine",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries",
+                "amount": 30.7,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": "Ecoinvent 3.6",
+                "description": "Propano consumido por maquinaria durante la fase de rehabilitación a lo largo de 30 años."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Rehabilitated road surface, partial milling and resurfacing",
+                "category": "Construction\/237 Civil Engineering Construction\/2373 Highway, Street, and Bridge Construction",
+                "amount": 1,
+                "unit": "unidad funcional",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Rehabilitación de 1 km-carril de vialidad (3.5 m de ancho) mantenida durante un período de 30 años mediante fresado parcial y reencarpetado."
+            },
+            {
+                "is_reference": false,
+                "flow": "Waste asphalt, to sanitary landfill",
+                "category": "Administrative and Support and Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562212 Solid Waste Landfill",
+                "amount": 5929000,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Ecoinvent 3.6",
+                "description": "Material residual de carpeta asfáltica fresada y enviada a relleno sanitario durante el período de 30 años."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"f48d7c2b-364e-439d-a335-077c1d60e33e\",\"Name\":\"Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México\",\"Category\":\"Construction\/237 Civil Engineering Construction\/2373 Highway, Street, and Bridge Construction\",\"Description\":\"El objetivo de este trabajo de tesis es cuantificar y analizar los impactos ambientales de tres distintos métodos de tratamientos de rehabilitación de carpetas asfálticas propuestos para las vialidades de la red primaria de la Ciudad de México (CDMX) y compararlos con el procedimiento actual para determinar la factibilidad de la introducción de alternativas distintas de rehabilitación con base en un enfoque de Análisis de Ciclo de Vida (ACV), basado en las Normas ISO 14040 y 14044. El cumplimiento de este objetivo busca el mejoramiento en la eficiencia y el desempeño ambiental de los procesos de obras en la CDMX, trabajando así, hacia los objetivos de desarrollo sostenible planteados por Naciones Unidas y favoreciendo la economía circular. Cada uno de los cuatro distintos métodos de rehabilitación analizados en este documento se denominan escenarios. El Escenario Base (cero) representa la forma actual de rehabilitación de carpetas en la CDMX: un fresado parcial de la carpeta asfáltica y reencarpetado de siete centímetros de profundidad. La Unidad Funcional se define como la rehabilitación de la carpeta asfáltica de 1 km-carril de vialidad principal de la Ciudad de México con 3.5 metros de ancho, sin curvas, salidas o incorporaciones y durante un período de estudio de 30 años. El alcance de los sistemas toma en cuenta todo el Ciclo de Vida de la rehabilitación de la carpeta: desde la primera extracción de materias primas, hasta la última remoción y disposición final del material residual de la carpeta 30 años después, tomando como punto de partida para todos los escenarios la existencia previa de una vialidad con daños en toda la profundidad de la carpeta asfáltica. De los cuatro sistemas evaluados se observó que el Escenario Base obtuvo el peor desempeño ambiental para todas las categorías de impacto evaluadas, debido principalmente a su corta vida útil.\",\"Tags\":\"Análisis de Ciclo de Vida, ACV, pavimentos, rehabilitación de carreteras, fresado, carpeta asfáltica, Ciudad de México, costo de ciclo de vida\",\"Technology Description\":\"El estudio utiliza el software Umberto LCA+ para modelar los escenarios. La metodología de evaluación de impacto de ciclo de vida seleccionada es ReCiPe (punto medio). Las bases de datos de inventario utilizadas son principalmente Ecoinvent 3.6. El escenario convencional (Escenario Base) consiste en el fresado parcial de 7 cm de la carpeta asfáltica y su posterior reencarpetado, utilizando maquinaria como fresadora LXL1000A, petrolizadora Escudero E-20000, finisher Caterpillar AP1000, y compactadores Hamm 3410 y Caterpillar PS150C. Este proceso se repite cada 3 años.\",\"Code\":\"MX\",\"Last change\":\"08\/12\/2025 17:46\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) basado en las normas ISO 14040 e ISO 14044. La metodología de evaluación de impacto es ReCiPe (punto medio).\",\"Process type\":\"Análisis comparativo de cuna a tumba de rehabilitación de pavimentos\",\"Modeling constants\":\"Período de análisis: 30 años. Unidad Funcional: rehabilitación de 1 km-carril de 3.5 m de ancho. Vida útil del Escenario Base: 3 años. Tasa de descuento para ACCV: 4%. Se excluyen las emisiones de la fase de uso por vehículos y los impactos por afectación a la circulación.\",\"Data source information\":\"Base de datos Ecoinvent 3.6; fichas técnicas de maquinaria (Basso, Caterpillar, HAMM, WIRTGEN); Tabulador de precios de la Secretaría de Comunicaciones y Transportes (SCT) 2019; literatura científica (Garnica et al., 2004; Arquitec, 2016).\",\"Data completeness\":\"Se cubre el ciclo de vida completo desde la extracción de materias primas hasta la disposición final. Se excluyen las emisiones de la fase de uso de vehículos. Se excluye el pilar social del ACV.\",\"Data selection\":\"Se seleccionaron siete categorías de impacto relevantes para pavimentos: Cambio climático, acidificación terrestre, formación de oxidantes fotoquímicos, agotamiento de recursos fósiles, toxicidad humana, eutrofización de agua dulce y agotamiento de recursos hídricos. Los flujos de la fase de uso vehicular se excluyen por ser constantes en todos los escenarios.\",\"Data treatment\":\"Los datos de inventario se calcularon y normalizaron para la unidad funcional definida (1 km-carril sobre un periodo de 30 años). Se realizaron balances de materia y energía. Para el ACCV, los costos futuros se llevaron a Valor Presente Neto (VPN) usando una tasa de descuento.\",\"Sampling procedure\":\"No se realizó muestreo en campo. Los datos se recopilaron de fuentes secundarias como bases de datos, fichas técnicas, tabuladores de precios y literatura científica.\",\"Data collection period\":\"La tesis fue publicada en 2021, utilizando datos de fuentes que van aproximadamente desde 2004 hasta 2020.\",\"Use advice\":\"Los datos para tecnologías de reciclaje (Escenarios 2 y 3) son teóricos debido a su uso no extendido en México y se recomienda validación con proyectos reales. El modelo de disposición final en relleno sanitario se basa en datos del contexto suizo (Ecoinvent), lo que sugiere la necesidad de desarrollar estudios específicos para México.\",\"Completeness\":\"El estudio es completo para los pilares ambiental y económico dentro del alcance definido. El pilar social no fue incluido.\",\"Sources\":\"APA. (2011). LIFE-CYCLE COST ANALYSIS: A POSITION PAPER. Arquitec. (2016). Petrolizadoras. 4(1), 64–75. Banxico. (2020). Tasas de Inflación. Basso, D. (n.d.). Máquina fresadora de pavimentos. Butt, A. A. (2012). Life Cycle Assessment of Asphalt Pavements including the Feedstock Energy and Asphalt Additives. Caballero Güereca, C. E. (2020). Apéndice 1: Encuesta de evaluación de softwares de análisis de ciclo de vida. Caterpillar. (2009). Compactadores de suelos vibratorios Cs44 cp44. Caterpillar. (2010). PS150C. Diario de la Federacion. (2013). Ley general del equilibrio ecológico y protección del medio ambiente. Díaz Infante de la Mora, L. A. (2018). Curso de edificación (3a ed.). Doka, G. (2003). Life Cycle Inventories of Waste Treatment Services. Ecoinvent Report No. 13. Expansión. (2021). México baja sus tipos de interés. García, J. (2012). Petrolizadoras. Garnica, P., et al. (2004). Aspectos del diseño volumétrico de mezclas asfálticas. Giani, M. I., et al. (2015). Comparative life cycle assessment of asphalt pavements using reclaimed asphalt, warm mix technology and cold in-place recycling. Goedkoop, M. J., et al. (2013). Category indicators at the midpoint and the endpoint level ReCiPe 2008. GreenDelta. (2020). openLCA. Grupo Selome S.A. de C.V. (2009). MIA Regional, Carretera México-Tuxpan. Güereca, L. P. (2006). Desarrollo de una metodología para la valoración en el Análisis del Ciclo de Vida aplicada a la gestión integral de residuos municipales. Güereca, L. P., et al. (2014, October). Evaluación comparativa de los impactos ambientales de dos tipos de pavimentos. HAMM. (n.d.). Compactador con tambor liso Compactadores Serie 3000. Hasan, U., et al. (2020). Life cycle assessment of roadworks in United Arab Emirates. Hernández-Michaca, J. L., et al. (2001). Impacto ambiental de proyectos carreteros. ifu Hamburg. (2020). Umberto LCA+. Instituto Nacional de Estadística y Geografía. (2016). Síntesis metodológica de la Estadística de vehículos de motor registrados en circulación. ISO. (2006). ISO 14040-Environmental management - Life Cycle Assessment - Principles and Framework. Jelse, K., et al. (2009). Life Cycle Assessment of consumer packaging for liquid food. Ma, F., et al. (2020). Life cycle assessment of greenhouse gas emissions from asphalt pavement maintenance. Maquinarias-Pesadas. (2010). Tablas rendimiento, consumo combustible, costo maquinaria pesada. Mavis, J. (2003). Water Use in Industries of the Future: Mining Industry. Miranda-Rebolledo, R. (2010). Deterioros en pavimentos flexibles y rígidos. Molina, L. T., et al. (2009). Air quality, weather and climate in Mexico City. Mroueh, U.-M., et al. (2000). Life cycle assessment of Road construction. MS Motorservice International. (2014). Consumo y pérdida de aceite. N. Hernandez-Fernandez, et al. (2019). LCA Consortium for a road environmental-friendly infrastructure in Mexico City. Pantini, S., et al. (2018). Towards resource-efficient management of asphalt waste in Lombardy region (Italy). Peralta, O., et al. (2021). Ozone over Mexico City during the COVID-19 pandemic. PRé. (2020). SimaPro. PROFEPA. (2019). Manifestación de Impacto Ambiental. Santero, N., et al. (2010). Life Cycle Assessment of Pavements: A Critical Review of Existing Literature and Research. Santos, J., et al. (2018). Life cycle assessment of low temperature asphalt mixtures for road pavement surfaces. Schlegel, T., et al. (2016). The limits of partial life cycle assessment studies in road construction practices. SCT. (2006). CMT. CARACTERÍSTICAS DE LOS MATERIALES. MATERIALES PARA PAVIMENTOS. SCT. (2017). CATÁLOGO DE SECCIONES ESTRUCTURALES DEPAVIMENTOS PARA LASCARRETERAS DE LA REPÚBLICA MEXICANA. SCT. (2019). Tabulador De Precios Referenciales a Costo Directo. thinkstep. (2020). GaBi. Tokede, O. O., et al. (2020). Life cycle assessment of asphalt variants in infrastructures. United Nations. (2018). World Urbanization Prospects. Vidal, R., et al. (2013). Life cycle assessment of hot mix asphalt and zeolite-based warm mix asphalt with reclaimed asphalt pavement. WIRTGEN Group. (2019). Binding agent spreader SW 18 SC \/ SW 18 SC i. WIRTGEN Group. (2020a). Cold Recyclers and Soil Stabilizers WR Series. WIRTGEN Group. (2020b). Productos.\",\"Project\":\"Tesis para obtener el título de Ingeniero Civil\",\"Intended application\":\"Generar información para que los tomadores de decisiones (entidades gubernamentales o privadas) implementen medidas sostenibles en la infraestructura de carreteras urbanas y pavimentos de la CDMX.\",\"Data set owner\":\"UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO, FACULTAD DE INGENIERÍA\",\"Data set generator\":\"Carlos Enrique Caballero Güereca\",\"Data set documentor\":\"Carlos Enrique Caballero Güereca\",\"Publication\":{\"name\":\"Análisis de Ciclo de Vida comparativo de pavimentos en la Ciudad de México\",\"type\":\"Tesis de Licenciatura\",\"year\":2021,\"institution\":\"Universidad Nacional Autónoma de México\"},\"Creation date\":\"2021\",\"Copyright\":\"DERECHOS RESERVADOS ©\",\"Access and use restrictions\":\"El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"08\/12\/2025 17:46\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Bitumen adhesive compound, hot\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries\",\"amount\":285670,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Asfalto para carpeta, requerido durante 30 años de estudio.\"},{\"is_reference\":false,\"flow\":\"Bitumen adhesive compound, cold\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries\",\"amount\":34335,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Asfalto para emulsión asfáltica, requerido durante 30 años de estudio. Fuente original Arquitec, 2016.\"},{\"is_reference\":false,\"flow\":\"Gravel, crushed\",\"category\":\"Mining, Quarrying, and Oil and Gas Extraction\/212 Mining (except Oil and Gas)\/2123 Nonmetallic Mineral Mining and Quarrying\/212319 Other Crushed and Broken Stone Mining and Quarrying\",\"amount\":5104330,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Grava requerida durante 30 años de estudio.\"},{\"is_reference\":false,\"flow\":\"Water, well, in ground\",\"category\":\"Utilities\/221 Utilities\/2213 Water, Sewage and Other Systems\/221310 Water Supply and Irrigation Systems\",\"amount\":31500,\"unit\":\"l\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Agua de pozo requerida durante 30 años de estudio.\"},{\"is_reference\":false,\"flow\":\"Electricity for water pump\",\"category\":\"Utilities\/221 Utilities\/2211 Electric Power Generation, Transmission and Distribution\",\"amount\":945000,\"unit\":\"J\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Energía eléctrica para operación de bomba de agua durante 30 años de estudio.\"},{\"is_reference\":false,\"flow\":\"Transport, freight, lorry >32 metric ton, unregulated\",\"category\":\"Transportation and Warehousing\/484 Truck Transportation\/4841 General Freight Trucking\",\"amount\":1232020.6,\"unit\":\"tkm\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Transporte total de maquinaria, materiales y residuos durante 30 años. Incluye transporte de finisher, petrolizadora, compactadores, fresadora, material de carpeta y residuos a relleno sanitario.\"},{\"is_reference\":false,\"flow\":\"Lubricating oil\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324191 Petroleum Lubricating Oil and Grease Manufacturing\",\"amount\":11,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Aceite lubricante total consumido por la maquinaria (finisher, petrolizadora, compactadores, fresadora) durante 30 años.\"},{\"is_reference\":false,\"flow\":\"Propane, burned in building machine\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\/324110 Petroleum Refineries\",\"amount\":30.7,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Propano consumido por maquinaria durante la fase de rehabilitación a lo largo de 30 años.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Rehabilitated road surface, partial milling and resurfacing\",\"category\":\"Construction\/237 Civil Engineering Construction\/2373 Highway, Street, and Bridge Construction\",\"amount\":1,\"unit\":\"unidad funcional\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Rehabilitación de 1 km-carril de vialidad (3.5 m de ancho) mantenida durante un período de 30 años mediante fresado parcial y reencarpetado.\"},{\"is_reference\":false,\"flow\":\"Waste asphalt, to sanitary landfill\",\"category\":\"Administrative and Support and Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/5622 Waste Treatment and Disposal\/562212 Solid Waste Landfill\",\"amount\":5929000,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Ecoinvent 3.6\",\"description\":\"Material residual de carpeta asfáltica fresada y enviada a relleno sanitario durante el período de 30 años.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765216019
+}

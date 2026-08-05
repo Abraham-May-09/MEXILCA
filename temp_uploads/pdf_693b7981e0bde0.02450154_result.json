@@ -1,0 +1,269 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "3baad381-bb76-4fd9-b74e-c8d635b4366c",
+            "Name": "ACV VIGUETA ANÁLISIS DE CICLO DE VIDA DEL VIGUETA",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos",
+            "Description": "Se determinó la huella de carbono y la demanda acumulada de energía durante la fabricación de vigueta, a partir de un Inventario de Ciclo de Vida (ICV) con datos obtenidos en México. El objetivo fue estimar la huella de carbono durante el proceso de fabricación de viguetas en plantas localizadas en la zona centro de México. El alcance se limita al estudio del proceso de fabricación de vigueta (cradle-to-gate), incluyendo extracción de materia prima, transporte y fabricación per se. La unidad funcional es producir un metro lineal de vigueta terminada en planta. El resultado obtenido respecto a la producción de 1 m lineal de vigueta en planta fue de 6.40565 kgCO2eq.",
+            "Tags": "Análisis de ciclo de vida, vigueta, huella de carbono, ACV, construcción, concreto, México",
+            "Technology Description": "La vigueta de alma abierta se fabrica con concreto (cemento, grava, arena y agua) y una estructura de varilla de acero y alambrón. El procedimiento de cálculo fue efectuado mediante el software OpenLCA 1.3.4 con el método CML 2001 v. 4.2.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 02:11"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "ISO 14044, CML 2001 v. 4.2",
+            "Process type": "Proceso de fabricación cradle-to-gate",
+            "Modeling constants": "Criterio de corte de masa al 1%. El consumo por soldadura fue omitido (0.356% de la masa). La producción de electricidad se basó en el mix energético nacional de México (CMM, 2014). Los factores de emisión al aire son AP-42 adaptados a México. Se asume que el agua requerida se toma directamente de la red.",
+            "Data source information": "Datos primarios de un estudio de 2009 (Chargoy et al.) para el inventario de proceso. Mix energético de CMM (2014). Distancias de transporte estimadas con INEGI DENUE. Factores de emisión AP-42.",
+            "Data completeness": "El inventario omite las emisiones al agua por falta de datos. Para la extracción de materia prima, solo se incluye el impacto del transporte debido a la falta de información de las empresas extractoras.",
+            "Data selection": "El estudio se enfoca en la vigueta de alma abierta. El criterio de corte es de masa al 1%.",
+            "Data treatment": "El consumo de energía fue dividido por la producción del periodo de facturación para obtener un valor por unidad. Los resultados de diferentes empresas se promediaron de forma ponderada según el nivel de producción.",
+            "Sampling procedure": "Observación directa del proceso de elaboración en cada empresa participante.",
+            "Data collection period": "2009",
+            "Use advice": "Los resultados son representativos para el proceso de fabricación de vigueta en plantas de la zona centro de México para las categorías estudiadas. No incluye las etapas de uso y fin de vida.",
+            "Completeness": "Parcial. Faltan datos de emisiones al agua y de los procesos de extracción de materia prima.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida – Requisitos y directrices., 2009. [2] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [3] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [5] Iron and steel - Sector Profile.",
+            "Project": "Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México.",
+            "Intended application": "Conocer el impacto ambiental de la industria productora de vigueta en la zona centro de México, específicamente la huella de carbono.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández",
+            "Data set documentor": "Andrea Hernández",
+            "Publication": "Memoria de Cálculo - Borrador",
+            "Creation date": "2014-12-17",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 02:11",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 1.89,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Arena",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying",
+                "amount": 2.75,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Grava",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying",
+                "amount": 4.73,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Cemento",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 2.42,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Varilla 3\/8 in",
+                "category": "C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing",
+                "amount": 1.09,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Varilla 1\/2 in",
+                "category": "C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing",
+                "amount": 0.95,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Varilla 3\/16 in",
+                "category": "C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing",
+                "amount": 0.2,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de materia"
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution",
+                "amount": 1153.56,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de energía"
+            },
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum and coal products manufacturing",
+                "amount": 39.84,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de energía"
+            },
+            {
+                "is_reference": false,
+                "flow": "Combustóleo",
+                "category": "C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum and coal products manufacturing",
+                "amount": 7821.85,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de energía"
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "B:Mining, quarrying, and oil and gas extraction\/211:Oil and gas extraction",
+                "amount": 1022.86,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Parte del balance de energía"
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte materia prima",
+                "category": "H:Transportation and storage\/484:Truck transportation",
+                "amount": 5.8726,
+                "unit": "tkm",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Transporte agregado de insumos"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Vigueta",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 1,
+                "unit": "m lineal de vigueta",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto de referencia (unidad funcional)"
+            },
+            {
+                "is_reference": false,
+                "flow": "Partículas sedimentables",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0015,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisión al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "SO2",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0012,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisión al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0041,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisión al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "NOx",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0048,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisión al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "PM10",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 0.0009,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisión al aire"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing",
+                "amount": 2.0172,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Emisión al aire"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"3baad381-bb76-4fd9-b74e-c8d635b4366c\",\"Name\":\"ACV VIGUETA ANÁLISIS DE CICLO DE VIDA DEL VIGUETA\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\",\"Description\":\"Se determinó la huella de carbono y la demanda acumulada de energía durante la fabricación de vigueta, a partir de un Inventario de Ciclo de Vida (ICV) con datos obtenidos en México. El objetivo fue estimar la huella de carbono durante el proceso de fabricación de viguetas en plantas localizadas en la zona centro de México. El alcance se limita al estudio del proceso de fabricación de vigueta (cradle-to-gate), incluyendo extracción de materia prima, transporte y fabricación per se. La unidad funcional es producir un metro lineal de vigueta terminada en planta. El resultado obtenido respecto a la producción de 1 m lineal de vigueta en planta fue de 6.40565 kgCO2eq.\",\"Tags\":\"Análisis de ciclo de vida, vigueta, huella de carbono, ACV, construcción, concreto, México\",\"Technology Description\":\"La vigueta de alma abierta se fabrica con concreto (cemento, grava, arena y agua) y una estructura de varilla de acero y alambrón. El procedimiento de cálculo fue efectuado mediante el software OpenLCA 1.3.4 con el método CML 2001 v. 4.2.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 02:11\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"ISO 14044, CML 2001 v. 4.2\",\"Process type\":\"Proceso de fabricación cradle-to-gate\",\"Modeling constants\":\"Criterio de corte de masa al 1%. El consumo por soldadura fue omitido (0.356% de la masa). La producción de electricidad se basó en el mix energético nacional de México (CMM, 2014). Los factores de emisión al aire son AP-42 adaptados a México. Se asume que el agua requerida se toma directamente de la red.\",\"Data source information\":\"Datos primarios de un estudio de 2009 (Chargoy et al.) para el inventario de proceso. Mix energético de CMM (2014). Distancias de transporte estimadas con INEGI DENUE. Factores de emisión AP-42.\",\"Data completeness\":\"El inventario omite las emisiones al agua por falta de datos. Para la extracción de materia prima, solo se incluye el impacto del transporte debido a la falta de información de las empresas extractoras.\",\"Data selection\":\"El estudio se enfoca en la vigueta de alma abierta. El criterio de corte es de masa al 1%.\",\"Data treatment\":\"El consumo de energía fue dividido por la producción del periodo de facturación para obtener un valor por unidad. Los resultados de diferentes empresas se promediaron de forma ponderada según el nivel de producción.\",\"Sampling procedure\":\"Observación directa del proceso de elaboración en cada empresa participante.\",\"Data collection period\":\"2009\",\"Use advice\":\"Los resultados son representativos para el proceso de fabricación de vigueta en plantas de la zona centro de México para las categorías estudiadas. No incluye las etapas de uso y fin de vida.\",\"Completeness\":\"Parcial. Faltan datos de emisiones al agua y de los procesos de extracción de materia prima.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida – Requisitos y directrices., 2009. [2] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [3] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [4] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [5] Iron and steel - Sector Profile.\",\"Project\":\"Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México.\",\"Intended application\":\"Conocer el impacto ambiental de la industria productora de vigueta en la zona centro de México, específicamente la huella de carbono.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández\",\"Data set documentor\":\"Andrea Hernández\",\"Publication\":\"Memoria de Cálculo - Borrador\",\"Creation date\":\"2014-12-17\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 02:11\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":1.89,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Arena\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\",\"amount\":2.75,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Grava\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/212:Mining (except oil and gas)\/2123:Nonmetallic mineral mining and quarrying\",\"amount\":4.73,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Cemento\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":2.42,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Varilla 3\/8 in\",\"category\":\"C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing\",\"amount\":1.09,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Varilla 1\/2 in\",\"category\":\"C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing\",\"amount\":0.95,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Varilla 3\/16 in\",\"category\":\"C:Manufacturing\/331:Primary metal manufacturing\/3311:Iron and steel mills and ferroalloy manufacturing\",\"amount\":0.2,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de materia\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution\",\"amount\":1153.56,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de energía\"},{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum and coal products manufacturing\",\"amount\":39.84,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de energía\"},{\"is_reference\":false,\"flow\":\"Combustóleo\",\"category\":\"C:Manufacturing\/324:Petroleum and coal products manufacturing\/3241:Petroleum and coal products manufacturing\",\"amount\":7821.85,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de energía\"},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"B:Mining, quarrying, and oil and gas extraction\/211:Oil and gas extraction\",\"amount\":1022.86,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Parte del balance de energía\"},{\"is_reference\":false,\"flow\":\"Transporte materia prima\",\"category\":\"H:Transportation and storage\/484:Truck transportation\",\"amount\":5.8726,\"unit\":\"tkm\",\"uncertainty\":null,\"provider\":null,\"description\":\"Transporte agregado de insumos\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Vigueta\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":1,\"unit\":\"m lineal de vigueta\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto de referencia (unidad funcional)\"},{\"is_reference\":false,\"flow\":\"Partículas sedimentables\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0015,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisión al aire\"},{\"is_reference\":false,\"flow\":\"SO2\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0012,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisión al aire\"},{\"is_reference\":false,\"flow\":\"CO\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0041,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisión al aire\"},{\"is_reference\":false,\"flow\":\"NOx\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0048,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisión al aire\"},{\"is_reference\":false,\"flow\":\"PM10\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":0.0009,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisión al aire\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"C:Manufacturing\/327:Nonmetallic mineral product manufacturing\/3273:Cement and concrete product manufacturing\",\"amount\":2.0172,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Emisión al aire\"}]}",
+    "http_code": 200,
+    "timestamp": 1765505477
+}

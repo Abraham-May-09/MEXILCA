@@ -1,0 +1,94 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "ad8d4595-5d88-43c0-9f36-266688317437",
+                "Name": "Memoria de Cálculo: Huella de carbono y demanda acumulada de energía asociadas a la producción y distribución de 1 m³ de agua en México",
+                "Category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "Description": "Se determinaron la huella de carbono y la demanda acumulada de energía asociadas a la producción y distribución de 1 m³ de agua en México. El alcance del estudio es el sistema de bombeo de agua potable. La unidad funcional es 1 m³ de agua potable producida y transportada por el sistema de bombeo en México, en 2012. Se utilizaron dos métodos, uno basado en información pública oficial y otro complementado por GIZ-BID, que se considera más completo. Los límites del sistema consideran la energía eléctrica para extracción, distribución y transporte de aguas negras. Excluye la energía del usuario final, transporte por pipas y la fabricación y mantenimiento de la infraestructura. Los resultados nacionales para el método GIZ-BID fueron 0.22827 kg CO2eq y 4.081342 MJeq.",
+                "Tags": "agua potable, huella de carbono, demanda acumulada de energía, bombeo de agua, México, ACV",
+                "Technology Description": "Se utilizaron dos métodos de cálculo. 1) Método Oficial: Utiliza información pública del Anuario Estadístico de la INEGI 2012 y de PIGOO. 2) Método GIZ-BID: Considera que la información pública es incompleta y la complementa con datos del censo económico 2004. Ambos métodos se realizaron a nivel estatal y se promediaron de forma ponderada según el consumo de agua de cada estado para obtener valores nacionales.",
+                "Code": "MX",
+                "Last change": "20\/05\/2026 01:43"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "Análisis de categorías de impacto Potencial de Calentamiento Global (PCG) a 100 años y Demanda Acumulada de Energía (DAE). No se especifica un método de ACV estándar como ISO 14044.",
+                "Process type": "Proceso de producción y distribución de agua potable",
+                "Modeling constants": "Se supone que la totalidad del agua consumida por una entidad federativa es producida y distribuida por la misma. El método GIZ-BID supone que el agua extraída llega en su totalidad al usuario (sin fugas). El método Oficial distribuye la energía gastada en el agua perdida por fugas entre el agua que llega a los usuarios.",
+                "Data source information": "Información pública del Anuario Estadístico de la INEGI 2012, Programa de Indicadores de Gestión de Organismos Operadores (PIGOO), estudio de la empresa alemana GIZ y datos actualizados por el Banco Internacional de Desarrollo (BID).",
+                "Data completeness": "El sistema considera la energía eléctrica para la extracción, distribución de agua potable y bombeo de aguas negras. Excluye: energía usada por el usuario final (cisterna-tinaco), combustible para distribución en pipas, y la energía\/materiales para la fabricación y mantenimiento de la infraestructura (bombas, tuberías).",
+                "Data selection": "Los datos se seleccionan con base en dos enfoques: uno que utiliza únicamente información pública oficial (Método Oficial) y otro que la complementa con datos del censo económico para mayor exhaustividad (Método GIZ-BID).",
+                "Data treatment": "Cálculo de Índices de Consumo Energético (ICE) a nivel estatal, seguido de un promedio ponderado basado en el consumo de agua de cada estado para obtener valores nacionales.",
+                "Sampling procedure": "Recopilación de datos de fuentes secundarias (estadísticas gubernamentales y estudios previos).",
+                "Data collection period": "El año de referencia para la unidad funcional es 2012. Las fuentes de datos son de 2011, 2012 y consulta en 2014.",
+                "Use advice": "Los resultados del método 'Oficial' pueden subestimar los impactos, ya que se basa en información que no incluye todos los sistemas de bombeo existentes. El método 'GIZ-BID' se considera más representativo.",
+                "Completeness": "El estudio reconoce que la información oficial es deficiente. El método GIZ-BID intenta mejorar la completitud, pero aún existen exclusiones importantes en los límites del sistema (ej. infraestructura).",
+                "Sources": "[1] Estudio Integral de Sistemas de Bombeo de Agua Potable Municipal. GIZ, CONUEE. México, 2011. [2] Índices GEI para el Uso del Agua en la Vivienda en México. Banco Interamericano de Desarrollo, Estados Unidos de America, 2013. [3] PIGOO [en línea]: Programa de Indicadores de Gestión de Organismos Operadores del Instituto Mexicano de Tecnología del Agua. Consulta en línea. México, [fecha de consulta: diciembre de 2014]. Disponible desde: <http:\/\/www.pigoo.gob.mx\/>",
+                "Project": "Centro Mario Molina",
+                "Intended application": "Estimar la huella de carbono y demanda acumulada de energía de la producción y distribución de 1 m³ de agua potable en México.",
+                "Data set owner": "Centro Mario Molina",
+                "Data set generator": "María José González de Abiega, Ángel Pérez Padilla",
+                "Data set documentor": "María José González de Abiega, Ángel Pérez Padilla",
+                "Publication": "AGUA MEMORIA DE CÁLCULO BORRADOR",
+                "Creation date": "2015-01-15",
+                "Copyright": null,
+                "Access and use restrictions": null
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "20\/05\/2026 01:43",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Agua potable, producida y transportada por sistema de bombeo",
+                    "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                    "amount": 1,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Unidad funcional del estudio."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Dióxido de carbono, equivalente",
+                    "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                    "amount": 0.22827,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "GIZ-BID",
+                    "description": "Resultado de la categoría de impacto Potencial de Calentamiento Global (PCG) según el método GIZ-BID, considerado más completo. El valor del método 'Oficial' es 0.21185 kg CO2eq."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779241386
+}

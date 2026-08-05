@@ -1,0 +1,137 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "3ec6b82c-0d8d-480b-bbee-281b670d23b7",
+            "Name": "7 Ton diesel por km",
+            "Category": "Transportation and Storage\/484 Truck Transportation",
+            "Description": "Inventario del ciclo de vida para el transporte de carga pesada utilizando camiones de 7 toneladas que consumen diesel. El proceso considera 1 km de transporte como unidad funcional, con entradas de 0.328112 GJ de diesel por km y emisiones asociadas incluyendo dióxido de carbono (865 kg), monóxido de carbono (3.15 kg), óxidos de nitrógeno (6.72 kg) y partículas menores a 10 um (0.20 kg).",
+            "Tags": "transporte de carga, diesel, emisiones, camiones, inventario ciclo de vida",
+            "Technology | Description": "Transporte de carga pesada utilizando camiones de 7 toneladas con motor diesel",
+            "Code": "MX",
+            "Last_change": "07\/11\/2025 18:39"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "No especificada en el documento",
+            "Process type": "UNIT_PROCESS",
+            "Modeling constants": "No especificados en el documento",
+            "Data source information": "Datos de referencia año 2014 para México",
+            "Data completeness": "Cubre flujos de entrada (diesel) y salidas (emisiones) principales para transporte de 7 toneladas por km",
+            "Data selection": "Incluye flujos de combustible diesel y emisiones atmosféricas relevantes (CO2, CO, NOx, partículas)",
+            "Data treatment": "No especificado en el documento",
+            "Sampling procedure": "No especificado en el documento",
+            "Data collection period": "Referencia año 2014",
+            "Use advice": "Aplicable para transporte en México, condiciones específicas de 7 toneladas por kilómetro",
+            "Completeness": "Incluye flujos principales de entrada y emisiones, pero no especifica si cubre todos los flujos relevantes del ciclo de vida",
+            "Sources": "No especificadas en el documento",
+            "Project": "MexiLCA_IINGEN",
+            "Intended application": "Análisis de ciclo de vida en transporte y almacenamiento",
+            "Data set owner": "N\/A",
+            "Data set generator": "Ciclo de Vida System - UNAM CREAA",
+            "Data set documentor": "Ciclo de Vida System - UNAM CREAA",
+            "Publication": "No especificada",
+            "Creation date": "2025-11-05",
+            "Copyright": "Instituto de Ingeniería UNAM®",
+            "Access and use restrictions": "Public Domain \/ CC-BY-4.0, acceso público"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-07T18:40:05.527Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Diesel, at service station",
+                "category": "MexiLCA_IINGEN\/Transportation and storage (H)",
+                "amount": 0.328112,
+                "unit": "GJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "> 7 Ton diesel por km",
+                "category": "MexiLCA_IINGEN\/Transportation and storage (H)",
+                "amount": 1,
+                "unit": "km",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide, fossil",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 865,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Carbon monoxide, fossil",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 3.15,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen oxides",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 6.71666667,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Particulates, < 10 um",
+                "category": "MexiLCA\/Transportation and storage (H)",
+                "amount": 0.20166667,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"3ec6b82c-0d8d-480b-bbee-281b670d23b7\",\"Name\":\"7 Ton diesel por km\",\"Category\":\"Transportation and Storage\/484 Truck Transportation\",\"Description\":\"Inventario del ciclo de vida para el transporte de carga pesada utilizando camiones de 7 toneladas que consumen diesel. El proceso considera 1 km de transporte como unidad funcional, con entradas de 0.328112 GJ de diesel por km y emisiones asociadas incluyendo dióxido de carbono (865 kg), monóxido de carbono (3.15 kg), óxidos de nitrógeno (6.72 kg) y partículas menores a 10 um (0.20 kg).\",\"Tags\":\"transporte de carga, diesel, emisiones, camiones, inventario ciclo de vida\",\"Technology | Description\":\"Transporte de carga pesada utilizando camiones de 7 toneladas con motor diesel\",\"Code\":\"MX\",\"Last_change\":\"07\/11\/2025 18:39\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"No especificada en el documento\",\"Process type\":\"UNIT_PROCESS\",\"Modeling constants\":\"No especificados en el documento\",\"Data source information\":\"Datos de referencia año 2014 para México\",\"Data completeness\":\"Cubre flujos de entrada (diesel) y salidas (emisiones) principales para transporte de 7 toneladas por km\",\"Data selection\":\"Incluye flujos de combustible diesel y emisiones atmosféricas relevantes (CO2, CO, NOx, partículas)\",\"Data treatment\":\"No especificado en el documento\",\"Sampling procedure\":\"No especificado en el documento\",\"Data collection period\":\"Referencia año 2014\",\"Use advice\":\"Aplicable para transporte en México, condiciones específicas de 7 toneladas por kilómetro\",\"Completeness\":\"Incluye flujos principales de entrada y emisiones, pero no especifica si cubre todos los flujos relevantes del ciclo de vida\",\"Sources\":\"No especificadas en el documento\",\"Project\":\"MexiLCA_IINGEN\",\"Intended application\":\"Análisis de ciclo de vida en transporte y almacenamiento\",\"Data set owner\":\"N\/A\",\"Data set generator\":\"Ciclo de Vida System - UNAM CREAA\",\"Data set documentor\":\"Ciclo de Vida System - UNAM CREAA\",\"Publication\":\"No especificada\",\"Creation date\":\"2025-11-05\",\"Copyright\":\"Instituto de Ingeniería UNAM®\",\"Access and use restrictions\":\"Public Domain \/ CC-BY-4.0, acceso público\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-07T18:40:05.527Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Diesel, at service station\",\"category\":\"MexiLCA_IINGEN\/Transportation and storage (H)\",\"amount\":0.328112,\"unit\":\"GJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"> 7 Ton diesel por km\",\"category\":\"MexiLCA_IINGEN\/Transportation and storage (H)\",\"amount\":1,\"unit\":\"km\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Carbon dioxide, fossil\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":865,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Carbon monoxide, fossil\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":3.15,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Nitrogen oxides\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":6.71666667,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Particulates, < 10 um\",\"category\":\"MexiLCA\/Transportation and storage (H)\",\"amount\":0.20166667,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1762540844
+}

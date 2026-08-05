@@ -1,0 +1,519 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "a6fd667e-2d54-40e6-ae0d-f84350864ad4",
+            "Name": "Environmental impact of beef production in Mexico through life cycle assessment",
+            "Category": "Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería",
+            "Description": "Intensive and extensive systems of beef production in the Mexican tropics were analyzed. The aim of the study was to estimate and compare the environmental impact of two typical beef production systems in Veracruz, Mexico. A system boundary was established from farm production to prior to transport for consumer consumption, including intermediate stages of product processing, marketing and transportation. The functional unit was 1 kg of boneless and fatless beef. The life cycle inventory was built using information from case studies; farmers, slaughterhouses and retail point managers who provided information from records and expert knowledge were interviewed. The study included cow-calf processes, pre-fattening, fattening, processing and retail. Several impact categories were analyzed using SimaPro software and the ReCiPe Midpoint method for impact characterization. The results showed that for the extensive system, the cow-calf stage is the major contributor in eleven of the twelve impact categories analyzed, while in the intensive system, it is the main contributor to the climate change, terrestrial acidification, freshwater and marine eutrophication. The fattening stage of intensive system, has a predominant impact on human toxicity, water depletion, terrestrial ecotoxicity, fossil depletion, photo-oxidants formation, freshwater ecotoxicity and marine ecotoxicity; the processing stage has relevant contributions to fossil fuel depletion and the formation of photochemical oxidants in intensive systems. Finally, the marketing stage did not have a predominant impact on any category. The results indicated that the extensive system has better environmental performance than the intensive system for nine of the twelve studied categories.",
+            "Tags": "Life cycle assessment, Mexican beef, Extensive beef production, Intensive beef production, Beef supply chain, Environmental impact assessment, Beef production in Mexican tropic",
+            "Technology | Description": "The analysis was performed using SimaPro 7.3.3 software for processing the inventory, ReCiPe Midpoint (H) method version 1.06. The ReCiPe method was selected because it is an actual and accepted method which uses mid and endpoint impact categories. It uses an environmental mechanism as a base for the impact model; similarly, it allows the quantification of the environmental impacts from specific indicators and was used to evaluate the twelve impact categories. These categories were: Climate change (CC in kg CO2 eq), Human Toxicity (HT in kg, 1.4-DB eq), Terrestrial Acidification (TA in kg, SO2 eq), Freshwater Eutrophication (FEU in kg Peq), Marine Eutrophication (MEU in kgNeq), Terrestrial Ecotoxicity (ET in kg 1,4-DB eq), Agricultural Land Occupation (ALO in m2 x yr), Water depletion (WD in m3), Fossil Depletion.",
+            "Code": "MX",
+            "Last_change": "14\/11\/2025 02:21"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Metodología de evaluación del ciclo de vida según ISO 14040:2006, utilizando software SimaPro 7.3.3 y método ReCiPe Midpoint (H) versión 1.06 para caracterización de impactos",
+            "Process type": "Evaluación de cadena completa desde producción en granja hasta punto de venta minorista, excluyendo transporte al consumidor final",
+            "Modeling constants": "Metodología Tier 1 del IPCC (2006) para estimación de emisiones de metano entérico y de estiércol, óxido nitroso y amoníaco; asignación económica 64.5% para leche y 35.5% para terneros en etapa cría; límites del sistema excluyen infraestructura y equipamiento",
+            "Data source information": "17 estudios de caso mediante entrevistas a productores, representantes de rastros y puntos de venta; datos complementarios de literatura científica y expertos; bases de datos nacionales (INEGI, SAGARPA, SENASICA)",
+            "Data completeness": "Cobertura completa de todos los flujos relevantes en las etapas de cría, precebo, ceba, procesamiento y comercialización para sistemas extensivo e intensivo",
+            "Data selection": "Incluye animales, pasturas, concentrados, fertilizantes, pesticidas, agua, electricidad, gas, empaques, materiales de distribución, disposición de residuos orgánicos y transporte de productos",
+            "Data treatment": "Validación cruzada con datos publicados, reportes y estadísticas nacionales; consulta con asociaciones ganaderas, investigadores y especialistas",
+            "Sampling procedure": "Muestreo por casos representativos: 2 ranches para cría, 2 casos por proceso y sistema para precebo, ceba y procesamiento (total 12 casos), 1 tienda de cadena grande para comercialización intensiva, 2 carnicerías para comercialización extensiva",
+            "Data collection period": "Un año de operaciones para cada unidad de producción, procesamiento y comercialización analizada",
+            "Use advice": "Aplicable específicamente a sistemas de producción bovina en trópico mexicano (Veracruz); resultados no extrapolables directamente a otras regiones sin ajustes por condiciones locales",
+            "Completeness": "Inventario completo que cubre todas las etapas relevantes del ciclo de vida con datos primarios y secundarios validados",
+            "Sources": "Huerta, A.R., Güereca, L.P., Rubio Lozano, M.S. (2016). Environmental impact of beef production in Mexico through life cycle assessment. Resources, Conservation and Recycling, 109, 44-53",
+            "Project": "Knowledge-based Sustainable vAlue-added food chains: innovative tools for monitoring ethical, environmental and Socio-economical impActs and implementing Eu-Latin America shared strategies (Grant agreement no.: 265927) - Séptimo Programa Marco de la UE",
+            "Intended application": "Evaluación comparativa de impactos ambientales entre sistemas extensivo e intensivo de producción bovina; identificación de puntos críticos en la cadena de valor; apoyo a decisiones para producción sustentable",
+            "Data set owner": "Universidad Nacional Autónoma de México (UNAM)",
+            "Data set generator": "Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano",
+            "Data set documentor": "Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano",
+            "Publication": "Resources, Conservation and Recycling, Volume 109, 2016, Pages 44-53",
+            "Creation date": "2016",
+            "Copyright": "© 2016 Published by Elsevier B.V.",
+            "Access and use restrictions": "Disponible a través de ScienceDirect; sujeto a derechos de autor de Elsevier"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-14T02:22:24.615Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "guinea grass (Panicum maximum)",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage for grazing in cow-calf, pre-fattening and fattening stages"
+            },
+            {
+                "is_reference": false,
+                "flow": "toledo grass (Brachiaria brizantha)",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage for grazing in cow-calf stage"
+            },
+            {
+                "is_reference": false,
+                "flow": "African star grass (Cynodon nlemfuensis)",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage for grazing in cow-calf, pre-fattening and fattening stages"
+            },
+            {
+                "is_reference": false,
+                "flow": "pangola grass (Digitaria decumbens)",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage for grazing in cow-calf, pre-fattening and fattening stages"
+            },
+            {
+                "is_reference": false,
+                "flow": "cacahuatillo legume (Arachis pintoi)",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Legume for grazing in cow-calf stage"
+            },
+            {
+                "is_reference": false,
+                "flow": "aleman grass (Echinochloa polystachya)",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming",
+                "amount": "",
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Forage for grazing in pre-fattening stage"
+            },
+            {
+                "is_reference": false,
+                "flow": "whey",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming",
+                "amount": 0.7,
+                "unit": "kg DM\/head\/d",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Calf feeding supplement from one month old until weaning"
+            },
+            {
+                "is_reference": false,
+                "flow": "sorghum",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Grain supplement for cows in cow-calf stage and concentrated feed in ES fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "soybean",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Grain supplement for cows in cow-calf stage and concentrated feed in both systems"
+            },
+            {
+                "is_reference": false,
+                "flow": "molasses",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1113:Non-citrus fruit and tree nut farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Supplement for cows in cow-calf stage and concentrated feed in IS"
+            },
+            {
+                "is_reference": false,
+                "flow": "hay corn",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Supplement for cows in cow-calf stage and nutritional supplement in IS pre-fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "bran",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Supplement for cows in cow-calf stage and concentrated feed in IS fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "corn",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Nutritional supplement in IS pre-fattening and concentrated feed in both systems"
+            },
+            {
+                "is_reference": false,
+                "flow": "soybean paste",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Concentrated feed in IS fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "distillers dried grains",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Concentrated feed in IS fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "poultry manure",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1123:Poultry and egg production",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Concentrated feed in IS fattening"
+            },
+            {
+                "is_reference": false,
+                "flow": "ammonium sulfate fertilizer",
+                "category": "C:Manufacturing\/20:Manufacture of chemicals and chemical products\/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds\/2011:Manufacture of basic chemicals",
+                "amount": 150,
+                "unit": "kg\/ha\/year",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Mineral fertilizer on pasture in cow-calf stage"
+            },
+            {
+                "is_reference": false,
+                "flow": "water",
+                "category": "E:Water, sewage, waste and remediation services\/22:Utilities\/221:Water, sewage and other systems\/2213:Water and sewage system",
+                "amount": "",
+                "unit": "m3",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Water consumption for livestock and processing"
+            },
+            {
+                "is_reference": false,
+                "flow": "electricity",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution\/3510:Electric power generation, transmission and distribution",
+                "amount": "",
+                "unit": "kWh",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Electricity mix: 22% hydro, 22% natural gas, 5% coal, 3% nuclear, 0.2% wind, 48% combined cycle"
+            },
+            {
+                "is_reference": false,
+                "flow": "butane gas",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/352:Natural gas distribution\/3520:Natural gas distribution",
+                "amount": "",
+                "unit": "MJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fuel for processing and other operations"
+            },
+            {
+                "is_reference": false,
+                "flow": "diesel",
+                "category": "C:Manufacturing\/20:Manufacture of chemicals and chemical products\/192:Manufacture of refined petroleum products\/1921:Petroleum refineries",
+                "amount": "",
+                "unit": "MJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fuel for transportation and machinery"
+            },
+            {
+                "is_reference": false,
+                "flow": "gasoline",
+                "category": "C:Manufacturing\/20:Manufacture of chemicals and chemical products\/192:Manufacture of refined petroleum products\/1921:Petroleum refineries",
+                "amount": "",
+                "unit": "MJ",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fuel for transportation"
+            },
+            {
+                "is_reference": false,
+                "flow": "plastic bags",
+                "category": "C:Manufacturing\/32:Manufacture of other non-metallic mineral products\/326:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Packaging for meat in ES marketing"
+            },
+            {
+                "is_reference": false,
+                "flow": "polyurethane tray",
+                "category": "C:Manufacturing\/32:Manufacture of other non-metallic mineral products\/326:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Packaging for meat in IS marketing"
+            },
+            {
+                "is_reference": false,
+                "flow": "polyvinyl chloride film",
+                "category": "C:Manufacturing\/32:Manufacture of other non-metallic mineral products\/326:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Packaging for meat in IS marketing"
+            },
+            {
+                "is_reference": false,
+                "flow": "paper label",
+                "category": "C:Manufacturing\/31:Manufacture of wood, paper and printing\/322:Paper manufacturing\/3221:Pulp, paper and paperboard mills",
+                "amount": "",
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Packaging for meat in IS marketing"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "boneless and fatless beef",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Functional unit: 1 kg of boneless and fatless beef"
+            },
+            {
+                "is_reference": false,
+                "flow": "methane emissions from cattle enteric fermentation",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Estimated using Tier 1 methodology of IPCC Volume 4"
+            },
+            {
+                "is_reference": true,
+                "flow": "methane emissions from manure",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Estimated using Tier 1 methodology of IPCC Volume 4"
+            },
+            {
+                "is_reference": false,
+                "flow": "nitrous oxide (N2O) emissions from manure",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Direct and indirect emissions"
+            },
+            {
+                "is_reference": true,
+                "flow": "ammonia (NH3) emissions from manure",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "manure phosphorus emissions",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Based on manure production per animal and nutrient content"
+            },
+            {
+                "is_reference": true,
+                "flow": "bone and fat waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Sent to rendering plant (ES processing stage)"
+            },
+            {
+                "is_reference": false,
+                "flow": "manure, hooves, horns and blood waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Deposited in municipal landfill (ES processing stage)"
+            },
+            {
+                "is_reference": true,
+                "flow": "waste water",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Discharged into municipal sewer system (ES processing stage)"
+            },
+            {
+                "is_reference": false,
+                "flow": "bones, hooves, horns, blood, fat, condemned meat and viscera",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Processed in rendering plant (IS processing stage)"
+            },
+            {
+                "is_reference": true,
+                "flow": "manure and rumen contents",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Spread on pasturelands (IS processing stage)"
+            },
+            {
+                "is_reference": false,
+                "flow": "treated waste water",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Processed in treatment plants owned by slaughterhouses (IS processing stage)"
+            },
+            {
+                "is_reference": true,
+                "flow": "meat waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Processed in rendering plant (ES and IS marketing stages)"
+            },
+            {
+                "is_reference": false,
+                "flow": "plastic packaging waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "From marketing stage"
+            },
+            {
+                "is_reference": true,
+                "flow": "polyurethane tray packaging waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "From IS marketing stage"
+            },
+            {
+                "is_reference": false,
+                "flow": "polyvinyl chloride film packaging waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "From IS marketing stage"
+            },
+            {
+                "is_reference": true,
+                "flow": "paper label packaging waste",
+                "category": "",
+                "amount": null,
+                "unit": "",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "From IS marketing stage"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"a6fd667e-2d54-40e6-ae0d-f84350864ad4\",\"Name\":\"Environmental impact of beef production in Mexico through life cycle assessment\",\"Category\":\"Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería\",\"Description\":\"Intensive and extensive systems of beef production in the Mexican tropics were analyzed. The aim of the study was to estimate and compare the environmental impact of two typical beef production systems in Veracruz, Mexico. A system boundary was established from farm production to prior to transport for consumer consumption, including intermediate stages of product processing, marketing and transportation. The functional unit was 1 kg of boneless and fatless beef. The life cycle inventory was built using information from case studies; farmers, slaughterhouses and retail point managers who provided information from records and expert knowledge were interviewed. The study included cow-calf processes, pre-fattening, fattening, processing and retail. Several impact categories were analyzed using SimaPro software and the ReCiPe Midpoint method for impact characterization. The results showed that for the extensive system, the cow-calf stage is the major contributor in eleven of the twelve impact categories analyzed, while in the intensive system, it is the main contributor to the climate change, terrestrial acidification, freshwater and marine eutrophication. The fattening stage of intensive system, has a predominant impact on human toxicity, water depletion, terrestrial ecotoxicity, fossil depletion, photo-oxidants formation, freshwater ecotoxicity and marine ecotoxicity; the processing stage has relevant contributions to fossil fuel depletion and the formation of photochemical oxidants in intensive systems. Finally, the marketing stage did not have a predominant impact on any category. The results indicated that the extensive system has better environmental performance than the intensive system for nine of the twelve studied categories.\",\"Tags\":\"Life cycle assessment, Mexican beef, Extensive beef production, Intensive beef production, Beef supply chain, Environmental impact assessment, Beef production in Mexican tropic\",\"Technology | Description\":\"The analysis was performed using SimaPro 7.3.3 software for processing the inventory, ReCiPe Midpoint (H) method version 1.06. The ReCiPe method was selected because it is an actual and accepted method which uses mid and endpoint impact categories. It uses an environmental mechanism as a base for the impact model; similarly, it allows the quantification of the environmental impacts from specific indicators and was used to evaluate the twelve impact categories. These categories were: Climate change (CC in kg CO2 eq), Human Toxicity (HT in kg, 1.4-DB eq), Terrestrial Acidification (TA in kg, SO2 eq), Freshwater Eutrophication (FEU in kg Peq), Marine Eutrophication (MEU in kgNeq), Terrestrial Ecotoxicity (ET in kg 1,4-DB eq), Agricultural Land Occupation (ALO in m2 x yr), Water depletion (WD in m3), Fossil Depletion.\",\"Code\":\"MX\",\"Last_change\":\"14\/11\/2025 02:21\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Metodología de evaluación del ciclo de vida según ISO 14040:2006, utilizando software SimaPro 7.3.3 y método ReCiPe Midpoint (H) versión 1.06 para caracterización de impactos\",\"Process type\":\"Evaluación de cadena completa desde producción en granja hasta punto de venta minorista, excluyendo transporte al consumidor final\",\"Modeling constants\":\"Metodología Tier 1 del IPCC (2006) para estimación de emisiones de metano entérico y de estiércol, óxido nitroso y amoníaco; asignación económica 64.5% para leche y 35.5% para terneros en etapa cría; límites del sistema excluyen infraestructura y equipamiento\",\"Data source information\":\"17 estudios de caso mediante entrevistas a productores, representantes de rastros y puntos de venta; datos complementarios de literatura científica y expertos; bases de datos nacionales (INEGI, SAGARPA, SENASICA)\",\"Data completeness\":\"Cobertura completa de todos los flujos relevantes en las etapas de cría, precebo, ceba, procesamiento y comercialización para sistemas extensivo e intensivo\",\"Data selection\":\"Incluye animales, pasturas, concentrados, fertilizantes, pesticidas, agua, electricidad, gas, empaques, materiales de distribución, disposición de residuos orgánicos y transporte de productos\",\"Data treatment\":\"Validación cruzada con datos publicados, reportes y estadísticas nacionales; consulta con asociaciones ganaderas, investigadores y especialistas\",\"Sampling procedure\":\"Muestreo por casos representativos: 2 ranches para cría, 2 casos por proceso y sistema para precebo, ceba y procesamiento (total 12 casos), 1 tienda de cadena grande para comercialización intensiva, 2 carnicerías para comercialización extensiva\",\"Data collection period\":\"Un año de operaciones para cada unidad de producción, procesamiento y comercialización analizada\",\"Use advice\":\"Aplicable específicamente a sistemas de producción bovina en trópico mexicano (Veracruz); resultados no extrapolables directamente a otras regiones sin ajustes por condiciones locales\",\"Completeness\":\"Inventario completo que cubre todas las etapas relevantes del ciclo de vida con datos primarios y secundarios validados\",\"Sources\":\"Huerta, A.R., Güereca, L.P., Rubio Lozano, M.S. (2016). Environmental impact of beef production in Mexico through life cycle assessment. Resources, Conservation and Recycling, 109, 44-53\",\"Project\":\"Knowledge-based Sustainable vAlue-added food chains: innovative tools for monitoring ethical, environmental and Socio-economical impActs and implementing Eu-Latin America shared strategies (Grant agreement no.: 265927) - Séptimo Programa Marco de la UE\",\"Intended application\":\"Evaluación comparativa de impactos ambientales entre sistemas extensivo e intensivo de producción bovina; identificación de puntos críticos en la cadena de valor; apoyo a decisiones para producción sustentable\",\"Data set owner\":\"Universidad Nacional Autónoma de México (UNAM)\",\"Data set generator\":\"Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano\",\"Data set documentor\":\"Adriana Rivera Huerta, Leonor Patricia Güereca, María de la Salud Rubio Lozano\",\"Publication\":\"Resources, Conservation and Recycling, Volume 109, 2016, Pages 44-53\",\"Creation date\":\"2016\",\"Copyright\":\"© 2016 Published by Elsevier B.V.\",\"Access and use restrictions\":\"Disponible a través de ScienceDirect; sujeto a derechos de autor de Elsevier\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-14T02:22:24.615Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"guinea grass (Panicum maximum)\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage for grazing in cow-calf, pre-fattening and fattening stages\"},{\"is_reference\":false,\"flow\":\"toledo grass (Brachiaria brizantha)\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage for grazing in cow-calf stage\"},{\"is_reference\":false,\"flow\":\"African star grass (Cynodon nlemfuensis)\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage for grazing in cow-calf, pre-fattening and fattening stages\"},{\"is_reference\":false,\"flow\":\"pangola grass (Digitaria decumbens)\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage for grazing in cow-calf, pre-fattening and fattening stages\"},{\"is_reference\":false,\"flow\":\"cacahuatillo legume (Arachis pintoi)\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Legume for grazing in cow-calf stage\"},{\"is_reference\":false,\"flow\":\"aleman grass (Echinochloa polystachya)\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1119:Other crop farming\",\"amount\":\"\",\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Forage for grazing in pre-fattening stage\"},{\"is_reference\":false,\"flow\":\"whey\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1121:Cattle ranching and farming\",\"amount\":0.7,\"unit\":\"kg DM\/head\/d\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Calf feeding supplement from one month old until weaning\"},{\"is_reference\":false,\"flow\":\"sorghum\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Grain supplement for cows in cow-calf stage and concentrated feed in ES fattening\"},{\"is_reference\":false,\"flow\":\"soybean\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Grain supplement for cows in cow-calf stage and concentrated feed in both systems\"},{\"is_reference\":false,\"flow\":\"molasses\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1113:Non-citrus fruit and tree nut farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Supplement for cows in cow-calf stage and concentrated feed in IS\"},{\"is_reference\":false,\"flow\":\"hay corn\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Supplement for cows in cow-calf stage and nutritional supplement in IS pre-fattening\"},{\"is_reference\":false,\"flow\":\"bran\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Supplement for cows in cow-calf stage and concentrated feed in IS fattening\"},{\"is_reference\":false,\"flow\":\"corn\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Nutritional supplement in IS pre-fattening and concentrated feed in both systems\"},{\"is_reference\":false,\"flow\":\"soybean paste\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Concentrated feed in IS fattening\"},{\"is_reference\":false,\"flow\":\"distillers dried grains\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/111:Crop production\/1111:Oilseed and grain farming\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Concentrated feed in IS fattening\"},{\"is_reference\":false,\"flow\":\"poultry manure\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop and animal production\/112:Animal production and aquaculture\/1123:Poultry and egg production\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Concentrated feed in IS fattening\"},{\"is_reference\":false,\"flow\":\"ammonium sulfate fertilizer\",\"category\":\"C:Manufacturing\/20:Manufacture of chemicals and chemical products\/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds\/2011:Manufacture of basic chemicals\",\"amount\":150,\"unit\":\"kg\/ha\/year\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Mineral fertilizer on pasture in cow-calf stage\"},{\"is_reference\":false,\"flow\":\"water\",\"category\":\"E:Water, sewage, waste and remediation services\/22:Utilities\/221:Water, sewage and other systems\/2213:Water and sewage system\",\"amount\":\"\",\"unit\":\"m3\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Water consumption for livestock and processing\"},{\"is_reference\":false,\"flow\":\"electricity\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution\/3510:Electric power generation, transmission and distribution\",\"amount\":\"\",\"unit\":\"kWh\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Electricity mix: 22% hydro, 22% natural gas, 5% coal, 3% nuclear, 0.2% wind, 48% combined cycle\"},{\"is_reference\":false,\"flow\":\"butane gas\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/352:Natural gas distribution\/3520:Natural gas distribution\",\"amount\":\"\",\"unit\":\"MJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fuel for processing and other operations\"},{\"is_reference\":false,\"flow\":\"diesel\",\"category\":\"C:Manufacturing\/20:Manufacture of chemicals and chemical products\/192:Manufacture of refined petroleum products\/1921:Petroleum refineries\",\"amount\":\"\",\"unit\":\"MJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fuel for transportation and machinery\"},{\"is_reference\":false,\"flow\":\"gasoline\",\"category\":\"C:Manufacturing\/20:Manufacture of chemicals and chemical products\/192:Manufacture of refined petroleum products\/1921:Petroleum refineries\",\"amount\":\"\",\"unit\":\"MJ\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fuel for transportation\"},{\"is_reference\":false,\"flow\":\"plastic bags\",\"category\":\"C:Manufacturing\/32:Manufacture of other non-metallic mineral products\/326:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Packaging for meat in ES marketing\"},{\"is_reference\":false,\"flow\":\"polyurethane tray\",\"category\":\"C:Manufacturing\/32:Manufacture of other non-metallic mineral products\/326:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Packaging for meat in IS marketing\"},{\"is_reference\":false,\"flow\":\"polyvinyl chloride film\",\"category\":\"C:Manufacturing\/32:Manufacture of other non-metallic mineral products\/326:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Packaging for meat in IS marketing\"},{\"is_reference\":false,\"flow\":\"paper label\",\"category\":\"C:Manufacturing\/31:Manufacture of wood, paper and printing\/322:Paper manufacturing\/3221:Pulp, paper and paperboard mills\",\"amount\":\"\",\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Packaging for meat in IS marketing\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"boneless and fatless beef\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Functional unit: 1 kg of boneless and fatless beef\"},{\"is_reference\":false,\"flow\":\"methane emissions from cattle enteric fermentation\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Estimated using Tier 1 methodology of IPCC Volume 4\"},{\"is_reference\":true,\"flow\":\"methane emissions from manure\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Estimated using Tier 1 methodology of IPCC Volume 4\"},{\"is_reference\":false,\"flow\":\"nitrous oxide (N2O) emissions from manure\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Direct and indirect emissions\"},{\"is_reference\":true,\"flow\":\"ammonia (NH3) emissions from manure\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"manure phosphorus emissions\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Based on manure production per animal and nutrient content\"},{\"is_reference\":true,\"flow\":\"bone and fat waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Sent to rendering plant (ES processing stage)\"},{\"is_reference\":false,\"flow\":\"manure, hooves, horns and blood waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Deposited in municipal landfill (ES processing stage)\"},{\"is_reference\":true,\"flow\":\"waste water\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Discharged into municipal sewer system (ES processing stage)\"},{\"is_reference\":false,\"flow\":\"bones, hooves, horns, blood, fat, condemned meat and viscera\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Processed in rendering plant (IS processing stage)\"},{\"is_reference\":true,\"flow\":\"manure and rumen contents\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Spread on pasturelands (IS processing stage)\"},{\"is_reference\":false,\"flow\":\"treated waste water\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Processed in treatment plants owned by slaughterhouses (IS processing stage)\"},{\"is_reference\":true,\"flow\":\"meat waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Processed in rendering plant (ES and IS marketing stages)\"},{\"is_reference\":false,\"flow\":\"plastic packaging waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"From marketing stage\"},{\"is_reference\":true,\"flow\":\"polyurethane tray packaging waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"From IS marketing stage\"},{\"is_reference\":false,\"flow\":\"polyvinyl chloride film packaging waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"From IS marketing stage\"},{\"is_reference\":true,\"flow\":\"paper label packaging waste\",\"category\":\"\",\"amount\":null,\"unit\":\"\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"From IS marketing stage\"}]}",
+    "http_code": 200,
+    "timestamp": 1763087147
+}

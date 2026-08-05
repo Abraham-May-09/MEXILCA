@@ -1,0 +1,208 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "cfc5228a-e3c7-47a5-b9fb-78d8cc48ab7d",
+                "Name": "EPD: SANDWICH PANELS ISODECK PVSTEEL TPO-PVC WITH STEEL FACINGS AND INSULATING CORE OF POLYURETHAN OR POLYSOCINURATE FOAM",
+                "Category": "Manufacturing\/332 Fabricated Metal Product Manufacturing\/332311 Prefabricated Metal Building and Component Manufacturing",
+                "Description": "Environmental Product Declaration for 1 m² of Isodeck PVSteel PU - PVC insulating roof panel with an insulation thickness of 80 mm and steel sheet thickness of 0.8 mm (external with membrane) + 0.5 mm (internal). The study follows a 'cradle-to-gate with options' approach, including modules A1-A5 (product stage, construction), C1-C4 (end-of-life), and D (benefits and loads beyond the system boundary). The panel consists of two external pre-painted galvanized steel supports enclosing an insulating core of polyurethane or polyisocyanurate foam. The results of this EPD are also applicable to the Isodeck PVSteel PU TPO (with the same insulation core thickness and sheet metal).",
+                "Tags": "EPD, sandwich panel, Isodeck PVSteel, building envelope, roof panel, polyurethane, polyisocyanurate, steel facing, construction",
+                "Technology Description": "The production process is continuous and involves: profiling of pre-painted galvanized steel coils; foaming, where chemical components are mixed and applied between the steel sheets and matured in a heated press; panel cutting and stacking; and packaging. The Life Cycle Assessment was performed using SimaPro 9.3.0.3 software with the Ecoinvent 3.7 database, in accordance with ISO 14025 and EN 15804.",
+                "Code": "IT",
+                "Last change": "25\/05\/2026 05:45"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "56bca136-90bb-3a77-9abb-7ce558af711e",
+                "name": "Global",
+                "description": "reference location, sources: ecoinvent 3, ILCD, GaBi",
+                "version": "00.00.000",
+                "code": "GLO",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "processDocumentation": {
+                "LCI method": "In accordance with ISO 14025:2006 and EN 15804:2012+A2:2019\/AC:2021",
+                "Process type": "Cradle-to-gate with options EPD for a manufactured construction product",
+                "Modeling constants": "Cut-off criterion of 1% maximum for the contributions of material and energy. The sum of excluded material inputs does not exceed 1% of the total material inputs. Energy and material consumption allocated based on annual production.",
+                "Data source information": "Primary data from Isopan Ibérica (Spain), Isopan Est (Romania), and Isopan Deutschland (Germany). Secondary data from databases: Ecoinvent 3.7, World Steel Association, Plastics Europe.",
+                "Data completeness": "The sum of excluded material inputs does not exceed 1% of the total material inputs. To the knowledge of the authors of the LCA study no exclusions have been made.",
+                "Data selection": "Cut-off criterion of 1% maximum for material and energy contributions.",
+                "Data treatment": "Energy and material consumption have been allocated to the specific product based on the annual production of the panels.",
+                "Sampling procedure": "Data collected from three production plants for the reference year.",
+                "Data collection period": "2020",
+                "Use advice": "EPDs within the same product category but registered in different EPD programmes may not be comparable. EPDs of construction products may not be comparable if they do not comply with EN 15804.",
+                "Completeness": "High, based on a 1% cut-off rule and inclusion of all known relevant flows for the declared scope.",
+                "Sources": "GENERAL PROGRAMME INSTRUCTIONS FOR THE INTERNATIONAL EPD® SYSTEM, VER 4.0 (2021-02-29); PCR 2019:14 version 1.2.5, 2022-11-01 'Construction products'; ΕΝ 15804:2012 + A2:2019; UNI EN ISO 14025:2010; UNI EN ISO 14040:2021; UNI EN ISO 14044:2021; UNI EN 16783:2017; c-PCR-005 Thermal Insulation products (EN 16783); Life Cycle Assessment Technical Report, October 2022 - Bureau Veritas Nexta Srl",
+                "Project": null,
+                "Intended application": "Insulating panels for roofs of industrial, commercial, civil buildings, animal husbandry and cold stores.",
+                "Data set owner": "Isopan S.p.A.",
+                "Data set generator": "Bureau Veritas Nexta Srl",
+                "Data set documentor": "Bureau Veritas Nexta Srl",
+                "Publication": "The International EPD® System",
+                "Creation date": "2023-12-04",
+                "Copyright": null,
+                "Access and use restrictions": null
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "25\/05\/2026 05:45",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Galvanized prepainted steel",
+                    "category": "Manufacturing\/331 Primary Metal Manufacturing\/331110 Iron and Steel Mills and Ferroalloy Manufacturing",
+                    "amount": 12.03,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Material content for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Polyurethane foam",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/326150 Urethane and Other Foam Product (except Polystyrene) Manufacturing",
+                    "amount": 3.38,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Material content for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "PVC (Isodeck PVSteel PVC)",
+                    "category": "Manufacturing\/325 Chemical Manufacturing\/325211 Plastics Material and Resin Manufacturing",
+                    "amount": 1.18,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Material content for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Tape (PP)",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/326110 Plastics Packaging Materials and Unlaminated Film and Sheet Manufacturing",
+                    "amount": 0.0158,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Material content for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Seal (PU)",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/326150 Urethane and Other Foam Product (except Polystyrene) Manufacturing",
+                    "amount": 0.0147,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Material content for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Adhesive film (PE)",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/326110 Plastics Packaging Materials and Unlaminated Film and Sheet Manufacturing",
+                    "amount": 0.063,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Packaging material for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Stretch film (PE)",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/326110 Plastics Packaging Materials and Unlaminated Film and Sheet Manufacturing",
+                    "amount": 0.018,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Packaging material for 1 m² of panel."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Polystyrene",
+                    "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing\/326140 Polystyrene Foam Product Manufacturing",
+                    "amount": 0.0397,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": null,
+                    "description": "Packaging material for 1 m² of panel."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Isodeck PVSteel PU - PVC insulating roof panel",
+                    "category": "Manufacturing\/332 Fabricated Metal Product Manufacturing\/332311 Prefabricated Metal Building and Component Manufacturing",
+                    "amount": 1,
+                    "unit": "m²",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Functional unit: 1 m² of panel with 80 mm insulation thickness and 0.8 mm + 0.5 mm sheet thickness."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Hazardous waste disposed",
+                    "category": "Administrative and Support and Waste Management and Remediation Services\/562 Waste Management and Remediation Services",
+                    "amount": 0.00149,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Waste generated during product stage (A1-A3)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Non-hazardous waste disposed",
+                    "category": "Administrative and Support and Waste Management and Remediation Services\/562 Waste Management and Remediation Services",
+                    "amount": 7.11,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Waste generated during product stage (A1-A3)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Radioactive waste disposed",
+                    "category": "Administrative and Support and Waste Management and Remediation Services\/562 Waste Management and Remediation Services",
+                    "amount": 0.00145,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Waste generated during product stage (A1-A3)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Materials for recycling",
+                    "category": "Administrative and Support and Waste Management and Remediation Services\/562 Waste Management and Remediation Services\/562920 Materials Recovery Facilities",
+                    "amount": 0.233,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Output flow during product stage (A1-A3)."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779687916
+}

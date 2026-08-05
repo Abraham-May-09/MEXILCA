@@ -1,0 +1,103 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "7006cbf6-c91b-4bfd-92c8-ab17e05faaf1",
+            "Name": "market for carbon monoxide - US - carbon monoxide",
+            "Category": "Manufactura\/3251 Fabricación de productos químicos básicos",
+            "Description": "Esta es una actividad de mercado. Cada mercado representa la mezcla de consumo de un producto en una geografía determinada, conectando proveedores con consumidores del mismo producto en la misma área geográfica. Los mercados agrupan a los productores y también las importaciones del producto (si son relevantes) dentro de la misma área geográfica. También contabilizan el transporte al consumidor y las pérdidas durante ese proceso, cuando es relevante. Este es el mercado para 'monóxido de carbono', en la geografía de Estados Unidos para consumo directo. Este producto generalmente se considera un producto intermedio y, como tal, se espera que se utilice en o en las inmediaciones del sitio de producción. El monóxido de carbono es una sustancia inorgánica con CAS no.: 000630-08-0. Se llama 'monóxido de carbono' bajo la nomenclatura IUPAC y su fórmula molecular es: CO. Es un gas en condiciones normales de temperatura y presión sin olor distintivo. Se modela como una sustancia pura. A nivel de consumidor, se utiliza en los siguientes productos: productos químicos de laboratorio, combustibles, productos para el tratamiento de superficies metálicas, polímeros y semiconductores. No hay información disponible públicamente sobre el consumo de esta sustancia en sitios industriales.",
+            "Tags": "mercado, monóxido de carbono, química básica, productos intermedios, Estados Unidos",
+            "Technology | Description": "Actividad de mercado que representa la mezcla de consumo de monóxido de carbono en Estados Unidos. Conecta proveedores con consumidores del mismo producto en la misma área geográfica. Agrupa productores e importaciones del producto. Contabiliza transporte al consumidor y pérdidas durante el proceso cuando es relevante. Para este producto, que generalmente se usa en o cerca del sitio de producción, no se incluyen requisitos de transporte.",
+            "Code": "US",
+            "Last_change": "19\/11\/2025 21:05"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "0b3b97fa-6688-3c56-88ee-4ae80ec0c3c2",
+            "name": "United States",
+            "description": "reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi",
+            "version": "00.00.000",
+            "code": "US",
+            "latitude": 39.622,
+            "longitude": -98.606
+        },
+        "processDocumentation": {
+            "LCI method": "Allocation, cut-off system model",
+            "Process type": "Market activity",
+            "Modeling constants": "Product is generally considered to be used on or in close vicinity to the production site, no transport requirements are included",
+            "Data source information": "ecoinvent 3.11 database",
+            "Data completeness": "Covers all relevant flows for carbon monoxide market in United States geography",
+            "Data selection": "Includes supplies to market, losses and other inputs occurring within the market",
+            "Data treatment": "Market represents consumption mix connecting suppliers with consumers in same geographical area",
+            "Sampling procedure": "Not specified in provided documentation",
+            "Data collection period": "2011-01-01 to 2024-12-31",
+            "Use advice": "This product is generally considered an intermediate product and expected to be used at or in vicinity of production site",
+            "Completeness": "Complete for market representation of carbon monoxide in United States geography",
+            "Sources": "ecoinvent Association, 2025",
+            "Project": "ecoinvent database development",
+            "Intended application": "Life cycle assessment studies, carbon footprint calculations",
+            "Data set owner": "ecoinvent Association",
+            "Data set generator": "lasonas loannou",
+            "Data set documentor": "lasonas loannou",
+            "Publication": "ecoinvent 3.11 database documentation",
+            "Creation date": "2025",
+            "Copyright": "Copyright ecoinvent Association, 2025",
+            "Access and use restrictions": "Restrictions of use stipulated in the EULA remain applicable"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-19T21:06:29.252Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "carbon monoxide",
+                "category": "",
+                "amount": 0.5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "carbon monoxide production, from synthesis gas, through absorption US - carbon monoxide",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "carbon monoxide",
+                "category": "",
+                "amount": 0.5,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "carbon monoxide production, from synthesis gas, through cryogenic separation US - carbon monoxide",
+                "description": ""
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "carbon monoxide",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"7006cbf6-c91b-4bfd-92c8-ab17e05faaf1\",\"Name\":\"market for carbon monoxide - US - carbon monoxide\",\"Category\":\"Manufactura\/3251 Fabricación de productos químicos básicos\",\"Description\":\"Esta es una actividad de mercado. Cada mercado representa la mezcla de consumo de un producto en una geografía determinada, conectando proveedores con consumidores del mismo producto en la misma área geográfica. Los mercados agrupan a los productores y también las importaciones del producto (si son relevantes) dentro de la misma área geográfica. También contabilizan el transporte al consumidor y las pérdidas durante ese proceso, cuando es relevante. Este es el mercado para 'monóxido de carbono', en la geografía de Estados Unidos para consumo directo. Este producto generalmente se considera un producto intermedio y, como tal, se espera que se utilice en o en las inmediaciones del sitio de producción. El monóxido de carbono es una sustancia inorgánica con CAS no.: 000630-08-0. Se llama 'monóxido de carbono' bajo la nomenclatura IUPAC y su fórmula molecular es: CO. Es un gas en condiciones normales de temperatura y presión sin olor distintivo. Se modela como una sustancia pura. A nivel de consumidor, se utiliza en los siguientes productos: productos químicos de laboratorio, combustibles, productos para el tratamiento de superficies metálicas, polímeros y semiconductores. No hay información disponible públicamente sobre el consumo de esta sustancia en sitios industriales.\",\"Tags\":\"mercado, monóxido de carbono, química básica, productos intermedios, Estados Unidos\",\"Technology | Description\":\"Actividad de mercado que representa la mezcla de consumo de monóxido de carbono en Estados Unidos. Conecta proveedores con consumidores del mismo producto en la misma área geográfica. Agrupa productores e importaciones del producto. Contabiliza transporte al consumidor y pérdidas durante el proceso cuando es relevante. Para este producto, que generalmente se usa en o cerca del sitio de producción, no se incluyen requisitos de transporte.\",\"Code\":\"US\",\"Last_change\":\"19\/11\/2025 21:05\"},\"location\":{\"@type\":\"Location\",\"@id\":\"0b3b97fa-6688-3c56-88ee-4ae80ec0c3c2\",\"name\":\"United States\",\"description\":\"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi\",\"version\":\"00.00.000\",\"code\":\"US\",\"latitude\":39.622,\"longitude\":-98.606},\"processDocumentation\":{\"LCI method\":\"Allocation, cut-off system model\",\"Process type\":\"Market activity\",\"Modeling constants\":\"Product is generally considered to be used on or in close vicinity to the production site, no transport requirements are included\",\"Data source information\":\"ecoinvent 3.11 database\",\"Data completeness\":\"Covers all relevant flows for carbon monoxide market in United States geography\",\"Data selection\":\"Includes supplies to market, losses and other inputs occurring within the market\",\"Data treatment\":\"Market represents consumption mix connecting suppliers with consumers in same geographical area\",\"Sampling procedure\":\"Not specified in provided documentation\",\"Data collection period\":\"2011-01-01 to 2024-12-31\",\"Use advice\":\"This product is generally considered an intermediate product and expected to be used at or in vicinity of production site\",\"Completeness\":\"Complete for market representation of carbon monoxide in United States geography\",\"Sources\":\"ecoinvent Association, 2025\",\"Project\":\"ecoinvent database development\",\"Intended application\":\"Life cycle assessment studies, carbon footprint calculations\",\"Data set owner\":\"ecoinvent Association\",\"Data set generator\":\"lasonas loannou\",\"Data set documentor\":\"lasonas loannou\",\"Publication\":\"ecoinvent 3.11 database documentation\",\"Creation date\":\"2025\",\"Copyright\":\"Copyright ecoinvent Association, 2025\",\"Access and use restrictions\":\"Restrictions of use stipulated in the EULA remain applicable\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-19T21:06:29.252Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"carbon monoxide\",\"category\":\"\",\"amount\":0.5,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"carbon monoxide production, from synthesis gas, through absorption US - carbon monoxide\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"carbon monoxide\",\"category\":\"\",\"amount\":0.5,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"carbon monoxide production, from synthesis gas, through cryogenic separation US - carbon monoxide\",\"description\":\"\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"carbon monoxide\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1763586429
+}

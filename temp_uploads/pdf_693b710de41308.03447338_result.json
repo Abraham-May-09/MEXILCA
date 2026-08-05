@@ -1,0 +1,144 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "0d703a29-5323-49a5-9e9f-5edc235f3764",
+            "Name": "ACV ADOBE ARTESANAL: ANÁLISIS DE CICLO DE VIDA DEL ADOBE DE PRODUCCIÓN ARTESANAL",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos",
+            "Description": "Se evaluó la huella de carbono y la demanda acumulada de energía durante el proceso de producción de un kilogramo de adobe artesanal, partiendo del Inventario de Ciclo de Vida (ICV), con datos obtenidos en el municipio de Pátzcuaro, Michoacán, y comunidades aledañas. Se siguió la metodología ISO-14040. El estudio consiste en analizar la fabricación del adobe, lo que implica la obtención de los insumos, el transporte de los mismos a la planta y el proceso de transformación. Las etapas subsecuentes de venta, uso y transporte del producto obtenido no se cubren en este estudio. La unidad funcional es producir un kilogramo de adobe artesanal en bloque, terminado en planta. Los resultados obtenidos muestran una huella de carbono de 0.21033 kgCO2eq y una demanda acumulada de energía de 3.274148 MJeq por kilogramo de adobe artesanal.",
+            "Tags": "adobe artesanal, ACV, huella de carbono, demanda de energía, construcción, Pátzcuaro, Michoacán",
+            "Technology Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. para determinar el Potencial de Calentamiento Global; mientras que para la Demanda Acumulada de Energía el método usado fue Cumulative Energy Demand v.1.0.1 de Green Delta. El proceso de elaboración es artesanal, iniciando con la mezcla de tierra, agua y fibras naturales (paja o huinumo), amasado con animales o personas, moldeado manual en marcos de madera, y secado al sol.",
+            "Code": "MX",
+            "Last change": "12\/12\/2025 01:34"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Inventario de Ciclo de Vida (ICV) siguiendo la metodología ISO-14040.",
+            "Process type": "Proceso de fabricación de adobe artesanal, cuna a puerta (cradle-to-gate).",
+            "Modeling constants": "El criterio de corte utilizado es el de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta. Los datos reportados representan promedios para cada parámetro de los tres talleres estudiados. Se utilizó una masa promedio de 23 kg\/bloque para la normalización.",
+            "Data source information": "Datos primarios obtenidos mediante entrevistas y mediciones en tres talleres fabricantes en Pátzcuaro, Michoacán y comunidades aledañas. Datos secundarios de fuentes bibliográficas, bases de datos de vehículos y mapas satelitales para la transportación.",
+            "Data completeness": "El alcance se limita a la obtención de insumos, transporte a planta y proceso de transformación. Las etapas de venta, uso y transporte del producto final no se cubren.",
+            "Data selection": "Criterio de corte de masa al 1%.",
+            "Data treatment": "Los datos reportados representan promedios para cada parámetro de los tres casos estudiados.",
+            "Sampling procedure": "Se solicitó información a tres productores de adobe de la región de Pátzcuaro. Se llevaron a cabo entrevistas y se realizaron mediciones de masa y cálculos de volúmenes.",
+            "Data collection period": "2014. La corrida del software se llevó a cabo en noviembre de 2014.",
+            "Use advice": "Los resultados son específicos para la producción de adobe artesanal en la zona de Pátzcuaro, Michoacán, y comunidades aledañas.",
+            "Completeness": "El estudio es parcial, cubriendo las etapas de cuna a puerta. Las etapas de uso y fin de vida se excluyen.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] SOLID EARTH LTD. The Adobe Brick Technique. [3] Raul Mannise. Bio-construcción: el adobe, 2012. [4] Irene García Doval. Instrucciones para elaborar adobes y repellos, 2011. [5] Thomas Dominguez. ABCs of Making Adobe Bricks, Guide G-521. Technical report, New Mexico State University, Las Cruces, Nuevo Mexico, E.U.A., 2011. [6] Desertphile. Making Adobe Bricks, 2002. [7] Construcciones de Adobe en la Construcción para el Desarrollo. [8] Iron and steel - Sector Profile. [9] Brick Industry Association. Technical Notes on Crick Construction: Manufacturing of Brick. Technical report, Brick Industry Association, Reston, Virginia, E.U.A., 2006. [10] СЕМЕХ. Manual del Constructor. Technical report, CEMEX, 2014. [11] 2008 prices, adobe test results, 2012. [12] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [13] Google Inc. Google Maps INEGI, 2014.",
+            "Project": "ACV Adobe Artesanal",
+            "Intended application": "Estimar la huella de carbono y la demanda acumulada de energía del proceso de elaboración del adobe artesanal.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Carlos García Bustamante, Alejandro Tavera Durán",
+            "Data set documentor": "Carlos García Bustamante, Alejandro Tavera Durán",
+            "Publication": "Memoria de Cálculo, Borrador",
+            "Creation date": "2014-12-19",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "12\/12\/2025 01:34",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Tierra (húmeda)",
+                "category": "212325: Clay, Ceramic, and Refractory Minerals Mining",
+                "amount": 1.12,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Insumo principal para la elaboración del adobe. Contiene una cantidad de agua que se evapora con el secado al sol."
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "221310: Water Supply and Irrigation Systems",
+                "amount": 0.14,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Agua añadida para la mezcla."
+            },
+            {
+                "is_reference": false,
+                "flow": "Fibras (paja de trigo\/avena, huinumo)",
+                "category": "111140: Wheat Farming",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Fibras naturales utilizadas como aglutinante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasolina",
+                "category": "324110: Petroleum Refineries",
+                "amount": 3.98e-5,
+                "unit": "MJ",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Energía consumida, probablemente para bombas de agua o transporte."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte de materia prima",
+                "category": "484110: General Freight Trucking, Local",
+                "amount": 0.0035,
+                "unit": "Tkm",
+                "uncertainty": null,
+                "provider": null,
+                "description": "Transporte de insumos a la planta de producción."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Adobe artesanal",
+                "category": "327120: Clay Building Material and Refractory Manufacturing",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Unidad funcional: un kilogramo de adobe artesanal en bloque, terminado en planta."
+            },
+            {
+                "is_reference": false,
+                "flow": "Dióxido de carbono equivalente",
+                "category": "327120: Clay Building Material and Refractory Manufacturing",
+                "amount": 0.21033,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Huella de carbono (Potencial de Calentamiento Global a 100 años) como resultado agregado del ACV para la producción de 1 kg de adobe."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"0d703a29-5323-49a5-9e9f-5edc235f3764\",\"Name\":\"ACV ADOBE ARTESANAL: ANÁLISIS DE CICLO DE VIDA DEL ADOBE DE PRODUCCIÓN ARTESANAL\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\",\"Description\":\"Se evaluó la huella de carbono y la demanda acumulada de energía durante el proceso de producción de un kilogramo de adobe artesanal, partiendo del Inventario de Ciclo de Vida (ICV), con datos obtenidos en el municipio de Pátzcuaro, Michoacán, y comunidades aledañas. Se siguió la metodología ISO-14040. El estudio consiste en analizar la fabricación del adobe, lo que implica la obtención de los insumos, el transporte de los mismos a la planta y el proceso de transformación. Las etapas subsecuentes de venta, uso y transporte del producto obtenido no se cubren en este estudio. La unidad funcional es producir un kilogramo de adobe artesanal en bloque, terminado en planta. Los resultados obtenidos muestran una huella de carbono de 0.21033 kgCO2eq y una demanda acumulada de energía de 3.274148 MJeq por kilogramo de adobe artesanal.\",\"Tags\":\"adobe artesanal, ACV, huella de carbono, demanda de energía, construcción, Pátzcuaro, Michoacán\",\"Technology Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. para determinar el Potencial de Calentamiento Global; mientras que para la Demanda Acumulada de Energía el método usado fue Cumulative Energy Demand v.1.0.1 de Green Delta. El proceso de elaboración es artesanal, iniciando con la mezcla de tierra, agua y fibras naturales (paja o huinumo), amasado con animales o personas, moldeado manual en marcos de madera, y secado al sol.\",\"Code\":\"MX\",\"Last change\":\"12\/12\/2025 01:34\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Inventario de Ciclo de Vida (ICV) siguiendo la metodología ISO-14040.\",\"Process type\":\"Proceso de fabricación de adobe artesanal, cuna a puerta (cradle-to-gate).\",\"Modeling constants\":\"El criterio de corte utilizado es el de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta. Los datos reportados representan promedios para cada parámetro de los tres talleres estudiados. Se utilizó una masa promedio de 23 kg\/bloque para la normalización.\",\"Data source information\":\"Datos primarios obtenidos mediante entrevistas y mediciones en tres talleres fabricantes en Pátzcuaro, Michoacán y comunidades aledañas. Datos secundarios de fuentes bibliográficas, bases de datos de vehículos y mapas satelitales para la transportación.\",\"Data completeness\":\"El alcance se limita a la obtención de insumos, transporte a planta y proceso de transformación. Las etapas de venta, uso y transporte del producto final no se cubren.\",\"Data selection\":\"Criterio de corte de masa al 1%.\",\"Data treatment\":\"Los datos reportados representan promedios para cada parámetro de los tres casos estudiados.\",\"Sampling procedure\":\"Se solicitó información a tres productores de adobe de la región de Pátzcuaro. Se llevaron a cabo entrevistas y se realizaron mediciones de masa y cálculos de volúmenes.\",\"Data collection period\":\"2014. La corrida del software se llevó a cabo en noviembre de 2014.\",\"Use advice\":\"Los resultados son específicos para la producción de adobe artesanal en la zona de Pátzcuaro, Michoacán, y comunidades aledañas.\",\"Completeness\":\"El estudio es parcial, cubriendo las etapas de cuna a puerta. Las etapas de uso y fin de vida se excluyen.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] SOLID EARTH LTD. The Adobe Brick Technique. [3] Raul Mannise. Bio-construcción: el adobe, 2012. [4] Irene García Doval. Instrucciones para elaborar adobes y repellos, 2011. [5] Thomas Dominguez. ABCs of Making Adobe Bricks, Guide G-521. Technical report, New Mexico State University, Las Cruces, Nuevo Mexico, E.U.A., 2011. [6] Desertphile. Making Adobe Bricks, 2002. [7] Construcciones de Adobe en la Construcción para el Desarrollo. [8] Iron and steel - Sector Profile. [9] Brick Industry Association. Technical Notes on Crick Construction: Manufacturing of Brick. Technical report, Brick Industry Association, Reston, Virginia, E.U.A., 2006. [10] СЕМЕХ. Manual del Constructor. Technical report, CEMEX, 2014. [11] 2008 prices, adobe test results, 2012. [12] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [13] Google Inc. Google Maps INEGI, 2014.\",\"Project\":\"ACV Adobe Artesanal\",\"Intended application\":\"Estimar la huella de carbono y la demanda acumulada de energía del proceso de elaboración del adobe artesanal.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Carlos García Bustamante, Alejandro Tavera Durán\",\"Data set documentor\":\"Carlos García Bustamante, Alejandro Tavera Durán\",\"Publication\":\"Memoria de Cálculo, Borrador\",\"Creation date\":\"2014-12-19\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"12\/12\/2025 01:34\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Tierra (húmeda)\",\"category\":\"212325: Clay, Ceramic, and Refractory Minerals Mining\",\"amount\":1.12,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Insumo principal para la elaboración del adobe. Contiene una cantidad de agua que se evapora con el secado al sol.\"},{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"221310: Water Supply and Irrigation Systems\",\"amount\":0.14,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Agua añadida para la mezcla.\"},{\"is_reference\":false,\"flow\":\"Fibras (paja de trigo\/avena, huinumo)\",\"category\":\"111140: Wheat Farming\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":null,\"description\":\"Fibras naturales utilizadas como aglutinante.\"},{\"is_reference\":false,\"flow\":\"Gasolina\",\"category\":\"324110: Petroleum Refineries\",\"amount\":0.0000398,\"unit\":\"MJ\",\"uncertainty\":null,\"provider\":null,\"description\":\"Energía consumida, probablemente para bombas de agua o transporte.\"},{\"is_reference\":false,\"flow\":\"Transporte de materia prima\",\"category\":\"484110: General Freight Trucking, Local\",\"amount\":0.0035,\"unit\":\"Tkm\",\"uncertainty\":null,\"provider\":null,\"description\":\"Transporte de insumos a la planta de producción.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Adobe artesanal\",\"category\":\"327120: Clay Building Material and Refractory Manufacturing\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Unidad funcional: un kilogramo de adobe artesanal en bloque, terminado en planta.\"},{\"is_reference\":false,\"flow\":\"Dióxido de carbono equivalente\",\"category\":\"327120: Clay Building Material and Refractory Manufacturing\",\"amount\":0.21033,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Huella de carbono (Potencial de Calentamiento Global a 100 años) como resultado agregado del ACV para la producción de 1 kg de adobe.\"}]}",
+    "http_code": 200,
+    "timestamp": 1765503290
+}

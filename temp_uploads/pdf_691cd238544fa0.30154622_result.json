@@ -1,0 +1,447 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "14b18471-e47b-4b89-b53f-f47f30725e3f",
+            "Name": "Evaluación del impacto ambiental de la cadena de producción de carne de res en el Estado de Veracruz, mediante el análisis de ciclo de vida",
+            "Category": "Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería",
+            "Description": "En el presente estudio se evaluó el impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Para ello se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). Durante el año de operaciones evaluado el E1 comercializó un total de 253,532.6 kg de carne y el E2 12,682.45 kg. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica, participación determinada por la fermentación entérica del ganado y por el manejo del estiércol. La suma de la participación de los procesos de transformación y comercialización a estos impactos fue entre 7 y 0.2%, respectivamente. Respecto al potencial de toxicidad humana el E1 (0.6 kg 1,4-DBeq) es superior al E2 (0.3 kg 1,4-DBeq) principalmente por el empleo de agroquímicos en el cultivo de granos y por el uso de combustibles fósiles. Sin embargo, en las categorías uso de suelo y uso de agua el E2 presenta mayor impacto, debido al mayor tiempo de permanencia del ganado en los proceso de preengorda y engorda y por el menor peso de salida del ganado al mercado. Esta metodología ayuda a determinar las ventanas de oportunidad para mejorar estos procesos y su impacto en el ambiente.",
+            "Tags": "ambiente, bovino, cambio climático, impacto, análisis ciclo de vida, ganadería, producción carne",
+            "Technology | Description": "Análisis de Ciclo de Vida (ACV) - metodología para determinar los impactos ambientales potenciales asociados con un producto a través de la recopilación de un inventario de entradas y salidas relevantes del sistema estudiado, desde la extracción de materias primas hasta su disposición final. Se evaluaron nueve categorías de impacto: acidificación, eutrofización, cambio climático, disminución de la capa de ozono estratosférico, oxidación fotoquímica, toxicidad humana, disminución de recursos abióticos, uso de suelo y uso de agua.",
+            "Code": "MX",
+            "Last_change": "18\/11\/2025 20:09"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida según Norma ISO 14040",
+            "Process type": "Evaluación de cadenas productivas completas: crianza, preengorda, engorda, transformación y comercialización",
+            "Modeling constants": "Asignación económica para producción de leche y becerros en sistemas de doble propósito",
+            "Data source information": "Entrevistas directas a 17 casos de estudio: 2 productores de crianza, 12 casos de preengorda\/engorda\/transformación, 1 tienda de autoservicio (E1), 2 carnicerías (E2)",
+            "Data completeness": "Cobertura completa de todos los procesos de la cadena cárnica, excluyendo bienes de capital y medicamentos",
+            "Data selection": "Inclusión de insumos alimenticios, energía, fertilizantes, pesticidas y disposición de residuos",
+            "Data treatment": "Promedio de datos colectados de casos de estudio representativos",
+            "Sampling procedure": "Selección por criterio de tecnología acorde a cadenas definidas y disponibilidad a colaborar",
+            "Data collection period": "Un año de operaciones entre 2011-2013",
+            "Use advice": "Aplicable específicamente a la región Norte-Centro del Estado de Veracruz, México",
+            "Completeness": "Exhaustivo para procesos definidos en el alcance del estudio",
+            "Sources": "Bare et al., 2003; ISO, 2006; NMX-SAA-14044-IMNC-2008; Cederberg et al., 2009; Pelletier et al., 2010",
+            "Project": "Evaluación del impacto ambiental de la cadena de producción de carne de res en el Estado de Veracruz",
+            "Intended application": "Identificación de puntos críticos y oportunidades de mejora en cadenas productivas cárnicas",
+            "Data set owner": "Universidad Nacional Autónoma de México",
+            "Data set generator": "Adriana Rivera Huerta",
+            "Data set documentor": "Adriana Rivera Huerta",
+            "Publication": "Tesis de Maestría en Ciencias de la Producción y de la Salud Animal, UNAM",
+            "Creation date": "Septiembre 2014",
+            "Copyright": "Universidad Nacional Autónoma de México",
+            "Access and use restrictions": "Restricciones académicas estándar para tesis universitarias"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-18T20:10:14.235Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Suero de leche (sustituto de leche)",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals",
+                "amount": 0.6,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Sorgo",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming",
+                "amount": 0.28,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Soya",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming",
+                "amount": 0.05,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Melaza",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals",
+                "amount": 0.17,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Heno de maíz",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming",
+                "amount": 0.11,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Salvado",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals",
+                "amount": 0.1,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Pasto fresco",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1119:Other grain farming\/1119:Other grain farming",
+                "amount": 17.3,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "B:Mining, Quarrying, and Oil and Gas Extraction\/21:Mining, Quarrying, and Oil and Gas Extraction\/2131:Support activities for mining\/2131:Support activities for mining",
+                "amount": 20.98,
+                "unit": "L",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Consumo de agua en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de amonio",
+                "category": "C:Manufacturing\/20:Manufacture of chemicals and chemical products\/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds\/2013:Manufacture of nitrogenous and phosphate fertilizers",
+                "amount": 0.08,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Fertilizante utilizado en producción de alimentos"
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Electricity, Gas, Steam and Air Conditioning Supply\/22:Utilities\/2211:Electric power generation, transmission and distribution\/2211:Electric power generation, transmission and distribution",
+                "amount": 0.17,
+                "unit": "kWh",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Consumo energético en etapa de crianza"
+            },
+            {
+                "is_reference": false,
+                "flow": "Pollinaza",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals",
+                "amount": 0.06,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de preengorda"
+            },
+            {
+                "is_reference": false,
+                "flow": "DDG",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals",
+                "amount": 0.3,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de engorda en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "Maíz rolado",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming",
+                "amount": 0.96,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de engorda en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "Pasta de soya",
+                "category": "C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals",
+                "amount": 0.21,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Alimento para ganado en etapa de engorda en corral"
+            },
+            {
+                "is_reference": false,
+                "flow": "Caja de cartón corrugado reciclado",
+                "category": "C:Manufacturing\/32:Manufacture of furniture and related products\/322:Manufacture of paper and paper products\/3221:Pulp, paper and paperboard mills",
+                "amount": 0.065,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Embalaje en etapa de transformación TIF"
+            },
+            {
+                "is_reference": false,
+                "flow": "Bolsa termoencogible de polipropileno",
+                "category": "C:Manufacturing\/32:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\/3261:Plastics product manufacturing",
+                "amount": 0.035,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Embalaje en etapa de transformación TIF"
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas butano",
+                "category": "D:Electricity, Gas, Steam and Air Conditioning Supply\/22:Utilities\/2212:Natural gas distribution\/2212:Natural gas distribution",
+                "amount": 0.003,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Combustible en etapa de transformación TIF"
+            },
+            {
+                "is_reference": false,
+                "flow": "Charola de poliestireno libre de CFC",
+                "category": "C:Manufacturing\/32:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\/3261:Plastics product manufacturing",
+                "amount": 0.007,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Embalaje en etapa de comercialización en tienda de autoservicio"
+            },
+            {
+                "is_reference": false,
+                "flow": "Película de PVC",
+                "category": "C:Manufacturing\/32:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\/3261:Plastics product manufacturing",
+                "amount": 0.0075,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Embalaje en etapa de comercialización en tienda de autoservicio"
+            },
+            {
+                "is_reference": false,
+                "flow": "Etiqueta térmica",
+                "category": "C:Manufacturing\/32:Manufacture of paper and paper products\/3222:Converted paper product manufacturing\/3222:Converted paper product manufacturing",
+                "amount": 0.0003,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Embalaje en etapa de comercialización en tienda de autoservicio"
+            },
+            {
+                "is_reference": false,
+                "flow": "Polipapel (bolsa y hoja)",
+                "category": "C:Manufacturing\/32:Manufacture of paper and paper products\/3222:Converted paper product manufacturing\/3222:Converted paper product manufacturing",
+                "amount": 0.0005,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": "Embalaje en etapa de comercialización en carnicería"
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "carne de res",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Producto principal - 1 kg de carne de res"
+            },
+            {
+                "is_reference": false,
+                "flow": "estiércol",
+                "category": "",
+                "amount": 28.92,
+                "unit": "kg MS",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de crianza E1"
+            },
+            {
+                "is_reference": true,
+                "flow": "estiércol",
+                "category": "",
+                "amount": 32.3,
+                "unit": "kg MS",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de crianza E2"
+            },
+            {
+                "is_reference": false,
+                "flow": "estiércol",
+                "category": "",
+                "amount": 8.278,
+                "unit": "kg MS",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de preengorda E1"
+            },
+            {
+                "is_reference": true,
+                "flow": "estiércol",
+                "category": "",
+                "amount": 12.33,
+                "unit": "kg MS",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de preengorda E2"
+            },
+            {
+                "is_reference": false,
+                "flow": "estiércol",
+                "category": "",
+                "amount": 8.468,
+                "unit": "kg MS",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de engorda corral"
+            },
+            {
+                "is_reference": true,
+                "flow": "estiércol",
+                "category": "",
+                "amount": 14.67,
+                "unit": "kg MS",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de engorda pastoreo"
+            },
+            {
+                "is_reference": false,
+                "flow": "residuos orgánicos",
+                "category": "",
+                "amount": 0.482,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de transformación Rastro TIF"
+            },
+            {
+                "is_reference": true,
+                "flow": "residuos orgánicos",
+                "category": "",
+                "amount": 0.2,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de transformación Rastro No-TIF"
+            },
+            {
+                "is_reference": false,
+                "flow": "agua residual",
+                "category": "",
+                "amount": 4.053,
+                "unit": "L",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de transformación Rastro TIF"
+            },
+            {
+                "is_reference": true,
+                "flow": "agua residual",
+                "category": "",
+                "amount": 47.41,
+                "unit": "L",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de transformación Rastro No-TIF"
+            },
+            {
+                "is_reference": false,
+                "flow": "residuos orgánicos",
+                "category": "",
+                "amount": 0.097,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de comercialización Tienda de autoservicio"
+            },
+            {
+                "is_reference": true,
+                "flow": "residuos orgánicos",
+                "category": "",
+                "amount": 0.17,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Etapa de comercialización Carnicería"
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2 equivalente",
+                "category": "",
+                "amount": 17.8,
+                "unit": "kg CO2 eq",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "CPR-Intensiva\/TIF Tienda autoservicio (E1)"
+            },
+            {
+                "is_reference": true,
+                "flow": "CO2 equivalente",
+                "category": "",
+                "amount": 15.8,
+                "unit": "kg CO2 eq",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "CPR-Extensiva\/No TIF\/Carnicería (E2)"
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"14b18471-e47b-4b89-b53f-f47f30725e3f\",\"Name\":\"Evaluación del impacto ambiental de la cadena de producción de carne de res en el Estado de Veracruz, mediante el análisis de ciclo de vida\",\"Category\":\"Agricultura, Silvicultura, Pesca y Caza\/112 Ganadería\",\"Description\":\"En el presente estudio se evaluó el impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Para ello se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). Durante el año de operaciones evaluado el E1 comercializó un total de 253,532.6 kg de carne y el E2 12,682.45 kg. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica, participación determinada por la fermentación entérica del ganado y por el manejo del estiércol. La suma de la participación de los procesos de transformación y comercialización a estos impactos fue entre 7 y 0.2%, respectivamente. Respecto al potencial de toxicidad humana el E1 (0.6 kg 1,4-DBeq) es superior al E2 (0.3 kg 1,4-DBeq) principalmente por el empleo de agroquímicos en el cultivo de granos y por el uso de combustibles fósiles. Sin embargo, en las categorías uso de suelo y uso de agua el E2 presenta mayor impacto, debido al mayor tiempo de permanencia del ganado en los proceso de preengorda y engorda y por el menor peso de salida del ganado al mercado. Esta metodología ayuda a determinar las ventanas de oportunidad para mejorar estos procesos y su impacto en el ambiente.\",\"Tags\":\"ambiente, bovino, cambio climático, impacto, análisis ciclo de vida, ganadería, producción carne\",\"Technology | Description\":\"Análisis de Ciclo de Vida (ACV) - metodología para determinar los impactos ambientales potenciales asociados con un producto a través de la recopilación de un inventario de entradas y salidas relevantes del sistema estudiado, desde la extracción de materias primas hasta su disposición final. Se evaluaron nueve categorías de impacto: acidificación, eutrofización, cambio climático, disminución de la capa de ozono estratosférico, oxidación fotoquímica, toxicidad humana, disminución de recursos abióticos, uso de suelo y uso de agua.\",\"Code\":\"MX\",\"Last_change\":\"18\/11\/2025 20:09\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida según Norma ISO 14040\",\"Process type\":\"Evaluación de cadenas productivas completas: crianza, preengorda, engorda, transformación y comercialización\",\"Modeling constants\":\"Asignación económica para producción de leche y becerros en sistemas de doble propósito\",\"Data source information\":\"Entrevistas directas a 17 casos de estudio: 2 productores de crianza, 12 casos de preengorda\/engorda\/transformación, 1 tienda de autoservicio (E1), 2 carnicerías (E2)\",\"Data completeness\":\"Cobertura completa de todos los procesos de la cadena cárnica, excluyendo bienes de capital y medicamentos\",\"Data selection\":\"Inclusión de insumos alimenticios, energía, fertilizantes, pesticidas y disposición de residuos\",\"Data treatment\":\"Promedio de datos colectados de casos de estudio representativos\",\"Sampling procedure\":\"Selección por criterio de tecnología acorde a cadenas definidas y disponibilidad a colaborar\",\"Data collection period\":\"Un año de operaciones entre 2011-2013\",\"Use advice\":\"Aplicable específicamente a la región Norte-Centro del Estado de Veracruz, México\",\"Completeness\":\"Exhaustivo para procesos definidos en el alcance del estudio\",\"Sources\":\"Bare et al., 2003; ISO, 2006; NMX-SAA-14044-IMNC-2008; Cederberg et al., 2009; Pelletier et al., 2010\",\"Project\":\"Evaluación del impacto ambiental de la cadena de producción de carne de res en el Estado de Veracruz\",\"Intended application\":\"Identificación de puntos críticos y oportunidades de mejora en cadenas productivas cárnicas\",\"Data set owner\":\"Universidad Nacional Autónoma de México\",\"Data set generator\":\"Adriana Rivera Huerta\",\"Data set documentor\":\"Adriana Rivera Huerta\",\"Publication\":\"Tesis de Maestría en Ciencias de la Producción y de la Salud Animal, UNAM\",\"Creation date\":\"Septiembre 2014\",\"Copyright\":\"Universidad Nacional Autónoma de México\",\"Access and use restrictions\":\"Restricciones académicas estándar para tesis universitarias\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-18T20:10:14.235Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Suero de leche (sustituto de leche)\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals\",\"amount\":0.6,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Sorgo\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming\",\"amount\":0.28,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Soya\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming\",\"amount\":0.05,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Melaza\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals\",\"amount\":0.17,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Heno de maíz\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming\",\"amount\":0.11,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Salvado\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals\",\"amount\":0.1,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Pasto fresco\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1119:Other grain farming\/1119:Other grain farming\",\"amount\":17.3,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"B:Mining, Quarrying, and Oil and Gas Extraction\/21:Mining, Quarrying, and Oil and Gas Extraction\/2131:Support activities for mining\/2131:Support activities for mining\",\"amount\":20.98,\"unit\":\"L\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Consumo de agua en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Sulfato de amonio\",\"category\":\"C:Manufacturing\/20:Manufacture of chemicals and chemical products\/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds\/2013:Manufacture of nitrogenous and phosphate fertilizers\",\"amount\":0.08,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Fertilizante utilizado en producción de alimentos\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Electricity, Gas, Steam and Air Conditioning Supply\/22:Utilities\/2211:Electric power generation, transmission and distribution\/2211:Electric power generation, transmission and distribution\",\"amount\":0.17,\"unit\":\"kWh\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Consumo energético en etapa de crianza\"},{\"is_reference\":false,\"flow\":\"Pollinaza\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals\",\"amount\":0.06,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de preengorda\"},{\"is_reference\":false,\"flow\":\"DDG\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals\",\"amount\":0.3,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de engorda en corral\"},{\"is_reference\":false,\"flow\":\"Maíz rolado\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/11:Crop production\/1111:Soybean and other oilseed farming\/1111:Soybean and other oilseed farming\",\"amount\":0.96,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de engorda en corral\"},{\"is_reference\":false,\"flow\":\"Pasta de soya\",\"category\":\"C:Manufacturing\/10:Manufacture of food products\/108:Manufacture of prepared animal feeds\/1081:Manufacture of prepared feeds for animals\",\"amount\":0.21,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Alimento para ganado en etapa de engorda en corral\"},{\"is_reference\":false,\"flow\":\"Caja de cartón corrugado reciclado\",\"category\":\"C:Manufacturing\/32:Manufacture of furniture and related products\/322:Manufacture of paper and paper products\/3221:Pulp, paper and paperboard mills\",\"amount\":0.065,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Embalaje en etapa de transformación TIF\"},{\"is_reference\":false,\"flow\":\"Bolsa termoencogible de polipropileno\",\"category\":\"C:Manufacturing\/32:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\/3261:Plastics product manufacturing\",\"amount\":0.035,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Embalaje en etapa de transformación TIF\"},{\"is_reference\":false,\"flow\":\"Gas butano\",\"category\":\"D:Electricity, Gas, Steam and Air Conditioning Supply\/22:Utilities\/2212:Natural gas distribution\/2212:Natural gas distribution\",\"amount\":0.003,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Combustible en etapa de transformación TIF\"},{\"is_reference\":false,\"flow\":\"Charola de poliestireno libre de CFC\",\"category\":\"C:Manufacturing\/32:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\/3261:Plastics product manufacturing\",\"amount\":0.007,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Embalaje en etapa de comercialización en tienda de autoservicio\"},{\"is_reference\":false,\"flow\":\"Película de PVC\",\"category\":\"C:Manufacturing\/32:Manufacture of plastics and rubber products\/3261:Plastics product manufacturing\/3261:Plastics product manufacturing\",\"amount\":0.0075,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Embalaje en etapa de comercialización en tienda de autoservicio\"},{\"is_reference\":false,\"flow\":\"Etiqueta térmica\",\"category\":\"C:Manufacturing\/32:Manufacture of paper and paper products\/3222:Converted paper product manufacturing\/3222:Converted paper product manufacturing\",\"amount\":0.0003,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Embalaje en etapa de comercialización en tienda de autoservicio\"},{\"is_reference\":false,\"flow\":\"Polipapel (bolsa y hoja)\",\"category\":\"C:Manufacturing\/32:Manufacture of paper and paper products\/3222:Converted paper product manufacturing\/3222:Converted paper product manufacturing\",\"amount\":0.0005,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"Embalaje en etapa de comercialización en carnicería\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"carne de res\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Producto principal - 1 kg de carne de res\"},{\"is_reference\":false,\"flow\":\"estiércol\",\"category\":\"\",\"amount\":28.92,\"unit\":\"kg MS\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de crianza E1\"},{\"is_reference\":true,\"flow\":\"estiércol\",\"category\":\"\",\"amount\":32.3,\"unit\":\"kg MS\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de crianza E2\"},{\"is_reference\":false,\"flow\":\"estiércol\",\"category\":\"\",\"amount\":8.278,\"unit\":\"kg MS\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de preengorda E1\"},{\"is_reference\":true,\"flow\":\"estiércol\",\"category\":\"\",\"amount\":12.33,\"unit\":\"kg MS\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de preengorda E2\"},{\"is_reference\":false,\"flow\":\"estiércol\",\"category\":\"\",\"amount\":8.468,\"unit\":\"kg MS\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de engorda corral\"},{\"is_reference\":true,\"flow\":\"estiércol\",\"category\":\"\",\"amount\":14.67,\"unit\":\"kg MS\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de engorda pastoreo\"},{\"is_reference\":false,\"flow\":\"residuos orgánicos\",\"category\":\"\",\"amount\":0.482,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de transformación Rastro TIF\"},{\"is_reference\":true,\"flow\":\"residuos orgánicos\",\"category\":\"\",\"amount\":0.2,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de transformación Rastro No-TIF\"},{\"is_reference\":false,\"flow\":\"agua residual\",\"category\":\"\",\"amount\":4.053,\"unit\":\"L\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de transformación Rastro TIF\"},{\"is_reference\":true,\"flow\":\"agua residual\",\"category\":\"\",\"amount\":47.41,\"unit\":\"L\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de transformación Rastro No-TIF\"},{\"is_reference\":false,\"flow\":\"residuos orgánicos\",\"category\":\"\",\"amount\":0.097,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de comercialización Tienda de autoservicio\"},{\"is_reference\":true,\"flow\":\"residuos orgánicos\",\"category\":\"\",\"amount\":0.17,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Etapa de comercialización Carnicería\"},{\"is_reference\":false,\"flow\":\"CO2 equivalente\",\"category\":\"\",\"amount\":17.8,\"unit\":\"kg CO2 eq\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"CPR-Intensiva\/TIF Tienda autoservicio (E1)\"},{\"is_reference\":true,\"flow\":\"CO2 equivalente\",\"category\":\"\",\"amount\":15.8,\"unit\":\"kg CO2 eq\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"CPR-Extensiva\/No TIF\/Carnicería (E2)\"}]}",
+    "http_code": 200,
+    "timestamp": 1763496768
+}

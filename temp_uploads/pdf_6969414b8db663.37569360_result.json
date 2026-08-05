@@ -1,0 +1,306 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "b7c59a75-fada-4796-aa03-ece26851bd60",
+            "Name": "EVALUACIÓN DEL IMPACTO AMBIENTAL DE LA CADENA DE PRODUCCIÓN DE CARNE DE RES EN EL ESTADO DE VERACRUZ, MEDIANTE EL ANÁLISIS DE CICLO DE VIDA",
+            "Category": "Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture\/1121 Cattle Ranching and Farming",
+            "Description": "La industria de los alimentos es un gran contribuyente al deterioro y agotamiento de los recursos naturales. En el presente estudio se evaluó el impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Para ello se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). Durante el año de operaciones evaluado el E1 comercializó un total de 253,532.6 kg de carne y el E2 12,682.45 kg. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica, participación determinada por la fermentación entérica del ganado y por el manejo del estiércol. La suma de la participación de los procesos de transformación y comercialización a estos impactos fue entre 7 y 0.2%, respectivamente. Respecto al potencial de toxicidad humana el E1 (0.6 kg 1,4-DBeq) es superior al E2 (0.3 kg 1,4-DBeq) principalmente por el empleo de agroquímicos en el cultivo de granos y por el uso de combustibles fósiles. Sin embargo, en las categorías uso de suelo y uso de agua el E2 presenta mayor impacto, debido al mayor tiempo de permanencia del ganado en los proceso de preengorda y engorda y por el menor peso de salida del ganado al mercado. Esta metodología ayuda a determinar las ventanas de oportunidad para mejorar estos procesos y su impacto en el ambiente.",
+            "Tags": "ambiente, bovino, cambio climático, impacto, carne de res, Análisis de Ciclo de Vida, Veracruz, México",
+            "Technology Description": "El análisis se realizó utilizando el software SimaPro 7.3 con la base de datos Ecoinvent. La metodología de evaluación de impacto empleada fue CML 2000. El sistema de producción analizado es el Escenario 1 (Intensivo), que comprende crianza y pre-engorda en pastoreo, y finalización en corral de engorda (feedlot). La transformación se realiza en rastros Tipo Inspección Federal (TIF) y la comercialización en tiendas de autoservicio (supermercados). Las emisiones de GEI se calcularon utilizando directrices del IPCC (2006) Nivel 1. El consumo de agua por los animales se calculó con la fórmula de Winchester (1956).",
+            "Code": "MX",
+            "Last change": "15\/01\/2026 19:35"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) de acuerdo con la norma ISO 14040:2006. El método de evaluación de impacto fue CML 2000.",
+            "Process type": "Análisis 'Cradle-to-grave' de la producción de carne de res, desde la cría hasta el punto de venta al consumidor.",
+            "Modeling constants": "La unidad funcional es 1 kg de carne de res sin hueso y sin grasa. La asignación de impactos a coproductos (piel, vísceras) no se realizó; el 100% de la carga ambiental se asignó a la carne. Se excluyó la producción y mantenimiento de bienes de capital (edificios, maquinaria), así como el uso de medicamentos y sustancias de limpieza.",
+            "Data source information": "Los datos primarios se obtuvieron mediante entrevistas directas a 17 casos de estudio representativos. Los datos secundarios provienen de la base de datos Ecoinvent, y de fuentes gubernamentales como SAGARPA, SIAP, SEMARNAT, INEGI. Las emisiones de GEI se calcularon con factores del IPCC (2006).",
+            "Data completeness": "El estudio cubre los principales flujos de materia y energía dentro de los límites definidos. Sin embargo, existen limitaciones reconocidas, como la no inclusión de la superficie de suelo y el agua requerida para el cultivo de granos y forrajes utilizados en la alimentación.",
+            "Data selection": "Se incluyeron los insumos para la alimentación, energía (gas, hidrocarburos, electricidad), fertilizantes, pesticidas y la disposición de residuos. Se excluyeron los bienes de capital, medicamentos y sustancias de limpieza.",
+            "Data treatment": "Los datos recopilados de los diferentes casos de estudio fueron promediados para construir los escenarios representativos. Las emisiones de metano y óxido nitroso se calcularon utilizando las directrices del IPCC 2006, Nivel 1.",
+            "Sampling procedure": "Selección de casos de estudio representativos de los procesos unitarios de las cadenas analizadas, en colaboración con asociaciones ganaderas y la Comisión Coordinadora Estatal para la Reconversión de Rastros en el Estado de Veracruz (CIPREVER).",
+            "Data collection period": "Corresponde a un año de operaciones de las empresas estudiadas, comprendido entre los años 2011 y 2013.",
+            "Use advice": "Los resultados son específicos para las condiciones del Estado de Veracruz, México. Las limitaciones del estudio, como la exclusión del uso de suelo y agua para la producción de alimentos del ganado, deben ser consideradas al interpretar o utilizar los resultados.",
+            "Completeness": "El estudio es exhaustivo dentro de los límites del sistema definidos. Las principales omisiones son el impacto indirecto del uso de la tierra y el agua para la producción de piensos, lo cual es una limitante importante.",
+            "Sources": "La lista completa de referencias se encuentra en las páginas 84-89 de la tesis, incluyendo autores como Pelletier et al. (2010), Cederberg et al. (2009), IPCC (2006), ISO (2006), y fuentes de datos nacionales como SIAP y FIRA.",
+            "Project": "Proyecto SALSA “Knowledge- based Sustainable vAlue-added food chains: innovative tooLs for monitoring ethical, environmental and Socio-economic impActs and implementing Eu-Latin America shared strategie” del Séptimo Programa Marco de Investigación y Desarrollo Tecnológico de la Unión Europea con Número de Convenio 265927.",
+            "Intended application": "Facilitar a productores de ganado, transformadores y comercializadores la identificación de cuellos de botella en sus operaciones para optimizar sus procesos desde un enfoque ambiental, con el fin de mejorar su competitividad.",
+            "Data set owner": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO",
+            "Data set generator": "ADRIANA RIVERA HUERTA",
+            "Data set documentor": "ADRIANA RIVERA HUERTA",
+            "Publication": "Tesis para optar por el grado de Maestra en Ciencias. Maestría en ciencias de la producción y de la salud animal. UNAM.",
+            "Creation date": "2014-09",
+            "Copyright": "DERECHOS RESERVADOS ©",
+            "Access and use restrictions": "PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. Todo el material contenido en esta tesis esta protegido por la Ley Federal del Derecho de Autor (LFDA) de los Estados Unidos Mexicanos (México). El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor."
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "15\/01\/2026 19:35",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Whey, liquid (milk serum)",
+                "category": "C:Manufacturing\/311:Food Manufacturing\/31151:Dairy Product (except Frozen) Manufacturing",
+                "amount": 0.6,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suero de leche (sustituto de leche) utilizado en la etapa de crianza."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sorghum",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1111:Oilseed and Grain Farming",
+                "amount": 1.4,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de sorgo utilizado en las etapas de crianza (0.28), preengorda (0.09) y engorda (1.03)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Soybean products",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1111:Oilseed and Grain Farming",
+                "amount": 0.28,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de soya (0.05 + 0.02) y pasta de soya (0.21) utilizada en crianza, preengorda y engorda."
+            },
+            {
+                "is_reference": false,
+                "flow": "Molasses",
+                "category": "C:Manufacturing\/311:Food Manufacturing\/31131:Sugarcane Mills and Refining",
+                "amount": 0.63,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de melaza utilizada en crianza (0.17), preengorda (0.06) y engorda (0.40)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Hay",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1114:Other Crop Farming",
+                "amount": 1.13,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de heno de maíz (0.11 + 0.03) y heno (0.99) utilizado en crianza, preengorda y engorda."
+            },
+            {
+                "is_reference": false,
+                "flow": "Bran",
+                "category": "C:Manufacturing\/311:Food Manufacturing\/3112:Grain and Oilseed Milling",
+                "amount": 0.69,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de salvado utilizado en crianza (0.1), preengorda (0.03) y engorda (0.56)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Fresh pasture",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1114:Other Crop Farming",
+                "amount": 23.03,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de pasto fresco consumido en crianza (17.3) y preengorda (5.73)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Water",
+                "category": "E:Water supply; sewerage, waste management\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 67.813,
+                "unit": "L",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de agua utilizada en todas las etapas: crianza (20.98), preengorda (15.48), engorda (26.73), transformación (4.053) y comercialización (0.57)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Ammonium sulfate",
+                "category": "C:Manufacturing\/325:Chemical Manufacturing\/32531:Fertilizer Manufacturing",
+                "amount": 0.08,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Fertilizante utilizado en la etapa de crianza."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricity",
+                "category": "D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                "amount": 0.826,
+                "unit": "kWh",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de electricidad utilizada en crianza (0.17), engorda (0.15), transformación (0.436) y comercialización (0.07)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Poultry litter",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/112:Animal Production and Aquaculture\/1123:Poultry and Egg Production",
+                "amount": 0.55,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Suma de pollinaza utilizada en preengorda (0.06) y engorda (0.49)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Distillers dried grains with solubles (DDGS)",
+                "category": "C:Manufacturing\/311:Food Manufacturing\/311221:Wet Corn Milling and Starch Manufacturing",
+                "amount": 0.3,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "DDG utilizados en la etapa de engorda."
+            },
+            {
+                "is_reference": false,
+                "flow": "Rolled corn",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1111:Oilseed and Grain Farming",
+                "amount": 0.96,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Maíz rolado utilizado en la etapa de engorda."
+            },
+            {
+                "is_reference": false,
+                "flow": "Recycled corrugated cardboard box",
+                "category": "C:Manufacturing\/322:Paper Manufacturing\/322211:Corrugated and Solid Fiber Box Manufacturing",
+                "amount": 0.065,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Caja utilizada en la etapa de transformación."
+            },
+            {
+                "is_reference": false,
+                "flow": "Polypropylene heat-shrink bag",
+                "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/32611:Plastics Packaging Film and Sheet (including Bag) Manufacturing",
+                "amount": 0.035,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Bolsa termoencogible utilizada en la etapa de transformación."
+            },
+            {
+                "is_reference": false,
+                "flow": "Butane gas",
+                "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                "amount": 0.003,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Gas butano utilizado en la etapa de transformación."
+            },
+            {
+                "is_reference": false,
+                "flow": "CFC-free polystyrene tray",
+                "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/326140:Polystyrene Foam Product Manufacturing",
+                "amount": 0.007,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Charola de poliestireno utilizada en la etapa de comercialización."
+            },
+            {
+                "is_reference": false,
+                "flow": "PVC film",
+                "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/32611:Plastics Packaging Film and Sheet (including Bag) Manufacturing",
+                "amount": 0.0075,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Película de PVC utilizada en la etapa de comercialización."
+            },
+            {
+                "is_reference": false,
+                "flow": "Thermal label",
+                "category": "C:Manufacturing\/322:Paper Manufacturing\/322220:Paper Bag and Coated and Treated Paper Manufacturing",
+                "amount": 0.0003,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Anexo 4",
+                "description": "Etiqueta térmica utilizada en la etapa de comercialización."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Boneless, fat-free beef",
+                "category": "C:Manufacturing\/311:Food Manufacturing\/3116:Meat Product Manufacturing",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Unidad funcional del estudio: 1 kg de carne de res sin hueso y sin grasa."
+            },
+            {
+                "is_reference": false,
+                "flow": "Manure, dry matter",
+                "category": "A:Agriculture, Forestry, Fishing and Hunting\/112:Animal Production and Aquaculture",
+                "amount": 45.666,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Anexo 4",
+                "description": "Suma de estiércol (materia seca) generado en las etapas de crianza (28.92), preengorda (8.278) y engorda (8.468)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Organic waste",
+                "category": "E:Water supply; sewerage, waste management\/562:Waste Management and Remediation Services\/56221:Treatment and Disposal of Waste",
+                "amount": 0.579,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Anexo 4",
+                "description": "Suma de residuos orgánicos generados en la transformación (0.482) y comercialización (0.097)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Wastewater",
+                "category": "E:Water supply; sewerage, waste management\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 4.053,
+                "unit": "L",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": "Anexo 4",
+                "description": "Agua residual generada en la etapa de transformación."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"b7c59a75-fada-4796-aa03-ece26851bd60\",\"Name\":\"EVALUACIÓN DEL IMPACTO AMBIENTAL DE LA CADENA DE PRODUCCIÓN DE CARNE DE RES EN EL ESTADO DE VERACRUZ, MEDIANTE EL ANÁLISIS DE CICLO DE VIDA\",\"Category\":\"Agriculture, Forestry, Fishing and Hunting\/112 Animal Production and Aquaculture\/1121 Cattle Ranching and Farming\",\"Description\":\"La industria de los alimentos es un gran contribuyente al deterioro y agotamiento de los recursos naturales. En el presente estudio se evaluó el impacto ambiental en la producción de 1 kg de carne de res de dos diferentes cadenas productivas en el Estado de Veracruz, México. Para ello se empleó la metodología Análisis de Ciclo de Vida y se analizaron nueve categorías de impacto en los cinco procesos de la cadena cárnica: crianza, preengorda, engorda, transformación y comercialización. Las cadenas se identificaron como escenario 1 (E1) (Intensiva\/TIF\/Tienda de autoservicio) y escenario 2 (E2) (Extensiva\/No-TIF\/Carnicería). Durante el año de operaciones evaluado el E1 comercializó un total de 253,532.6 kg de carne y el E2 12,682.45 kg. Los resultados mostraron que los procesos de producción primaria contribuyen con un porcentaje entre el 93.0 y 99.8 a las categorías acidificación, eutrofización, cambio climático y oxidación fotoquímica, participación determinada por la fermentación entérica del ganado y por el manejo del estiércol. La suma de la participación de los procesos de transformación y comercialización a estos impactos fue entre 7 y 0.2%, respectivamente. Respecto al potencial de toxicidad humana el E1 (0.6 kg 1,4-DBeq) es superior al E2 (0.3 kg 1,4-DBeq) principalmente por el empleo de agroquímicos en el cultivo de granos y por el uso de combustibles fósiles. Sin embargo, en las categorías uso de suelo y uso de agua el E2 presenta mayor impacto, debido al mayor tiempo de permanencia del ganado en los proceso de preengorda y engorda y por el menor peso de salida del ganado al mercado. Esta metodología ayuda a determinar las ventanas de oportunidad para mejorar estos procesos y su impacto en el ambiente.\",\"Tags\":\"ambiente, bovino, cambio climático, impacto, carne de res, Análisis de Ciclo de Vida, Veracruz, México\",\"Technology Description\":\"El análisis se realizó utilizando el software SimaPro 7.3 con la base de datos Ecoinvent. La metodología de evaluación de impacto empleada fue CML 2000. El sistema de producción analizado es el Escenario 1 (Intensivo), que comprende crianza y pre-engorda en pastoreo, y finalización en corral de engorda (feedlot). La transformación se realiza en rastros Tipo Inspección Federal (TIF) y la comercialización en tiendas de autoservicio (supermercados). Las emisiones de GEI se calcularon utilizando directrices del IPCC (2006) Nivel 1. El consumo de agua por los animales se calculó con la fórmula de Winchester (1956).\",\"Code\":\"MX\",\"Last change\":\"15\/01\/2026 19:35\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) de acuerdo con la norma ISO 14040:2006. El método de evaluación de impacto fue CML 2000.\",\"Process type\":\"Análisis 'Cradle-to-grave' de la producción de carne de res, desde la cría hasta el punto de venta al consumidor.\",\"Modeling constants\":\"La unidad funcional es 1 kg de carne de res sin hueso y sin grasa. La asignación de impactos a coproductos (piel, vísceras) no se realizó; el 100% de la carga ambiental se asignó a la carne. Se excluyó la producción y mantenimiento de bienes de capital (edificios, maquinaria), así como el uso de medicamentos y sustancias de limpieza.\",\"Data source information\":\"Los datos primarios se obtuvieron mediante entrevistas directas a 17 casos de estudio representativos. Los datos secundarios provienen de la base de datos Ecoinvent, y de fuentes gubernamentales como SAGARPA, SIAP, SEMARNAT, INEGI. Las emisiones de GEI se calcularon con factores del IPCC (2006).\",\"Data completeness\":\"El estudio cubre los principales flujos de materia y energía dentro de los límites definidos. Sin embargo, existen limitaciones reconocidas, como la no inclusión de la superficie de suelo y el agua requerida para el cultivo de granos y forrajes utilizados en la alimentación.\",\"Data selection\":\"Se incluyeron los insumos para la alimentación, energía (gas, hidrocarburos, electricidad), fertilizantes, pesticidas y la disposición de residuos. Se excluyeron los bienes de capital, medicamentos y sustancias de limpieza.\",\"Data treatment\":\"Los datos recopilados de los diferentes casos de estudio fueron promediados para construir los escenarios representativos. Las emisiones de metano y óxido nitroso se calcularon utilizando las directrices del IPCC 2006, Nivel 1.\",\"Sampling procedure\":\"Selección de casos de estudio representativos de los procesos unitarios de las cadenas analizadas, en colaboración con asociaciones ganaderas y la Comisión Coordinadora Estatal para la Reconversión de Rastros en el Estado de Veracruz (CIPREVER).\",\"Data collection period\":\"Corresponde a un año de operaciones de las empresas estudiadas, comprendido entre los años 2011 y 2013.\",\"Use advice\":\"Los resultados son específicos para las condiciones del Estado de Veracruz, México. Las limitaciones del estudio, como la exclusión del uso de suelo y agua para la producción de alimentos del ganado, deben ser consideradas al interpretar o utilizar los resultados.\",\"Completeness\":\"El estudio es exhaustivo dentro de los límites del sistema definidos. Las principales omisiones son el impacto indirecto del uso de la tierra y el agua para la producción de piensos, lo cual es una limitante importante.\",\"Sources\":\"La lista completa de referencias se encuentra en las páginas 84-89 de la tesis, incluyendo autores como Pelletier et al. (2010), Cederberg et al. (2009), IPCC (2006), ISO (2006), y fuentes de datos nacionales como SIAP y FIRA.\",\"Project\":\"Proyecto SALSA “Knowledge- based Sustainable vAlue-added food chains: innovative tooLs for monitoring ethical, environmental and Socio-economic impActs and implementing Eu-Latin America shared strategie” del Séptimo Programa Marco de Investigación y Desarrollo Tecnológico de la Unión Europea con Número de Convenio 265927.\",\"Intended application\":\"Facilitar a productores de ganado, transformadores y comercializadores la identificación de cuellos de botella en sus operaciones para optimizar sus procesos desde un enfoque ambiental, con el fin de mejorar su competitividad.\",\"Data set owner\":\"UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\",\"Data set generator\":\"ADRIANA RIVERA HUERTA\",\"Data set documentor\":\"ADRIANA RIVERA HUERTA\",\"Publication\":\"Tesis para optar por el grado de Maestra en Ciencias. Maestría en ciencias de la producción y de la salud animal. UNAM.\",\"Creation date\":\"2014-09\",\"Copyright\":\"DERECHOS RESERVADOS ©\",\"Access and use restrictions\":\"PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL. Todo el material contenido en esta tesis esta protegido por la Ley Federal del Derecho de Autor (LFDA) de los Estados Unidos Mexicanos (México). El uso de imágenes, fragmentos de videos, y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos y deberá citar la fuente donde la obtuvo mencionando el autor o autores. Cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor.\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"15\/01\/2026 19:35\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Whey, liquid (milk serum)\",\"category\":\"C:Manufacturing\/311:Food Manufacturing\/31151:Dairy Product (except Frozen) Manufacturing\",\"amount\":0.6,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suero de leche (sustituto de leche) utilizado en la etapa de crianza.\"},{\"is_reference\":false,\"flow\":\"Sorghum\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1111:Oilseed and Grain Farming\",\"amount\":1.4,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de sorgo utilizado en las etapas de crianza (0.28), preengorda (0.09) y engorda (1.03).\"},{\"is_reference\":false,\"flow\":\"Soybean products\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1111:Oilseed and Grain Farming\",\"amount\":0.28,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de soya (0.05 + 0.02) y pasta de soya (0.21) utilizada en crianza, preengorda y engorda.\"},{\"is_reference\":false,\"flow\":\"Molasses\",\"category\":\"C:Manufacturing\/311:Food Manufacturing\/31131:Sugarcane Mills and Refining\",\"amount\":0.63,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de melaza utilizada en crianza (0.17), preengorda (0.06) y engorda (0.40).\"},{\"is_reference\":false,\"flow\":\"Hay\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1114:Other Crop Farming\",\"amount\":1.13,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de heno de maíz (0.11 + 0.03) y heno (0.99) utilizado en crianza, preengorda y engorda.\"},{\"is_reference\":false,\"flow\":\"Bran\",\"category\":\"C:Manufacturing\/311:Food Manufacturing\/3112:Grain and Oilseed Milling\",\"amount\":0.69,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de salvado utilizado en crianza (0.1), preengorda (0.03) y engorda (0.56).\"},{\"is_reference\":false,\"flow\":\"Fresh pasture\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1114:Other Crop Farming\",\"amount\":23.03,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de pasto fresco consumido en crianza (17.3) y preengorda (5.73).\"},{\"is_reference\":false,\"flow\":\"Water\",\"category\":\"E:Water supply; sewerage, waste management\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":67.813,\"unit\":\"L\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de agua utilizada en todas las etapas: crianza (20.98), preengorda (15.48), engorda (26.73), transformación (4.053) y comercialización (0.57).\"},{\"is_reference\":false,\"flow\":\"Ammonium sulfate\",\"category\":\"C:Manufacturing\/325:Chemical Manufacturing\/32531:Fertilizer Manufacturing\",\"amount\":0.08,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Fertilizante utilizado en la etapa de crianza.\"},{\"is_reference\":false,\"flow\":\"Electricity\",\"category\":\"D:Utilities\/221:Utilities\/2211:Electric Power Generation, Transmission and Distribution\",\"amount\":0.826,\"unit\":\"kWh\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de electricidad utilizada en crianza (0.17), engorda (0.15), transformación (0.436) y comercialización (0.07).\"},{\"is_reference\":false,\"flow\":\"Poultry litter\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/112:Animal Production and Aquaculture\/1123:Poultry and Egg Production\",\"amount\":0.55,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Suma de pollinaza utilizada en preengorda (0.06) y engorda (0.49).\"},{\"is_reference\":false,\"flow\":\"Distillers dried grains with solubles (DDGS)\",\"category\":\"C:Manufacturing\/311:Food Manufacturing\/311221:Wet Corn Milling and Starch Manufacturing\",\"amount\":0.3,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"DDG utilizados en la etapa de engorda.\"},{\"is_reference\":false,\"flow\":\"Rolled corn\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/1111:Oilseed and Grain Farming\",\"amount\":0.96,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Maíz rolado utilizado en la etapa de engorda.\"},{\"is_reference\":false,\"flow\":\"Recycled corrugated cardboard box\",\"category\":\"C:Manufacturing\/322:Paper Manufacturing\/322211:Corrugated and Solid Fiber Box Manufacturing\",\"amount\":0.065,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Caja utilizada en la etapa de transformación.\"},{\"is_reference\":false,\"flow\":\"Polypropylene heat-shrink bag\",\"category\":\"C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/32611:Plastics Packaging Film and Sheet (including Bag) Manufacturing\",\"amount\":0.035,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Bolsa termoencogible utilizada en la etapa de transformación.\"},{\"is_reference\":false,\"flow\":\"Butane gas\",\"category\":\"C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries\",\"amount\":0.003,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Gas butano utilizado en la etapa de transformación.\"},{\"is_reference\":false,\"flow\":\"CFC-free polystyrene tray\",\"category\":\"C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/326140:Polystyrene Foam Product Manufacturing\",\"amount\":0.007,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Charola de poliestireno utilizada en la etapa de comercialización.\"},{\"is_reference\":false,\"flow\":\"PVC film\",\"category\":\"C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/32611:Plastics Packaging Film and Sheet (including Bag) Manufacturing\",\"amount\":0.0075,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Película de PVC utilizada en la etapa de comercialización.\"},{\"is_reference\":false,\"flow\":\"Thermal label\",\"category\":\"C:Manufacturing\/322:Paper Manufacturing\/322220:Paper Bag and Coated and Treated Paper Manufacturing\",\"amount\":0.0003,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Anexo 4\",\"description\":\"Etiqueta térmica utilizada en la etapa de comercialización.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Boneless, fat-free beef\",\"category\":\"C:Manufacturing\/311:Food Manufacturing\/3116:Meat Product Manufacturing\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Unidad funcional del estudio: 1 kg de carne de res sin hueso y sin grasa.\"},{\"is_reference\":false,\"flow\":\"Manure, dry matter\",\"category\":\"A:Agriculture, Forestry, Fishing and Hunting\/112:Animal Production and Aquaculture\",\"amount\":45.666,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Anexo 4\",\"description\":\"Suma de estiércol (materia seca) generado en las etapas de crianza (28.92), preengorda (8.278) y engorda (8.468).\"},{\"is_reference\":false,\"flow\":\"Organic waste\",\"category\":\"E:Water supply; sewerage, waste management\/562:Waste Management and Remediation Services\/56221:Treatment and Disposal of Waste\",\"amount\":0.579,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Anexo 4\",\"description\":\"Suma de residuos orgánicos generados en la transformación (0.482) y comercialización (0.097).\"},{\"is_reference\":false,\"flow\":\"Wastewater\",\"category\":\"E:Water supply; sewerage, waste management\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":4.053,\"unit\":\"L\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":\"Anexo 4\",\"description\":\"Agua residual generada en la etapa de transformación.\"}]}",
+    "http_code": 200,
+    "timestamp": 1768505755
+}

@@ -1,0 +1,93 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "671e940a-6500-4470-8f61-82935f849e65",
+            "Name": "market for natural gas liquids",
+            "Category": "Utilities\/2212 Natural Gas Distribution",
+            "Description": "This is a market activity representing the consumption mix of natural gas liquids in the global geography. The market connects suppliers with consumers of natural gas liquids within the same geographical area, grouping producers and imports. The activity starts at the gate of activities that produce natural gas liquids and ends with the supply to consumers. Transport and losses are considered irrelevant for this product. Natural gas liquids is a fossil fuel with a calorific value of 24.624 MJ\/kg, used as a liquid fuel sourced from unprocessed natural gas. Main applications include domestic fuel for cooking and heating, industrial fuel, and plastics raw material.",
+            "Tags": "natural gas liquids, market activity, fossil fuel, energy distribution, global market",
+            "Technology | Description": "Market activity technology that represents the distribution and consumption mix of natural gas liquids. The technology groups producers and imports within the global geography and connects them with consumers. No specific processing technology is described as this is a market representation rather than a production process.",
+            "Code": "GLO",
+            "Last_change": "07\/11\/2025 18:58"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "56bca136-90bb-3a77-9abb-7ce558af711e",
+            "name": "Global",
+            "description": "reference location, sources:  ecoinvent 3, ILCD, GaBi",
+            "version": "00.00.000",
+            "code": "GLO",
+            "latitude": 0,
+            "longitude": 0
+        },
+        "processDocumentation": {
+            "LCI method": "Allocation, cut-off system model",
+            "Process type": "Market activity",
+            "Modeling constants": "Natural gas liquids calorific value: 24.624 MJ\/kg; Valid for period 2000-01-01 to 2024-12-31",
+            "Data source information": "ecoinvent database v3.11",
+            "Data completeness": "Complete coverage of all relevant flows for market activity",
+            "Data selection": "Includes all producers and imports of natural gas liquids within Global geography; Excludes transport and losses as irrelevant for this product",
+            "Data treatment": "System-generated market activity connecting suppliers with consumers",
+            "Sampling procedure": "Not specified in provided documentation",
+            "Data collection period": "2000-2024",
+            "Use advice": "Valid for entire period 2000-2024; Represents consumption mix of natural gas liquids in Global geography",
+            "Completeness": "Complete for market representation of natural gas liquids in Global geography",
+            "Sources": "ecoinvent Association, 2025",
+            "Project": "ecoinvent database",
+            "Intended application": "Life cycle assessment studies; Applications include domestic fuel for cooking and heating, industrial fuel and plastics raw material",
+            "Data set owner": "ecoinvent Association",
+            "Data set generator": "[System]",
+            "Data set documentor": "[System]",
+            "Publication": "ecoinvent 3.11 Dataset Documentation",
+            "Creation date": "2025",
+            "Copyright": "Copyright ecoinvent Association, 2025",
+            "Access and use restrictions": "Restrictions of use stipulated in the EULA remain applicable"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-07T18:59:25.457Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "natural gas liquids",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "natural gas liquids production GLO - natural gas liquids",
+                "description": "This is a market activity for 'natural gas liquids' in the Global geography. It represents the consumption mix, connecting suppliers with consumers. The activity starts at the gate of the activities that produce 'natural gas liquids' within Global geography and ends with the supply to consumers. No transport or losses are included as they are considered irrelevant for this product. Natural gas liquids is a fossil fuel with calorific value of 24.624 MJ\/kg, used as liquid fuel sourced from unprocessed natural gas for domestic cooking\/heating, industrial fuel and plastics raw material."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "natural gas liquids",
+                "category": "",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"671e940a-6500-4470-8f61-82935f849e65\",\"Name\":\"market for natural gas liquids\",\"Category\":\"Utilities\/2212 Natural Gas Distribution\",\"Description\":\"This is a market activity representing the consumption mix of natural gas liquids in the global geography. The market connects suppliers with consumers of natural gas liquids within the same geographical area, grouping producers and imports. The activity starts at the gate of activities that produce natural gas liquids and ends with the supply to consumers. Transport and losses are considered irrelevant for this product. Natural gas liquids is a fossil fuel with a calorific value of 24.624 MJ\/kg, used as a liquid fuel sourced from unprocessed natural gas. Main applications include domestic fuel for cooking and heating, industrial fuel, and plastics raw material.\",\"Tags\":\"natural gas liquids, market activity, fossil fuel, energy distribution, global market\",\"Technology | Description\":\"Market activity technology that represents the distribution and consumption mix of natural gas liquids. The technology groups producers and imports within the global geography and connects them with consumers. No specific processing technology is described as this is a market representation rather than a production process.\",\"Code\":\"GLO\",\"Last_change\":\"07\/11\/2025 18:58\"},\"location\":{\"@type\":\"Location\",\"@id\":\"56bca136-90bb-3a77-9abb-7ce558af711e\",\"name\":\"Global\",\"description\":\"reference location, sources:  ecoinvent 3, ILCD, GaBi\",\"version\":\"00.00.000\",\"code\":\"GLO\",\"latitude\":0,\"longitude\":0},\"processDocumentation\":{\"LCI method\":\"Allocation, cut-off system model\",\"Process type\":\"Market activity\",\"Modeling constants\":\"Natural gas liquids calorific value: 24.624 MJ\/kg; Valid for period 2000-01-01 to 2024-12-31\",\"Data source information\":\"ecoinvent database v3.11\",\"Data completeness\":\"Complete coverage of all relevant flows for market activity\",\"Data selection\":\"Includes all producers and imports of natural gas liquids within Global geography; Excludes transport and losses as irrelevant for this product\",\"Data treatment\":\"System-generated market activity connecting suppliers with consumers\",\"Sampling procedure\":\"Not specified in provided documentation\",\"Data collection period\":\"2000-2024\",\"Use advice\":\"Valid for entire period 2000-2024; Represents consumption mix of natural gas liquids in Global geography\",\"Completeness\":\"Complete for market representation of natural gas liquids in Global geography\",\"Sources\":\"ecoinvent Association, 2025\",\"Project\":\"ecoinvent database\",\"Intended application\":\"Life cycle assessment studies; Applications include domestic fuel for cooking and heating, industrial fuel and plastics raw material\",\"Data set owner\":\"ecoinvent Association\",\"Data set generator\":\"[System]\",\"Data set documentor\":\"[System]\",\"Publication\":\"ecoinvent 3.11 Dataset Documentation\",\"Creation date\":\"2025\",\"Copyright\":\"Copyright ecoinvent Association, 2025\",\"Access and use restrictions\":\"Restrictions of use stipulated in the EULA remain applicable\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-07T18:59:25.457Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"natural gas liquids\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"natural gas liquids production GLO - natural gas liquids\",\"description\":\"This is a market activity for 'natural gas liquids' in the Global geography. It represents the consumption mix, connecting suppliers with consumers. The activity starts at the gate of the activities that produce 'natural gas liquids' within Global geography and ends with the supply to consumers. No transport or losses are included as they are considered irrelevant for this product. Natural gas liquids is a fossil fuel with calorific value of 24.624 MJ\/kg, used as liquid fuel sourced from unprocessed natural gas for domestic cooking\/heating, industrial fuel and plastics raw material.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"natural gas liquids\",\"category\":\"\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1762542004
+}

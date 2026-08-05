@@ -1,0 +1,272 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "b8b4ec1c-2d14-4bee-8bd8-69093e29543e",
+            "Name": "ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR",
+            "Category": "Manufactura\/327 Fabricación de Productos de Minerales No Metálicos",
+            "Description": "Se determinó la huella de carbono durante los procesos de manufactura del tabique industrial, a partir de un Inventario de Ciclo de Vida (ICV) con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El objetivo es estimar la huella de carbono durante el proceso de manufactura del tabique industrial en las plantas localizadas en la zona centro de México. La unidad funcional es producir un kilogramo de tabique terminado en planta, en México, con datos de 2009. El estudio se enfoca en determinar la huella de carbono para el tabique en las etapas de extracción de materia prima, transporte al proceso de fabricación y proceso de fabricación per se (cradle-to-gate). El resultado obtenido fue de 0.21166 kg CO2eq para 1 kg de tabique industrial en planta.",
+            "Tags": "tabique, ladrillo, análisis de ciclo de vida, huella de carbono, México, construcción, industrial, ACV",
+            "Technology Description": "El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. En el proceso industrial, los tabiques se fabrican con procesos unitarios industriales (revolvedoras, extrusores, cámaras de secado y hornos con quemadores eficientes).",
+            "Code": "MX",
+            "Last change": "09\/12\/2025 20:13"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "ISO 14044, con método de cálculo CML 2001 v. 4.2",
+            "Process type": "Proceso de fabricación cradle-to-gate",
+            "Modeling constants": "El criterio de corte utilizado es el de masa al 1%. La producción de electricidad se basó en el mix energético nacional del Centro Mario Molina. Para calcular las emisiones al aire se emplearon factores de emisión AP-42 adaptados a México. Se asume que el agua requerida se toma directamente de la red. Las distancias de transporte son una estimación basada en datos de DENUE.",
+            "Data source information": "Los datos de balance de materia y energía fueron proporcionados por una empresa en la región de Puebla, México. Las distancias de transporte se estimaron con datos de INEGI DENUE. Los factores de emisión son de AP-42. El mix eléctrico es del Centro Mario Molina. Se consultaron también la tesis de Olivas Gastélum (2004) y el trabajo de Chargoy et al. (2009).",
+            "Data completeness": "En la extracción de materia prima únicamente se incluye el impacto por el transporte, debido a la negativa de las empresas extractoras para aportar mayor información. En la matriz de inventario de las emisiones de CO2 por transporte solo se considera la cantidad de combustible consumido.",
+            "Data selection": "El criterio de corte utilizado es el de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta para los fines de este proyecto.",
+            "Data treatment": "Se dividió el consumo de electricidad y de gas LP entre la producción correspondiente al rango de tiempo de cada facturación, para obtener un aproximado real de consumo por pieza producida. Los datos por pieza se dividieron entre la masa de la pieza (1.55 kg) para obtener los promedios por kg de tabique.",
+            "Sampling procedure": "Los datos provienen de una empresa específica en la región de Puebla, funcionando como un estudio de caso para el tabique industrial.",
+            "Data collection period": "2009",
+            "Use advice": "Los resultados son representativos para la zona centro de México. Las limitaciones incluyen la exclusión de los impactos de la extracción de materia prima (excepto el transporte).",
+            "Completeness": "Medio. Existen brechas de datos reconocidas en la etapa de extracción de materia prima.",
+            "Sources": "[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] INEGI. La industria siderúrgica en México 2012, Serie de Estadísticas Sectoriales. Technical report, Aguascalientes, México, 2013. [3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [4] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [5] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [6] R. R. Olivas Gastélum. Desarrollo de un horno para producción industrial y artesanal de ladrillos. PhD thesis, Universidad de las Américas, 2004. [7] R. B. Leighou. Chemistry of Engineering Materials. McGraw-Hill Book Company, Inc, Japón, 1953. [8] D. Jastrzebski Zbigniew. The nature and properties of engineering materials. John Wiley & Sons, 2a edition, 1987. [9] Iron and steel - Sector Profile.",
+            "Project": "ACV TABIQUE",
+            "Intended application": "Conocer el impacto ambiental de la industria del tabique en México.",
+            "Data set owner": "Centro Mario Molina",
+            "Data set generator": "Andrea Hernández",
+            "Data set documentor": "Andrea Hernández",
+            "Publication": "ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR",
+            "Creation date": "2014-12-17",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "09\/12\/2025 20:13",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Agua",
+                "category": "E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply",
+                "amount": 0.2903,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Agua de la red para la mezcla."
+            },
+            {
+                "is_reference": false,
+                "flow": "Barro",
+                "category": "B:Mining and quarrying\/08:Other mining and quarrying\/081:Quarrying of stone, sand and clay\/0812:Quarrying of clay and kaolin",
+                "amount": 0.5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Materia prima principal (arcilla)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Pizarra",
+                "category": "B:Mining and quarrying\/08:Other mining and quarrying\/081:Quarrying of stone, sand and clay\/0811:Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",
+                "amount": 0.5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Materia prima principal (slate)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Electricidad",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution",
+                "amount": 232.26,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Diesel",
+                "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/192:Manufacture of refined petroleum products\/1920:Manufacture of refined petroleum products",
+                "amount": 15.24,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gasolina",
+                "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/192:Manufacture of refined petroleum products\/1920:Manufacture of refined petroleum products",
+                "amount": 8.52,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas natural",
+                "category": "D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/352:Manufacture of gas; distribution of gaseous fuels through mains",
+                "amount": 2590.27,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Consumo energético del proceso, principalmente en hornos."
+            },
+            {
+                "is_reference": false,
+                "flow": "Gas LP",
+                "category": "C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/192:Manufacture of refined petroleum products\/1920:Manufacture of refined petroleum products",
+                "amount": 5.73,
+                "unit": "kJ",
+                "uncertainty": null,
+                "provider": "Empresa en la región de Puebla",
+                "description": "Consumo energético del proceso."
+            },
+            {
+                "is_reference": false,
+                "flow": "Transporte de materia prima",
+                "category": "H:Transportation and storage\/49:Land transport and transport via pipelines\/494:Freight transport by road and removal services\/4941:Freight transport by road",
+                "amount": 0.2684,
+                "unit": "t*km",
+                "uncertainty": null,
+                "provider": "INEGI DENUE",
+                "description": "Transporte de materias primas a la planta."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Tabique industrial",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": "Unidad funcional del estudio: 1 kg de tabique industrial terminado en planta."
+            },
+            {
+                "is_reference": false,
+                "flow": "Partículas sedimentables",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0.0613,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "PM10",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0.0251,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "PM2.5",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "SOx",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0.0003,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "NOx",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0.0002,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire."
+            },
+            {
+                "is_reference": false,
+                "flow": "COV's",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 1.1e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire (Compuestos Orgánicos Volátiles)."
+            },
+            {
+                "is_reference": false,
+                "flow": "CO2",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0.212327,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire (Dióxido de carbono)."
+            },
+            {
+                "is_reference": false,
+                "flow": "CO",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 0.0005,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire (Monóxido de carbono)."
+            },
+            {
+                "is_reference": false,
+                "flow": "Plomo",
+                "category": "C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay",
+                "amount": 6.8e-8,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": "AP-42",
+                "description": "Emisión al aire (Lead)."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"b8b4ec1c-2d14-4bee-8bd8-69093e29543e\",\"Name\":\"ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR\",\"Category\":\"Manufactura\/327 Fabricación de Productos de Minerales No Metálicos\",\"Description\":\"Se determinó la huella de carbono durante los procesos de manufactura del tabique industrial, a partir de un Inventario de Ciclo de Vida (ICV) con datos obtenidos en México, y tomando como base las especificaciones de la ISO 14044. El objetivo es estimar la huella de carbono durante el proceso de manufactura del tabique industrial en las plantas localizadas en la zona centro de México. La unidad funcional es producir un kilogramo de tabique terminado en planta, en México, con datos de 2009. El estudio se enfoca en determinar la huella de carbono para el tabique en las etapas de extracción de materia prima, transporte al proceso de fabricación y proceso de fabricación per se (cradle-to-gate). El resultado obtenido fue de 0.21166 kg CO2eq para 1 kg de tabique industrial en planta.\",\"Tags\":\"tabique, ladrillo, análisis de ciclo de vida, huella de carbono, México, construcción, industrial, ACV\",\"Technology Description\":\"El procedimiento de cálculo fue efectuado mediante el software Open LCA 1.3.4. Se siguió el método CML 2001 v. 4.2. En el proceso industrial, los tabiques se fabrican con procesos unitarios industriales (revolvedoras, extrusores, cámaras de secado y hornos con quemadores eficientes).\",\"Code\":\"MX\",\"Last change\":\"09\/12\/2025 20:13\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"ISO 14044, con método de cálculo CML 2001 v. 4.2\",\"Process type\":\"Proceso de fabricación cradle-to-gate\",\"Modeling constants\":\"El criterio de corte utilizado es el de masa al 1%. La producción de electricidad se basó en el mix energético nacional del Centro Mario Molina. Para calcular las emisiones al aire se emplearon factores de emisión AP-42 adaptados a México. Se asume que el agua requerida se toma directamente de la red. Las distancias de transporte son una estimación basada en datos de DENUE.\",\"Data source information\":\"Los datos de balance de materia y energía fueron proporcionados por una empresa en la región de Puebla, México. Las distancias de transporte se estimaron con datos de INEGI DENUE. Los factores de emisión son de AP-42. El mix eléctrico es del Centro Mario Molina. Se consultaron también la tesis de Olivas Gastélum (2004) y el trabajo de Chargoy et al. (2009).\",\"Data completeness\":\"En la extracción de materia prima únicamente se incluye el impacto por el transporte, debido a la negativa de las empresas extractoras para aportar mayor información. En la matriz de inventario de las emisiones de CO2 por transporte solo se considera la cantidad de combustible consumido.\",\"Data selection\":\"El criterio de corte utilizado es el de masa al 1%; cualquier compuesto que represente menos del 1% de la masa total no se toma en cuenta para los fines de este proyecto.\",\"Data treatment\":\"Se dividió el consumo de electricidad y de gas LP entre la producción correspondiente al rango de tiempo de cada facturación, para obtener un aproximado real de consumo por pieza producida. Los datos por pieza se dividieron entre la masa de la pieza (1.55 kg) para obtener los promedios por kg de tabique.\",\"Sampling procedure\":\"Los datos provienen de una empresa específica en la región de Puebla, funcionando como un estudio de caso para el tabique industrial.\",\"Data collection period\":\"2009\",\"Use advice\":\"Los resultados son representativos para la zona centro de México. Las limitaciones incluyen la exclusión de los impactos de la extracción de materia prima (excepto el transporte).\",\"Completeness\":\"Medio. Existen brechas de datos reconocidas en la etapa de extracción de materia prima.\",\"Sources\":\"[1] Instituto Mexicano de Normalización y Certificación A.C. ISO 14044:2006. NMX-SAA-14044-IMNC-2008. Gestión ambiental - Análisis del ciclo de vida - Requisitos y directrices., 2009. [2] INEGI. La industria siderúrgica en México 2012, Serie de Estadísticas Sectoriales. Technical report, Aguascalientes, México, 2013. [3] CMM. Mix de Energía Eléctrica en México: Análisis de Ciclo de Vida del Mix de Producción de Electricidad. Technical report, Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, Distrito Federal, México, 2014. [4] Juan Pablo Chargoy Amador, Luis Angel Rosas Millán, and Diego Rodolfo Téllez Muradás. Generación de inventarios para el Análisis de Ciclo de Vida de cemento, block, bovedilla, vigueta y ladrillo en la zona centro de México. Mayor, Universidad de las Américas Puebla, 2009. [5] INEGI DENUE. Directorio Estadístico Nacional de Unidades Económicas. [6] R. R. Olivas Gastélum. Desarrollo de un horno para producción industrial y artesanal de ladrillos. PhD thesis, Universidad de las Américas, 2004. [7] R. B. Leighou. Chemistry of Engineering Materials. McGraw-Hill Book Company, Inc, Japón, 1953. [8] D. Jastrzebski Zbigniew. The nature and properties of engineering materials. John Wiley & Sons, 2a edition, 1987. [9] Iron and steel - Sector Profile.\",\"Project\":\"ACV TABIQUE\",\"Intended application\":\"Conocer el impacto ambiental de la industria del tabique en México.\",\"Data set owner\":\"Centro Mario Molina\",\"Data set generator\":\"Andrea Hernández\",\"Data set documentor\":\"Andrea Hernández\",\"Publication\":\"ACV TABIQUE ANÁLISIS DE CICLO DE VIDA DEL TABIQUE MEMORIA DE CÁLCULO BORRADOR\",\"Creation date\":\"2014-12-17\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"09\/12\/2025 20:13\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Agua\",\"category\":\"E:Water supply; sewerage, waste management and remediation activities\/36:Water collection, treatment and supply\/3600:Water collection, treatment and supply\",\"amount\":0.2903,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Agua de la red para la mezcla.\"},{\"is_reference\":false,\"flow\":\"Barro\",\"category\":\"B:Mining and quarrying\/08:Other mining and quarrying\/081:Quarrying of stone, sand and clay\/0812:Quarrying of clay and kaolin\",\"amount\":0.5,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Materia prima principal (arcilla).\"},{\"is_reference\":false,\"flow\":\"Pizarra\",\"category\":\"B:Mining and quarrying\/08:Other mining and quarrying\/081:Quarrying of stone, sand and clay\/0811:Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate\",\"amount\":0.5,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Materia prima principal (slate).\"},{\"is_reference\":false,\"flow\":\"Electricidad\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/351:Electric power generation, transmission and distribution\",\"amount\":232.26,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Diesel\",\"category\":\"C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/192:Manufacture of refined petroleum products\/1920:Manufacture of refined petroleum products\",\"amount\":15.24,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Gasolina\",\"category\":\"C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/192:Manufacture of refined petroleum products\/1920:Manufacture of refined petroleum products\",\"amount\":8.52,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Gas natural\",\"category\":\"D:Electricity, gas, steam and air conditioning supply\/35:Electricity, gas, steam and air conditioning supply\/352:Manufacture of gas; distribution of gaseous fuels through mains\",\"amount\":2590.27,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Consumo energético del proceso, principalmente en hornos.\"},{\"is_reference\":false,\"flow\":\"Gas LP\",\"category\":\"C:Manufacturing\/19:Manufacture of coke and refined petroleum products\/192:Manufacture of refined petroleum products\/1920:Manufacture of refined petroleum products\",\"amount\":5.73,\"unit\":\"kJ\",\"uncertainty\":null,\"provider\":\"Empresa en la región de Puebla\",\"description\":\"Consumo energético del proceso.\"},{\"is_reference\":false,\"flow\":\"Transporte de materia prima\",\"category\":\"H:Transportation and storage\/49:Land transport and transport via pipelines\/494:Freight transport by road and removal services\/4941:Freight transport by road\",\"amount\":0.2684,\"unit\":\"t*km\",\"uncertainty\":null,\"provider\":\"INEGI DENUE\",\"description\":\"Transporte de materias primas a la planta.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Tabique industrial\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":\"Unidad funcional del estudio: 1 kg de tabique industrial terminado en planta.\"},{\"is_reference\":false,\"flow\":\"Partículas sedimentables\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.0613,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"PM10\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.0251,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"PM2.5\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"SOx\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.0003,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"NOx\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.0002,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire.\"},{\"is_reference\":false,\"flow\":\"COV's\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.000011,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire (Compuestos Orgánicos Volátiles).\"},{\"is_reference\":false,\"flow\":\"CO2\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.212327,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire (Dióxido de carbono).\"},{\"is_reference\":false,\"flow\":\"CO\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":0.0005,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire (Monóxido de carbono).\"},{\"is_reference\":false,\"flow\":\"Plomo\",\"category\":\"C:Manufacturing\/23:Manufacture of other non-metallic mineral products\/233:Manufacture of clay building materials\/2332:Manufacture of bricks, tiles and construction products, in baked clay\",\"amount\":6.8e-8,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":\"AP-42\",\"description\":\"Emisión al aire (Lead).\"}]}",
+    "http_code": 200,
+    "timestamp": 1765311191
+}

@@ -1,0 +1,231 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "aad92722-a5a4-4ddd-b8a4-e44cfa6a9d66",
+            "Name": "Artisanal brick at plant",
+            "Category": "Manufacturing\/327 Clay Product and Refractory Manufacturing",
+            "Description": "Proceso de fabricación artesanal de ladrillos que incluye la extracción de materias primas (arcilla, caliza, arena), transporte, mezcla y cocción utilizando combustible pesado. El sistema considera desde la extracción de materias primas hasta la producción final de ladrillos artesanales en planta.",
+            "Tags": "manufacturing, brick production, artisanal, clay products, construction materials",
+            "Technology | Description": "Proceso artesanal de fabricación de ladrillos que utiliza horno industrial con combustóleo pesado como fuente de energía para la cocción",
+            "Code": "MX",
+            "Last_change": "14\/11\/2025 02:09"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "",
+            "Process type": "UNIT_PROCESS",
+            "Modeling constants": "",
+            "Data source information": "",
+            "Data completeness": "",
+            "Data selection": "",
+            "Data treatment": "",
+            "Sampling procedure": "",
+            "Data collection period": "",
+            "Use advice": "",
+            "Completeness": "",
+            "Sources": "",
+            "Project": "",
+            "Intended application": "",
+            "Data set owner": "N\/A",
+            "Data set generator": "",
+            "Data set documentor": "",
+            "Publication": "",
+            "Creation date": "",
+            "Copyright": "Proprietary",
+            "Access and use restrictions": "Propietario - Instituto de Ingeniería UNAM"
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "2025-11-14T02:09:47.850Z",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Clay at quarry",
+                "category": "",
+                "amount": 0.57,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Heavy fuel oil, burned in industrial furnace",
+                "category": "",
+                "amount": 1.832727,
+                "unit": "Imp.min.",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Limestone at quarry",
+                "category": "",
+                "amount": 0.1,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Sand at mine",
+                "category": "",
+                "amount": 0.33,
+                "unit": "kg",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Transport, mix, diesel powered (road, train a",
+                "category": "",
+                "amount": 0.2683,
+                "unit": "t*km",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            },
+            {
+                "is_reference": false,
+                "flow": "Water, from well",
+                "category": "",
+                "amount": 0.15,
+                "unit": "Imp.min.",
+                "uncertainty": "",
+                "provider": "",
+                "description": ""
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Artisanal brick at plant",
+                "category": "MexiLCA_IINGEN\/manufacturing (C)",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbon dioxide, fossil",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0.13309091,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Carbon monoxide, fossil",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 4.545e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrogen oxides",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0.00045455,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Particulates, < 2.5 um",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Particulates, > 10 um",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0.04590909,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "Particulates, > 2.5 um, and < 10um",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0.01963636,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfur dioxide",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0.002,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            },
+            {
+                "is_reference": true,
+                "flow": "VOC, volatile organic compounds",
+                "category": "MexiLCA\/manufacturing (C)",
+                "amount": 0,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": null,
+                "provider": null,
+                "description": null
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"aad92722-a5a4-4ddd-b8a4-e44cfa6a9d66\",\"Name\":\"Artisanal brick at plant\",\"Category\":\"Manufacturing\/327 Clay Product and Refractory Manufacturing\",\"Description\":\"Proceso de fabricación artesanal de ladrillos que incluye la extracción de materias primas (arcilla, caliza, arena), transporte, mezcla y cocción utilizando combustible pesado. El sistema considera desde la extracción de materias primas hasta la producción final de ladrillos artesanales en planta.\",\"Tags\":\"manufacturing, brick production, artisanal, clay products, construction materials\",\"Technology | Description\":\"Proceso artesanal de fabricación de ladrillos que utiliza horno industrial con combustóleo pesado como fuente de energía para la cocción\",\"Code\":\"MX\",\"Last_change\":\"14\/11\/2025 02:09\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"\",\"Process type\":\"UNIT_PROCESS\",\"Modeling constants\":\"\",\"Data source information\":\"\",\"Data completeness\":\"\",\"Data selection\":\"\",\"Data treatment\":\"\",\"Sampling procedure\":\"\",\"Data collection period\":\"\",\"Use advice\":\"\",\"Completeness\":\"\",\"Sources\":\"\",\"Project\":\"\",\"Intended application\":\"\",\"Data set owner\":\"N\/A\",\"Data set generator\":\"\",\"Data set documentor\":\"\",\"Publication\":\"\",\"Creation date\":\"\",\"Copyright\":\"Proprietary\",\"Access and use restrictions\":\"Propietario - Instituto de Ingeniería UNAM\"},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"2025-11-14T02:09:47.850Z\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Clay at quarry\",\"category\":\"\",\"amount\":0.57,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Heavy fuel oil, burned in industrial furnace\",\"category\":\"\",\"amount\":1.832727,\"unit\":\"Imp.min.\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Limestone at quarry\",\"category\":\"\",\"amount\":0.1,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Sand at mine\",\"category\":\"\",\"amount\":0.33,\"unit\":\"kg\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Transport, mix, diesel powered (road, train a\",\"category\":\"\",\"amount\":0.2683,\"unit\":\"t*km\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"},{\"is_reference\":false,\"flow\":\"Water, from well\",\"category\":\"\",\"amount\":0.15,\"unit\":\"Imp.min.\",\"uncertainty\":\"\",\"provider\":\"\",\"description\":\"\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Artisanal brick at plant\",\"category\":\"MexiLCA_IINGEN\/manufacturing (C)\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Carbon dioxide, fossil\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0.13309091,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Carbon monoxide, fossil\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0.00004545,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Nitrogen oxides\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0.00045455,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Particulates, < 2.5 um\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Particulates, > 10 um\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0.04590909,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"Particulates, > 2.5 um, and < 10um\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0.01963636,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":false,\"flow\":\"Sulfur dioxide\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0.002,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null},{\"is_reference\":true,\"flow\":\"VOC, volatile organic compounds\",\"category\":\"MexiLCA\/manufacturing (C)\",\"amount\":0,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":null,\"provider\":null,\"description\":null}]}",
+    "http_code": 200,
+    "timestamp": 1763086263
+}

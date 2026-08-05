@@ -1,0 +1,289 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "General information": {
+            "UUID": "0d5092ff-bd4a-4850-951d-24a68cbdae42",
+            "Name": "ANÁLISIS DEL CICLO DE VIDA EN LA PRODUCCIÓN DE PIÑA",
+            "Category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production",
+            "Description": "El Análisis del Ciclo de Vida (ACV) es una herramienta de gestión medioambiental cuya finalidad es analizar de forma objetiva, metódica, sistemática y científica, el impacto ambiental originado por el proceso de un producto o servicio durante su ciclo de vida. Este trabajo tiene como objetivo principal la aplicación de la metodología de ACV, mediante la evaluación de las cargas ambientales que ocasiona la producción de piña en Los Tigres, Juan Rodríguez Clara, Veracruz. El estudio abarcó dos modalidades de producción: convencional y bajo ambiente protegido, con un enfoque en la fase agrícola desde la preparación del terreno hasta la cosecha (cuna a la puerta de la finca). La unidad funcional es 1 kg de piña fresca. Los resultados de la valoración proporcionan a los productores agrícolas mexicanos elementos de juicio para la implementación de prácticas con bajos impactos ambientales.",
+            "Tags": "Análisis del Ciclo de Vida, Impacto Ambiental, Economía Agrícola, Piña, ACV, LCA, Pineapple, Agriculture, México",
+            "Technology Description": "La metodología sigue las normativas ISO 14040:2006 y 14044:2006. El software utilizado para el análisis de inventario y evaluación de impacto es Sima Pro (versión demo). El método de evaluación de impacto ambiental empleado es Eco-Indicator99 y Europe EL 99 H\/A, debido a la ausencia de un método específico para México.",
+            "Code": "MX",
+            "Last change": "30\/11\/2025 05:07"
+        },
+        "location": {
+            "@type": "Location",
+            "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+            "name": "Mexico",
+            "description": "reference location, sources: ISO 3166-1, ILCD",
+            "version": "00.00.000",
+            "code": "MX",
+            "latitude": 23.951,
+            "longitude": -102.535
+        },
+        "processDocumentation": {
+            "LCI method": "Análisis de Ciclo de Vida (ACV) simplificado, siguiendo los requisitos de las Normas Internacionales ISO 14040:2006 y 14044:2006. El método de evaluación de impacto es Eco-Indicator 99.",
+            "Process type": "Producción agrícola 'cuna a la puerta de la finca' (Cradle-to-farm-gate).",
+            "Modeling constants": "El estudio se enfoca en el sistema de producción convencional. El rendimiento promedio para este sistema es de 70,000 kg\/ha. El sistema convencional no utiliza riego ni energía eléctrica. Se asume una distancia de transporte de 30 km para los insumos desde el punto de compra hasta el campo. La infraestructura (edificios y maquinaria) está considerada en el alcance. La energía y combustibles provienen de proveedores monopólicos en México.",
+            "Data source information": "Los datos primarios fueron recolectados a través de un cuestionario aplicado a 25 productores de piña en la localidad de Los Tigres, Juan Rodríguez Clara, Veracruz. Los datos de fondo para los insumos y la evaluación de impacto provienen de las bases de datos incluidas en el software Sima Pro.",
+            "Data completeness": "El inventario de ciclo de vida cubre los principales flujos de entrada de materiales y energía para la fase agrícola, incluyendo preparación del suelo, siembra, fertilización, control de plagas y malezas. Se excluye la producción (fase de manufactura) de los insumos, como fertilizantes y maquinaria.",
+            "Data selection": "Se incluyeron todos los insumos reportados por los productores como necesarios por hectárea para el establecimiento y mantenimiento del cultivo de piña en la modalidad convencional.",
+            "Data treatment": "Los datos de insumos, recolectados por hectárea, fueron normalizados a la unidad funcional de 1 kg de piña fresca. Esta conversión se realizó dividiendo la cantidad total de insumo por hectárea por el rendimiento del cultivo (70,000 kg\/ha).",
+            "Sampling procedure": "Se utilizó un muestreo no probabilístico de tipo 'bola de nieve' para identificar y encuestar a los productores.",
+            "Data collection period": "2016-01-01 a 2017-12-31",
+            "Use advice": "Los resultados deben interpretarse con cautela. El método de evaluación de impacto (Eco-Indicator 99) es de origen europeo y puede no ser totalmente representativo de las condiciones ambientales de México. El análisis se realizó con una versión demo del software Sima Pro, lo cual puede implicar limitaciones en las bases de datos y funcionalidades. Algunas bases de datos tuvieron limitaciones para evaluar ciertos agroquímicos específicos.",
+            "Completeness": "El estudio es representativo para el sistema de producción de piña convencional en la región analizada. Sin embargo, no incluye un inventario detallado de emisiones elementales (flujos de salida), enfocándose en los resultados de impacto agregado. La falta de un método de evaluación de impacto regionalizado es una limitación importante.",
+            "Sources": "Alanis, P. E., 2012. Los rendimientos y la productividad en la agricultura. Revista Chapingo.\nAntón, V. M. A., 2012. Análisis de Ciclo de Vida aplicado a horticultura protegida. Cuadernos de estudios agroalimentarios, pp. 211-226.\nAvendaño, R. B. D., Sierra, L. O. A. & Lobo, R. M., 2015. Una estimación de la responsabilidad social empresarial en empresas hortofrutícolas de baja California, México.. Revista Mexicana en Ciencias Agrícolas, 01 de abril - 15 de mayo, 6(3), pp. 563-576.\nBanco Mundial, 2018. Grupo Banco Mundial. [En línea] Available at: https:\/\/www.bancomundial.org\/\nChidiak, M., 2003. Demanda y oferta de bienes y servicios ambientales por parte de la pyme: el caso argentino, Santiago de Chile: CEPAL.\nDussel, P. E., 2002. Territorio y competitividad en la agroindustria en México. Primera ed. D.F.: Plaza y Valdés S.A. de C.V..\nFAO, 2018. Organización de las Naciones Unidas para la Alimentación y la Agricultura. [En línea] Available at: http:\/\/www.fao.org\/home\/es\/\nFrohmann, A., Herreros, S. M. N. & Olmos, X., 2015. Sostenibilidad ambiental y competitividad internacional, Santiago de Chile: Naciones Unidas.\nGobMx, 2017. Gobierno de México. [En línea] Available at: https:\/\/www.gob.mx\/\nGómez, F. M., 2014. Métodos de análisis ambiental y análisis del ciclo de vida. Guía sobre Declaración Ambiental de Producto y Cálculo de Huella de Carbono, pp. 11-24.\nGREENPEACE, 2012. La agricultura mexicana y el cambio climático, México: Organización GREENPEACE.\nHaya, L. E., 2016. Análisis de Ciclo de Vida, Madrid: Escuela de Organización Industrial.\nHumbert, S., Schryver, A. D., Margini, M. & Jolliet, O., 2012. IMPACT 2002+: USER GUIDE. Quantis Sustainability Counts, 25 Marzo.\nHurtado, D. M., 2015. La Salud Ambiental en México, Situación actual y perspectivas futuras. México: Dirección de Salud Ambiental, Instituto Nacional de Salud Pública.\nINEGI, 2014. Instituto Nacional de Estadística y Geografía. [En línea] Available at: http:\/\/www.inegi.org.mx\/\nISO 14040, 2006. International Organization for Standardization. [En línea] Available at: https:\/\/www.iso.org\/home.html\nISO 14044, 2006. International Organization for Standardization. [En línea] Available at: https:\/\/www.iso.org\/home.html\nJiménez, E. M. & Chaidez, Q. C., 2013. La inocuidad de los alimentos en México. Panorama de la seguridad alimentaria y nutricional en México 2012.\nLeos, R. J. A. & Fortis, H. M., 2003. Inocuidad alimentaria en la producción de frutas y hortalizas frescas. Agrofaz: publicación semestral de investigación científica, 3(1), pp. 253-262.\nMaya, A. C. J., 2011. Sinaloa: ¿cluster agroindustrial o territorio desincrustado?. Análisis, Mayo-Agosto, Issue 14, pp. 127-160.\nMercado, A. & Córdova, K., 2011. La industria agroalimentaria en la controversia del desarrollo sustentable. Estudios Sociales, pp. 28-65.\nMontilla, D. B. I., Fernández, S., Alcalá, D. M. D. & Gallardo, M., 1997. El cultivo de la piña en Venezuela. Maracay: Fondo Nacional de Investigaciones Agropecuarias .\nPNUD, 2018. Programa de las Naciones Unidas para el Desarrollo. [En línea] Available at: http:\/\/www.undp.org\nRomero, R. B. I., 2003. El análisis del Ciclo de Vida y la Gestión Ambiental. Tendencias Tecnológicas, pp. 91-97.\nSAGARPA, 2014. Anuario Estadístico de la Producción Agrícola, México: s.n.\nSAGARPA, 2017. Secretaria de Agricultura, Ganaderia, Desarrollo Rural, Pesca y Alimentación. [En línea] Available at: http:\/\/www.gob.mx\/sagarpa\nSAGARPA & FAO, 2012. s.l.: México: El sector agropecuario ante el desafío del cambio climático.\nSauvé, L., 1999. La educación ambiental entre la modernidad y la posmodernidad : En busca de un marco de referencia educativo integrador. Tópicos, 1 (2), pp. 7-27.\nSecretaría Gobierno, d., 2016. Acciones y Programas. [En línea] Available at: http:\/\/www.gob.mx\/se\/acciones-y-programas\/comercio-exterior-paises-con-tratados-y-acuerdos-firmados-con-mexico\nSeuc, A., Domínguez, E. & Díaz, O., 2000. INTRODUCCIÓN A LOS DALYs. Cubana Hig Epidemiol, 38(2), pp. 92-101.\nTilman, D. & Clark, M., 2014. Global diets link environmental sustainability and human health. Nature, 27 Noviembre, 515(13959), pp. 518-522.\nUdo de Haes, H. y otros, 1999b. Best Available Practice Regarding Impact Categories and Categorý Indicators in Life Cycle Impact Assessment (II). Journal of the Internacional Institute life Cycle Assessment, 4(2), pp. 66-74.\nUriza, Á. D. E., 2011. Programa Estratégico para el Desarrollo Rural Sustentable de la Región Sur-Sureste de México: Trópico Húmedo 2011, Isla, Veracruz: Centro de Investigación Regional Golfo Centro.\nVásquez, A. J. & Cabral, М. А., 2001. La inocuidad alimentaria, realidad y reto mundial. [En línea] Available at: http:\/\/www.fao.org\/docrep\/003\/Y0600M\/y0600m02.htm\nVillafán, V. K. B. & Ayala, O. D. A., 2012. Responsabilidad social de las empresas agrícolas y agroindustriales aguacateras de Uruapan, Michoacán, y sus implicaciones en la competitividad. Contaduría y Administración, 59(4), pp. 223-251.",
+            "Project": "Tesis para obtener el grado de Maestro en Ciencias en Economía Agrícola y de los Recursos Naturales.",
+            "Intended application": "Análisis académico para informar a productores agrícolas mexicanos sobre los impactos ambientales de la producción de piña y promover la adopción de prácticas de bajo impacto ambiental.",
+            "Data set owner": "Universidad Autónoma Chapingo",
+            "Data set generator": "Byron Adrián Zayas Pérez",
+            "Data set documentor": "Byron Adrián Zayas Pérez",
+            "Publication": {
+                "type": "Thesis",
+                "title": "ANÁLISIS DEL CICLO DE VIDA EN LA PRODUCCIÓN DE PIÑA",
+                "author": "Zayas Pérez, Byron Adrián",
+                "year": 2018,
+                "institution": "Universidad Autónoma Chapingo"
+            },
+            "Creation date": "2018-12",
+            "Copyright": null,
+            "Access and use restrictions": null
+        },
+        "actors": {
+            "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+            "name": "IINGEN-UNAM",
+            "description": "Instituto de Ingeniería de la UNAM",
+            "category": "Organizaciones de investigación",
+            "version": "01.00.000",
+            "lastChange": "30\/11\/2025 05:07",
+            "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+            "city": "Coyoacán",
+            "zipCode": "04510",
+            "country": "MX",
+            "email": "APadillaR@iingen.unam.mx",
+            "telephone": "+52 5556233600",
+            "telefax": null,
+            "website": "http:\/\/www.iingen.unam.mx"
+        },
+        "Inputs": [
+            {
+                "is_reference": false,
+                "flow": "Combustible (diésel para maquinaria)",
+                "category": "Manufacturing\/324 Petroleum and Coal Products Manufacturing",
+                "amount": 0.00537,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Consumo promedio de combustible para todas las operaciones de maquinaria agrícola. Calculado a partir de un promedio de 442.38 L\/ha y una densidad de 0.85 kg\/L."
+            },
+            {
+                "is_reference": false,
+                "flow": "Hilo Rafia (polipropileno)",
+                "category": "Manufacturing\/326 Plastics and Rubber Products Manufacturing",
+                "amount": 0.0006648,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Hilo de polietileno utilizado para sujetar las plantas."
+            },
+            {
+                "is_reference": false,
+                "flow": "Adherente",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                "amount": 5.0e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Agroquímico utilizado como coadyuvante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Bromacil 80",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                "amount": 3.8857e-5,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Herbicida."
+            },
+            {
+                "is_reference": false,
+                "flow": "Carbón Activo",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325180 Other Basic Inorganic Chemical Manufacturing",
+                "amount": 0.0007678,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Enmienda para el suelo."
+            },
+            {
+                "is_reference": false,
+                "flow": "Complex",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0036607,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante compuesto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Diazol 50 EW",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                "amount": 0.0003928,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Insecticida."
+            },
+            {
+                "is_reference": false,
+                "flow": "Diuron 80",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing",
+                "amount": 0.0005,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Herbicida."
+            },
+            {
+                "is_reference": false,
+                "flow": "Entec",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0045238,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante con inhibidor de la nitrificación."
+            },
+            {
+                "is_reference": false,
+                "flow": "Etileno-gas",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325120 Industrial Gas Manufacturing",
+                "amount": 0.0002191,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Agente de maduración."
+            },
+            {
+                "is_reference": false,
+                "flow": "MAP Técnico (Fosfato Monoamónico)",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0027678,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Fosfato Diamónico",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0027467,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Nitrato de Calcio",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0011857,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "NPK 10-20-10",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.00625,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante compuesto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato Amonio",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0021428,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de Calcio",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0031428,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Sulfato de Potasio",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.002602,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Superfosfato Triple Grado",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0021428,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            },
+            {
+                "is_reference": false,
+                "flow": "Technigro 20-10-20",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0022357,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante compuesto."
+            },
+            {
+                "is_reference": false,
+                "flow": "Urea",
+                "category": "Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing",
+                "amount": 0.0025,
+                "unit": "kg",
+                "uncertainty": null,
+                "provider": "Primary data from producers",
+                "description": "Fertilizante."
+            }
+        ],
+        "Outputs": [
+            {
+                "is_reference": true,
+                "flow": "Piña fresca",
+                "category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/111219 Other Noncitrus Fruit Farming",
+                "amount": 1,
+                "unit": "kg",
+                "uncertainty": null,
+                "is_avoided": false,
+                "provider": null,
+                "description": "Producto de referencia (unidad funcional). Piña fresca cosechada bajo el sistema de producción convencional."
+            }
+        ]
+    },
+    "response": "{\"General information\":{\"UUID\":\"0d5092ff-bd4a-4850-951d-24a68cbdae42\",\"Name\":\"ANÁLISIS DEL CICLO DE VIDA EN LA PRODUCCIÓN DE PIÑA\",\"Category\":\"Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\",\"Description\":\"El Análisis del Ciclo de Vida (ACV) es una herramienta de gestión medioambiental cuya finalidad es analizar de forma objetiva, metódica, sistemática y científica, el impacto ambiental originado por el proceso de un producto o servicio durante su ciclo de vida. Este trabajo tiene como objetivo principal la aplicación de la metodología de ACV, mediante la evaluación de las cargas ambientales que ocasiona la producción de piña en Los Tigres, Juan Rodríguez Clara, Veracruz. El estudio abarcó dos modalidades de producción: convencional y bajo ambiente protegido, con un enfoque en la fase agrícola desde la preparación del terreno hasta la cosecha (cuna a la puerta de la finca). La unidad funcional es 1 kg de piña fresca. Los resultados de la valoración proporcionan a los productores agrícolas mexicanos elementos de juicio para la implementación de prácticas con bajos impactos ambientales.\",\"Tags\":\"Análisis del Ciclo de Vida, Impacto Ambiental, Economía Agrícola, Piña, ACV, LCA, Pineapple, Agriculture, México\",\"Technology Description\":\"La metodología sigue las normativas ISO 14040:2006 y 14044:2006. El software utilizado para el análisis de inventario y evaluación de impacto es Sima Pro (versión demo). El método de evaluación de impacto ambiental empleado es Eco-Indicator99 y Europe EL 99 H\/A, debido a la ausencia de un método específico para México.\",\"Code\":\"MX\",\"Last change\":\"30\/11\/2025 05:07\"},\"location\":{\"@type\":\"Location\",\"@id\":\"3d26b0b1-7065-32cf-a9c0-6c010184c684\",\"name\":\"Mexico\",\"description\":\"reference location, sources: ISO 3166-1, ILCD\",\"version\":\"00.00.000\",\"code\":\"MX\",\"latitude\":23.951,\"longitude\":-102.535},\"processDocumentation\":{\"LCI method\":\"Análisis de Ciclo de Vida (ACV) simplificado, siguiendo los requisitos de las Normas Internacionales ISO 14040:2006 y 14044:2006. El método de evaluación de impacto es Eco-Indicator 99.\",\"Process type\":\"Producción agrícola 'cuna a la puerta de la finca' (Cradle-to-farm-gate).\",\"Modeling constants\":\"El estudio se enfoca en el sistema de producción convencional. El rendimiento promedio para este sistema es de 70,000 kg\/ha. El sistema convencional no utiliza riego ni energía eléctrica. Se asume una distancia de transporte de 30 km para los insumos desde el punto de compra hasta el campo. La infraestructura (edificios y maquinaria) está considerada en el alcance. La energía y combustibles provienen de proveedores monopólicos en México.\",\"Data source information\":\"Los datos primarios fueron recolectados a través de un cuestionario aplicado a 25 productores de piña en la localidad de Los Tigres, Juan Rodríguez Clara, Veracruz. Los datos de fondo para los insumos y la evaluación de impacto provienen de las bases de datos incluidas en el software Sima Pro.\",\"Data completeness\":\"El inventario de ciclo de vida cubre los principales flujos de entrada de materiales y energía para la fase agrícola, incluyendo preparación del suelo, siembra, fertilización, control de plagas y malezas. Se excluye la producción (fase de manufactura) de los insumos, como fertilizantes y maquinaria.\",\"Data selection\":\"Se incluyeron todos los insumos reportados por los productores como necesarios por hectárea para el establecimiento y mantenimiento del cultivo de piña en la modalidad convencional.\",\"Data treatment\":\"Los datos de insumos, recolectados por hectárea, fueron normalizados a la unidad funcional de 1 kg de piña fresca. Esta conversión se realizó dividiendo la cantidad total de insumo por hectárea por el rendimiento del cultivo (70,000 kg\/ha).\",\"Sampling procedure\":\"Se utilizó un muestreo no probabilístico de tipo 'bola de nieve' para identificar y encuestar a los productores.\",\"Data collection period\":\"2016-01-01 a 2017-12-31\",\"Use advice\":\"Los resultados deben interpretarse con cautela. El método de evaluación de impacto (Eco-Indicator 99) es de origen europeo y puede no ser totalmente representativo de las condiciones ambientales de México. El análisis se realizó con una versión demo del software Sima Pro, lo cual puede implicar limitaciones en las bases de datos y funcionalidades. Algunas bases de datos tuvieron limitaciones para evaluar ciertos agroquímicos específicos.\",\"Completeness\":\"El estudio es representativo para el sistema de producción de piña convencional en la región analizada. Sin embargo, no incluye un inventario detallado de emisiones elementales (flujos de salida), enfocándose en los resultados de impacto agregado. La falta de un método de evaluación de impacto regionalizado es una limitación importante.\",\"Sources\":\"Alanis, P. E., 2012. Los rendimientos y la productividad en la agricultura. Revista Chapingo.\\nAntón, V. M. A., 2012. Análisis de Ciclo de Vida aplicado a horticultura protegida. Cuadernos de estudios agroalimentarios, pp. 211-226.\\nAvendaño, R. B. D., Sierra, L. O. A. & Lobo, R. M., 2015. Una estimación de la responsabilidad social empresarial en empresas hortofrutícolas de baja California, México.. Revista Mexicana en Ciencias Agrícolas, 01 de abril - 15 de mayo, 6(3), pp. 563-576.\\nBanco Mundial, 2018. Grupo Banco Mundial. [En línea] Available at: https:\/\/www.bancomundial.org\/\\nChidiak, M., 2003. Demanda y oferta de bienes y servicios ambientales por parte de la pyme: el caso argentino, Santiago de Chile: CEPAL.\\nDussel, P. E., 2002. Territorio y competitividad en la agroindustria en México. Primera ed. D.F.: Plaza y Valdés S.A. de C.V..\\nFAO, 2018. Organización de las Naciones Unidas para la Alimentación y la Agricultura. [En línea] Available at: http:\/\/www.fao.org\/home\/es\/\\nFrohmann, A., Herreros, S. M. N. & Olmos, X., 2015. Sostenibilidad ambiental y competitividad internacional, Santiago de Chile: Naciones Unidas.\\nGobMx, 2017. Gobierno de México. [En línea] Available at: https:\/\/www.gob.mx\/\\nGómez, F. M., 2014. Métodos de análisis ambiental y análisis del ciclo de vida. Guía sobre Declaración Ambiental de Producto y Cálculo de Huella de Carbono, pp. 11-24.\\nGREENPEACE, 2012. La agricultura mexicana y el cambio climático, México: Organización GREENPEACE.\\nHaya, L. E., 2016. Análisis de Ciclo de Vida, Madrid: Escuela de Organización Industrial.\\nHumbert, S., Schryver, A. D., Margini, M. & Jolliet, O., 2012. IMPACT 2002+: USER GUIDE. Quantis Sustainability Counts, 25 Marzo.\\nHurtado, D. M., 2015. La Salud Ambiental en México, Situación actual y perspectivas futuras. México: Dirección de Salud Ambiental, Instituto Nacional de Salud Pública.\\nINEGI, 2014. Instituto Nacional de Estadística y Geografía. [En línea] Available at: http:\/\/www.inegi.org.mx\/\\nISO 14040, 2006. International Organization for Standardization. [En línea] Available at: https:\/\/www.iso.org\/home.html\\nISO 14044, 2006. International Organization for Standardization. [En línea] Available at: https:\/\/www.iso.org\/home.html\\nJiménez, E. M. & Chaidez, Q. C., 2013. La inocuidad de los alimentos en México. Panorama de la seguridad alimentaria y nutricional en México 2012.\\nLeos, R. J. A. & Fortis, H. M., 2003. Inocuidad alimentaria en la producción de frutas y hortalizas frescas. Agrofaz: publicación semestral de investigación científica, 3(1), pp. 253-262.\\nMaya, A. C. J., 2011. Sinaloa: ¿cluster agroindustrial o territorio desincrustado?. Análisis, Mayo-Agosto, Issue 14, pp. 127-160.\\nMercado, A. & Córdova, K., 2011. La industria agroalimentaria en la controversia del desarrollo sustentable. Estudios Sociales, pp. 28-65.\\nMontilla, D. B. I., Fernández, S., Alcalá, D. M. D. & Gallardo, M., 1997. El cultivo de la piña en Venezuela. Maracay: Fondo Nacional de Investigaciones Agropecuarias .\\nPNUD, 2018. Programa de las Naciones Unidas para el Desarrollo. [En línea] Available at: http:\/\/www.undp.org\\nRomero, R. B. I., 2003. El análisis del Ciclo de Vida y la Gestión Ambiental. Tendencias Tecnológicas, pp. 91-97.\\nSAGARPA, 2014. Anuario Estadístico de la Producción Agrícola, México: s.n.\\nSAGARPA, 2017. Secretaria de Agricultura, Ganaderia, Desarrollo Rural, Pesca y Alimentación. [En línea] Available at: http:\/\/www.gob.mx\/sagarpa\\nSAGARPA & FAO, 2012. s.l.: México: El sector agropecuario ante el desafío del cambio climático.\\nSauvé, L., 1999. La educación ambiental entre la modernidad y la posmodernidad : En busca de un marco de referencia educativo integrador. Tópicos, 1 (2), pp. 7-27.\\nSecretaría Gobierno, d., 2016. Acciones y Programas. [En línea] Available at: http:\/\/www.gob.mx\/se\/acciones-y-programas\/comercio-exterior-paises-con-tratados-y-acuerdos-firmados-con-mexico\\nSeuc, A., Domínguez, E. & Díaz, O., 2000. INTRODUCCIÓN A LOS DALYs. Cubana Hig Epidemiol, 38(2), pp. 92-101.\\nTilman, D. & Clark, M., 2014. Global diets link environmental sustainability and human health. Nature, 27 Noviembre, 515(13959), pp. 518-522.\\nUdo de Haes, H. y otros, 1999b. Best Available Practice Regarding Impact Categories and Categorý Indicators in Life Cycle Impact Assessment (II). Journal of the Internacional Institute life Cycle Assessment, 4(2), pp. 66-74.\\nUriza, Á. D. E., 2011. Programa Estratégico para el Desarrollo Rural Sustentable de la Región Sur-Sureste de México: Trópico Húmedo 2011, Isla, Veracruz: Centro de Investigación Regional Golfo Centro.\\nVásquez, A. J. & Cabral, М. А., 2001. La inocuidad alimentaria, realidad y reto mundial. [En línea] Available at: http:\/\/www.fao.org\/docrep\/003\/Y0600M\/y0600m02.htm\\nVillafán, V. K. B. & Ayala, O. D. A., 2012. Responsabilidad social de las empresas agrícolas y agroindustriales aguacateras de Uruapan, Michoacán, y sus implicaciones en la competitividad. Contaduría y Administración, 59(4), pp. 223-251.\",\"Project\":\"Tesis para obtener el grado de Maestro en Ciencias en Economía Agrícola y de los Recursos Naturales.\",\"Intended application\":\"Análisis académico para informar a productores agrícolas mexicanos sobre los impactos ambientales de la producción de piña y promover la adopción de prácticas de bajo impacto ambiental.\",\"Data set owner\":\"Universidad Autónoma Chapingo\",\"Data set generator\":\"Byron Adrián Zayas Pérez\",\"Data set documentor\":\"Byron Adrián Zayas Pérez\",\"Publication\":{\"type\":\"Thesis\",\"title\":\"ANÁLISIS DEL CICLO DE VIDA EN LA PRODUCCIÓN DE PIÑA\",\"author\":\"Zayas Pérez, Byron Adrián\",\"year\":2018,\"institution\":\"Universidad Autónoma Chapingo\"},\"Creation date\":\"2018-12\",\"Copyright\":null,\"Access and use restrictions\":null},\"actors\":{\"@id\":\"47a88430-1dd2-4569-9741-8249a6672ae2\",\"name\":\"IINGEN-UNAM\",\"description\":\"Instituto de Ingeniería de la UNAM\",\"category\":\"Organizaciones de investigación\",\"version\":\"01.00.000\",\"lastChange\":\"30\/11\/2025 05:07\",\"address\":\"Circuito Escolar s\/n, Ciudad Universitaria\",\"city\":\"Coyoacán\",\"zipCode\":\"04510\",\"country\":\"MX\",\"email\":\"APadillaR@iingen.unam.mx\",\"telephone\":\"+52 5556233600\",\"telefax\":null,\"website\":\"http:\/\/www.iingen.unam.mx\"},\"Inputs\":[{\"is_reference\":false,\"flow\":\"Combustible (diésel para maquinaria)\",\"category\":\"Manufacturing\/324 Petroleum and Coal Products Manufacturing\",\"amount\":0.00537,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Consumo promedio de combustible para todas las operaciones de maquinaria agrícola. Calculado a partir de un promedio de 442.38 L\/ha y una densidad de 0.85 kg\/L.\"},{\"is_reference\":false,\"flow\":\"Hilo Rafia (polipropileno)\",\"category\":\"Manufacturing\/326 Plastics and Rubber Products Manufacturing\",\"amount\":0.0006648,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Hilo de polietileno utilizado para sujetar las plantas.\"},{\"is_reference\":false,\"flow\":\"Adherente\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing\",\"amount\":0.00005,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Agroquímico utilizado como coadyuvante.\"},{\"is_reference\":false,\"flow\":\"Bromacil 80\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing\",\"amount\":0.000038857,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Herbicida.\"},{\"is_reference\":false,\"flow\":\"Carbón Activo\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325180 Other Basic Inorganic Chemical Manufacturing\",\"amount\":0.0007678,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Enmienda para el suelo.\"},{\"is_reference\":false,\"flow\":\"Complex\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0036607,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante compuesto.\"},{\"is_reference\":false,\"flow\":\"Diazol 50 EW\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing\",\"amount\":0.0003928,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Insecticida.\"},{\"is_reference\":false,\"flow\":\"Diuron 80\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325320 Pesticide and Other Agricultural Chemical Manufacturing\",\"amount\":0.0005,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Herbicida.\"},{\"is_reference\":false,\"flow\":\"Entec\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0045238,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante con inhibidor de la nitrificación.\"},{\"is_reference\":false,\"flow\":\"Etileno-gas\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325120 Industrial Gas Manufacturing\",\"amount\":0.0002191,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Agente de maduración.\"},{\"is_reference\":false,\"flow\":\"MAP Técnico (Fosfato Monoamónico)\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0027678,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"Fosfato Diamónico\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0027467,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"Nitrato de Calcio\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0011857,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"NPK 10-20-10\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.00625,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante compuesto.\"},{\"is_reference\":false,\"flow\":\"Sulfato Amonio\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0021428,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"Sulfato de Calcio\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0031428,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"Sulfato de Potasio\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.002602,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"Superfosfato Triple Grado\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0021428,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"},{\"is_reference\":false,\"flow\":\"Technigro 20-10-20\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0022357,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante compuesto.\"},{\"is_reference\":false,\"flow\":\"Urea\",\"category\":\"Manufacturing\/325 Chemical Manufacturing\/325310 Fertilizer Manufacturing\",\"amount\":0.0025,\"unit\":\"kg\",\"uncertainty\":null,\"provider\":\"Primary data from producers\",\"description\":\"Fertilizante.\"}],\"Outputs\":[{\"is_reference\":true,\"flow\":\"Piña fresca\",\"category\":\"Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/111219 Other Noncitrus Fruit Farming\",\"amount\":1,\"unit\":\"kg\",\"uncertainty\":null,\"is_avoided\":false,\"provider\":null,\"description\":\"Producto de referencia (unidad funcional). Piña fresca cosechada bajo el sistema de producción convencional.\"}]}",
+    "http_code": 200,
+    "timestamp": 1764479220
+}

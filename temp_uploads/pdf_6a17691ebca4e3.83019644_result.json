@@ -1,0 +1,217 @@
+{
+    "status": "completed",
+    "error": null,
+    "response_data": {
+        "job_id": null,
+        "result_data": {
+            "General information": {
+                "UUID": "cdfdf609-cf98-46bd-97ee-5c121cbfe5aa",
+                "Name": "Environmental Impacts Associated with the Production and Packing of Persian Lemon in Mexico through Life-Cycle Assessment",
+                "Category": "Agriculture, Forestry, Fishing and Hunting\/111 Crop Production\/111320 Citrus (except Orange) Groves",
+                "Description": "In this study, the environmental impacts associated with the intensive production of Persian lemons are assessed, including the agricultural and packing phases of the fresh fruit. A life-cycle assessment (LCA) tool was used in accordance with the ISO 14040 and 14044 standards and implemented in SimaPro PhD (9.2) software. The life-cycle inventory database was primarily composed of data collected during field visits to local lemon orchards and the main packing company in the region. The functional unit was defined as 1 kg of packed fresh Persian lemons. The selected impact categories were the carbon footprint, water footprint, and energy footprint, and the results obtained for the defined functional unit were 405.8 g CO2 eq, 40.3 L of water, and 5.9 MJ, respectively. The industrial packing phase of the fruits had a greater impact on the carbon and energy footprints, mostly due to the manufacturing of packaging materials and cardboard boxes, followed by the transportation of supplies. Regarding the water footprint, the agricultural phase was identified as the most significant contributor to water consumption, primarily attributed to maintenance operations and the application of agrochemicals.",
+                "Tags": "lemon production, life-cycle assessment, carbon, water and energy footprint, environmental impacts",
+                "Technology Description": "The life-cycle assessment (LCA) was implemented in SimaPro PhD (9.2) software. The life-cycle inventory was built using primary data from field visits and secondary data from literature and the Ecoinvent 3.8 database. The impact assessment methods used were: IPCC GWP 100a for the carbon footprint (based on ISO14067), the ReCiPe methodology (v. 1.01) for the water footprint (based on ISO 14046), and the cumulative energy demand (CED) method for the energy footprint.",
+                "Code": "MX",
+                "Last change": "27\/05\/2026 22:00"
+            },
+            "location": {
+                "@type": "Location",
+                "@id": "3d26b0b1-7065-32cf-a9c0-6c010184c684",
+                "name": "Mexico",
+                "description": "reference location, sources: ISO 3166-1, ILCD",
+                "version": "00.00.000",
+                "code": "MX",
+                "latitude": 23.951,
+                "longitude": -102.535
+            },
+            "processDocumentation": {
+                "LCI method": "The methodology was based on the guidelines of the ISO 14040:2006 and ISO 14044:2006 standards, including the phases: definition of goal and scope, life-cycle inventory analysis (LCI), life-cycle impact assessment (LCIA), and interpretation of results.",
+                "Process type": "Cradle-to-gate production process",
+                "Modeling constants": "The scope of the LCA was 'from cradle to gate'. The product system considered the cultivation, harvesting, and packaging of the Persian lemon ready for distribution. The supply of required inputs and their transport were included, as well as the supplied energy. Capital goods such as facilities and infrastructure were not included, while agricultural implements were considered. Load allocations by mass were applied for the distribution of environmental impacts.",
+                "Data source information": "Primary data was collected through fieldwork (interviews with farmers, traders, entrepreneurs, and specialists) and field visits to a nursery, two large producers, and a packing facility. Secondary data were supplemented with information from specialized literature and the Ecoinvent 3.8 database, which was adapted and updated with locally collected data.",
+                "Data completeness": "The product system comprised two phases: (i) the agricultural stage, with three sub-stages—seedbed, nursery, and orchard; and (ii) the citrus industrial stage, with two sub-stages—processing and packing. Capital goods such as facilities and infrastructure were excluded.",
+                "Data selection": "The study focused on intensive production of Persian lemons in a specific region in Mexico. Data were collected from representative producers and the main packing company in the region.",
+                "Data treatment": "The collected data were processed with material and energy balances to verify the data's suitability, and then quantified with respect to the functional unit. Load allocations by mass were applied for the distribution of environmental impacts generated in the products and co-products.",
+                "Sampling procedure": "Approximately 30 field visits were conducted over a three-month period. The process comprised: (i) reconnaissance of the study area to identify intensive producers; (ii) construction and distribution of questionnaires to farmers to acquire firsthand cultivation techniques; and (iii) replication of this procedure at the main packing company.",
+                "Data collection period": "Data collection was conducted over a three-month period. The article was published in May 2024.",
+                "Use advice": "The results are specific to the intensive production practices of Persian lemon in the studied region of Mexico. The study excludes capital goods like facilities and infrastructure, which should be considered when applying the results.",
+                "Completeness": "High for the defined cradle-to-gate scope, with the explicit exclusion of capital goods like facilities and infrastructure.",
+                "Sources": "1. Khan, M.M.; Al-Yahyai, R.; Al-Said, F. The Lime: Botany, Production and Uses, 1st ed.; CAB International: Wallingford, UK, 2017. 2. Vargas-Canales, J.M.; et al. Evolution of the specialization and competitiveness of lemon production in Mexico. Rev. Mex. Cienc. Agric. 2020, 11, 1043–1056. 3. Food and Agriculture Organization. Crops and Livestock Products. 2024. 4. Food and Agriculture Organization. Citrus Fruit Statistical Compendium 2020. 2023. 5. Organization for Economic Cooperation and Development; Food and Agriculture Organization. Environmental Sustainability in Agriculture 2023; FAO: Rome, Italy, 2023. 6. Tubiello, F.N.; et al. Greenhouse gas emissions from food systems: Building the evidence base. Environ. Res. Lett. 2021, 16, 065007. 7. Hoogeveen, J.; et al. GlobWat—A global water balance model to assess water use in irrigated agriculture. Hydrol. Earth Syst. Sci. 2015, 19, 3829–3844. 8. Food and Agriculture Organization of the United Nations. The State of Food and Agriculture 2020: Overcoming Water Challenges in Agriculture; FAO: Rome, Italy, 2020. 9. United Nations. The United Nations World Water Development Report 2022: Groundwater: Making the Invisible Visible; UNESCO: Paris, France, 2022. 10. Boretti, A.; Rosa, L. Reassessing the projections of the World Water Development Report. npj Clean Water 2019, 2, 15. 11. Naciones Unidas. Informe Mundial de las Naciones Unidas Sobre el Desarrollo de los Recursos Hídricos 2021: El Valor del Agua; UNESCO: París, France, 2021. 12. International Energy Agency. Statistics Report: Key World Energy Statistics 2021. 2023. 13. International Renewable Energy Agency; Food and Agriculture Organization of the United Nations. Renewable Energy for Agri-Food Systems—Towards the Sustainable Development Goals and the Paris Agreement; FAO: Rome, Italy, 2021. 14. Food and Agriculture Organization. Greenhouse Gas Emissions from Agri-Food Systems—Global, Regional And Country Trends, 2000–2020; FAOSTAT Analytical Brief No. 50; FAO: Rome, Italy, 2022. 15. Flammini, A.; et al. Emissions of greenhouse gases from energy use in agriculture, forestry and fisheries: 1970–2019. Earth Syst. Sci. Data 2022, 14, 811–821. 16. Organisation for Economic Co-Operation and Development; Food and Agriculture Organization. OECD-FAO Agricultural Outlook 2022–2031; FAO: Rome, Italy; OECD: Paris, France, 2022. 17. Rosa, L.; et al. Energy implications of the 21st century agrarian transition. Nat. Commun. 2021, 12, 2319. 18. Tubiello, F.; et al. Food Systems Emissions Shares, 1990–2019 (Nov 2021 FAOSTAT Update). 2021. 19. Nicolo, B.F.; et al. Environmental and economic sustainability assessment of navel oranges from the cultivation to the packinghouse according to environmental product declarations system. Calitatea 2017, 18, 108–112. 20. ISO 14040; Environmental Management-Life Cycle Assessment-Principles and Framework. 2006. 21. ISO 14044; Environmental Management-Life Cycle Assessment-Requirements and Guidelines. 2006. 22. ISO 14067; Greenhouse Gases. Carbon Footprint of Products. 2018. 23. Jolliet, O.; et al. Global guidance on environmental life cycle impact assessment indicators. Int. J. Life Cycle Assess 2018, 23, 2189–2207. 24. Huijbregts, M.A.J.; et al. ReCiPe2016: A harmonized life cycle impact assessment method. Int. J. Life Cycle Assess. 2017, 22, 138–147. 25. ISO 14046; Environmental Management—Water Footprint-Principles, Requirements and Guidelines. 2014. [List continues for 76 references]",
+                "Project": null,
+                "Intended application": "To generate valuable knowledge for decision makers in regions engaged in the intensive production of Persian lemon, contributing to the mitigation of associated environmental impacts. Furthermore, it aims to disseminate relevant information among scientists with expertise and interest in the field, commercial importers, and an informed public, thereby encouraging socially responsible consumption practices.",
+                "Data set owner": "Facultad de Ciencias Químicas, Universidad Veracruzana",
+                "Data set generator": "Eduardo Castillo-González, Lorena De Medina-Salas, Mario Rafael Giraldi-Díaz, Raúl Velásquez-De La Cruz, José Rafael Jiménez-Ochoa",
+                "Data set documentor": "Eduardo Castillo-González, Lorena De Medina-Salas, Mario Rafael Giraldi-Díaz, Raúl Velásquez-De La Cruz, José Rafael Jiménez-Ochoa",
+                "Publication": "Clean Technol. 2024, 6, 551–571. https:\/\/doi.org\/10.3390\/cleantechnol6020029",
+                "Creation date": "2024-05-07",
+                "Copyright": "Copyright: © 2024 by the authors. Licensee MDPI, Basel, Switzerland.",
+                "Access and use restrictions": "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
+            },
+            "actors": {
+                "@id": "47a88430-1dd2-4569-9741-8249a6672ae2",
+                "name": "IINGEN-UNAM",
+                "description": "Instituto de Ingeniería de la UNAM",
+                "category": "Organizaciones de investigación",
+                "version": "01.00.000",
+                "lastChange": "27\/05\/2026 22:00",
+                "address": "Circuito Escolar s\/n, Ciudad Universitaria",
+                "city": "Coyoacán",
+                "zipCode": "04510",
+                "country": "MX",
+                "email": "APadillaR@iingen.unam.mx",
+                "telephone": "+52 5556233600",
+                "telefax": null,
+                "website": "http:\/\/www.iingen.unam.mx"
+            },
+            "Inputs": [
+                {
+                    "is_reference": false,
+                    "flow": "Fertilizers",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/32531:Fertilizer Manufacturing",
+                    "amount": 0.01466077,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Sum of fertilizers used in seedbed, nursery, and orchard (young, adult, long-lived trees)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Pesticides",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing\/32532:Pesticide and Other Agricultural Chemical Manufacturing",
+                    "amount": 5.242336e-5,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Sum of pesticides used in seedbed, nursery, and orchard (young, adult, long-lived trees)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Fossil fuels",
+                    "category": "C:Manufacturing\/324:Petroleum and Coal Products Manufacturing\/324110:Petroleum Refineries",
+                    "amount": 0.000381362,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Fuel for machinery in seedbed and orchard maintenance."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Metals-supply (tools)",
+                    "category": "C:Manufacturing\/332:Fabricated Metal Product Manufacturing\/332216:Saw Blade and Handtool Manufacturing",
+                    "amount": 7.1138625e-7,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Input of tools and utensils for maintenance in seedbed, nursery, and orchard."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Plastics supplies",
+                    "category": "C:Manufacturing\/326:Plastics and Rubber Products Manufacturing\/3261:Plastic Product Manufacturing",
+                    "amount": 2.19380944e-6,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Plastic supplies for seedbed, nursery, and orchard."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Transport, freight, lorry",
+                    "category": "F:Transportation and Storage\/484:Truck Transportation",
+                    "amount": 3.44942,
+                    "unit": "tkm",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Sum of transport for all supplies and lemon transfer. Dominated by transport for packing materials."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Water",
+                    "category": "E:Water Supply; Sewerage, Waste Management and Remediation Services\/221310:Water Supply and Irrigation Systems",
+                    "amount": 0.009196258,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Direct water consumption for irrigation and washing across all stages."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Chemical supplies (packing)",
+                    "category": "C:Manufacturing\/325:Chemical Manufacturing",
+                    "amount": 0.0025995,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Chemicals used in the packing house (e.g., for washing, waxing)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Electric power",
+                    "category": "D:Utilities\/2211:Electric Power Generation, Transmission and Distribution",
+                    "amount": 0.00154,
+                    "unit": "kWh",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Electricity consumption in the packing house (5.5441e-3 MJ)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Packing materials",
+                    "category": "C:Manufacturing\/322:Paper Manufacturing\/322211:Corrugated and Solid Fiber Box Manufacturing",
+                    "amount": 0.16057,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "provider": "Foreground data",
+                    "description": "Cardboard boxes and other materials for packing."
+                }
+            ],
+            "Outputs": [
+                {
+                    "is_reference": true,
+                    "flow": "Packed fresh Persian lemons",
+                    "category": "Agriculture, Forestry, Fishing and Hunting\/111:Crop Production\/111320:Citrus (except Orange) Groves",
+                    "amount": 1,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": null,
+                    "description": "Functional unit of the study."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Emissions to air, unspecified",
+                    "category": "F:Other Services (except Public Administration)\/562:Waste Management and Remediation Services",
+                    "amount": 0.001396324,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Foreground data",
+                    "description": "Aggregated unspecified air emissions from agricultural stages."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Residual agrochemicals",
+                    "category": "F:Other Services (except Public Administration)\/562:Waste Management and Remediation Services",
+                    "amount": 0.00367185,
+                    "unit": "kg",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Foreground data",
+                    "description": "Aggregated residual agrochemicals released to the environment (soil\/water)."
+                },
+                {
+                    "is_reference": false,
+                    "flow": "Wastewater",
+                    "category": "F:Other Services (except Public Administration)\/562:Waste Management and Remediation Services",
+                    "amount": 0.00168638,
+                    "unit": "m3",
+                    "uncertainty": null,
+                    "is_avoided": null,
+                    "provider": "Foreground data",
+                    "description": "Aggregated wastewater generated from all stages."
+                }
+            ]
+        }
+    },
+    "timestamp": 1779919206
+}
